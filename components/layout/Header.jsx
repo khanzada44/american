@@ -18,9 +18,12 @@ import { buttonClass, ButtonArrow } from '@/components/ui/Button';
  */
 
 const navLink =
-  'inline-flex h-10 items-center gap-[5px] rounded-full focus-visible:rounded-full px-3 text-[0.9rem] font-semibold tracking-[0.005em] whitespace-nowrap text-nav ' +
-  'transition-[color,background-color] duration-[280ms] max-[1480px]:px-2 max-[1480px]:text-[0.85rem] ' +
-  'hover:bg-white/75 hover:text-ink hover:shadow-[0_1px_0_#fff_inset,0_6px_14px_-10px_rgb(40_28_12/0.5)]';
+  'relative inline-flex h-10 items-center gap-[5px] rounded-full focus-visible:rounded-full px-3 text-[0.9rem] font-semibold tracking-[0.005em] whitespace-nowrap text-nav ' +
+  'transition-colors duration-[280ms] max-[1480px]:px-2 max-[1480px]:text-[0.85rem] hover:text-ink aria-[current=page]:text-ink ' +
+  // underline: grows from the left on hover, stays under the current page's link
+  "after:pointer-events-none after:absolute after:inset-x-3 after:bottom-1 after:h-[2px] after:origin-left after:scale-x-0 after:rounded-full after:bg-bronze-ink after:content-[''] " +
+  'after:transition-transform after:duration-[350ms] after:ease-site max-[1480px]:after:inset-x-2 ' +
+  'hover:after:scale-x-100 focus-visible:after:scale-x-100 aria-[current=page]:after:scale-x-100';
 
 const megaLink =
   'group/link flex items-center gap-2.5 rounded-[12px] focus-visible:rounded-[12px] px-2 py-1.5 text-[0.83rem] leading-[1.25] font-semibold text-[#3a3731] ' +
@@ -90,7 +93,7 @@ export default function Header() {
                 type="button"
                 aria-expanded="false"
                 aria-controls="sub-services"
-                className={`${navLink} group-[.is-open]/item:bg-white/75 group-[.is-open]/item:text-ink group-[.is-open]/item:shadow-[0_1px_0_#fff_inset,0_6px_14px_-10px_rgb(40_28_12/0.5)]`}
+                className={`${navLink} group-[.is-open]/item:text-ink group-[.is-open]/item:after:scale-x-100`}
               >
                 {'Services '}
                 <svg
