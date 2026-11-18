@@ -1,0 +1,192 @@
+/*
+ * Tailwind CSS v4.
+ *
+ * Migration note: the pages that are not rewritten yet still load their old
+ * stylesheets from /public/assets/css. Those are not inside a cascade layer,
+ * so the utilities are imported without a layer too (otherwise the old CSS
+ * would always win). Tailwind's own reset ("preflight") is left out for the
+ * same reason; the old CSS still provides the base styles. When every page is
+ * on Tailwind, replace the two imports below with:  @import "tailwindcss";
+ */
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css";
+
+@source "../app";
+@source "../components";
+
+/* Design tokens (from the original design system) */
+@theme {
+  --color-ink: #15171c;
+  --color-ink-2: #1d2027;
+  --color-ink-3: #272b33;
+  --color-ivory: #f6f2ea;
+  --color-ivory-2: #fbf9f5;
+  --color-paper: #ede7dc;
+  --color-stone: #d8cfc1;
+  --color-taupe: #9c9184;
+  --color-bronze: #b08d57;
+  --color-bronze-2: #cdb184;
+  --color-bronze-ink: #7e6236;
+  --color-burgundy: #8f2930;
+  --color-on-dark-1: rgb(250 247 241 / 0.96);
+  --color-on-dark-2: rgb(250 247 241 / 0.68);
+  --color-on-dark-3: rgb(250 247 241 / 0.44);
+  --color-line-dark: rgb(250 247 241 / 0.1);
+  --color-on-light-1: #15171c;
+  --color-on-light-2: #57534c;
+  --color-on-light-3: #8b857b;
+  --color-line-light: rgb(21 23 28 / 0.1);
+  --color-nav: #4a463f;
+
+  --font-display: "Fraunces", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  --font-sans: "Manrope", "Segoe UI", system-ui, -apple-system, Helvetica, Arial, sans-serif;
+
+  --text-label: 0.72rem;
+  --text-h3: clamp(1.45rem, 1.2rem + 0.75vw, 1.95rem);
+
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 22px;
+  --radius-xl: 28px;
+  --radius-2xl: 36px;
+
+  --ease-site: cubic-bezier(0.22, 1, 0.36, 1);
+
+  --shadow-glass: 0 1px 0 rgb(255 255 255 / 0.08) inset, 0 20px 50px -24px rgb(0 0 0 / 0.6);
+
+  --animate-modal-in: modal-in 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  @keyframes modal-in {
+    from {
+      opacity: 0;
+      transform: translateY(16px) scale(0.985);
+    }
+  }
+}
+
+/* Layout sizes used in calc() by the header and page containers */
+:root {
+  --gutter: clamp(16px, 3.6vw, 48px);
+  --edge: clamp(10px, 2.2vw, 32px);
+  --shell-w: min(1400px, calc(100vw - var(--edge) * 2));
+}
+
+/* The [hidden] attribute always hides, even on flex/grid elements */
+[hidden] {
+  display: none !important;
+}
+
+/* next/image needs width/height. Images that had none in the original markup
+   are marked data-auto-size; this zero-specificity rule lets them size from
+   their CSS exactly as before. */
+:where(img[data-auto-size]) {
+  width: auto;
+  height: auto;
+}
+
+/* Centered page container */
+@utility container-site {
+  width: 100%;
+  max-width: calc(1280px + var(--gutter) * 2);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+/* Frosted glass used on the header, rail and menus */
+@utility glass-light {
+  background-color: rgb(251 249 245 / 0.58);
+  -webkit-backdrop-filter: saturate(160%) blur(24px);
+  backdrop-filter: saturate(160%) blur(24px);
+}
+@utility glass-dark {
+  -webkit-backdrop-filter: saturate(160%) blur(24px);
+  backdrop-filter: saturate(160%) blur(24px);
+  border: 1px solid rgb(255 255 255 / 0.14);
+  box-shadow: var(--shadow-glass);
+}
+
+  @keyframes marquee {
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  @keyframes marquee-reverse {
+    from {
+      transform: translateX(-50%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+::-webkit-scrollbar {
+  width: 16px;
+  height: 14px;
+  background: #15110d;
+}
+::-webkit-scrollbar-track {
+  background: #1b0f00;
+  margin: 3px 0;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #9a7a4c;
+  border: 4px solid transparent; /* gap around the thumb */
+  border-radius: 999px;
+  background-clip: padding-box;
+  min-height: 48px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #b08d57;
+}
+::-webkit-scrollbar-button,
+::-webkit-scrollbar-button:single-button,
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment {
+  display: none;
+  width: 0;
+  height: 0;
+  background: transparent;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+
+body *::-webkit-scrollbar,
+body *::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+
+dialog::-webkit-scrollbar,
+dialog ::-webkit-scrollbar,
+dialog::-webkit-scrollbar-track,
+dialog ::-webkit-scrollbar-track {
+  background: transparent;
+}
+dialog::-webkit-scrollbar-track,
+dialog ::-webkit-scrollbar-track {
+  margin: 18px 0;
+}
+dialog::-webkit-scrollbar-thumb,
+dialog ::-webkit-scrollbar-thumb {
+  background-color: rgb(255 255 255 / 0.22);
+}
+dialog::-webkit-scrollbar-thumb:hover,
+dialog ::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(255 255 255 / 0.38);
+}
+
+@supports (-moz-appearance: none) {
+  html {
+    scrollbar-width: thin;
+    scrollbar-color: #9a7a4c #a57d55;
+  }
+  body * {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(154 122 76 / 0.7) transparent;
+  }
+  dialog,
+  dialog * {
+    scrollbar-color: rgb(255 255 255 / 0.22) transparent;
+  }
+}
