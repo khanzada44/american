@@ -47,7 +47,14 @@ function LinkList({ items }) {
 export default function Footer() {
   // "footer" is a hook for main2f72.js (made inert while the mobile menu is open)
   return (
-    <footer className="footer bg-[#0f1013] pt-[clamp(64px,8vw,104px)] pb-8 text-[0.88rem] text-on-dark-2">
+    <footer
+      className="footer bg-[#ffffff] bg-cover bg-center bg-no-repeat pt-[clamp(64px,8vw,104px)] pb-8 text-[0.88rem] text-on-dark-2"
+      style={{
+        // photo under a navy veil so the text stays readable
+        backgroundImage:
+          "linear-gradient(180deg, rgba(21, 21, 42, 0.86) 0%, rgba(21, 21, 42, 0.93) 100%), url('/assets/images/photos/1783711788448-7205acbb2034-2400.webp')",
+      }}
+    >
       <div className="container-site">
         <div className="grid grid-cols-[1.5fr_1fr_1fr_1.2fr] gap-10 border-b border-line-dark pb-[52px] max-[960px]:grid-cols-2 max-[520px]:grid-cols-1">
           <div className="max-[960px]:col-span-full">

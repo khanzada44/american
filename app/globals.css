@@ -14,29 +14,29 @@
 @source "../app";
 @source "../components";
 
-/* Design tokens (from the original design system) */
+/* Design tokens: logo palette, navy #21213c + gold #a3804a */
 @theme {
-  --color-ink: #15171c;
-  --color-ink-2: #1d2027;
-  --color-ink-3: #272b33;
-  --color-ivory: #f6f2ea;
-  --color-ivory-2: #fbf9f5;
-  --color-paper: #ede7dc;
-  --color-stone: #d8cfc1;
-  --color-taupe: #9c9184;
-  --color-bronze: #b08d57;
-  --color-bronze-2: #cdb184;
-  --color-bronze-ink: #7e6236;
+  --color-ink: #21213c;            /* navy */
+  --color-ink-2: #2a2a4a;
+  --color-ink-3: #33335a;
+  --color-ivory: #fbfaf7;
+  --color-ivory-2: #fdfcf9;
+  --color-paper: #f4f1ea;
+  --color-stone: #dddce6;
+  --color-taupe: #8e8da3;
+  --color-bronze: #a3804a;         /* logo gold */
+  --color-bronze-2: #c9a56a;       /* light gold, for gold text on navy */
+  --color-bronze-ink: #8c6a36;     /* deeper gold, for small gold text on light backgrounds */
   --color-burgundy: #8f2930;
   --color-on-dark-1: rgb(250 247 241 / 0.96);
   --color-on-dark-2: rgb(250 247 241 / 0.68);
   --color-on-dark-3: rgb(250 247 241 / 0.44);
   --color-line-dark: rgb(250 247 241 / 0.1);
-  --color-on-light-1: #15171c;
-  --color-on-light-2: #57534c;
-  --color-on-light-3: #8b857b;
-  --color-line-light: rgb(21 23 28 / 0.1);
-  --color-nav: #4a463f;
+  --color-on-light-1: #21213c;
+  --color-on-light-2: #4e4e68;
+  --color-on-light-3: #75748c;
+  --color-line-light: rgb(33 33 60 / 0.1);
+  --color-nav: #4e4e68;
 
   --font-display: "Fraunces", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
   --font-sans: "Manrope", "Segoe UI", system-ui, -apple-system, Helvetica, Arial, sans-serif;
@@ -52,7 +52,7 @@
 
   --ease-site: cubic-bezier(0.22, 1, 0.36, 1);
 
-  --shadow-glass: 0 1px 0 rgb(255 255 255 / 0.08) inset, 0 20px 50px -24px rgb(0 0 0 / 0.6);
+  --shadow-glass: 0 1px 0 rgb(255 255 255 / 0.08) inset, 0 20px 50px -24px rgb(10 10 30 / 0.6);
 
   --animate-modal-in: modal-in 0.6s cubic-bezier(0.22, 1, 0.36, 1);
   @keyframes modal-in {
@@ -93,7 +93,7 @@
 
 /* Frosted glass used on the header, rail and menus */
 @utility glass-light {
-  background-color: rgb(251 249 245 / 0.58);
+  background-color: rgb(255 255 255 / 0.62);
   -webkit-backdrop-filter: saturate(160%) blur(24px);
   backdrop-filter: saturate(160%) blur(24px);
 }
@@ -121,21 +121,21 @@
 ::-webkit-scrollbar {
   width: 16px;
   height: 14px;
-  background: #15110d;
+  background: #15152a;
 }
 ::-webkit-scrollbar-track {
-  background: #1b0f00;
+  background: #1a1a33;
   margin: 3px 0;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #9a7a4c;
+  background-color: #a3804a;
   border: 4px solid transparent; /* gap around the thumb */
   border-radius: 999px;
   background-clip: padding-box;
   min-height: 48px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #b08d57;
+  background-color: #c9a56a;
 }
 ::-webkit-scrollbar-button,
 ::-webkit-scrollbar-button:single-button,
@@ -179,11 +179,11 @@ dialog ::-webkit-scrollbar-thumb:hover {
 @supports (-moz-appearance: none) {
   html {
     scrollbar-width: thin;
-    scrollbar-color: #9a7a4c #a57d55;
+    scrollbar-color: #a3804a #1a1a33;
   }
   body * {
     scrollbar-width: thin;
-    scrollbar-color: rgb(154 122 76 / 0.7) transparent;
+    scrollbar-color: rgb(163 128 74 / 0.7) transparent;
   }
   dialog,
   dialog * {

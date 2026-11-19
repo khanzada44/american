@@ -1,8 +1,21 @@
 /* ==========================================================================
-   Real work — the ABS catalogue in print (all rules scoped to .rw-*)
+   Real work — the catalogue in print (all rules scoped to .rw-*)
    Real 3D book mockups and featured authors: book table, author spreads,
    catalogue strip. Visible without JS; reveals only soften, never hide.
    ========================================================================== */
+/* Logo palette: navy #21213c + gold #a3804a. Overrides apply only to the Featured Authors
+   page and the homepage featured-authors section, nowhere else on the site. */
+.page-authors, .rw-authors {
+  --ink: #21213c;            /* navy: names, headings, rules */
+  --bronze: #a3804a;         /* logo gold: lines, dots, arrows */
+  --bronze-ink: #8c6a36;     /* deeper gold: small gold text on light backgrounds */
+  --bronze-2: #c9a56a;       /* lighter gold: gold text on navy */
+  --ivory: #fbfaf7;
+  --paper: #f4f1ea;
+  --on-light-2: rgba(33, 33, 60, 0.74);
+  --on-light-3: rgba(33, 33, 60, 0.56);
+}
+
 .rw-label { margin: 0 0 12px; font-size: 0.62rem; font-weight: 700; letter-spacing: 0.26em; text-transform: uppercase; color: var(--bronze-ink); }
 .rw-eyebrow { display: inline-flex; align-items: center; gap: 14px; margin: 0 0 24px; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.3em; text-transform: uppercase; color: var(--bronze-ink); }
 .rw-eyebrow span { width: 40px; height: 1px; background: currentColor; }
@@ -17,10 +30,10 @@
 /* ---------- One physical book ---------- */
 .rw-book { position: relative; display: inline-flex; flex-direction: column; align-items: center; flex: none; color: inherit; text-decoration: none; outline: none; }
 .rw-book__obj { position: relative; display: block; width: calc(var(--bw, 200px) * var(--s, 1)); transition: transform 0.9s var(--ease-out); }
-.rw-book__img { position: relative; z-index: 1; display: block; width: 100%; height: auto; filter: drop-shadow(10px 18px 18px rgba(28, 18, 8, 0.28)) drop-shadow(2px 3px 3px rgba(28, 18, 8, 0.18)); transition: filter 0.9s var(--ease-out); }
-.rw-book__floor { position: absolute; z-index: 0; left: 4%; right: -10%; bottom: -3%; height: 9%; border-radius: 50%; background: radial-gradient(closest-side, rgba(24, 16, 8, 0.42), transparent); filter: blur(6px); transition: opacity 0.9s var(--ease-out), transform 0.9s var(--ease-out); }
+.rw-book__img { position: relative; z-index: 1; display: block; width: 100%; height: auto; filter: drop-shadow(10px 18px 18px rgba(20, 20, 40, 0.28)) drop-shadow(2px 3px 3px rgba(20, 20, 40, 0.18)); transition: filter 0.9s var(--ease-out); }
+.rw-book__floor { position: absolute; z-index: 0; left: 4%; right: -10%; bottom: -3%; height: 9%; border-radius: 50%; background: radial-gradient(closest-side, rgba(20, 20, 40, 0.42), transparent); filter: blur(6px); transition: opacity 0.9s var(--ease-out), transform 0.9s var(--ease-out); }
 .rw-book:hover .rw-book__obj, .rw-book:focus-visible .rw-book__obj { transform: translateY(-10px) scale(1.035); }
-.rw-book:hover .rw-book__img, .rw-book:focus-visible .rw-book__img { filter: drop-shadow(16px 30px 26px rgba(28, 18, 8, 0.34)) drop-shadow(2px 4px 4px rgba(28, 18, 8, 0.2)); }
+.rw-book:hover .rw-book__img, .rw-book:focus-visible .rw-book__img { filter: drop-shadow(16px 30px 26px rgba(20, 20, 40, 0.34)) drop-shadow(2px 4px 4px rgba(20, 20, 40, 0.2)); }
 .rw-book:hover .rw-book__floor, .rw-book:focus-visible .rw-book__floor { opacity: 0.6; transform: scale(0.94) translateY(8px); }
 .rw-book:focus-visible .rw-book__obj { outline: 2px solid var(--bronze); outline-offset: 8px; }
 .rw-cap { display: grid; gap: 3px; margin-top: 18px; max-width: calc(var(--bw, 200px) * var(--s, 1) + 40px); text-align: center; opacity: 0; transform: translateY(-6px); transition: opacity 0.5s, transform 0.6s var(--ease-out); pointer-events: none; }
@@ -37,25 +50,25 @@
 /* ---------- Homepage: Selected work (dark gallery) ---------- */
 
 /* ---------- Author spreads ---------- */
-.rw-spread { display: grid; grid-template-columns: minmax(0, 0.78fr) minmax(0, 1.12fr) minmax(0, 0.9fr); grid-template-areas: "num num num" "photo head books" "photo body books"; grid-template-rows: auto auto 1fr; gap: 0 clamp(28px, 4vw, 64px); padding: clamp(40px, 5vw, 70px) 0; border-top: 1px solid rgba(21, 23, 28, 0.2); }
+.rw-spread { display: grid; grid-template-columns: minmax(0, 0.78fr) minmax(0, 1.12fr) minmax(0, 0.9fr); grid-template-areas: "num num num" "photo head books" "photo body books"; grid-template-rows: auto auto 1fr; gap: 0 clamp(28px, 4vw, 64px); padding: clamp(40px, 5vw, 70px) 0; border-top: 1px solid rgba(33, 33, 60, 0.2); }
 .rw-spread.is-rev { grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.12fr) minmax(0, 0.78fr); grid-template-areas: "num num num" "books head photo" "books body photo"; }
 .rw-spread__num { grid-area: num; display: flex; align-items: baseline; gap: 14px; margin-bottom: clamp(24px, 3vw, 40px); font-size: 0.62rem; font-weight: 700; letter-spacing: 0.26em; text-transform: uppercase; color: var(--on-light-3); }
 .rw-spread__num span { font-family: var(--font-display); font-style: italic; font-weight: 300; font-size: clamp(2rem, 1.4rem + 1.6vw, 3.2rem); letter-spacing: -0.03em; color: var(--bronze-ink); }
 .rw-spread__photo { grid-area: photo; margin: 0; align-self: start; position: relative; }
-.rw-spread__photo img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; filter: saturate(0.88) contrast(1.02); box-shadow: 0 40px 70px -50px rgba(40, 26, 10, 0.8); }
+.rw-spread__photo img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; filter: saturate(0.88) contrast(1.02); }
 .rw-spread__photo::after { content: ""; position: absolute; inset: 10px; border: 1px solid rgba(250, 247, 241, 0.28); pointer-events: none; }
 .rw-spread__head { grid-area: head; }
 .rw-spread__name { margin: 0; font-family: var(--font-display); font-weight: 290; font-size: clamp(2rem, 1.1rem + 2.4vw, 3.5rem); line-height: 0.98; letter-spacing: -0.04em; color: var(--ink); }
 .rw-spread__genre { margin: 14px 0 0; font-family: var(--font-display); font-style: italic; font-size: 1rem; color: var(--on-light-2); }
 .rw-spread__body { grid-area: body; margin-top: 26px; }
-.rw-spread__of { padding: 16px 0; border-top: 1px solid rgba(21, 23, 28, 0.14); border-bottom: 1px solid rgba(21, 23, 28, 0.14); }
+.rw-spread__of { padding: 16px 0; border-top: 1px solid rgba(33, 33, 60, 0.14); border-bottom: 1px solid rgba(33, 33, 60, 0.14); }
 .rw-spread__of .rw-label { margin-bottom: 8px; }
 .rw-spread__of ul { display: flex; flex-wrap: wrap; gap: 4px 0; margin: 0; padding: 0; list-style: none; font-family: var(--font-display); font-size: 0.98rem; line-height: 1.35; color: var(--ink); }
 .rw-spread__of li:not(:last-child)::after { content: "·"; margin: 0 10px; color: var(--bronze); }
 .rw-spread__bio { margin: 20px 0 0; max-width: 54ch; font-size: 0.98rem; line-height: 1.78; color: var(--on-light-2); }
 .rw-spread .rw-link { margin-top: 28px; }
 .rw-spread__books { grid-area: books; position: relative; display: flex; justify-content: center; align-items: flex-end; align-self: center; --bw: min(19vw, 250px); padding: 20px 0 40px; }
-.rw-spread__books::after { content: ""; position: absolute; left: 6%; right: 6%; bottom: 40px; height: 1px; background: linear-gradient(90deg, transparent, rgba(176, 141, 87, 0.6), transparent); }
+.rw-spread__books::after { content: ""; position: absolute; left: 6%; right: 6%; bottom: 40px; height: 1px; background: linear-gradient(90deg, transparent, rgba(163, 128, 74, 0.6), transparent); }
 .rw-spread__lead { z-index: 3; }
 .rw-spread__minor { --s: 0.62; z-index: 1; margin-left: calc(var(--bw) * -0.18); }
 .rw-spread__minor + .rw-spread__minor { --s: 0.52; z-index: 0; }
@@ -64,7 +77,7 @@
 .rw-spread__books--type { display: block; align-self: start; padding: 26px 0 0; border-top: 2px solid var(--ink); }
 .rw-spread__books--type::after { display: none; }
 .rw-spread__books--type ol { margin: 0; padding: 0; list-style: none; }
-.rw-spread__books--type li { display: grid; grid-template-columns: 36px minmax(0, 1fr); gap: 8px; padding: 16px 0; border-bottom: 1px solid rgba(21, 23, 28, 0.14); font-family: var(--font-display); font-size: clamp(1.1rem, 1rem + 0.4vw, 1.4rem); line-height: 1.25; letter-spacing: -0.015em; color: var(--ink); }
+.rw-spread__books--type li { display: grid; grid-template-columns: 36px minmax(0, 1fr); gap: 8px; padding: 16px 0; border-bottom: 1px solid rgba(33, 33, 60, 0.14); font-family: var(--font-display); font-size: clamp(1.1rem, 1rem + 0.4vw, 1.4rem); line-height: 1.25; letter-spacing: -0.015em; color: var(--ink); }
 .rw-spread__books--type li span { font-style: italic; font-size: 0.8rem; color: var(--bronze-ink); padding-top: 4px; }
 
 /* ---------- Homepage: Featured authors ---------- */
@@ -110,10 +123,10 @@
 .fa-crumbs { margin-bottom: 30px; }
 .fa-crumbs ol { display: flex; gap: 6px; margin: 0; padding: 0; list-style: none; font-size: 0.76rem; }
 .fa-crumbs li { display: inline-flex; gap: 6px; color: var(--on-light-3); }
-.fa-crumbs li + li::before { content: "/"; color: rgba(21, 23, 28, 0.3); }
+.fa-crumbs li + li::before { content: "/"; color: rgba(33, 33, 60, 0.3); }
 .fa-crumbs a { color: var(--on-light-2); text-decoration: none; }
 .fa-crumbs [aria-current] { color: var(--bronze-ink); }
-.fa-rule { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding: 14px 0; margin-bottom: clamp(40px, 5vw, 70px); border-top: 2px solid var(--ink); border-bottom: 1px solid rgba(21, 23, 28, 0.2); font-size: 0.64rem; font-weight: 700; letter-spacing: 0.3em; text-transform: uppercase; color: var(--ink); }
+.fa-rule { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding: 14px 0; margin-bottom: clamp(40px, 5vw, 70px); border-top: 2px solid var(--ink); border-bottom: 1px solid rgba(33, 33, 60, 0.2); font-size: 0.64rem; font-weight: 700; letter-spacing: 0.3em; text-transform: uppercase; color: var(--ink); }
 .fa-rule i { font-style: normal; color: var(--bronze); margin: 0 6px; }
 .fa-mast__grid { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr); gap: 40px clamp(40px, 5vw, 80px); align-items: center; }
 .fa-mast__copy { display: grid; gap: 26px; justify-items: start; }
@@ -122,7 +135,7 @@
 .fa-title span, .fa-title em { display: block; }
 .fa-title em { font-style: italic; color: var(--bronze-ink); padding-bottom: 0.06em; }
 .fa-jump { display: flex; flex-wrap: wrap; gap: 8px 22px; }
-.fa-jump a { font-size: 0.68rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: var(--ink); text-decoration: none; padding-bottom: 4px; border-bottom: 1px solid rgba(176, 141, 87, 0.6); }
+.fa-jump a { font-size: 0.68rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: var(--ink); text-decoration: none; padding-bottom: 4px; border-bottom: 1px solid rgba(163, 128, 74, 0.6); }
 .fa-jump a:hover, .fa-jump a:focus-visible { color: var(--bronze-ink); }
 /* text-led masthead: the copy keeps its place and width; the right side is open space */
 .fa-mast__grid { padding: clamp(60px, 7vw, 100px) 0 clamp(30px, 4vw, 60px); }
@@ -133,8 +146,8 @@
 .fa-index { padding: clamp(90px, 10vw, 140px) 0; background: var(--ivory); }
 .fa-index__grid { display: grid; grid-template-columns: minmax(0, 0.7fr) minmax(0, 1.3fr); gap: 40px clamp(40px, 6vw, 100px); align-items: start; }
 .fa-index__head { position: sticky; top: 110px; }
-.fa-index__list { margin: 0; padding: 0; list-style: none; border-top: 1px solid rgba(21, 23, 28, 0.22); }
-.fa-index__list li { border-bottom: 1px solid rgba(21, 23, 28, 0.12); }
+.fa-index__list { margin: 0; padding: 0; list-style: none; border-top: 1px solid rgba(33, 33, 60, 0.22); }
+.fa-index__list li { border-bottom: 1px solid rgba(33, 33, 60, 0.12); }
 .fa-index__row { display: grid; grid-template-columns: 48px minmax(0, 1fr) 24px; grid-template-areas: "n name go" "n books go"; gap: 4px 16px; align-items: baseline; padding: 20px 4px; color: var(--ink); text-decoration: none; transition: background 0.4s, padding 0.5s var(--ease-out); }
 .fa-index__row:hover, .fa-index__row:focus-visible { background: rgba(255, 255, 255, 0.55); padding-left: 14px; }
 .fa-index__n { grid-area: n; font-family: var(--font-display); font-style: italic; font-size: 0.9rem; color: var(--bronze-ink); }

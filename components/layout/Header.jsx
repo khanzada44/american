@@ -18,22 +18,22 @@ import { buttonClass, ButtonArrow } from '@/components/ui/Button';
  */
 
 const navLink =
-  'relative inline-flex h-10 items-center gap-[5px] rounded-full focus-visible:rounded-full px-3 text-[0.9rem] font-semibold tracking-[0.005em] whitespace-nowrap text-nav ' +
-  'transition-colors duration-[280ms] max-[1480px]:px-2 max-[1480px]:text-[0.85rem] hover:text-ink aria-[current=page]:text-ink ' +
+  'relative inline-flex h-10 items-center gap-[5px] rounded-full focus-visible:rounded-full px-3 text-[0.9rem] font-semibold tracking-[0.005em] whitespace-nowrap text-[#21213c]/75 ' +
+  'transition-colors duration-[280ms] max-[1480px]:px-2 max-[1480px]:text-[0.85rem] hover:text-[#21213c] aria-[current=page]:text-[#21213c] ' +
   // underline: grows from the left on hover, stays under the current page's link
-  "after:pointer-events-none after:absolute after:inset-x-3 after:bottom-1 after:h-[2px] after:origin-left after:scale-x-0 after:rounded-full after:bg-bronze-ink after:content-[''] " +
+  "after:pointer-events-none after:absolute after:inset-x-3 after:bottom-1 after:h-[2px] after:origin-left after:scale-x-0 after:rounded-full after:bg-[#a3804a] after:content-[''] " +
   'after:transition-transform after:duration-[350ms] after:ease-site max-[1480px]:after:inset-x-2 ' +
   'hover:after:scale-x-100 focus-visible:after:scale-x-100 aria-[current=page]:after:scale-x-100';
 
 const megaLink =
-  'group/link flex items-center gap-2.5 rounded-[12px] focus-visible:rounded-[12px] px-2 py-1.5 text-[0.83rem] leading-[1.25] font-semibold text-[#3a3731] ' +
-  'transition-[background-color,color] duration-[280ms] hover:bg-white/90 hover:text-ink aria-[current=page]:bg-white/90 aria-[current=page]:text-ink';
+  'group/link flex items-center gap-2.5 rounded-[12px] focus-visible:rounded-[12px] px-2 py-1.5 text-[0.83rem] leading-[1.25] font-semibold text-[#21213c]/85 ' +
+  'transition-[background-color,color] duration-[280ms] hover:bg-[#a3804a]/10 hover:text-[#21213c] aria-[current=page]:bg-[#a3804a]/12 aria-[current=page]:text-[#21213c]';
 
 const megaFootLink =
-  'border-b border-bronze/70 pb-0.5 font-sans text-[0.66rem] font-bold tracking-[0.18em] text-ink not-italic uppercase';
+  'border-b border-[#a3804a]/70 pb-0.5 font-sans text-[0.66rem] font-bold tracking-[0.18em] text-[#21213c] not-italic uppercase transition-colors duration-[280ms] hover:text-[#a3804a]';
 
 const mobileItem =
-  'border-b border-line-light opacity-0 translate-y-3 transition-[opacity,translate] duration-500 ease-site in-[.is-open]:translate-y-0 in-[.is-open]:opacity-100';
+  'border-b border-[#a3804a]/20 opacity-0 translate-y-3 transition-[opacity,translate] duration-500 ease-site in-[.is-open]:translate-y-0 in-[.is-open]:opacity-100';
 
 const mobileDelays = [
   '',
@@ -47,7 +47,7 @@ const mobileDelays = [
 ];
 
 const mobileLink =
-  'flex w-full items-center justify-between py-[13px] text-left font-display text-[clamp(1.55rem,6vw,2rem)] font-[330] tracking-[-0.02em]';
+  'flex w-full items-center justify-between py-[13px] text-left text-[#21213c] font-display text-[clamp(1.55rem,6vw,2rem)] font-[330] tracking-[-0.02em]';
 
 export default function Header() {
   const pathname = usePathname() || '/';
@@ -70,7 +70,7 @@ export default function Header() {
       >
         <nav
           aria-label="Primary"
-          className="glass-light pointer-events-auto mx-auto flex h-[68px] w-(--shell-w) items-center gap-3.5 rounded-[22px] border border-white/72 pr-2.5 pl-[18px] shadow-[inset_0_1px_0_rgb(255_255_255/0.85),0_0_0_1px_rgb(120_100_70/0.05),0_18px_40px_-26px_rgb(50_36_18/0.45)] transition-[background-color,box-shadow,width] duration-500 ease-site in-[.is-scrolled]:w-[min(1180px,calc(100vw-var(--edge)*2))] in-[.is-scrolled]:bg-[rgb(251_249_245/0.8)] in-[.is-scrolled]:shadow-[inset_0_1px_0_rgb(255_255_255/0.9),0_0_0_1px_rgb(120_100_70/0.07),0_24px_50px_-24px_rgb(30_22_10/0.4)] max-[480px]:h-[58px] max-[480px]:rounded-[18px] max-[480px]:pr-[7px] max-[480px]:pl-3 min-[1481px]:in-[.is-scrolled]:w-(--shell-w)"
+          className="glass-light pointer-events-auto relative mx-auto flex h-[68px] w-(--shell-w) items-center gap-3.5 rounded-[22px] border border-[#a3804a]/25 bg-[rgb(255_255_255/0.72)] pr-2.5 pl-[18px] shadow-[inset_0_1px_0_rgb(255_255_255/0.9),0_0_0_1px_rgb(33_33_60/0.04),0_18px_40px_-26px_rgb(33_33_60/0.45)] after:pointer-events-none after:absolute after:inset-x-8 after:-bottom-px after:h-px after:bg-linear-to-r after:from-transparent after:via-[#a3804a]/70 after:to-transparent after:content-[''] transition-[background-color,box-shadow,width] duration-500 ease-site in-[.is-scrolled]:w-[min(1180px,calc(100vw-var(--edge)*2))] in-[.is-scrolled]:bg-[rgb(255_255_255/0.9)] in-[.is-scrolled]:shadow-[inset_0_1px_0_rgb(255_255_255/0.95),0_0_0_1px_rgb(33_33_60/0.06),0_24px_50px_-24px_rgb(33_33_60/0.4)] max-[480px]:h-[58px] max-[480px]:rounded-[18px] max-[480px]:pr-[7px] max-[480px]:pl-3 min-[1481px]:in-[.is-scrolled]:w-(--shell-w)"
         >
           <Link
             href="/"
@@ -93,7 +93,7 @@ export default function Header() {
                 type="button"
                 aria-expanded="false"
                 aria-controls="sub-services"
-                className={`${navLink} group-[.is-open]/item:text-ink group-[.is-open]/item:after:scale-x-100`}
+                className={`${navLink} group-[.is-open]/item:text-[#21213c] group-[.is-open]/item:after:scale-x-100`}
               >
                 {'Services '}
                 <svg
@@ -105,16 +105,16 @@ export default function Header() {
               </button>{' '}
               <div
                 id="sub-services"
-                className="invisible absolute top-[calc(100%+16px)] -left-3.5 w-[min(940px,calc(100vw-60px))] origin-[20%_0] -translate-y-1.5 scale-[0.99] rounded-[22px] border border-white/80 bg-[rgb(251_249_245/0.97)] px-3.5 pt-3.5 pb-2.5 opacity-0 shadow-[inset_0_1px_0_#fff,0_30px_60px_-24px_rgb(40_28_12/0.35)] backdrop-blur-[24px] backdrop-saturate-[1.6] transition-[opacity,translate,scale,visibility] duration-300 ease-site before:absolute before:inset-x-0 before:-top-[18px] before:h-[18px] before:content-[''] group-[.is-open]/item:visible group-[.is-open]/item:translate-y-0 group-[.is-open]/item:scale-100 group-[.is-open]/item:opacity-100"
+                className="invisible absolute top-[calc(100%+16px)] -left-3.5 w-[min(940px,calc(100vw-60px))] origin-[20%_0] -translate-y-1.5 scale-[0.99] rounded-[22px] border border-[#a3804a]/25 border-t-2 border-t-[#a3804a] bg-[rgb(255_255_255/0.97)] px-3.5 pt-3.5 pb-2.5 opacity-0 shadow-[inset_0_1px_0_#fff,0_30px_60px_-24px_rgb(33_33_60/0.35)] backdrop-blur-[24px] backdrop-saturate-[1.6] transition-[opacity,translate,scale,visibility] duration-300 ease-site before:absolute before:inset-x-0 before:-top-[18px] before:h-[18px] before:content-[''] group-[.is-open]/item:visible group-[.is-open]/item:translate-y-0 group-[.is-open]/item:scale-100 group-[.is-open]/item:opacity-100"
               >
                 <div className="grid grid-cols-4 gap-1.5">
                   {serviceGroups.map((group, i) => (
                     <div
                       key={group.title}
-                      className={i ? 'border-l border-ink/8 pt-1 pr-1 pb-2 pl-2.5' : 'px-1 pt-1 pb-2'}
+                      className={i ? 'border-l border-[#a3804a]/15 pt-1 pr-1 pb-2 pl-2.5' : 'px-1 pt-1 pb-2'}
                     >
-                      <p className="mx-2 mt-1.5 mb-2 flex items-baseline gap-2 text-[0.6rem] font-bold tracking-[0.2em] text-bronze-ink uppercase">
-                        <span className="font-display text-[0.8rem] font-normal tracking-normal italic">
+                      <p className="mx-2 mt-1.5 mb-2 flex items-baseline gap-2 text-[0.6rem] font-bold tracking-[0.2em] text-[#21213c] uppercase">
+                        <span className="font-display text-[0.8rem] font-normal tracking-normal text-[#a3804a] italic">
                           {String(i + 1).padStart(2, '0')}
                         </span>
                         {group.title}
@@ -125,7 +125,7 @@ export default function Header() {
                             <Link href={link.href} aria-current={current(link.href)} className={megaLink}>
                               <i
                                 aria-hidden="true"
-                                className="grid size-7 flex-none place-items-center rounded-[9px] bg-ink/5 text-ink not-italic transition-[background-color,color] duration-[280ms] group-hover/link:bg-ink group-hover/link:text-ivory [&_svg]:size-3.5"
+                                className="grid size-7 flex-none place-items-center rounded-[9px] bg-[#21213c]/6 text-[#21213c] not-italic transition-[background-color,color] duration-[280ms] group-hover/link:bg-[#21213c] group-hover/link:text-[#e2c58f] [&_svg]:size-3.5"
                               >
                                 <svg>
                                   <use href={link.icon} />
@@ -140,7 +140,7 @@ export default function Header() {
                     </div>
                   ))}
                 </div>
-                <div className="mt-2 flex items-center justify-between gap-4 border-t border-ink/8 px-2.5 pt-2.5 pb-0.5 font-display text-[0.86rem] text-[#6b665d] italic">
+                <div className="mt-2 flex items-center justify-between gap-4 border-t border-[#a3804a]/20 px-2.5 pt-2.5 pb-0.5 font-display text-[0.86rem] text-[#21213c]/60 italic">
                   <span>17 services, one publishing house, from the first draft to the reader.</span>
                   <div className="flex gap-[18px]">
                     <Link href="/#services" className={megaFootLink}>
@@ -165,7 +165,7 @@ export default function Header() {
             <Link
               href={`tel:${site.phoneHref}`}
               aria-label={`Call ${site.phone}`}
-              className="nav__phone inline-flex h-10 items-center gap-2 rounded-full focus-visible:rounded-full px-3 text-[0.88rem] font-semibold text-nav transition-[background-color] duration-[280ms] hover:bg-ink/6 hover:text-ink max-[1480px]:w-[42px] max-[1480px]:justify-center max-[1480px]:p-0 max-[1220px]:hidden [&_svg]:size-[15px]"
+              className="nav__phone inline-flex h-10 items-center gap-2 rounded-full focus-visible:rounded-full px-3 text-[0.88rem] font-semibold text-[#21213c] transition-[background-color,color] duration-[280ms] hover:bg-[#a3804a]/12 hover:text-[#21213c] [&_svg]:text-[#a3804a] max-[1480px]:w-[42px] max-[1480px]:justify-center max-[1480px]:p-0 max-[1220px]:hidden [&_svg]:size-[15px]"
             >
               <svg aria-hidden="true">
                 <use href="#i-phone" />
@@ -178,7 +178,8 @@ export default function Header() {
               className={buttonClass({
                 variant: 'primary',
                 size: null,
-                className: 'nav__cta min-h-12 rounded-[15px] focus-visible:rounded-[15px] px-5 text-[0.9rem] max-[480px]:hidden',
+                className:
+                  'nav__cta min-h-12 rounded-[15px] focus-visible:rounded-[15px] px-5 text-[0.9rem] max-[480px]:hidden bg-[#21213c]! text-white! hover:bg-[#a3804a]! shadow-[0_12px_24px_-14px_rgb(33_33_60/0.7)]',
               })}
             >
               {'Plan Your Book '}
@@ -190,10 +191,10 @@ export default function Header() {
               aria-expanded="false"
               aria-controls="mobile-menu"
               data-burger=""
-              className="group/burger relative hidden size-11 rounded-[14px] bg-ink/6 focus-visible:rounded-[14px] max-[1220px]:block"
+              className="group/burger relative hidden size-11 rounded-[14px] bg-[#21213c]/6 focus-visible:rounded-[14px] max-[1220px]:block"
             >
-              <span className="absolute inset-x-[13px] top-[18px] h-[1.5px] rounded-[2px] bg-ink transition-[top,rotate] duration-[450ms] ease-site group-aria-expanded/burger:top-[21.5px] group-aria-expanded/burger:rotate-45" />
-              <span className="absolute inset-x-[13px] top-[25px] h-[1.5px] rounded-[2px] bg-ink transition-[top,rotate] duration-[450ms] ease-site group-aria-expanded/burger:top-[21.5px] group-aria-expanded/burger:-rotate-45" />
+              <span className="absolute inset-x-[13px] top-[18px] h-[1.5px] rounded-[2px] bg-[#21213c] transition-[top,rotate] duration-[450ms] ease-site group-aria-expanded/burger:top-[21.5px] group-aria-expanded/burger:rotate-45" />
+              <span className="absolute inset-x-[13px] top-[25px] h-[1.5px] rounded-[2px] bg-[#a3804a] transition-[top,rotate] duration-[450ms] ease-site group-aria-expanded/burger:top-[21.5px] group-aria-expanded/burger:-rotate-45" />
             </button>
           </div>
         </nav>
@@ -204,10 +205,10 @@ export default function Header() {
         aria-label="Mobile"
         data-mobile-menu=""
         hidden
-        className="fixed inset-0 z-90 overflow-y-auto bg-[rgb(246_242_234/0.9)] text-ink opacity-0 backdrop-blur-[28px] backdrop-saturate-[1.5] transition-opacity duration-[450ms] ease-site [&.is-open]:opacity-100"
+        className="fixed inset-0 z-90 overflow-y-auto bg-[rgb(255_255_255/0.92)] text-[#21213c] opacity-0 backdrop-blur-[28px] backdrop-saturate-[1.5] transition-opacity duration-[450ms] ease-site [&.is-open]:opacity-100"
       >
         <div className="flex min-h-full flex-col px-(--gutter) pt-24 pb-7">
-          <p className="mt-0 mb-1.5 text-label font-bold tracking-[0.16em] text-bronze-ink uppercase">Menu</p>
+          <p className="mt-0 mb-1.5 text-label font-bold tracking-[0.16em] text-[#a3804a] uppercase">Menu</p>
           <ul role="list" className="m-0 list-none p-0">
             <li className={mobileItem}>
               <button
@@ -220,7 +221,7 @@ export default function Header() {
                 {'Services '}
                 <svg
                   aria-hidden="true"
-                  className="size-5 text-bronze-ink transition-transform duration-[350ms] ease-site group-aria-expanded/t:rotate-45"
+                  className="size-5 text-[#a3804a] transition-transform duration-[350ms] ease-site group-aria-expanded/t:rotate-45"
                 >
                   <use href="#i-plus" />
                 </svg>
@@ -230,8 +231,8 @@ export default function Header() {
                   <li
                     key={group.title}
                     aria-hidden="true"
-                    className={`col-span-full text-[0.58rem] font-bold tracking-[0.2em] text-bronze-ink uppercase ${
-                      i ? 'mt-2.5 border-t border-ink/8 pt-2.5' : ''
+                    className={`col-span-full text-[0.58rem] font-bold tracking-[0.2em] text-[#a3804a] uppercase ${
+                      i ? 'mt-2.5 border-t border-[#a3804a]/15 pt-2.5' : ''
                     }`}
                   >
                     {group.title}
@@ -241,7 +242,7 @@ export default function Header() {
                       <Link
                         href={link.href}
                         aria-current={current(link.href)}
-                        className="block py-[7px] text-[0.93rem] font-semibold text-on-light-2"
+                        className="block py-[7px] text-[0.93rem] font-semibold text-[#21213c]/80 transition-colors hover:text-[#a3804a] aria-[current=page]:text-[#a3804a]"
                       >
                         {link.label}
                       </Link>
@@ -283,17 +284,24 @@ export default function Header() {
             ))}
           </div>
           <div className="mt-auto grid gap-2.5 pt-[26px]">
-            <button type="button" data-open-lead="" className={buttonClass({ variant: 'primary' })}>
+            <button
+              type="button"
+              data-open-lead=""
+              className={buttonClass({ variant: 'primary', className: 'bg-[#21213c]! text-white! hover:bg-[#a3804a]!' })}
+            >
               {'Discuss Your Book '}
               <ButtonArrow />
             </button>{' '}
-            <Link href={`tel:${site.phoneHref}`} className={buttonClass({ variant: 'outlineDark' })}>
+            <Link
+              href={`tel:${site.phoneHref}`}
+              className={buttonClass({ variant: 'outlineDark', className: 'border-[#21213c]! text-[#21213c]! hover:bg-[#21213c]! hover:text-white!' })}
+            >
               <svg aria-hidden="true" className="size-[17px] flex-none">
                 <use href="#i-phone" />
               </svg>
               {site.phone}
             </Link>{' '}
-            <Link href={`mailto:${site.email}`} className="pt-1 text-center text-[0.86rem] text-on-light-3">
+            <Link href={`mailto:${site.email}`} className="pt-1 text-center text-[0.86rem] text-[#21213c]/60">
               {site.email}
             </Link>
           </div>

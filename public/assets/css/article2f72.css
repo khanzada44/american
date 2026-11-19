@@ -1,10 +1,22 @@
 /* ==========================================================================
-   Americas Book Service — The ABS Journal (Blogs)
+   Publish Your Books Today — Journal (Blogs)
    A literary journal: masthead, cover story, article index, image spread,
    from the editor, topic index, dark sign-up. Page styles prefixed .jn-.
    Loads after abs-design-system.css + home.css. Visible without JS.
    ========================================================================== */
-.page-journal { --jn-cream: #f2ece2; --jn-paper: #fbf8f2; background: var(--ivory); }
+/* Logo palette: navy #21213c + gold #a3804a. Overrides apply only on journal pages
+   (the blog list and article pages), nowhere else on the site. */
+.page-journal, main:has(.ja-mast) {
+  --ink: #21213c;            /* navy: headings, rules */
+  --bronze: #a3804a;         /* logo gold: lines, dots, markers */
+  --bronze-ink: #8c6a36;     /* deeper gold: small gold text on light backgrounds (readable) */
+  --bronze-2: #c9a56a;       /* lighter gold: gold text on navy */
+  --ivory: #fbfaf7;
+  --on-light-2: rgba(33, 33, 60, 0.74);
+  --on-light-3: rgba(33, 33, 60, 0.56);
+  --jn-cream: #f4f1ea; --jn-paper: #fdfcf9;
+}
+.page-journal { background: var(--ivory); }
 .page-journal main { overflow-x: clip; }
 .jn-h2 { margin: 0; font-family: var(--font-display); font-weight: 280; font-size: clamp(2.5rem, 1.2rem + 3.4vw, 4.8rem); line-height: 0.97; letter-spacing: -0.045em; color: var(--ink); }
 .jn-h2 em { font-style: italic; color: var(--bronze-ink); }
@@ -17,10 +29,10 @@
 .jn-crumbs { margin-bottom: 30px; }
 .jn-crumbs ol { display: flex; gap: 6px; margin: 0; padding: 0; list-style: none; font-size: 0.76rem; }
 .jn-crumbs li { display: inline-flex; gap: 6px; color: var(--on-light-3); }
-.jn-crumbs li + li::before { content: "/"; color: rgba(21, 23, 28, 0.3); }
+.jn-crumbs li + li::before { content: "/"; color: rgba(33, 33, 60, 0.3); }
 .jn-crumbs a { color: var(--on-light-2); text-decoration: none; }
 .jn-crumbs [aria-current] { color: var(--bronze-ink); }
-.jn-mast__rule { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding: 14px 0; margin-bottom: clamp(44px, 5vw, 72px); border-top: 2px solid var(--ink); border-bottom: 1px solid rgba(21, 23, 28, 0.2); font-size: 0.64rem; font-weight: 700; letter-spacing: 0.3em; text-transform: uppercase; color: var(--ink); }
+.jn-mast__rule { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding: 14px 0; margin-bottom: clamp(44px, 5vw, 72px); border-top: 2px solid var(--ink); border-bottom: 1px solid rgba(33, 33, 60, 0.2); font-size: 0.64rem; font-weight: 700; letter-spacing: 0.3em; text-transform: uppercase; color: var(--ink); }
 .jn-mast__rule i { font-style: normal; color: var(--bronze); margin: 0 6px; }
 
 /* ---------- Cover story ---------- */
@@ -32,10 +44,10 @@
 /* ---------- Article index ---------- */
 .jn-latest { padding: clamp(90px, 10vw, 130px) 0; background: var(--jn-cream); }
 .jn-latest__head { display: flex; align-items: flex-end; justify-content: space-between; gap: 20px; flex-wrap: wrap; margin-bottom: clamp(40px, 5vw, 64px); }
-.jn-rows { margin: 0; padding: 0; list-style: none; border-top: 1px solid rgba(21, 23, 28, 0.3); }
-.jn-row { border-bottom: 1px solid rgba(21, 23, 28, 0.14); }
+.jn-rows { margin: 0; padding: 0; list-style: none; border-top: 1px solid rgba(33, 33, 60, 0.3); }
+.jn-row { border-bottom: 1px solid rgba(33, 33, 60, 0.14); }
 .jn-row__link { position: relative; display: grid; grid-template-columns: 70px minmax(0, 1fr) minmax(200px, 300px) 150px; gap: 24px; align-items: start; padding: 38px 0 22px; color: var(--ink); text-decoration: none; }
-.jn-row__n { font-family: var(--font-display); font-weight: 250; font-size: 2.6rem; line-height: 0.9; letter-spacing: -0.04em; color: transparent; -webkit-text-stroke: 1px rgba(122, 90, 48, 0.6); }
+.jn-row__n { font-family: var(--font-display); font-weight: 250; font-size: 2.6rem; line-height: 0.9; letter-spacing: -0.04em; color: transparent; -webkit-text-stroke: 1px rgba(163, 128, 74, 0.65); }
 .jn-row__main { display: grid; gap: 10px; max-width: 62ch; transition: transform 0.7s var(--ease-out); }
 .jn-row__kicker { font-family: var(--font-display); font-style: italic; font-size: 1rem; color: var(--bronze-ink); }
 .jn-row__title { font-family: var(--font-display); font-weight: 300; font-size: clamp(1.7rem, 1.2rem + 1.5vw, 2.8rem); line-height: 1.04; letter-spacing: -0.035em; transition: color 0.5s; }
@@ -96,16 +108,16 @@
 .ja-side { position: sticky; top: 112px; }
 .ja-side__h { margin: 0 0 12px; padding-bottom: 12px; border-bottom: 2px solid var(--ink); font-size: 0.62rem; font-weight: 700; letter-spacing: 0.28em; text-transform: uppercase; color: var(--ink); }
 .ja-side ol { margin: 0 0 30px; padding: 0; list-style: none; counter-reset: ja; }
-.ja-side li { counter-increment: ja; border-bottom: 1px solid rgba(21, 23, 28, 0.12); }
+.ja-side li { counter-increment: ja; border-bottom: 1px solid rgba(33, 33, 60, 0.12); }
 .ja-side li a { display: grid; grid-template-columns: 30px 1fr; gap: 4px; padding: 11px 0; font-size: 0.86rem; line-height: 1.4; color: var(--on-light-2); text-decoration: none; transition: color 0.3s; }
 .ja-side li a::before { content: counter(ja, decimal-leading-zero); font-family: var(--font-display); font-style: italic; color: var(--bronze-ink); }
 .ja-side li a:hover, .ja-side li a:focus-visible { color: var(--ink); }
 .ja-back__i { width: 16px; height: 16px; }
 .jn-read:hover .ja-back__i { transform: translateX(-5px); }
-.ja-body { max-width: 720px; font-family: var(--font-display); font-weight: 300; font-size: clamp(1.08rem, 1.02rem + 0.25vw, 1.2rem); line-height: 1.78; color: #2b2d33; }
+.ja-body { max-width: 720px; font-family: var(--font-display); font-weight: 300; font-size: clamp(1.08rem, 1.02rem + 0.25vw, 1.2rem); line-height: 1.78; color: #2a2a44; }
 .ja-body p { margin: 0 0 1.25em; }
 .ja-body .ja-first::first-letter { float: left; margin: 0.06em 0.12em 0 0; font-size: 3.6em; line-height: 0.82; font-weight: 300; color: var(--bronze-ink); }
-.ja-body h2 { margin: 2.1em 0 0.7em; padding-top: 1.1em; border-top: 1px solid rgba(21, 23, 28, 0.16); font-weight: 300; font-size: clamp(1.7rem, 1.3rem + 1.4vw, 2.5rem); line-height: 1.1; letter-spacing: -0.03em; color: var(--ink); scroll-margin-top: 100px; }
+.ja-body h2 { margin: 2.1em 0 0.7em; padding-top: 1.1em; border-top: 1px solid rgba(33, 33, 60, 0.16); font-weight: 300; font-size: clamp(1.7rem, 1.3rem + 1.4vw, 2.5rem); line-height: 1.1; letter-spacing: -0.03em; color: var(--ink); scroll-margin-top: 100px; }
 .ja-body h3 { margin: 1.7em 0 0.5em; font-weight: 400; font-style: italic; font-size: clamp(1.25rem, 1.15rem + 0.4vw, 1.5rem); line-height: 1.25; color: var(--bronze-ink); }
 .ja-body ul { margin: 0 0 1.4em; padding: 0; list-style: none; }
 .ja-body ul li { position: relative; margin-bottom: 0.5em; padding-left: 26px; }
@@ -113,7 +125,7 @@
 .ja-body .ja-lead strong { font-family: var(--font-sans); font-weight: 700; font-size: 0.8em; letter-spacing: 0.02em; color: var(--ink); }
 .ja-end { margin: 3em 0 0; padding-top: 1.6em; border-top: 2px solid var(--ink); font-family: var(--font-sans); }
 .ja-cta__btns { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
-.ja-related { padding-top: clamp(60px, 7vw, 100px); border-top: 1px solid rgba(21, 23, 28, 0.08); }
+.ja-related { padding-top: clamp(60px, 7vw, 100px); border-top: 1px solid rgba(33, 33, 60, 0.08); }
 @media (max-width: 900px) {
   .ja-grid { grid-template-columns: minmax(0, 1fr); }
   .ja-side { position: static; }
