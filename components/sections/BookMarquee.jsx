@@ -68,7 +68,7 @@ function Row({ covers: list, direction, speed }) {
                 alt={copy ? '' : cover.alt}
                 loading="lazy"
                 sizes="(max-width: 640px) 96px, 148px"
-                className="aspect-[2/3] h-auto w-24 rounded-[3px] object-cover shadow-[0_18px_28px_-14px_rgb(40_26_10/0.55),0_2px_6px_rgb(40_26_10/0.12)] sm:w-[124px] lg:w-[148px]"
+                className="aspect-[2/3] h-auto w-24 rounded-[3px] object-cover shadow-[0_18px_28px_-14px_rgb(33_33_60/0.55),0_2px_6px_rgb(33_33_60/0.12)] sm:w-[124px] lg:w-[148px]"
               />
             </li>
           );
@@ -83,7 +83,7 @@ export default function BookMarquee() {
   return (
     <section
       aria-labelledby="proof-title"
-      className="relative overflow-hidden bg-[linear-gradient(180deg,#f8f2e9_0%,#f1e6d6_100%)] py-[clamp(64px,8vw,112px)]"
+      className="relative overflow-hidden bg-[linear-gradient(180deg,#ffffff_0%,#f6f1e8_100%)] py-[clamp(64px,8vw,112px)]"
     >
       {/* Keyframes live here so the section works without any globals.css changes */}
       <style>{`
@@ -91,25 +91,26 @@ export default function BookMarquee() {
         @keyframes bm-right { from { transform: translateX(-50%); } to { transform: translateX(0); } }
       `}</style>
 
-      {/* Decorative bronze strips, top right */}
+      {/* Decorative gold + navy strips, top right */}
       <span
         aria-hidden="true"
-        className="pointer-events-none absolute -top-6 -right-10 h-14 w-[min(420px,40vw)] -skew-x-[30deg] -rotate-[8deg] bg-bronze-2/45"
+        className="pointer-events-none absolute -top-6 -right-10 h-14 w-[min(420px,40vw)] -skew-x-[30deg] -rotate-[8deg] bg-[#a3804a]/35"
       />
       <span
         aria-hidden="true"
-        className="pointer-events-none absolute -top-10 right-6 h-14 w-[min(380px,34vw)] -skew-x-[30deg] -rotate-[8deg] border border-bronze/45"
+        className="pointer-events-none absolute -top-10 right-6 h-14 w-[min(380px,34vw)] -skew-x-[30deg] -rotate-[8deg] border border-[#21213c]/25"
       />
 
       <div className="container-site relative text-center">
-        <p className="mt-0 mb-4 text-[0.68rem] font-bold tracking-[0.24em] text-bronze-ink uppercase">Proof in print</p>
+        <p className="mt-0 mb-4 text-[0.68rem] font-bold tracking-[0.24em] text-[#a3804a] uppercase">Proof in print</p>
         <h2
           id="proof-title"
-          className="mx-auto mt-0 mb-[clamp(36px,5vw,56px)] max-w-[22ch] font-display text-[clamp(1.9rem,1.25rem+2.5vw,3.4rem)] leading-[1.12] font-[380] tracking-[-0.02em] text-balance text-ink sm:max-w-none"
+          className="mx-auto mt-0 mb-[clamp(36px,5vw,56px)] max-w-[22ch] font-display text-[clamp(1.9rem,1.25rem+2.5vw,3.4rem)] leading-[1.12] font-[380] tracking-[-0.02em] text-balance text-[#21213c] sm:max-w-none"
         >
           Books in Almost Every Genre You Can Think Of.{' '}
-          <em className="block font-[330] text-[#9a5f30] italic">Here Are a Few of Them.</em>
+          <em className="block font-[330] text-[#a3804a] italic">Here Are a Few of Them.</em>
         </h2>
+        <span aria-hidden="true" className="mx-auto -mt-[clamp(20px,3vw,32px)] mb-[clamp(28px,4vw,44px)] block h-[2px] w-16 rounded-full bg-[#a3804a]" />
       </div>
 
       <div className="relative grid gap-[clamp(14px,2vw,24px)]">

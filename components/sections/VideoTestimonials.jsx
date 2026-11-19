@@ -52,7 +52,7 @@ function Arrow({ dir }) {
 }
 
 const navBtn =
-    'grid size-10 cursor-pointer place-items-center rounded-full border border-white/25 bg-transparent text-white transition-colors duration-300 hover:border-bronze hover:bg-bronze hover:text-ink disabled:cursor-default disabled:opacity-35 disabled:hover:border-white/25 disabled:hover:bg-transparent disabled:hover:text-white focus-visible:rounded-full focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-bronze';
+    'grid size-10 cursor-pointer place-items-center rounded-full border border-white/25 bg-transparent text-white transition-colors duration-300 hover:border-[#c9a56a] hover:bg-[#c9a56a] hover:text-[#21213c] disabled:cursor-default disabled:opacity-35 disabled:hover:border-white/25 disabled:hover:bg-transparent disabled:hover:text-white focus-visible:rounded-full focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#c9a56a]';
 
 /** "On camera" — scrollable row of author video testimonials. */
 export default function VideoTestimonials() {
@@ -102,12 +102,12 @@ export default function VideoTestimonials() {
     return (
         <section
             aria-labelledby="authors-video-title"
-            className="relative overflow-hidden bg-[radial-gradient(ellipse_at_top,#2a2119_0%,#15110d_60%)] py-[clamp(64px,8vw,40px)] text-white"
+            className="relative overflow-hidden bg-[radial-gradient(ellipse_at_top,#2e2e55_0%,#21213c_45%,#15152a_100%)] py-[clamp(64px,8vw,40px)] text-white"
         >
             <div className="container-site">
 
                 {/* Editorial bar */}
-                <div className="mb-[clamp(40px,6vw,72px)] border-t border-b border-t-bronze/70 border-b-white/10 py-4">
+                <div className="mb-[clamp(40px,6vw,72px)] border-t border-b border-t-[#c9a56a]/60 border-b-white/10 py-4">
                     <div className="grid grid-cols-2 items-center gap-4 text-[0.62rem] font-bold tracking-[0.22em] text-white/60 uppercase sm:grid-cols-3">
                         <span className="justify-self-start">Publish Your Books Today / On Camera</span>
                         <span className="hidden justify-self-center sm:block">Author Testimonials</span>
@@ -125,7 +125,7 @@ export default function VideoTestimonials() {
                         className="mt-0 mb-5 font-display text-[clamp(1.8rem,1.2rem+2.4vw,3rem)] leading-[1.12] font-[380] tracking-[-0.02em] text-balance text-white"
                     >
                         Hear Directly From The Authors{' '}
-                        <em className="font-[330] text-bronze italic">We’ve Worked With</em>
+                        <em className="font-[330] text-[#c9a56a] italic">We’ve Worked With</em>
                     </h2>
                     <p className="m-0 text-[0.92rem] leading-relaxed text-white/60">
                         Real authors share their experience working with us, from the publishing process to the final delivery of
@@ -146,7 +146,7 @@ export default function VideoTestimonials() {
                                 key={`${v.src}-${i}`}
                                 className="w-[78%] shrink-0 snap-start sm:w-[calc((100%-20px)/2)] lg:w-[calc((100%-40px)/3)]"
                             >
-                                <article className="group relative aspect-[3/4] overflow-hidden rounded-[18px] border border-white/10 bg-[#1d1813] shadow-[0_24px_40px_-24px_rgb(0_0_0/0.8)]">
+                                <article className="group relative aspect-[3/4] overflow-hidden rounded-[18px] border border-white/10 bg-[#1a1a30]">
                                     {playing === i ? (
                                         <video
                                             src={v.src}
@@ -159,7 +159,7 @@ export default function VideoTestimonials() {
                                     ) : (
                                         <>
                                             <Cover video={v} onDuration={(d) => setDurations((prev) => ({ ...prev, [i]: d }))} />
-                                            <div className="absolute inset-0 bg-[linear-gradient(180deg,transparent_45%,rgb(10_8_6/0.88)_100%)]" aria-hidden="true" />
+                                            <div className="absolute inset-0 bg-[linear-gradient(180deg,transparent_45%,rgb(21_21_42/0.9)_100%)]" aria-hidden="true" />
 
                                             {/* Duration */}
                                             {time && (
@@ -173,11 +173,11 @@ export default function VideoTestimonials() {
                                                 type="button"
                                                 onClick={() => setPlaying(i)}
                                                 aria-label={`Play video testimonial from ${v.name}`}
-                                                className="absolute top-1/2 left-1/2 grid size-16 -translate-1/2 cursor-pointer place-items-center rounded-full border-0 bg-transparent p-0 focus-visible:rounded-full focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-bronze"
+                                                className="absolute top-1/2 left-1/2 grid size-16 -translate-1/2 cursor-pointer place-items-center rounded-full border-0 bg-transparent p-0 focus-visible:rounded-full focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#c9a56a]"
                                             >
-                                                <span className="absolute inset-0 animate-ping rounded-full bg-bronze/40 motion-reduce:animate-none" aria-hidden="true" />
+                                                <span className="absolute inset-0 animate-ping rounded-full bg-[#c9a56a]/40 motion-reduce:animate-none" aria-hidden="true" />
                                                 <span className="absolute inset-0 rounded-full bg-white/25 backdrop-blur-sm" aria-hidden="true" />
-                                                <span className="relative grid size-11 place-items-center rounded-full bg-bronze text-ink transition-transform duration-300 group-hover:scale-110">
+                                                <span className="relative grid size-11 place-items-center rounded-full bg-[#c9a56a] text-[#21213c] transition-transform duration-300 group-hover:scale-110">
                                                     <svg viewBox="0 0 24 24" className="ml-0.5 size-4" fill="currentColor" aria-hidden="true">
                                                         <path d="M8 5.5v13l10.5-6.5z" />
                                                     </svg>
@@ -188,7 +188,7 @@ export default function VideoTestimonials() {
                                             <div className="absolute inset-x-0 bottom-0 p-5">
                                                 <h3 className="m-0 font-display text-lg leading-tight font-medium text-white">{v.name}</h3>
                                                 <p className="mt-1 mb-0 text-[0.75rem] text-white/65">
-                                                    {v.role}, <em className="text-bronze">{v.book}</em>
+                                                    {v.role}, <em className="text-[#c9a56a]">{v.book}</em>
                                                 </p>
                                             </div>
                                         </>
@@ -212,7 +212,7 @@ export default function VideoTestimonials() {
                                 onClick={() => goTo(i)}
                                 aria-label={`Go to video ${i + 1}`}
                                 aria-current={active === i ? 'true' : undefined}
-                                className={`h-1.5 cursor-pointer rounded-full border-0 p-0 transition-all duration-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-bronze ${active === i ? 'w-7 bg-white' : 'w-1.5 bg-white/35 hover:bg-white/60'
+                                className={`h-1.5 cursor-pointer rounded-full border-0 p-0 transition-all duration-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#c9a56a] ${active === i ? 'w-7 bg-[#c9a56a]' : 'w-1.5 bg-white/35 hover:bg-white/60'
                                     }`}
                             />
                         ))}

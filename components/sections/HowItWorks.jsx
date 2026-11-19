@@ -39,7 +39,7 @@ const icons = {
 
 function StepIcon({ name }) {
   return (
-    <span className="grid size-9 shrink-0 place-items-center rounded-[10px] border border-bronze/40 bg-[#fbf6ef] text-bronze-ink">
+    <span className="grid size-9 shrink-0 place-items-center rounded-[10px] border border-[#a3804a]/40 bg-[#21213c]/[0.04] text-[#21213c]">
       <svg viewBox="0 0 24 24" className="size-[18px]" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
         {icons[name]}
       </svg>
@@ -54,15 +54,15 @@ export default function HowItWorks() {
       <div className="container-site grid items-start gap-12 lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.15fr)] lg:gap-16">
         {/* Left: intro, button and illustration */}
         <div className="lg:sticky lg:top-28">
-          <p className="mt-0 mb-4 text-[0.68rem] font-bold tracking-[0.24em] text-bronze-ink uppercase">How it works</p>
+          <p className="mt-0 mb-4 text-[0.68rem] font-bold tracking-[0.24em] text-[#a3804a] uppercase">How it works</p>
           <h2
             id="route-title"
-            className="mt-0 mb-5 font-display text-[clamp(1.9rem,1.25rem+2.5vw,3.2rem)] leading-[1.1] font-[380] tracking-[-0.02em] text-ink"
+            className="mt-0 mb-5 font-display text-[clamp(1.9rem,1.25rem+2.5vw,3.2rem)] leading-[1.1] font-[380] tracking-[-0.02em] text-[#21213c]"
           >
             A Clear Route From{' '}
-            <em className="block font-[330] text-[#9a5f30] italic">Manuscript To Publication</em>
+            <em className="block font-[330] text-[#a3804a] italic">Manuscript To Publication</em>
           </h2>
-          <p className="mt-0 mb-8 max-w-[46ch] text-[0.95rem] leading-relaxed text-ink/70">
+          <p className="mt-0 mb-8 max-w-[46ch] text-[0.95rem] leading-relaxed text-[#21213c]/70">
             Our book publishing packages follow five stages, and each stage is written into the scope before the first
             invoice. You always know who has the manuscript, what they are doing with it and what will come back to you
             for approval.
@@ -70,7 +70,7 @@ export default function HowItWorks() {
           <button
             type="button"
             data-open-lead=""
-            className="inline-flex min-h-12 cursor-pointer items-center rounded-full border-0 bg-ink px-7 text-sm font-bold text-white transition-colors duration-300 hover:bg-[#9a5f30] focus-visible:rounded-full focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-bronze"
+            className="inline-flex min-h-12 cursor-pointer items-center rounded-full border-0 bg-[#21213c] px-7 text-sm font-bold text-white transition-colors duration-300 hover:bg-[#a3804a] focus-visible:rounded-full focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#a3804a]"
           >
             Book A Free Consultation
           </button>
@@ -87,7 +87,7 @@ export default function HowItWorks() {
         </div>
 
         {/* Right: zig-zag steps */}
-        <ol role="list" className="relative m-0 grid list-none gap-5 p-0 before:absolute before:top-6 before:bottom-6 before:left-[22px] before:w-px before:bg-bronze/25 lg:before:hidden">
+        <ol role="list" className="relative m-0 grid list-none gap-5 p-0 before:absolute before:top-6 before:bottom-6 before:left-[22px] before:w-px before:bg-[#a3804a]/30 lg:before:hidden">
           {steps.map((step, i) => {
             const right = i % 2 === 1;
             return (
@@ -96,22 +96,22 @@ export default function HowItWorks() {
                 className={`relative w-full lg:w-[78%] ${right ? 'lg:ml-auto' : ''}`}
               >
                 <article
-                  className={`flex gap-4 rounded-[14px] border border-bronze/35 bg-white p-4 shadow-[0_10px_30px_-18px_rgb(40_26_10/0.35)] transition-[transform,box-shadow] duration-300 hover:-translate-y-0.5 hover:shadow-[0_16px_36px_-18px_rgb(40_26_10/0.45)] sm:p-5 ${
+                  className={`flex gap-4 rounded-[14px] border border-[#a3804a]/30 bg-white p-4 transition-[transform,border-color] duration-300 hover:-translate-y-0.5 hover:border-[#a3804a] sm:p-5 ${
                     right ? 'lg:flex-row-reverse lg:text-right' : ''
                   }`}
                 >
                   <div className={`flex shrink-0 items-start gap-2 ${right ? 'lg:flex-row-reverse' : ''}`}>
                     <StepIcon name={step.icon} />
-                    <span className="font-display text-2xl leading-9 text-bronze" aria-hidden="true">
+                    <span className="font-display text-2xl leading-9 text-[#a3804a]" aria-hidden="true">
                       {i + 1}
                     </span>
                   </div>
                   <div>
-                    <h3 className="mt-1 mb-1.5 font-display text-[1.05rem] leading-snug font-medium text-bronze-ink">
+                    <h3 className="mt-1 mb-1.5 font-display text-[1.05rem] leading-snug font-medium text-[#21213c]">
                       <span className="sr-only">Step {i + 1}: </span>
                       {step.title}
                     </h3>
-                    <p className="m-0 text-[0.85rem] leading-relaxed text-ink/65">{step.text}</p>
+                    <p className="m-0 text-[0.85rem] leading-relaxed text-[#21213c]/65">{step.text}</p>
                   </div>
                 </article>
               </li>

@@ -60,7 +60,7 @@ const Icon = ({ name, className = 'size-[18px]' }) => (
 );
 
 const glass =
-  'border border-white/70 bg-white/55 shadow-[0_20px_50px_-20px_rgb(30_22_14/0.35),inset_0_1px_0_rgb(255_255_255/0.8)] backdrop-blur-xl backdrop-saturate-150';
+  'border border-[#a3804a]/25 bg-white/70 backdrop-blur-xl backdrop-saturate-150';
 
 export default function FaqSection() {
   const uid = useId();
@@ -86,15 +86,14 @@ export default function FaqSection() {
       {/* Background: blurred photo + warm wash. Put your image at /public/assets/images/faq-bg.webp */}
       <div
         aria-hidden="true"
-        className="absolute inset-0 -z-10 scale-110 bg-[#d9cfc2] bg-[url('/assets/images/faq-bg.webp')] bg-cover bg-center blur-[6px]"
+        className="absolute inset-0 -z-10 scale-110 bg-[#e9e8ef] bg-[url('/assets/images/faq-bg.webp')] bg-cover bg-center blur-[6px]"
       />
-      <div aria-hidden="true" className="absolute inset-0 -z-10 bg-[linear-gradient(180deg,rgb(245_240_232/0.55),rgb(236_228_216/0.75))]" />
+      <div aria-hidden="true" className="absolute inset-0 -z-10 bg-[linear-gradient(180deg,rgb(255_255_255/0.6),rgb(244_241_235/0.8))]" />
 
       <div className="container-site">
-        {/* Heading */}
-           {/* Editorial bar */}
-        <div className="mb-[clamp(40px,6vw,72px)] border-t border-b border-t-ink/40 border-b-ink/10 py-4">
-          <div className="grid grid-cols-2 items-center gap-4 text-[0.62rem] font-bold tracking-[0.22em] text-ink/55 uppercase sm:grid-cols-3">
+        {/* Editorial bar */}
+        <div className="mb-[clamp(40px,6vw,72px)] border-t border-b border-t-[#a3804a]/60 border-b-[#21213c]/10 py-4">
+          <div className="grid grid-cols-2 items-center gap-4 text-[0.62rem] font-bold tracking-[0.22em] text-[#21213c]/55 uppercase sm:grid-cols-3">
             <span className="justify-self-start">Publish Your Books Today / Questions</span>
             <span className="hidden justify-self-center sm:block">Before You Begin</span>
             <span className="justify-self-end">Answered</span>
@@ -103,19 +102,19 @@ export default function FaqSection() {
 
         {/* Heading */}
         <div className="mx-auto mb-[clamp(32px,5vw,52px)] max-w-7xl">
-          {/* <p className="mt-0 mb-6 flex items-center gap-4 text-[0.68rem] font-bold tracking-[0.24em] text-[#9a5f30] uppercase">
-            <span className="h-px w-10 bg-[#9a5f30]" aria-hidden="true" />
+          {/* <p className="mt-0 mb-6 flex items-center gap-4 text-[0.68rem] font-bold tracking-[0.24em] text-[#a3804a] uppercase">
+            <span className="h-px w-10 bg-[#a3804a]" aria-hidden="true" />
             Questions &amp; answers
           </p> */}
           <div className="grid gap-5 lg:grid-cols-[minmax(0,1.3fr)_minmax(0,1fr)] lg:items-end lg:gap-12">
             <h2
               id="faq-title"
-              className="m-0 font-display text-[clamp(1.9rem,1.25rem+2.5vw,3.2rem)] leading-[1.08] font-[380] tracking-[-0.02em] text-balance text-ink"
+              className="m-0 font-display text-[clamp(1.9rem,1.25rem+2.5vw,3.2rem)] leading-[1.08] font-[380] tracking-[-0.02em] text-balance text-[#21213c]"
             >
               Everything You Want To Know{' '}
-              <em className="font-[330] text-[#9a5f30] italic">Before You Begin</em>
+              <em className="font-[330] text-[#a3804a] italic">Before You Begin</em>
             </h2>
-            <p className="m-0 border-l border-ink/15 pl-5 text-[0.92rem] leading-relaxed text-ink/65">
+            <p className="m-0 border-l border-[#21213c]/15 pl-5 text-[0.92rem] leading-relaxed text-[#21213c]/65">
               Straight answers about rights, process and pricing. If your question is not here, our team will answer it on
               a free consultation.
             </p>
@@ -133,8 +132,8 @@ export default function FaqSection() {
             className={`${glass} min-w-0 flex-1 rounded-[22px] p-5 sm:p-7`}
           >
             <div className="mb-3 flex items-baseline justify-between gap-4">
-              <h3 className="m-0 text-[0.95rem] font-semibold text-ink">{group.label}</h3>
-              <span className="text-[0.75rem] text-ink/45">
+              <h3 className="m-0 text-[0.95rem] font-semibold text-[#21213c]">{group.label}</h3>
+              <span className="text-[0.75rem] text-[#21213c]/45">
                 {group.items.length} {group.items.length === 1 ? 'question' : 'questions'}
               </span>
             </div>
@@ -145,7 +144,7 @@ export default function FaqSection() {
                 const btnId = `${uid}-q-${tab}-${i}`;
                 const ansId = `${uid}-a-${tab}-${i}`;
                 return (
-                  <li key={it.q} className="border-b border-ink/10 last:border-b-0">
+                  <li key={it.q} className="border-b border-[#21213c]/10 last:border-b-0">
                     <h4 className="m-0">
                       <button
                         type="button"
@@ -153,22 +152,22 @@ export default function FaqSection() {
                         aria-expanded={isOpen}
                         aria-controls={ansId}
                         onClick={() => setOpen(isOpen ? -1 : i)}
-                        className="group flex w-full cursor-pointer items-start gap-4 border-0 bg-transparent py-4 text-left focus-visible:rounded-[10px] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink"
+                        className="group flex w-full cursor-pointer items-start gap-4 border-0 bg-transparent py-4 text-left focus-visible:rounded-[10px] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#21213c]"
                       >
-                        <span className="w-7 shrink-0 font-display text-[1.05rem] leading-6 text-ink/40 italic">
+                        <span className="w-7 shrink-0 font-display text-[1.05rem] leading-6 text-[#a3804a] italic">
                           {String(i + 1).padStart(2, '0')}
                         </span>
                         <span className="flex-1">
-                          <span className={`block text-[0.98rem] leading-6 font-semibold transition-colors ${isOpen ? 'text-ink' : 'text-ink/80 group-hover:text-ink'}`}>
+                          <span className={`block text-[0.98rem] leading-6 font-semibold transition-colors ${isOpen ? 'text-[#21213c]' : 'text-[#21213c]/80 group-hover:text-[#21213c]'}`}>
                             {it.q}
                           </span>
                           {/* progress line under the open question */}
-                          <span className="mt-2 block h-px w-full bg-ink/10">
-                            <span className={`block h-[2px] -translate-y-px bg-ink transition-[width] duration-500 ease-site ${isOpen ? 'w-1/3' : 'w-0'}`} />
+                          <span className="mt-2 block h-px w-full bg-[#21213c]/10">
+                            <span className={`block h-[2px] -translate-y-px bg-[#a3804a] transition-[width] duration-500 ease-site ${isOpen ? 'w-1/3' : 'w-0'}`} />
                           </span>
                         </span>
                         <span
-                          className={`mt-0.5 grid size-6 shrink-0 place-items-center rounded-full border border-ink/15 text-ink/60 transition-transform duration-300 ${isOpen ? 'rotate-45 bg-ink text-white' : 'bg-white/60'}`}
+                          className={`mt-0.5 grid size-6 shrink-0 place-items-center rounded-full border border-[#21213c]/15 text-[#21213c]/60 transition-transform duration-300 ${isOpen ? 'rotate-45 border-[#a3804a] bg-[#a3804a] text-white' : 'bg-white/60'}`}
                           aria-hidden="true"
                         >
                           <svg viewBox="0 0 24 24" className="size-3" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
@@ -184,7 +183,7 @@ export default function FaqSection() {
                       className={`grid transition-[grid-template-rows] duration-400 ease-site ${isOpen ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'}`}
                     >
                       <div className="overflow-hidden">
-                        <p className="mt-0 mb-5 pl-11 pr-10 text-[0.88rem] leading-relaxed text-ink/65">{it.a}</p>
+                        <p className="mt-0 mb-5 pl-11 pr-10 text-[0.88rem] leading-relaxed text-[#21213c]/65">{it.a}</p>
                       </div>
                     </div>
                   </li>
@@ -193,11 +192,11 @@ export default function FaqSection() {
             </ul>
 
             <div className="mt-5 flex flex-wrap items-center justify-between gap-3 rounded-[14px] border border-white/80 bg-white/50 px-4 py-3">
-              <span className="text-[0.85rem] text-ink/70">Still have a question?</span>
+              <span className="text-[0.85rem] text-[#21213c]/70">Still have a question?</span>
               <button
                 type="button"
                 data-open-lead=""
-                className="inline-flex min-h-10 cursor-pointer items-center rounded-full border-0 bg-ink px-5 text-[0.8rem] font-bold text-white transition-colors duration-300 hover:bg-[#9a5f30] focus-visible:rounded-full focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink"
+                className="inline-flex min-h-10 cursor-pointer items-center rounded-full border-0 bg-[#21213c] px-5 text-[0.8rem] font-bold text-white transition-colors duration-300 hover:bg-[#a3804a] focus-visible:rounded-full focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#21213c]"
               >
                 Talk to our team
               </button>
