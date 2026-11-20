@@ -1,10 +1,5 @@
 import { site } from './site';
 
-/**
- * Builds the per-page <head> metadata: title, description, canonical URL,
- * Open Graph and Twitter tags. Relative URLs become absolute through
- * metadataBase (site.url) in app/layout.jsx.
- */
 export function pageMetadata({
   title,
   description,
@@ -95,7 +90,6 @@ export function JsonLd({ data }) {
   return (
     <script
       type="application/ld+json"
-      // < is escaped so the JSON can never close the script tag early.
       dangerouslySetInnerHTML={{ __html: JSON.stringify(data).replace(/</g, '\\u003c') }}
     />
   );
