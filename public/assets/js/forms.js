@@ -122,7 +122,7 @@
       // the form is validated but not sent anywhere.
       var endpoint = form.getAttribute('action');
       if (!endpoint) {
-        setStatus('This form is not connected yet. Please contact us by phone or email for now.', true);
+        setStatus('This form is not connected. Please contact us by phone or email for now.', true);
         return;
       }
       var buttons = Array.from(form.querySelectorAll('[type="submit"]'));

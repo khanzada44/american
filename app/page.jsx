@@ -11,6 +11,7 @@ import HowItWorks from '@/components/sections/HowItWorks';
 import VideoTestimonials from '@/components/sections/VideoTestimonials';
 import FaqSection from '@/components/sections/FaqSection';
 import ContactFormSection from '@/components/sections/ContactFormSection';
+import BookSpin from '@/components/layout/BookSpin';
 export const metadata = pageMetadata({
   title: 'Book Writing, Editing & Publishing Support',
   description:
@@ -554,445 +555,60 @@ export default function HomePage() {
             data-id="26"
           />
         </ul>
-
-        {/* <section className="section section--ivory services" id="services" aria-labelledby="services-title">
-          <div className="ed-bg ed-bg--svc" aria-hidden="true">
-            <div className="ed-bg__img" data-parallax="0.05" />
-          </div>
-          <div className="container">
-            <div className="services__head">
-              <div>
-                <span className="ghost-num" aria-hidden="true">
-                  01
-                </span>
-                <p className="eyebrow" data-reveal="">
-                  Services
-                </p>
-                <h2 className="h2" id="services-title" data-reveal="" style={{ '--d': '.08s' }}>
-                  {'Help for your book, '}
-                  <em>at every stage.</em>
-                </h2>
-              </div>
-              <p className="lead" data-reveal="" style={{ '--d': '.16s' }}>
-                Start with the service you need today. We can help with a first draft, an editorial review, a cover or a
-                complete publishing plan. Audiobooks, illustration and promotion give you more ways to share your work.
-              </p>
-            </div>
-            <div className="cat">
-              <article className="cat-feature on-dark" data-reveal="">
-                <Link className="cat-feature__link" href="/ghostwriting">
-                  <span className="cat-feature__bg" aria-hidden="true">
-                    <Image
-                      src="/assets/images/photos/1758961339803-2d5a43cb34d1-1200.webp"
-                      width="1200"
-                      height="800"
-                      alt=""
-                      loading="lazy"
-                      decoding="async"
-                    />
-                  </span>{' '}
-                  <span className="cat-feature__copy">
-                    <span className="cat-feature__meta">
-                      <span className="cat__n">01</span>
-                      <span className="label">Featured service</span>
-                    </span>{' '}
-                    <span className="cat-feature__title">Ghostwriting</span>{' '}
-                    <span className="cat-feature__desc">
-                      Develop your notes and conversations into a full manuscript with writing that reflects your
-                      perspective.
-                    </span>{' '}
-                    <span className="cat-feature__cta">
-                      {'Explore ghostwriting '}
-                      <svg aria-hidden="true">
-                        <use href="#i-arrow" />
-                      </svg>
-                    </span>
-                  </span>{' '}
-                  <span className="cat-feature__book" aria-hidden="true">
-                    <span className="book3d">
-                      <span className="book3d__body">
-                        <span className="book3d__back" />
-                        <Image
-                          className="book3d__cover"
-                          src="/assets/images/books/cover-12.webp"
-                          width="440"
-                          height="660"
-                          alt=""
-                          loading="lazy"
-                          decoding="async"
-                        />
-                      </span>{' '}
-                      <span className="book3d__shadow" />
-                    </span>
-                  </span>{' '}
-                  <span className="cat-feature__caption">
-                    <span className="label">Published with Publish Your Books Today</span>
-                    <span>The Path of Truth by Emilio Degher</span>
-                  </span>
-                </Link>
-              </article>
-              <div className="cat-pair">
-                <Link className="cat-card cat-card--edit" href="/book-editing" data-reveal="" style={{ '--d': '.08s' }}>
-                  <span className="cat__n">02</span> <span className="cat-card__title">Book Editing</span>{' '}
-                  <span className="cat-card__desc">
-                    Get help with structure, language and final checks while keeping the voice of your draft.
-                  </span>{' '}
-                  <span className="cat__arrow">
-                    <svg aria-hidden="true">
-                      <use href="#i-arrow-ne" />
-                    </svg>
-                  </span>{' '}
-                  <span className="cat-card__mark" aria-hidden="true">
-                    <i />
-                    <i />
-                    <i />
-                    <i />
-                  </span>
-                </Link>{' '}
-                <Link className="cat-card cat-card--pub" href="/book-publishing" data-reveal="" style={{ '--d': '.14s' }}>
-                  <span className="cat__n">03</span> <span className="cat-card__title">Book Publishing</span>{' '}
-                  <span className="cat-card__desc">
-                    Prepare the interior, cover and files for the publishing route you have chosen.
-                  </span>{' '}
-                  <span className="cat__arrow">
-                    <svg aria-hidden="true">
-                      <use href="#i-arrow-ne" />
-                    </svg>
-                  </span>{' '}
-                  <span className="cat-card__cover" aria-hidden="true">
-                    <Image
-                      src="/assets/images/books/cover-06.webp"
-                      width="440"
-                      height="660"
-                      alt=""
-                      loading="lazy"
-                      decoding="async"
-                    />
-                  </span>
-                </Link>
-              </div>
-              <div className="sv-house" data-reveal="" style={{ '--d': '.1s' }}>
-                <div className="sv-house__head">
-                  <p className="label">Explore your options</p>
-                  <h3 className="sv-house__title">17 ways to support your book.</h3>
-                  <p className="sv-house__lead">
-                    Find the right help across writing, production, distribution and author promotion.
-                  </p>
-                </div>
-                <div className="sv-house__grid">
-                  <section className="sv-house__col" aria-labelledby="svg-0">
-                    <header className="sv-house__colhead">
-                      <span className="sv-house__n">I.</span>
-                      <h4 id="svg-0">{'Writing & Editorial'}</h4>
-                      <span className="sv-house__c">03</span>
-                    </header>
-                    <ul role="list">
-                      <li>
-                        <Link href="/ghostwriting">
-                          <span className="sv-house__t">Ghostwriting</span>
-                          <span className="sv-house__d">
-                            Work with a writer to give your ideas structure and develop the chapter drafts.
-                          </span>
-                          <svg aria-hidden="true">
-                            <use href="#i-arrow-ne" />
-                          </svg>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/book-editing">
-                          <span className="sv-house__t">{'Book Editing & Formatting'}</span>
-                          <span className="sv-house__d">
-                            Review the draft, work through revisions and prepare the text for your chosen edition.
-                          </span>
-                          <svg aria-hidden="true">
-                            <use href="#i-arrow-ne" />
-                          </svg>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/articles-magazines">
-                          <span className="sv-house__t">{'Articles & Magazines'}</span>
-                          <span className="sv-house__d">
-                            Share your knowledge through articles and features prepared for a particular readership.
-                          </span>
-                          <svg aria-hidden="true">
-                            <use href="#i-arrow-ne" />
-                          </svg>
-                        </Link>
-                      </li>
-                    </ul>
-                  </section>
-                  <section className="sv-house__col" aria-labelledby="svg-1">
-                    <header className="sv-house__colhead">
-                      <span className="sv-house__n">II.</span>
-                      <h4 id="svg-1">{'Publishing & Production'}</h4>
-                      <span className="sv-house__c">05</span>
-                    </header>
-                    <ul role="list">
-                      <li>
-                        <Link href="/book-publishing">
-                          <span className="sv-house__t">Book Publishing</span>
-                          <span className="sv-house__d">
-                            Coordinate the formatting, production checks and submission of your finished manuscript.
-                          </span>
-                          <svg aria-hidden="true">
-                            <use href="#i-arrow-ne" />
-                          </svg>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/book-cover-design">
-                          <span className="sv-house__t">Book Cover Design</span>
-                          <span className="sv-house__d">
-                            Explore cover concepts and artwork that suit your story and genre.
-                          </span>
-                          <svg aria-hidden="true">
-                            <use href="#i-arrow-ne" />
-                          </svg>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/illustration">
-                          <span className="sv-house__t">Illustration</span>
-                          <span className="sv-house__d">
-                            Plan artwork around the characters, scenes and ideas in your book.
-                          </span>
-                          <svg aria-hidden="true">
-                            <use href="#i-arrow-ne" />
-                          </svg>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/audio-book">
-                          <span className="sv-house__t">Audiobook Production</span>
-                          <span className="sv-house__d">
-                            Create a listening edition with voice selection, recording and audio editing.
-                          </span>
-                          <svg aria-hidden="true">
-                            <use href="#i-arrow-ne" />
-                          </svg>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/book-video">
-                          <span className="sv-house__t">{'Book Video & Trailers'}</span>
-                          <span className="sv-house__d">
-                            Introduce your book with a short video prepared for your promotional channels.
-                          </span>
-                          <svg aria-hidden="true">
-                            <use href="#i-arrow-ne" />
-                          </svg>
-                        </Link>
-                      </li>
-                    </ul>
-                  </section>
-                  <section className="sv-house__col" aria-labelledby="svg-2">
-                    <header className="sv-house__colhead">
-                      <span className="sv-house__n">III.</span>
-                      <h4 id="svg-2">{'Rights & Distribution'}</h4>
-                      <span className="sv-house__c">02</span>
-                    </header>
-                    <ul role="list">
-                      <li>
-                        <Link href="/copyrights-isbn">
-                          <span className="sv-house__t">{'Copyrights & ISBN'}</span>
-                          <span className="sv-house__d">
-                            Organise ISBNs, copyright paperwork and the title details for your editions.
-                          </span>
-                          <svg aria-hidden="true">
-                            <use href="#i-arrow-ne" />
-                          </svg>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/global-distribution">
-                          <span className="sv-house__t">Global Distribution</span>
-                          <span className="sv-house__d">
-                            Prepare listings and distribution settings for the channels you want to use.
-                          </span>
-                          <svg aria-hidden="true">
-                            <use href="#i-arrow-ne" />
-                          </svg>
-                        </Link>
-                      </li>
-                    </ul>
-                  </section>
-                  <section className="sv-house__col" aria-labelledby="svg-3">
-                    <header className="sv-house__colhead">
-                      <span className="sv-house__n">IV.</span>
-                      <h4 id="svg-3">{'Marketing & Visibility'}</h4>
-                      <span className="sv-house__c">07</span>
-                    </header>
-                    <ul role="list">
-                      <li>
-                        <Link href="/book-promotion">
-                          <span className="sv-house__t">{'Book Promotion & Marketing'}</span>
-                          <span className="sv-house__d">
-                            Plan launch materials and promotional activity around your likely readers.
-                          </span>
-                          <svg aria-hidden="true">
-                            <use href="#i-arrow-ne" />
-                          </svg>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/author-website">
-                          <span className="sv-house__t">Author Website</span>
-                          <span className="sv-house__d">
-                            Give readers a clear place to explore your books, news and background.
-                          </span>
-                          <svg aria-hidden="true">
-                            <use href="#i-arrow-ne" />
-                          </svg>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/web-social-media">
-                          <span className="sv-house__t">{'Web & Social Media'}</span>
-                          <span className="sv-house__d">
-                            Connect your website and social profiles with a practical author content plan.
-                          </span>
-                          <svg aria-hidden="true">
-                            <use href="#i-arrow-ne" />
-                          </svg>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/billboard-campaigns">
-                          <span className="sv-house__t">Billboard Campaigns</span>
-                          <span className="sv-house__d">
-                            Plan outdoor book artwork and coordinate the agreed advertising locations.
-                          </span>
-                          <svg aria-hidden="true">
-                            <use href="#i-arrow-ne" />
-                          </svg>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/podcasts">
-                          <span className="sv-house__t">Podcasts</span>
-                          <span className="sv-house__d">
-                            Prepare for guest interviews or develop and produce your own author episodes.
-                          </span>
-                          <svg aria-hidden="true">
-                            <use href="#i-arrow-ne" />
-                          </svg>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/tv-interviews">
-                          <span className="sv-house__t">TV Interviews</span>
-                          <span className="sv-house__d">
-                            Practise the interview and prepare the story angles and materials for outreach.
-                          </span>
-                          <svg aria-hidden="true">
-                            <use href="#i-arrow-ne" />
-                          </svg>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/book-fairs">
-                          <span className="sv-house__t">Book Fairs</span>
-                          <span className="sv-house__d">
-                            Prepare the displays and information needed to present your book at suitable events.
-                          </span>
-                          <svg aria-hidden="true">
-                            <use href="#i-arrow-ne" />
-                          </svg>
-                        </Link>
-                      </li>
-                    </ul>
-                  </section>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="container genres">
-            <div className="genres__head" data-reveal="">
-              <div>
-                <span className="ghost-num" aria-hidden="true">
-                  02
-                </span>
-                <p className="eyebrow">Ghostwriting specialties</p>
-                <h3 className="h3 genres__title">Writing support for the story you want to tell</h3>
-              </div>{' '}
-              <Link className="text-link" href="/ghostwriting">
-                {'Explore ghostwriting '}
-                <svg width="18" height="18" aria-hidden="true">
-                  <use href="#i-arrow" />
-                </svg>
-              </Link>
-            </div>
-            <ul className="genres__grid" role="list">
-              <li className="genre" data-reveal="" style={{ '--d': '0s' }}>
-                <span className="genre__n">i.</span>
-                <h4>Blog Ghostwriting</h4>
-                <p>
-                  Share useful articles in a voice your readers recognise. We turn your notes and ideas into posts with
-                  a clear purpose and a natural flow.
-                </p>
-              </li>
-              <li className="genre" data-reveal="" style={{ '--d': '.06s' }}>
-                <span className="genre__n">ii.</span>
-                <h4>Celebrity Writing</h4>
-                <p>
-                  Tell the story behind your public life. We work through the memories, turning points and experiences
-                  you want readers to understand.
-                </p>
-              </li>
-              <li className="genre" data-reveal="" style={{ '--d': '.12s' }}>
-                <span className="genre__n">iii.</span>
-                <h4>Legal Ghostwriting</h4>
-                <p>
-                  Turn your professional knowledge into readable books and articles, with careful attention to
-                  terminology and your review of the details.
-                </p>
-              </li>
-              <li className="genre" data-reveal="" style={{ '--d': '.18s' }}>
-                <span className="genre__n">iv.</span>
-                <h4>Medical Ghostwriting</h4>
-                <p>
-                  Help readers understand your subject through clear explanations and an organised manuscript, with
-                  technical details reviewed by you.
-                </p>
-              </li>
-              <li className="genre" data-reveal="" style={{ '--d': '.24s' }}>
-                <span className="genre__n">v.</span>
-                <h4>{'Health & Fitness Ghostwriting'}</h4>
-                <p>
-                  Build a practical book around your approach to health and fitness, using clear guidance and an
-                  encouraging voice.
-                </p>
-              </li>
-              <li className="genre" data-reveal="" style={{ '--d': '.30s' }}>
-                <span className="genre__n">vi.</span>
-                <h4>Fiction Ghostwriting</h4>
-                <p>
-                  Bring us your characters, a rough plot or a world you have imagined. We will help you develop the
-                  scenes and connect them into a complete story.
-                </p>
-              </li>
-            </ul>
-          </div>
-          <div className="container svc-path" data-reveal="">
-            <p className="svc-path__label label">How a book comes together</p>
-            <ol className="svc-path__steps" role="list">
-              <li>Idea</li>
-              <li>Manuscript</li>
-              <li>Design</li>
-              <li>Publish</li>
-              <li>Promote</li>
-            </ol>{' '}
-            <Link className="svc-path__link" href="/book-publishing#approach">
-              {'See our process '}
-              <svg aria-hidden="true">
-                <use href="#i-arrow" />
-              </svg>
-            </Link>
-          </div>
-        </section> */}
         <BookMarquee />
         <section className="rw-sel rw-dark" id="selected-work" aria-labelledby="sel-title">
+          <style>{`
+            /* each book's place in the row: --i = float timing, --d = entrance delay (centre book first) */
+            #selected-work .rw-table__book:nth-child(1) { --i: 0; --d: 0.36s; }
+            #selected-work .rw-table__book:nth-child(2) { --i: 1; --d: 0.24s; }
+            #selected-work .rw-table__book:nth-child(3) { --i: 2; --d: 0.12s; }
+            #selected-work .rw-table__book:nth-child(4) { --i: 3; --d: 0s; }
+            #selected-work .rw-table__book:nth-child(5) { --i: 4; --d: 0.12s; }
+            #selected-work .rw-table__book:nth-child(6) { --i: 5; --d: 0.24s; }
+            #selected-work .rw-table__book:nth-child(7) { --i: 6; --d: 0.36s; }
+
+            /* 1. entrance: each book spins a full 360° as it rises, then settles facing front */
+            #selected-work .rw-table__row { perspective: 1400px; }
+            @keyframes rw-spin-in {
+              0%   { opacity: 0; transform: translateY(70px) rotateY(-360deg) scale(0.85); }
+              60%  { opacity: 1; }
+              100% { opacity: 1; transform: translateY(0) rotateY(0deg) scale(1); }
+            }
+            .rw-spin-ready #selected-work [data-rw-table]:not(.is-spin) .rw-table__book {
+              opacity: 0;
+              transform: translateY(70px) rotateY(-360deg) scale(0.85);
+            }
+            .rw-spin-ready #selected-work [data-rw-table].is-spin .rw-table__book {
+              animation: rw-spin-in 1.6s cubic-bezier(0.22, 1, 0.36, 1) var(--d, 0s) both;
+            }
+
+            /* 2. gentle float, each book on its own rhythm; the floor shadow breathes with it */
+            @keyframes rw-float {
+              0%, 100% { transform: translateY(0) rotate(0deg); }
+              50%      { transform: translateY(-10px) rotate(-0.6deg); }
+            }
+            @keyframes rw-floor {
+              0%, 100% { transform: scaleX(1); opacity: 1; }
+              50%      { transform: scaleX(0.86); opacity: 0.65; }
+            }
+            #selected-work .rw-table__book .rw-book__img {
+              animation: rw-float 6s ease-in-out infinite;
+              animation-delay: calc(var(--i, 0) * -0.9s);
+            }
+            #selected-work .rw-table__book .rw-book__floor {
+              animation: rw-floor 6s ease-in-out infinite;
+              animation-delay: calc(var(--i, 0) * -0.9s);
+            }
+            #selected-work .rw-table__book.is-lead .rw-book__img { animation-duration: 7.5s; }
+
+            /* people who turn off motion in their system settings see still books */
+            @media (prefers-reduced-motion: reduce) {
+              .rw-spin-ready #selected-work [data-rw-table]:not(.is-spin) .rw-table__book { opacity: 1; transform: none; }
+              #selected-work .rw-table__book,
+              #selected-work .rw-table__book .rw-book__img,
+              #selected-work .rw-table__book .rw-book__floor { animation: none !important; }
+            }
+          `}</style>
           <div className="container">
             <div className="rw-sel__rule rw-rv" aria-hidden="true">
               <span>
@@ -1265,6 +881,7 @@ export default function HomePage() {
               <span className="rw-now__hint">Explore a cover for book details</span>
             </p>
           </div>
+          <BookSpin />
         </section>
         <section className="section section--ivory about" id="about" aria-labelledby="about-title">
           <div className="ed-bg ed-bg--about" aria-hidden="true">
