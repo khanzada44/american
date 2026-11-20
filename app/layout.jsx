@@ -4,7 +4,6 @@ import { formRules } from '@/lib/forms';
 import { bodyClasses } from '@/lib/pages';
 import { JsonLd, siteJsonLd } from '@/lib/seo';
 import Icons from '@/components/layout/Icons';
-import SkipLink from '@/components/layout/SkipLink';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import LeadModal from '@/components/modals/LeadModal';
@@ -59,7 +58,6 @@ export default function RootLayout({ children }) {
         <script dangerouslySetInnerHTML={{ __html: bodyClassScript }} />
         <JsonLd data={siteJsonLd()} />
         <Icons />
-        <SkipLink />
         <Header />
         {children}
         <Footer />

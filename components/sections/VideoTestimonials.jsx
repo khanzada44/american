@@ -3,19 +3,6 @@
 import Image from 'next/image';
 import { useCallback, useEffect, useRef, useState } from 'react';
 
-/*
- * Written author testimonials (replaces VideoTestimonials).
- *
- * IMPORTANT: put only REAL reviews here, in the author's own words and with their permission.
- * The entries below are placeholders; replace every one before the page goes live.
- *
- *  name     author's name as they agreed to be shown (e.g. "Sarah M.")
- *  photo    optional: '/assets/images/testimonials/sarah.webp' (square, their own photo). Leave '' for initials.
- *  genre    the book's genre, e.g. 'Fiction', 'Memoir'
- *  service  the service they used, e.g. 'Book Publishing'
- *  ref      optional project/order reference; leave '' to hide the line
- *  quote    their words
- */
 const reviews = [
   { name: 'Author Name', photo: '', genre: 'Fiction', service: 'Book Publishing', ref: '', quote: 'Replace this with the author’s own words about working with us.' },
   { name: 'Author Name', photo: '', genre: 'Memoir', service: 'Book Marketing', ref: '', quote: 'Replace this with the author’s own words about working with us.' },
