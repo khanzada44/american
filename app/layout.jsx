@@ -7,6 +7,7 @@ import Icons from '@/components/layout/Icons';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import LeadModal from '@/components/modals/LeadModal';
+import ScrollToTop from '@/components/layout/ScrollToTop';
 
 export const metadata = {
   metadataBase: new URL(site.url),
@@ -48,7 +49,8 @@ const bodyClassScript = `(function(m){var p=location.pathname.replace(/\\.html$/
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en-US" className="no-js" suppressHydrationWarning>
+    // data-scroll-behavior="smooth": Next turns smooth scroll off while it changes page
+    <html lang="en-US" className="no-js" data-scroll-behavior="smooth" suppressHydrationWarning>
       <head>
         <link rel="preload" href="/assets/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossOrigin="" />
         <link rel="preload" href="/assets/fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossOrigin="" />
@@ -56,6 +58,8 @@ export default function RootLayout({ children }) {
       </head>
       <body suppressHydrationWarning>
         <script dangerouslySetInnerHTML={{ __html: bodyClassScript }} />
+        {/* every new page starts at the top */}
+        <ScrollToTop />
         <JsonLd data={siteJsonLd()} />
         <Icons />
         <Header />

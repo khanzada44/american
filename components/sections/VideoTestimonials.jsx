@@ -34,7 +34,7 @@ function ReviewsA({ hidden = false }) {
               <p className={nameCls}>Austin Max</p>
               <dl className={meta}>
                 <dt className={dt}>Genre</dt><dd className={dd}>Fiction</dd>
-                <dt className={dt}>Service</dt><dd className={dd}>Book Publishing</dd>
+                {/* <dt className={dt}>Service</dt><dd className={dd}>Book Publishing</dd> */}
               </dl>
             </div>
           </figcaption>
@@ -55,7 +55,7 @@ function ReviewsA({ hidden = false }) {
               <p className={nameCls}>Mark Daniel</p>
               <dl className={meta}>
                 <dt className={dt}>Genre</dt><dd className={dd}>Memoir</dd>
-                <dt className={dt}>Service</dt><dd className={dd}>Book Marketing</dd>
+                {/* <dt className={dt}>Service</dt><dd className={dd}>Book Marketing</dd> */}
               </dl>
             </div>
           </figcaption>
@@ -76,7 +76,7 @@ function ReviewsA({ hidden = false }) {
               <p className={nameCls}>Samantha Joseph</p>
               <dl className={meta}>
                 <dt className={dt}>Genre</dt><dd className={dd}>Non-fiction</dd>
-                <dt className={dt}>Service</dt><dd className={dd}>Ghostwriting</dd>
+                {/* <dt className={dt}>Service</dt><dd className={dd}>Ghostwriting</dd> */}
               </dl>
             </div>
           </figcaption>
@@ -104,7 +104,7 @@ function ReviewsB({ hidden = false }) {
               <p className={nameCls}>John Sumner</p>
               <dl className={meta}>
                 <dt className={dt}>Genre</dt><dd className={dd}>Children’s</dd>
-                <dt className={dt}>Service</dt><dd className={dd}>Illustration</dd>
+                {/* <dt className={dt}>Service</dt><dd className={dd}>Illustration</dd> */}
               </dl>
             </div>
           </figcaption>
@@ -126,7 +126,7 @@ function ReviewsB({ hidden = false }) {
               <p className={nameCls}>Mitchelle Smith</p>
               <dl className={meta}>
                 <dt className={dt}>Genre</dt><dd className={dd}>Poetry</dd>
-                <dt className={dt}>Service</dt><dd className={dd}>Editing &amp; Proofreading</dd>
+                {/* <dt className={dt}>Service</dt><dd className={dd}>Editing &amp; Proofreading</dd> */}
               </dl>
             </div>
           </figcaption>
@@ -146,7 +146,7 @@ function ReviewsB({ hidden = false }) {
               <p className={nameCls}>Portia Fey</p>
               <dl className={meta}>
                 <dt className={dt}>Genre</dt><dd className={dd}>Business</dd>
-                <dt className={dt}>Service</dt><dd className={dd}>Cover Design</dd>
+                {/* <dt className={dt}>Service</dt><dd className={dd}>Cover Design</dd> */}
               </dl>
             </div>
           </figcaption>
