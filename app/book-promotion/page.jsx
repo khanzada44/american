@@ -360,7 +360,7 @@ export default function BookPromotionPage() {
                     <div className="pm-post__top">
                       <span className="pm-post__av">A</span>
                       <span className="pm-post__who">
-                        americasbookservice
+                        Publishyourbookstoday
                         <small>Campaign · Bloom Through the Pain</small>
                       </span>
                       <span className="pm-post__more">···</span>
@@ -397,9 +397,9 @@ export default function BookPromotionPage() {
                     </p>
                     <div className="pm-post__next">
                       <div className="pm-post__top">
-                        <span className="pm-post__av">A</span>
+                        <span className="pm-post__av">P</span>
                         <span className="pm-post__who">
-                          americasbookservice
+                          Publishyourbookstoday
                           <small>Campaign · Bloom Through the Pain</small>
                         </span>
                         <span className="pm-post__more">···</span>
@@ -722,8 +722,8 @@ export default function BookPromotionPage() {
                       <i />
                     </div>
                     <div className="pm-story__who">
-                      <span className="pm-post__av">A</span>
-                      americasbookservice
+                      <span className="pm-post__av">P</span>
+                      Publishyourbookstoday
                     </div>
                     <div className="pm-story__body">
                       <span className="pm-story__k">Launch week</span>{' '}
@@ -756,9 +756,9 @@ export default function BookPromotionPage() {
                       </span>
                     </div>
                     <div className="pm-post__top">
-                      <span className="pm-post__av">A</span>
+                      <span className="pm-post__av">P</span>
                       <span className="pm-post__who">
-                        americasbookservice
+                        Publishyourbookstoday
                         <small>Campaign · Whispers of Time</small>
                       </span>
                       <span className="pm-post__more">···</span>
@@ -793,9 +793,9 @@ export default function BookPromotionPage() {
                     <p className="pm-post__cap">{`Explore Whispers of Time by Aggee Andrew Vetiaque, from the ${site.name} catalogue.`}</p>
                     <div className="pm-post__next">
                       <div className="pm-post__top">
-                        <span className="pm-post__av">A</span>
+                        <span className="pm-post__av">P</span>
                         <span className="pm-post__who">
-                          americasbookservice
+                          Publishyourbookstoday
                           <small>Campaign · Whispers of Time</small>
                         </span>
                         <span className="pm-post__more">···</span>
@@ -854,7 +854,7 @@ export default function BookPromotionPage() {
               <li className="rw-rv">
                 <figure>
                   <Image
-                    src="/assets/images/spotlights/spotlight-7.webp"
+                    src="/assets/images/books/featured-author-emilio-degher-pybt.png"
                     width="540"
                     height="675"
                     alt={`Featured Author graphic for Emilio Degher by ${site.name}, listing his books, genres and a short biography`}
@@ -870,7 +870,7 @@ export default function BookPromotionPage() {
               <li className="rw-rv">
                 <figure>
                   <Image
-                    src="/assets/images/spotlights/spotlight-21.webp"
+                    src="/assets/images/books/book-spotlight-bloom-through-the-pain-pybt.png"
                     width="540"
                     height="675"
                     alt="Book Spotlight graphic for Bloom Through the Pain by Kadeisha Corbin, with the book shown on a pedestal and an Available on Amazon badge"
@@ -886,7 +886,7 @@ export default function BookPromotionPage() {
               <li className="rw-rv">
                 <figure>
                   <Image
-                    src="/assets/images/spotlights/spotlight-31.webp"
+                    src="/assets/images/books/book-spotlight-naked-truth-of-ai-pybt.png"
                     width="540"
                     height="675"
                     alt="Book Spotlight graphic for The Naked Truth of AI 2.0 by Douglas Hawes, with the book shown on a pedestal and an Available on Amazon badge"

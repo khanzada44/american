@@ -129,14 +129,6 @@ export default function ContactPage() {
                     </dd>
                   </div>
                   <div>
-                    <dt>WhatsApp</dt>
-                    <dd>
-                      <Link href="https://wa.me/17139120056" target="_blank" rel="noopener">
-                        +1 713-912-0056
-                      </Link>
-                    </dd>
-                  </div>
-                  <div>
                     <dt>Location</dt>
                     <dd>{site.address}</dd>
                   </div>
