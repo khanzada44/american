@@ -315,7 +315,7 @@ export default function ContactPage() {
                         placeholder="Tell us the subject, your progress and the support you are looking for."
                       />
                     </div>
-                    <div className="ct-field ct-field--full ct-file" data-ct-file="" data-max-mb="10">
+                    {/* <div className="ct-field ct-field--full ct-file" data-ct-file="" data-max-mb="10">
                       <label htmlFor="ct-file">
                         {'Share a manuscript or sample '}
                         <span className="ct-file__opt">Optional</span>
@@ -361,13 +361,13 @@ export default function ContactPage() {
                         Remove attachment
                       </button>{' '}
                       <p className="ct-file__err" id="ct-file-err" role="alert" data-ct-file-err="" />
-                    </div>
+                    </div> */}
                   </div>
-                  <p className="ct-summary" data-ct-summary="" aria-live="polite">
+                  {/* <p className="ct-summary" data-ct-summary="" aria-live="polite">
                     We will receive these selections along with your message.
-                  </p>
+                  </p> */}
                 </fieldset>{' '}
-                <label className="check ct-consent">
+                {/* <label className="check ct-consent">
                   <input type="checkbox" name="marketing_consent" value="1" />{' '}
                   <span>
                     {`I agree to receive marketing text messages about book services from ${site.name} at the number I provide, including automated messages. This choice is optional and is not required to purchase a service. Message frequency varies. Message and data rates may apply. Reply STOP to unsubscribe or HELP for assistance. `}
@@ -375,7 +375,7 @@ export default function ContactPage() {
                     {' & '}
                     <Link href="/terms-and-conditions">{'Terms & Conditions'}</Link>.
                   </span>
-                </label>{' '}
+                </label>{' '} */}
                 <div className="ct-form__foot">
                   <button className="btn btn--primary ct-submit" type="submit">
                     {'Send Your Enquiry '}
