@@ -358,7 +358,7 @@ export default function BookPromotionPage() {
                       </span>
                     </div>
                     <div className="pm-post__top">
-                      <span className="pm-post__av">A</span>
+                      <span className="pm-post__av">P</span>
                       <span className="pm-post__who">
                         Publishyourbookstoday
                         <small>Campaign · Bloom Through the Pain</small>
