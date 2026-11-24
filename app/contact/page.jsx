@@ -190,43 +190,43 @@ export default function ContactPage() {
                   </legend>
                   <div className="ct-opts">
                     <label className="ct-opt">
-                      <input type="checkbox" value="Ghostwriting" name="services" data-ct-service="" />
+                      <input type="checkbox" value="Ghostwriting" name="service" data-ct-service="" />
                       <span>Ghostwriting</span>
                     </label>{' '}
                     <label className="ct-opt">
-                      <input type="checkbox" value="Book Editing" name="services" data-ct-service="" />
+                      <input type="checkbox" value="Book Editing" name="service" data-ct-service="" />
                       <span>Book Editing</span>
                     </label>{' '}
                     <label className="ct-opt">
-                      <input type="checkbox" value="Book Publishing" name="services" data-ct-service="" />
+                      <input type="checkbox" value="Book Publishing" name="service" data-ct-service="" />
                       <span>Book Publishing</span>
                     </label>{' '}
                     <label className="ct-opt">
-                      <input type="checkbox" value="Book Promotion" name="services" data-ct-service="" />
+                      <input type="checkbox" value="Book Promotion" name="service" data-ct-service="" />
                       <span>Book Promotion</span>
                     </label>{' '}
                     <label className="ct-opt">
-                      <input type="checkbox" value="Book Cover Design" name="services" data-ct-service="" />
+                      <input type="checkbox" value="Book Cover Design" name="service" data-ct-service="" />
                       <span>Book Cover Design</span>
                     </label>{' '}
                     <label className="ct-opt">
-                      <input type="checkbox" value="Illustration" name="services" data-ct-service="" />
+                      <input type="checkbox" value="Illustration" name="service" data-ct-service="" />
                       <span>Illustration</span>
                     </label>{' '}
                     <label className="ct-opt">
-                      <input type="checkbox" value="Audio Book" name="services" data-ct-service="" />
+                      <input type="checkbox" value="Audio Book" name="service" data-ct-service="" />
                       <span>Audio Book</span>
                     </label>{' '}
                     <label className="ct-opt">
-                      <input type="checkbox" value="Author Website" name="services" data-ct-service="" />
+                      <input type="checkbox" value="Author Website" name="service" data-ct-service="" />
                       <span>Author Website</span>
                     </label>{' '}
                     <label className="ct-opt">
-                      <input type="checkbox" value="Book Video" name="services" data-ct-service="" />
+                      <input type="checkbox" value="Book Video" name="service" data-ct-service="" />
                       <span>Book Video</span>
                     </label>{' '}
                     <label className="ct-opt">
-                      <input type="checkbox" value="Other" name="services" data-ct-service="" />
+                      <input type="checkbox" value="Other" name="service" data-ct-service="" />
                       <span>Other</span>
                     </label>
                   </div>
