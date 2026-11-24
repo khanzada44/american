@@ -5,6 +5,7 @@ import PageStyles from '@/components/layout/PageStyles';
 import PageScripts from '@/components/layout/PageScripts';
 import SectionRail from '@/components/navigation/SectionRail';
 import { site } from '@/lib/site';
+import ContactEnquiryForm from '../../components/forms/ContactEnquiryForm';
 
 export const metadata = pageMetadata({
   title: 'Talk to Us About Your Book',
@@ -38,7 +39,7 @@ const railLinks = [
 ];
 
 const scripts = [
-  '/assets/js/contact2f72.js?v=20261104-forms',
+  '/assets/js/contact2f72.js?v=20261124-fix',
   '/assets/js/real-work2f72.js?v=20261003',
   '/assets/js/main2f72.js?v=20261105-production',
 ];
@@ -154,205 +155,7 @@ export default function ContactPage() {
                   <figcaption>A little time with the manuscript is a useful place to begin.</figcaption>
                 </figure>
               </aside>
-              <form
-                method="post"
-                action={site.api.contact || undefined}
-                encType="multipart/form-data"
-                data-site-form=""
-                className="ct-form ct-rv"
-                id="ct-form"
-                data-lead-form=""
-                data-ct-form=""
-                aria-labelledby="ct-form-title"
-              >
-                <input type="hidden" name="csrf_token" defaultValue="" />{' '}
-                <input type="hidden" name="form_kind" defaultValue="contact" />{' '}
-                <div className="form-honeypot" aria-hidden="true">
-                  <label>
-                    Leave this field empty
-                    <input type="text" name="website" tabIndex="-1" autoComplete="off" />
-                  </label>
-                </div>
-                <header className="ct-form__head">
-                  <p className="ct-label">Your project enquiry</p>
-                  <h3 className="ct-form__title" id="ct-form-title">
-                    {'Share a little '}
-                    <em>about the project.</em>
-                  </h3>
-                  <p className="ct-form__sub">
-                    Tell us what you are writing, how far you have got and what you would like help with.
-                  </p>
-                </header>
-                <fieldset className="ct-set">
-                  <legend>
-                    <span className="ct-set__n">01</span>
-                    Which services interest you?
-                  </legend>
-                  <div className="ct-opts">
-                    <label className="ct-opt">
-                      <input type="checkbox" value="Ghostwriting" name="service" data-ct-service="" />
-                      <span>Ghostwriting</span>
-                    </label>{' '}
-                    <label className="ct-opt">
-                      <input type="checkbox" value="Book Editing" name="service" data-ct-service="" />
-                      <span>Book Editing</span>
-                    </label>{' '}
-                    <label className="ct-opt">
-                      <input type="checkbox" value="Book Publishing" name="service" data-ct-service="" />
-                      <span>Book Publishing</span>
-                    </label>{' '}
-                    <label className="ct-opt">
-                      <input type="checkbox" value="Book Promotion" name="service" data-ct-service="" />
-                      <span>Book Promotion</span>
-                    </label>{' '}
-                    <label className="ct-opt">
-                      <input type="checkbox" value="Book Cover Design" name="service" data-ct-service="" />
-                      <span>Book Cover Design</span>
-                    </label>{' '}
-                    <label className="ct-opt">
-                      <input type="checkbox" value="Illustration" name="service" data-ct-service="" />
-                      <span>Illustration</span>
-                    </label>{' '}
-                    <label className="ct-opt">
-                      <input type="checkbox" value="Audio Book" name="service" data-ct-service="" />
-                      <span>Audio Book</span>
-                    </label>{' '}
-                    <label className="ct-opt">
-                      <input type="checkbox" value="Author Website" name="service" data-ct-service="" />
-                      <span>Author Website</span>
-                    </label>{' '}
-                    <label className="ct-opt">
-                      <input type="checkbox" value="Book Video" name="service" data-ct-service="" />
-                      <span>Book Video</span>
-                    </label>{' '}
-                    <label className="ct-opt">
-                      <input type="checkbox" value="Other" name="service" data-ct-service="" />
-                      <span>Other</span>
-                    </label>
-                  </div>
-                </fieldset>
-                <fieldset className="ct-set">
-                  <legend>
-                    <span className="ct-set__n">03</span>
-                    Your details
-                  </legend>
-                  <div className="ct-fields">
-                    <div className="ct-field">
-                      <label htmlFor="ct-name">
-                        {'Full name '}
-                        <abbr title="required">*</abbr>
-                      </label>
-                      <input
-                        id="ct-name"
-                        type="text"
-                        name="name"
-                        autoComplete="name"
-                        required
-                        minLength="2"
-                        maxLength="100"
-                      />
-                    </div>
-                    <div className="ct-field">
-                      <label htmlFor="ct-email">
-                        {'Email address '}
-                        <abbr title="required">*</abbr>
-                      </label>
-                      <input id="ct-email" type="email" name="email" autoComplete="email" required maxLength="254" />
-                    </div>
-                    <div className="ct-field ct-field--full">
-                      <label htmlFor="ct-phone">
-                        {'Phone number '}
-                        <abbr title="required">*</abbr>
-                      </label>
-                      <input id="ct-phone" type="tel" name="phone" autoComplete="tel" required maxLength="40" />
-                    </div>
-                    <div className="ct-field ct-field--full">
-                      <label htmlFor="ct-note">
-                        {'What would you like help with? '}
-                        <abbr title="required">*</abbr>
-                      </label>
-                      <textarea
-                        required
-                        minLength="10"
-                        maxLength="5000"
-                        name="message"
-                        id="ct-note"
-                        rows="5"
-                        data-ct-note=""
-                        placeholder="Tell us the subject, your progress and the support you are looking for."
-                      />
-                    </div>
-                    {/* <div className="ct-field ct-field--full ct-file" data-ct-file="" data-max-mb="10">
-                      <label htmlFor="ct-file">
-                        {'Share a manuscript or sample '}
-                        <span className="ct-file__opt">Optional</span>
-                      </label>{' '}
-                      <div className="ct-file__box">
-                        <input
-                          id="ct-file"
-                          className="ct-file__input"
-                          type="file"
-                          name="manuscript"
-                          accept=".pdf,.png,.jpg,.jpeg,application/pdf,image/png,image/jpeg"
-                          aria-describedby="ct-file-hint ct-file-err"
-                        />{' '}
-                        <svg className="ct-file__icon" viewBox="0 0 24 24" aria-hidden="true">
-                          <path
-                            d="M12 15V4M7.5 8.5 12 4l4.5 4.5M5 14v4.5A1.5 1.5 0 0 0 6.5 20h11a1.5 1.5 0 0 0 1.5-1.5V14"
-                            fill="none"
-                            stroke="currentColor"
-                            strokeWidth="1.5"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                        </svg>{' '}
-                        <span className="ct-file__text">
-                          <span className="ct-file__name" data-ct-file-name="">
-                            Choose a manuscript or sample to share
-                          </span>
-                          <span className="ct-file__hint" id="ct-file-hint">
-                            Accepted formats: PDF, PNG, JPG, JPEG · up to 10 MB
-                          </span>
-                        </span>{' '}
-                        <span className="ct-file__btn" aria-hidden="true" data-ct-file-btn="">
-                          Choose a File
-                        </span>
-                      </div>{' '}
-                      <button
-                        className="ct-file__remove"
-                        type="button"
-                        data-ct-file-remove=""
-                        aria-label="Remove the selected file"
-                        hidden
-                      >
-                        Remove attachment
-                      </button>{' '}
-                      <p className="ct-file__err" id="ct-file-err" role="alert" data-ct-file-err="" />
-                    </div> */}
-                  </div>
-                  {/* <p className="ct-summary" data-ct-summary="" aria-live="polite">
-                    We will receive these selections along with your message.
-                  </p> */}
-                </fieldset>{' '}
-                {/* <label className="check ct-consent">
-                  <input type="checkbox" name="marketing_consent" value="1" />{' '}
-                  <span>
-                    {`I agree to receive marketing text messages about book services from ${site.name} at the number I provide, including automated messages. This choice is optional and is not required to purchase a service. Message frequency varies. Message and data rates may apply. Reply STOP to unsubscribe or HELP for assistance. `}
-                    <Link href="/privacy-policy">Privacy Policy</Link>
-                    {' & '}
-                    <Link href="/terms-and-conditions">{'Terms & Conditions'}</Link>.
-                  </span>
-                </label>{' '} */}
-                <div className="ct-form__foot">
-                  <button className="btn btn--primary ct-submit" type="submit">
-                    {'Send Your Enquiry '}
-                    <svg className="btn__icon btn__icon--arrow" aria-hidden="true">
-                      <use href="#i-arrow" />
-                    </svg>
-                  </button>{' '}
-                  <p className="form-status ct-status" role="status" data-form-status="" />
-                </div>
-              </form>
+              <ContactEnquiryForm />
             </div>
           </div>
           <div className="ct-steps">

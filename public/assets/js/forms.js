@@ -18,7 +18,7 @@
     if (kind !== 'journal') {
       if (length(values.name) < rules.name_min || length(values.name) > rules.name_max || /[\x00-\x1f\x7f]/.test(values.name)) errors.name = 'Enter a name between ' + rules.name_min + ' and ' + rules.name_max + ' characters.';
       var digits = values.phone.replace(/\D/g, '').length;
-      if (!/^\+?[0-9(). -]+$/.test(values.phone) || values.phone.length > 40 || digits < rules.phone_min_digits || digits > rules.phone_max_digits) errors.phone = 'Enter a phone number with ' + rules.phone_min_digits + ' to ' + rules.phone_max_digits + ' digits.';
+      if (!/^\+?[0-9(). -]+$/.test(values.phone) || values.phone.length > 12 || digits < rules.phone_min_digits || digits > rules.phone_max_digits) errors.phone = 'Enter a phone number with ' + rules.phone_min_digits + ' to ' + rules.phone_max_digits + ' digits.';
       if (length(values.message) < rules.message_min || length(values.message) > rules.message_max || /[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]/.test(values.message)) errors.message = 'Enter a message between ' + rules.message_min + ' and ' + rules.message_max + ' characters.';
     }
     return errors;
@@ -137,9 +137,15 @@
       csrfReady(form)
         .then(function () { return root.fetch(endpoint, { method: 'POST', body: new FormData(form), credentials: 'same-origin', headers: { Accept: 'application/json' }, signal: controller.signal }); })
         .then(function (response) {
-          return response.json().then(function (result) {
-            if (!response.ok || result.success !== true) {
-              displayErrors(result.errors || {});
+          return response.json().catch(function () { return {}; }).then(function (result) {
+            // the lead server answers { statusCode: 200, status: 200, message, errors: [] }
+            var code = Number(result.statusCode != null ? result.statusCode : result.status != null ? result.status : response.status);
+            var errs = result.errors;
+            var hasErrors = Array.isArray(errs) ? errs.length > 0 : !!(errs && Object.keys(errs).length);
+            var sent = response.ok && (result.success === true || (code >= 200 && code < 300)) && !hasErrors;
+
+            if (!sent) {
+              displayErrors(errs && !Array.isArray(errs) ? errs : {});
               setStatus(result.message || 'We could not send your enquiry. Please try once more.', true);
               var first = form.querySelector('[aria-invalid="true"]');
               if (first) first.focus();
@@ -148,7 +154,8 @@
             form.reset();
             attempted = false;
             displayErrors({});
-            setStatus(result.message || 'Thank you! Taking you to the next page…', false);
+            setStatus('Thank you! Taking you to the next page…', false);
+            // open the thank-you page (a form can set data-redirect="/other-page" or "none")
             var next = form.getAttribute('data-redirect') || '/thank-you';
             if (next !== 'none') root.location.href = next;
           });
