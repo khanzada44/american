@@ -268,7 +268,7 @@ export default function FeaturedAuthorsPage() {
                   <span className="rw-book__obj">
                     <Image
                       className="rw-book__img"
-                      src="/assets/images/books/book-20.webp"
+                      src="/assets/images/books/book-20.png"
                       width="600"
                       height="1024"
                       alt="Bloom Through the Pain: A 90 Day Affirmation and Reflection Journal by Kadeisha Corbin, shown as a hardcover book"
@@ -344,7 +344,7 @@ export default function FeaturedAuthorsPage() {
                   <span className="rw-book__obj">
                     <Image
                       className="rw-book__img"
-                      src="/assets/images/books/book-05.webp"
+                      src="/assets/images/books/book-05.png"
                       width="600"
                       height="1024"
                       alt="The Naked Truth of AI 2.0: Divine Intervention by Douglas Hawes, shown as a hardcover book"
@@ -422,7 +422,7 @@ export default function FeaturedAuthorsPage() {
                   <span className="rw-book__obj">
                     <Image
                       className="rw-book__img"
-                      src="/assets/images/books/book-06.webp"
+                      src="/assets/images/books/book-06.png"
                       width="600"
                       height="1024"
                       alt="The Goodness of God: Reflection at 80 by Dr. Lee Roy Jefferson, shown as a hardcover book"

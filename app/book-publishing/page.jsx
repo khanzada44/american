@@ -690,7 +690,7 @@ export default function BookPublishingPage() {
                   <span className="rw-book__obj">
                     <Image
                       className="rw-book__img"
-                      src="/assets/images/books/book-18.webp"
+                      src="/assets/images/books/book-18.png"
                       width="600"
                       height="1024"
                       alt="The Legal Tender Question: Volume One by Joseph R. K. Eshun, shown as a hardcover book"

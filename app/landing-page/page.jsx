@@ -103,7 +103,7 @@ const tableBooks = [
     { id: '03', href: '/our-work#corey-t-alston-sr', src: '/assets/images/books/book-03.webp', w: 600, h: 1024, s: 0.74, z: 9, t: 'The Story Book Chronicles: A Dreamy Adventure of Isla and Ava', a: 'Corey T. Alston Sr.' },
     { id: '06', href: '/our-work#lee-roy-jefferson', src: '/assets/images/books/book-06.png', w: 600, h: 1024, s: 1, z: 20, lead: true, t: 'The Goodness of God', sub: 'Reflection at 80', a: 'Dr. Lee Roy Jefferson' },
     { id: '25', href: '/our-work#virginia-perez-perez', src: '/assets/images/books/book-25.png', w: 600, h: 1024, s: 0.74, z: 11, t: 'Bajo la Influencia del Kremlin', sub: 'La Penetración Rusa en Venezuela', a: 'Virginia Perez Perez' },
-    { id: '24', href: '/our-work#book-24', src: '/assets/images/books/book-24-s.webp', w: 360, h: 614, s: 0.62, z: 12, t: 'Whispers of Time', sub: 'Poetry · French / Haitian Creole', a: 'Aggee Andrew Vetiaque' },
+    { id: '24', href: '/our-work#book-24', src: '/assets/images/books/book-24.png', w: 360, h: 614, s: 0.62, z: 12, t: 'Whispers of Time', sub: 'Poetry · French / Haitian Creole', a: 'Aggee Andrew Vetiaque' },
     { id: '18', href: '/our-work#book-18', src: '/assets/images/books/book-18-s.webp', w: 360, h: 614, s: 0.52, z: 13, t: 'The Legal Tender Question', sub: 'Volume One', a: 'Joseph R. K. Eshun' },
 ];
 const LEAD = tableBooks.findIndex((b) => b.lead);

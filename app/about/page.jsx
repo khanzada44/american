@@ -539,7 +539,7 @@ export default function AboutPage() {
                     <span className="rw-book__obj">
                       <Image
                         className="rw-book__img"
-                        src="/assets/images/books/book-24.webp"
+                        src="/assets/images/books/book-24.png"
                         width="600"
                         height="1024"
                         alt="Whispers of Time: Poetry · French / Haitian Creole by Aggee Andrew Vetiaque, shown as a hardcover book"

@@ -392,7 +392,7 @@ export default function HomePage() {
                       <Image loading="eager"
                         className="book3d__cover"
                         data-feature-cover=""
-                        src="/assets/images/books/book-06.webp"
+                        src="/assets/images/books/book-06.png"
                         width="600"
                         height="1024"
                         alt="Cover of The Goodness of God by Dr. Lee Roy Jefferson"
@@ -535,7 +535,7 @@ export default function HomePage() {
             data-sub="A 90-Day Affirmation and Reflection Journal"
             data-author="Kadeisha Corbin"
             data-genre="Self-Help"
-            data-cover="/assets/images/books/book-20.webp"
+            data-cover="/assets/images/books/book-20.png"
             data-id="20"
             data-desc="Bloom Through the Pain is a 90-day journey of affirmations, Scripture, and reflection created to help readers heal, find strength, and rediscover the beauty God has placed within them."
             data-featured=""
@@ -546,7 +546,7 @@ export default function HomePage() {
             data-sub="Divine Intervention"
             data-author="Douglas Hawes"
             data-genre="Faith"
-            data-cover="/assets/images/books/book-05.webp"
+            data-cover="/assets/images/books/book-05.png"
             data-id="05"
             data-desc="As artificial intelligence advances at extraordinary speed, The Naked Truth of AI 2.0: Divine Intervention asks a deeper question: Can technology provide knowledge without understanding the truth behind our existence?"
             data-featured=""
@@ -587,7 +587,7 @@ export default function HomePage() {
             data-sub="Volume One"
             data-author="Joseph R. K. Eshun"
             data-genre={'Business & Law'}
-            data-cover="/assets/images/books/book-18.webp"
+            data-cover="/assets/images/books/book-18.png"
             data-id="18"
           />
           <li
@@ -605,7 +605,7 @@ export default function HomePage() {
             data-sub="Poetry · French / Haitian Creole"
             data-author="Aggee Andrew Vetiaque"
             data-genre="Poetry"
-            data-cover="/assets/images/books/book-24.webp"
+            data-cover="/assets/images/books/book-24.png"
             data-id="24"
           />
           <li
@@ -826,7 +826,7 @@ export default function HomePage() {
                   <span className="rw-book__obj">
                     <Image
                       className="rw-book__img"
-                      src="/assets/images/books/book-06.webp"
+                      src="/assets/images/books/book-06.png"
                       width="600"
                       height="1024"
                       alt="The Goodness of God: Reflection at 80 by Dr. Lee Roy Jefferson, shown as a hardcover book"
@@ -888,7 +888,7 @@ export default function HomePage() {
                   <span className="rw-book__obj">
                     <Image
                       className="rw-book__img"
-                      src="/assets/images/books/book-24-s.webp"
+                      src="/assets/images/books/book-24.png"
                       width="360"
                       height="614"
                       alt="Whispers of Time: Poetry · French / Haitian Creole by Aggee Andrew Vetiaque, shown as a hardcover book"

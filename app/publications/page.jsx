@@ -122,7 +122,7 @@ export default function PublicationsPage() {
                   style={{ '--s': '0.6' }}
                 >
                   <span className="pc-book__obj">
-                    <Image loading="eager" src="/assets/images/books/book-24-s.webp" width="360" height="614" alt="" decoding="async" />
+                    <Image loading="eager" src="/assets/images/books/book-24.png" width="360" height="614" alt="" decoding="async" />
                     <span className="pc-book__floor" aria-hidden="true" />
                   </span>
                 </button>
@@ -279,7 +279,7 @@ export default function PublicationsPage() {
                     <Image loading="eager"
                       className="book3d__cover"
                       data-pf-cover=""
-                      src="/assets/images/books/book-06.webp"
+                      src="/assets/images/books/book-06.png"
                       width="600"
                       height="1024"
                       alt="Cover of The Goodness of God by Dr. Lee Roy Jefferson"
@@ -536,7 +536,7 @@ export default function PublicationsPage() {
                           <span className="book3d__back" />
                           <Image
                             className="book3d__cover"
-                            src="/assets/images/books/book-06.webp"
+                            src="/assets/images/books/book-06.png"
                             width="600"
                             height="1024"
                             alt=""
@@ -567,7 +567,7 @@ export default function PublicationsPage() {
                   data-sub="A 90-Day Affirmation and Reflection Journal"
                   data-author="Kadeisha Corbin"
                   data-genre="Self-Help"
-                  data-cover="/assets/images/books/book-20.webp"
+                  data-cover="/assets/images/books/book-20.png"
                   data-id="20"
                   data-desc="Bloom Through the Pain is a 90-day journey of affirmations, Scripture, and reflection created to help readers heal, find strength, and rediscover the beauty God has placed within them."
                   data-featured=""
@@ -584,7 +584,7 @@ export default function PublicationsPage() {
                           <span className="book3d__back" />
                           <Image
                             className="book3d__cover"
-                            src="/assets/images/books/book-20.webp"
+                            src="/assets/images/books/book-20.png"
                             width="600"
                             height="1024"
                             alt=""
@@ -615,7 +615,7 @@ export default function PublicationsPage() {
                   data-sub="Divine Intervention"
                   data-author="Douglas Hawes"
                   data-genre="Faith"
-                  data-cover="/assets/images/books/book-05.webp"
+                  data-cover="/assets/images/books/book-05.png"
                   data-id="05"
                   data-desc="As artificial intelligence advances at extraordinary speed, The Naked Truth of AI 2.0: Divine Intervention asks a deeper question: Can technology provide knowledge without understanding the truth behind our existence?"
                   data-featured=""
@@ -632,7 +632,7 @@ export default function PublicationsPage() {
                           <span className="book3d__back" />
                           <Image
                             className="book3d__cover"
-                            src="/assets/images/books/book-05.webp"
+                            src="/assets/images/books/book-05.png"
                             width="600"
                             height="1024"
                             alt=""
@@ -1400,7 +1400,7 @@ export default function PublicationsPage() {
                   data-sub="Volume One"
                   data-author="Joseph R. K. Eshun"
                   data-genre={'Business & Law'}
-                  data-cover="/assets/images/books/book-18.webp"
+                  data-cover="/assets/images/books/book-18.png"
                   data-id="18"
                   style={{ '--b': '186px' }}
                 >
@@ -1415,7 +1415,7 @@ export default function PublicationsPage() {
                           <span className="book3d__back" />
                           <Image
                             className="book3d__cover"
-                            src="/assets/images/books/book-18.webp"
+                            src="/assets/images/books/book-18.png"
                             width="600"
                             height="1024"
                             alt=""
@@ -1626,7 +1626,7 @@ export default function PublicationsPage() {
                   data-sub="Poetry · French / Haitian Creole"
                   data-author="Aggee Andrew Vetiaque"
                   data-genre="Poetry"
-                  data-cover="/assets/images/books/book-24.webp"
+                  data-cover="/assets/images/books/book-24.png"
                   data-id="24"
                   style={{ '--b': '186px' }}
                 >
@@ -1641,7 +1641,7 @@ export default function PublicationsPage() {
                           <span className="book3d__back" />
                           <Image
                             className="book3d__cover"
-                            src="/assets/images/books/book-24.webp"
+                            src="/assets/images/books/book-24.png"
                             width="600"
                             height="1024"
                             alt=""
@@ -2629,7 +2629,7 @@ export default function PublicationsPage() {
                 </span>{' '}
                 <Image
                   data-pc-peek-img=""
-                  src="/assets/images/books/book-06.webp"
+                  src="/assets/images/books/book-06.png"
                   width="600"
                   height="1024"
                   alt=""
@@ -2685,7 +2685,7 @@ export default function PublicationsPage() {
                     type="button"
                     className="pc-row"
                     data-pc-open="20"
-                    data-pc-peek="/assets/images/books/book-20.webp"
+                    data-pc-peek="/assets/images/books/book-20.png"
                     data-pc-no="02"
                     aria-label="View Bloom Through the Pain: A 90 Day Affirmation and Reflection Journal by Kadeisha Corbin"
                   >
@@ -2718,7 +2718,7 @@ export default function PublicationsPage() {
                     type="button"
                     className="pc-row"
                     data-pc-open="05"
-                    data-pc-peek="/assets/images/books/book-05.webp"
+                    data-pc-peek="/assets/images/books/book-05.png"
                     data-pc-no="03"
                     aria-label="View The Naked Truth of AI 2.0: Divine Intervention by Douglas Hawes"
                   >
@@ -3255,7 +3255,7 @@ export default function PublicationsPage() {
                     type="button"
                     className="pc-row"
                     data-pc-open="18"
-                    data-pc-peek="/assets/images/books/book-18.webp"
+                    data-pc-peek="/assets/images/books/book-18.png"
                     data-pc-no="20"
                     aria-label="View The Legal Tender Question: Volume One by Joseph R. K. Eshun"
                   >
@@ -3417,7 +3417,7 @@ export default function PublicationsPage() {
                     type="button"
                     className="pc-row"
                     data-pc-open="24"
-                    data-pc-peek="/assets/images/books/book-24.webp"
+                    data-pc-peek="/assets/images/books/book-24.png"
                     data-pc-no="25"
                     aria-label="View Whispers of Time: Poetry · French / Haitian Creole by Aggee Andrew Vetiaque"
                   >
