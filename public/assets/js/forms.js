@@ -148,7 +148,9 @@
             form.reset();
             attempted = false;
             displayErrors({});
-            setStatus(result.message, false);
+            setStatus(result.message || 'Thank you! Taking you to the next page…', false);
+            var next = form.getAttribute('data-redirect') || '/thank-you';
+            if (next !== 'none') root.location.href = next;
           });
         })
         .catch(function () { setStatus('We could not confirm your submission. Please check your connection and try again, or contact us by phone or email.', true); })

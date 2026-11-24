@@ -68,29 +68,55 @@ export default function ContactFormSection() {
           <div className="lg:sticky lg:top-28">
             <p className="mt-0 mb-6 flex items-center gap-4 text-[0.68rem] font-bold tracking-[0.24em] text-[#c9a56a] uppercase">
               <span className="h-px w-10 bg-[#c9a56a]" aria-hidden="true" />
-              Tell us about your book
+              YOUR STORY IS WORTH THE INK
             </p>
+
             <h2
               id="enquiry-title"
               className="mt-0 mb-5 font-display text-[clamp(1.9rem,1.25rem+2.5vw,3.2rem)] leading-[1.08] font-[380] tracking-[-0.02em] text-balance text-white"
             >
-              Ready To Take The{' '}
-              <em className="font-[330] text-[#c9a56a] italic">Next Step?</em>
+              Your Book Has a Place Beyond the{' '}
+              <em className="font-[330] text-[#c9a56a] italic">Draft.</em>
             </h2>
+
             <p className="mt-0 mb-8 max-w-[44ch] text-[0.95rem] leading-relaxed text-white/60">
-              Share where you are with your manuscript. There is no account to create and no obligation, just an honest
-              answer from an editor.
+              Every book calls for a different kind of backing. From a writer's touch
+              and an editor's eye to a well-planned route to print, let's find the right
+              way forward for your title. Tell us where your project stands and what
+              you have in mind. We'll help you find the right book publishing services
+              to take it from there.
             </p>
 
+            <h3 className="mt-0 mb-5 text-[1.05rem] font-semibold text-white">
+              What Makes the First Conversation Worth Having?
+            </h3>
+
             <ul role="list" className="m-0 grid list-none gap-4 border-t border-white/10 p-0 pt-6">
-              {points.map((p, i) => (
+              {[
+                {
+                  title: 'A Manuscript-Centred Approach',
+                  text: "Your book has its own voice, genre, and objectives. We take your project requirements into account when discussing the services it needs."
+                },
+                {
+                  title: 'Clarity Before Commitment',
+                  text: 'Understand the proposed scope of work, expected deliverables, and project arrangements before proceeding.'
+                },
+                {
+                  title: 'Support Beyond the First Draft',
+                  text: 'From developing written content to preparing a manuscript for publication and promotion, our services address different stages of the book creation process.'
+                }
+              ].map((p, i) => (
                 <li key={p.title} className="flex gap-4">
                   <span className="w-7 shrink-0 font-display text-[1.05rem] leading-6 text-[#c9a56a] italic">
                     {String(i + 1).padStart(2, '0')}
                   </span>
                   <span>
-                    <span className="block text-[0.95rem] leading-6 font-semibold text-white">{p.title}</span>
-                    <span className="block text-[0.85rem] leading-relaxed text-white/55">{p.text}</span>
+                    <span className="block text-[0.95rem] leading-6 font-semibold text-white">
+                      {p.title}
+                    </span>
+                    <span className="block text-[0.85rem] leading-relaxed text-white/55">
+                      {p.text}
+                    </span>
                   </span>
                 </li>
               ))}
@@ -114,6 +140,7 @@ export default function ContactFormSection() {
               action={site.api.contact || undefined}
               encType="multipart/form-data"
               data-site-form=""
+              data-redirect="/thank-you"
               className="grid gap-3.5"
             >
               <FormSecurity kind="enquiry" />

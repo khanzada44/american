@@ -207,7 +207,7 @@ export default function OurWorkPage() {
                   <span className="rw-book__obj">
                     <Image
                       className="rw-book__img"
-                      src="/assets/images/books/book-12.webp"
+                      src="/assets/images/books/book-12.png"
                       width="600"
                       height="1024"
                       alt="The Path of Truth: Beyond Belief, Beyond Illusion by Emilio Degher, shown as a hardcover book"
@@ -444,7 +444,7 @@ export default function OurWorkPage() {
                   <span className="rw-book__obj">
                     <Image
                       className="rw-book__img"
-                      src="/assets/images/books/book-12.webp"
+                      src="/assets/images/books/book-12.png"
                       width="600"
                       height="1024"
                       alt="The Path of Truth: Beyond Belief, Beyond Illusion by Emilio Degher, shown as a hardcover book"

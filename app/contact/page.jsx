@@ -190,77 +190,44 @@ export default function ContactPage() {
                   </legend>
                   <div className="ct-opts">
                     <label className="ct-opt">
-                      <input type="checkbox" value="Ghostwriting" name="services[]" data-ct-service="" />
+                      <input type="checkbox" value="Ghostwriting" name="services" data-ct-service="" />
                       <span>Ghostwriting</span>
                     </label>{' '}
                     <label className="ct-opt">
-                      <input type="checkbox" value="Book Editing" name="services[]" data-ct-service="" />
+                      <input type="checkbox" value="Book Editing" name="services" data-ct-service="" />
                       <span>Book Editing</span>
                     </label>{' '}
                     <label className="ct-opt">
-                      <input type="checkbox" value="Book Publishing" name="services[]" data-ct-service="" />
+                      <input type="checkbox" value="Book Publishing" name="services" data-ct-service="" />
                       <span>Book Publishing</span>
                     </label>{' '}
                     <label className="ct-opt">
-                      <input type="checkbox" value="Book Promotion" name="services[]" data-ct-service="" />
+                      <input type="checkbox" value="Book Promotion" name="services" data-ct-service="" />
                       <span>Book Promotion</span>
                     </label>{' '}
                     <label className="ct-opt">
-                      <input type="checkbox" value="Book Cover Design" name="services[]" data-ct-service="" />
+                      <input type="checkbox" value="Book Cover Design" name="services" data-ct-service="" />
                       <span>Book Cover Design</span>
                     </label>{' '}
                     <label className="ct-opt">
-                      <input type="checkbox" value="Illustration" name="services[]" data-ct-service="" />
+                      <input type="checkbox" value="Illustration" name="services" data-ct-service="" />
                       <span>Illustration</span>
                     </label>{' '}
                     <label className="ct-opt">
-                      <input type="checkbox" value="Audio Book" name="services[]" data-ct-service="" />
+                      <input type="checkbox" value="Audio Book" name="services" data-ct-service="" />
                       <span>Audio Book</span>
                     </label>{' '}
                     <label className="ct-opt">
-                      <input type="checkbox" value="Author Website" name="services[]" data-ct-service="" />
+                      <input type="checkbox" value="Author Website" name="services" data-ct-service="" />
                       <span>Author Website</span>
                     </label>{' '}
                     <label className="ct-opt">
-                      <input type="checkbox" value="Book Video" name="services[]" data-ct-service="" />
+                      <input type="checkbox" value="Book Video" name="services" data-ct-service="" />
                       <span>Book Video</span>
                     </label>{' '}
                     <label className="ct-opt">
-                      <input type="checkbox" value="Other" name="services[]" data-ct-service="" />
+                      <input type="checkbox" value="Other" name="services" data-ct-service="" />
                       <span>Other</span>
-                    </label>
-                  </div>
-                </fieldset>
-                <fieldset className="ct-set">
-                  <legend>
-                    <span className="ct-set__n">02</span>
-                    How far has your book progressed?
-                  </legend>
-                  <div className="ct-stages">
-                    <label className="ct-stage">
-                      <input type="radio" name="stage" value="Idea" data-ct-stage="" />
-                      <span className="ct-stage__n">01</span>
-                      <span className="ct-stage__t">Idea</span>
-                    </label>{' '}
-                    <label className="ct-stage">
-                      <input type="radio" name="stage" value="Manuscript" data-ct-stage="" />
-                      <span className="ct-stage__n">02</span>
-                      <span className="ct-stage__t">Manuscript</span>
-                    </label>{' '}
-                    <label className="ct-stage">
-                      <input type="radio" name="stage" value="Editing" data-ct-stage="" />
-                      <span className="ct-stage__n">03</span>
-                      <span className="ct-stage__t">Editing</span>
-                    </label>{' '}
-                    <label className="ct-stage">
-                      <input type="radio" name="stage" value="Production" data-ct-stage="" />
-                      <span className="ct-stage__n">04</span>
-                      <span className="ct-stage__t">Production</span>
-                    </label>{' '}
-                    <label className="ct-stage">
-                      <input type="radio" name="stage" value="Ready to publish" data-ct-stage="" />
-                      <span className="ct-stage__n">05</span>
-                      <span className="ct-stage__t">Ready to publish</span>
                     </label>
                   </div>
                 </fieldset>

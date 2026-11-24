@@ -5,6 +5,7 @@
   if (form) {
     var summary = form.querySelector('[data-ct-summary]');
     var compose = function () {
+      if (!summary) return; // the summary line is not on the page
       var svc = [].map.call(form.querySelectorAll('[data-ct-service]:checked'), function (i) { return i.value; });
       var st = form.querySelector('[data-ct-stage]:checked');
       var head = [];

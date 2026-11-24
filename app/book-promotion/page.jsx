@@ -708,7 +708,7 @@ export default function BookPromotionPage() {
                     <div className="pm-story__bg">
                       <Image
                         className=""
-                        src="/assets/images/books/cover-03.webp"
+                        src="/assets/images/books/cover-03.png"
                         width="440"
                         height="660"
                         alt=""
@@ -729,7 +729,7 @@ export default function BookPromotionPage() {
                       <span className="pm-story__k">Launch week</span>{' '}
                       <Image
                         className="pm-story__cover"
-                        src="/assets/images/books/cover-03.webp"
+                        src="/assets/images/books/cover-03.png"
                         width="440"
                         height="660"
                         alt=""

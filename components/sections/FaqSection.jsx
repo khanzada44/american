@@ -9,12 +9,30 @@ const groups = [
     label: 'General',
     icon: 'home',
     items: [
-      { q: 'Who is this service for?', a: 'First-time and returning authors who want professional help with writing, editing, design or publishing, whether the manuscript is an idea, a draft or ready to print.' },
-      { q: 'Do I keep the rights to my book?', a: 'Yes. You keep full ownership of your manuscript, cover and all production files. Every right stays with you, and this is written into your agreement.' },
-      { q: 'Can I choose only the services I need?', a: 'Yes. You can start with a single service such as editing or cover design, or choose the full publishing route. Your editor will tell you which steps are needed now and which can wait.' },
-      { q: 'Is this service for?', a: 'First-time and returning authors who want professional help with writing, editing, design or publishing, whether the manuscript is an idea, a draft or ready to print.' },
-      { q: 'I keep the rights to my book?', a: 'Yes. You keep full ownership of your manuscript, cover and all production files. Every right stays with you, and this is written into your agreement.' },
-      { q: 'Choose only the services I need?', a: 'Yes. You can start with a single service such as editing or cover design, or choose the full publishing route. Your editor will tell you which steps are needed now and which can wait.' },
+      {
+        q: 'I have a book idea but haven’t started writing. Can you help?',
+        a: 'Absolutely! PublishYourBooksToday welcomes authors at every stage of the creative process. You don’t need a finished manuscript to get started. Share your idea, concept, or outline, and our team can discuss book writing and development services to help turn it into a publishable manuscript. Our team can also guide first-time authors through the available publishing options.'
+      },
+      {
+        q: 'Can your team work with an existing manuscript rather than start from scratch?',
+        a: 'Yes. If your manuscript is already written, you can discuss the editorial and publishing assistance it needs. Whether you need language refinement, structural improvements, or publication preparation, the right service will depend on the condition and requirements of your draft.'
+      },
+      {
+        q: 'Do I need to purchase every service to publish my book?',
+        a: 'Not necessarily. You can inquire about individual services based on your project’s requirements. Some authors need help with writing, while others already have a manuscript and require editing, publishing, or promotional support. Our full-service book publishing solutions cover different stages of the process, while individual requirements can be discussed according to your project scope.'
+      },
+      {
+        q: 'Who owns the copyright to my finished book?',
+        a: 'Copyright and creative ownership are important considerations for every author. Your ownership arrangements and any applicable service-related rights should be clearly established in your project agreement before work begins. We encourage authors to understand these terms before proceeding with any book publishing arrangement.'
+      },
+      {
+        q: 'Can I publish a book in any genre with PublishYourBooksToday?',
+        a: 'You can share your book’s genre, subject, and intended readership when submitting your inquiry. This helps us understand the nature of your project and determine whether our requested services align with its requirements.'
+      },
+      {
+        q: 'What information should I provide when requesting a quote?',
+        a: 'Start with your book’s genre, approximate word count, current manuscript status, and the services you’re considering. If you have a completed draft or a clear project outline, that information can also help establish the scope of work and the publishing assistance required.'
+      }
     ],
   },
   {

@@ -101,8 +101,8 @@ const tableBooks = [
     { id: '26', href: '/our-work#book-26', src: '/assets/images/books/book-26-s.webp', w: 360, h: 614, s: 0.52, z: 7, t: 'You vs You', sub: 'How to Overcome Doubt, Build Discipline, and Create a Life with Purpose', a: 'Waheed Shaffiek' },
     { id: '23', href: '/our-work#book-23', src: '/assets/images/books/book-23-s.webp', w: 360, h: 614, s: 0.62, z: 8, t: 'Poems of Life', sub: 'Reflections on Life, Love, and the Human Journey', a: 'O’Dell James Ford Sr.' },
     { id: '03', href: '/our-work#corey-t-alston-sr', src: '/assets/images/books/book-03.webp', w: 600, h: 1024, s: 0.74, z: 9, t: 'The Story Book Chronicles: A Dreamy Adventure of Isla and Ava', a: 'Corey T. Alston Sr.' },
-    { id: '06', href: '/our-work#lee-roy-jefferson', src: '/assets/images/books/book-06.webp', w: 600, h: 1024, s: 1, z: 20, lead: true, t: 'The Goodness of God', sub: 'Reflection at 80', a: 'Dr. Lee Roy Jefferson' },
-    { id: '25', href: '/our-work#virginia-perez-perez', src: '/assets/images/books/book-25.webp', w: 600, h: 1024, s: 0.74, z: 11, t: 'Bajo la Influencia del Kremlin', sub: 'La Penetración Rusa en Venezuela', a: 'Virginia Perez Perez' },
+    { id: '06', href: '/our-work#lee-roy-jefferson', src: '/assets/images/books/book-06.png', w: 600, h: 1024, s: 1, z: 20, lead: true, t: 'The Goodness of God', sub: 'Reflection at 80', a: 'Dr. Lee Roy Jefferson' },
+    { id: '25', href: '/our-work#virginia-perez-perez', src: '/assets/images/books/book-25.png', w: 600, h: 1024, s: 0.74, z: 11, t: 'Bajo la Influencia del Kremlin', sub: 'La Penetración Rusa en Venezuela', a: 'Virginia Perez Perez' },
     { id: '24', href: '/our-work#book-24', src: '/assets/images/books/book-24-s.webp', w: 360, h: 614, s: 0.62, z: 12, t: 'Whispers of Time', sub: 'Poetry · French / Haitian Creole', a: 'Aggee Andrew Vetiaque' },
     { id: '18', href: '/our-work#book-18', src: '/assets/images/books/book-18-s.webp', w: 360, h: 614, s: 0.52, z: 13, t: 'The Legal Tender Question', sub: 'Volume One', a: 'Joseph R. K. Eshun' },
 ];
@@ -134,7 +134,7 @@ function phoneError(v) {
     const digits = (v || '').replace(/\D/g, '');
     if (!v) return 'Please enter your phone number.';
     if (digits.length < 10) return 'Phone number must be at least 10 digits.';
-    if (digits.length > 15) return 'Phone number cannot be more than 15 digits.';
+    if (digits.length > 12) return 'Phone number cannot be more than 12 digits.';
     if (/^(\d)\1+$/.test(digits)) return 'Please enter a valid phone number.';
     return '';
 }
@@ -149,7 +149,7 @@ function LeadForm({ full = false, subject, button = 'Get My Free Consultation' }
     function onPhone(e) {
         const v = e.target.value;
         // letters are removed as you type; one leading + is allowed
-        setPhone(((v.charAt(0) === '+' ? '+' : '') + v.replace(/\D/g, '')).slice(0, 16));
+        setPhone(((v.charAt(0) === '+' ? '+' : '') + v.replace(/\D/g, '')).slice(0, 12));
         if (phoneErr) setPhoneErr('');
     }
 
@@ -199,7 +199,7 @@ function LeadForm({ full = false, subject, button = 'Get My Free Consultation' }
                         autoComplete="tel"
                         inputMode="tel"
                         required
-                        maxLength={16}
+                        maxLength={12}
                         value={phone}
                         onChange={onPhone}
                         aria-invalid={phoneErr ? 'true' : 'false'}
@@ -210,7 +210,7 @@ function LeadForm({ full = false, subject, button = 'Get My Free Consultation' }
                     <>
                         <label className="relative block min-w-0">
                             <span className="sr-only">Service</span>
-                            <select className={`${field} appearance-none pr-10 [&>option]:bg-[#21213c]`} name="services" defaultValue="Not sure yet">
+                            <select className={`${field} appearance-none pr-10 [&>option]:bg-[#21213c]`} name="service" defaultValue="Not sure yet">
                                 <option value="Not sure yet">Service: not sure yet</option>
                                 {SERVICE_OPTIONS.map((s) => <option key={s}>{s}</option>)}
                             </select>

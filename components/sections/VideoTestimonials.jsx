@@ -24,7 +24,7 @@ function ReviewsA({ hidden = false }) {
         <figure className={card}>
           <svg viewBox="0 0 24 24" className={quoteIcon} fill="currentColor" aria-hidden="true"><path d={QUOTE_PATH} /></svg>
           <blockquote className={quoteText}>
-            Working with Book Publishing Legacy made publishing my first book easy and stress-free. Their team guided me every
+            Working with Publish Your Books Today made publishing my first book easy and stress-free. Their team guided me every
             step of the way. I would highly recommend them to everyone
           </blockquote>
           <figcaption className={caption}>
@@ -45,7 +45,7 @@ function ReviewsA({ hidden = false }) {
         <figure className={card}>
           <svg viewBox="0 0 24 24" className={quoteIcon} fill="currentColor" aria-hidden="true"><path d={QUOTE_PATH} /></svg>
           <blockquote className={quoteText}>
-            Book Publishing Legacy, helped me with editing, design, and marketing, making the whole process simple and smooth.
+            Publish Your Books Today, helped me with editing, design, and marketing, making the whole process simple and smooth.
             Recommended to all
           </blockquote>
           <figcaption className={caption}>
@@ -66,7 +66,7 @@ function ReviewsA({ hidden = false }) {
         <figure className={card}>
           <svg viewBox="0 0 24 24" className={quoteIcon} fill="currentColor" aria-hidden="true"><path d={QUOTE_PATH} /></svg>
           <blockquote className={quoteText}>
-            I’m thankful to the team of Book Publishing Legacy, The support and advice I received were amazing. They helped me
+            I’m thankful to the team of Publish Your Books Today, The support and advice I received were amazing. They helped me
             improve my story and reach more readers. Keep It Up Guys-
           </blockquote>
           <figcaption className={caption}>
@@ -94,7 +94,7 @@ function ReviewsB({ hidden = false }) {
         <figure className={card}>
           <svg viewBox="0 0 24 24" className={quoteIcon} fill="currentColor" aria-hidden="true"><path d={QUOTE_PATH} /></svg>
           <blockquote className={quoteText}>
-            Working with Book Publishing Legacy, I always felt supported and informed. They truly care about helping authors
+            Working with Publish Your Books Today, I always felt supported and informed. They truly care about helping authors
             succeed.
           </blockquote>
           <figcaption className={caption}>
@@ -115,7 +115,7 @@ function ReviewsB({ hidden = false }) {
         <figure className={card}>
           <svg viewBox="0 0 24 24" className={quoteIcon} fill="currentColor" aria-hidden="true"><path d={QUOTE_PATH} /></svg>
           <blockquote className={quoteText}>
-            One of my friend suggested to me about Book Publishing Legacy and trust me as I discuss my book with them, they
+            One of my friend suggested to me about Publish Your Books Today and trust me as I discuss my book with them, they
             literally put their 100% in it, now my book looks professional and has been well received by readers. I
             couldn’t be happier with the results.
           </blockquote>
@@ -137,7 +137,7 @@ function ReviewsB({ hidden = false }) {
         <figure className={card}>
           <svg viewBox="0 0 24 24" className={quoteIcon} fill="currentColor" aria-hidden="true"><path d={QUOTE_PATH} /></svg>
           <blockquote className={quoteText}>
-            Thanks to Book Publishing Legacy, my book is available worldwide. I’m proud of what we achieved together.
+            Thanks to Publish Your Books Today, my book is available worldwide. I’m proud of what we achieved together.
           </blockquote>
           <figcaption className={caption}>
             {/* eslint-disable-next-line @next/next/no-img-element */}

@@ -519,7 +519,7 @@ export default function PublicationsPage() {
                   data-sub="Reflection at 80"
                   data-author="Dr. Lee Roy Jefferson"
                   data-genre="Faith"
-                  data-cover="/assets/images/books/book-06.webp"
+                  data-cover="/assets/images/books/book-06.png"
                   data-id="06"
                   data-desc="The Goodness of God is a deeply personal reflection on a lifetime of faith, ministry, family, service, and perseverance."
                   data-featured=""
@@ -663,7 +663,7 @@ export default function PublicationsPage() {
                   data-sub="Beyond Belief, Beyond Illusion"
                   data-author="Emilio Degher"
                   data-genre={'Philosophy & Spirituality'}
-                  data-cover="/assets/images/books/book-12.webp"
+                  data-cover="/assets/images/books/book-12.png"
                   data-id="12"
                   data-featured=""
                   style={{ '--b': '162px' }}
@@ -679,7 +679,7 @@ export default function PublicationsPage() {
                           <span className="book3d__back" />
                           <Image
                             className="book3d__cover"
-                            src="/assets/images/books/book-12.webp"
+                            src="/assets/images/books/book-12.png"
                             width="600"
                             height="1024"
                             alt=""
@@ -710,7 +710,7 @@ export default function PublicationsPage() {
                   data-sub="La Penetración Rusa en Venezuela"
                   data-author="Virginia Perez Perez"
                   data-genre="Politics"
-                  data-cover="/assets/images/books/book-25.webp"
+                  data-cover="/assets/images/books/book-25.png"
                   data-id="25"
                   data-desc="An in-depth examination of the strategic relationship between Venezuela and Russia, revealing a complex network of agreements across energy, finance, defense, and other critical sectors."
                   data-featured=""
@@ -1916,7 +1916,7 @@ export default function PublicationsPage() {
                   >
                     <span className="pc-book__obj">
                       <Image
-                        src="/assets/images/books/book-12.webp"
+                        src="/assets/images/books/book-12.png"
                         width="600"
                         height="1024"
                         alt=""
@@ -2652,7 +2652,7 @@ export default function PublicationsPage() {
                     type="button"
                     className="pc-row"
                     data-pc-open="06"
-                    data-pc-peek="/assets/images/books/book-06.webp"
+                    data-pc-peek="/assets/images/books/book-06.png"
                     data-pc-no="01"
                     aria-label="View The Goodness of God: Reflection at 80 by Dr. Lee Roy Jefferson"
                   >
@@ -2751,7 +2751,7 @@ export default function PublicationsPage() {
                     type="button"
                     className="pc-row"
                     data-pc-open="12"
-                    data-pc-peek="/assets/images/books/book-12.webp"
+                    data-pc-peek="/assets/images/books/book-12.png"
                     data-pc-no="04"
                     aria-label="View The Path of Truth: Beyond Belief, Beyond Illusion by Emilio Degher"
                   >
@@ -2784,7 +2784,7 @@ export default function PublicationsPage() {
                     type="button"
                     className="pc-row"
                     data-pc-open="25"
-                    data-pc-peek="/assets/images/books/book-25.webp"
+                    data-pc-peek="/assets/images/books/book-25.png"
                     data-pc-no="05"
                     aria-label="View Bajo la Influencia del Kremlin: La Penetración Rusa en Venezuela by Virginia Perez Perez"
                   >
@@ -2887,7 +2887,7 @@ export default function PublicationsPage() {
                     <span className="pc-row__no">08</span>
                     <span className="pc-row__thumb" aria-hidden="true">
                       <Image
-                        src="/assets/images/books/cover-03.webp"
+                        src="/assets/images/books/cover-03.png"
                         width="440"
                         height="660"
                         alt=""

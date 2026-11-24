@@ -13,9 +13,9 @@ import FaqSection from '@/components/sections/FaqSection';
 import ContactFormSection from '@/components/sections/ContactFormSection';
 import BookSpin from '@/components/layout/BookSpin';
 export const metadata = pageMetadata({
-  title: 'Book Writing, Editing & Publishing Support',
+  title: 'Book Publishing Services | Publish Your Book With Us',
   description:
-    'Get help with your book, from the first idea to editing, cover design, publishing and promotion. Talk to us about where you want to begin.',
+    'Looking for book publishing services? Get writing, editing, self-publishing, and publishing support to publish your book and bring your manuscript to readers.',
   path: '/',
 });
 
@@ -86,6 +86,56 @@ const railLinks = [
 
 const scripts = ['/assets/js/real-work2f72.js?v=20261003', '/assets/js/main2f72.js?v=20261105-production'];
 
+/* ---------- page copy for the shared sections ---------- */
+const faqs = [
+  {
+    key: 'general',
+    label: 'Before you start',
+    icon: 'book',
+    items: [
+      {
+        q: "I have a book idea but haven't started writing. Can you help?",
+        a: "Absolutely! As a premium book publishing company, PublishYourBooksToday welcomes authors at every stage of the creative process. You don't need a finished manuscript to get started. Bring us your idea, concept, or outline, and our team can discuss book writing and development services to help shape it into a publishable manuscript. Our book publishers for new authors can guide you through the options available for your project.",
+      },
+      {
+        q: 'Can PublishYourBooksToday’s team work with an existing manuscript rather than start from scratch?',
+        a: "Yes. If your manuscript is already written, you can discuss the editorial and publishing assistance it needs. Whether you're looking for language refinement, structural improvements, or publication preparation, the appropriate service will depend on the condition and requirements of your draft.",
+      },
+      {
+        q: 'Do I need to purchase every service to publish my book from PublishYourBooksToday?',
+        a: "Not necessarily. You can inquire about individual services based on your project's requirements. Some authors need help with writing, while others already have a manuscript and require editing, publishing, or promotional support. Our full-service book publishing approach covers different stages of the process, while individual requirements can be discussed according to your project scope.",
+      },
+      {
+        q: 'Who owns the copyright to my finished book?',
+        a: 'Copyright and creative ownership are important considerations for every author. Your ownership arrangements and any applicable service-related rights should be clearly established in your project agreement before work begins. We encourage authors to understand these terms before proceeding with any book publishing arrangement.',
+      },
+      {
+        q: 'Can I publish a book in any genre with PublishYourBooksToday?',
+        a: "You can share your book's genre, subject, and intended readership when submitting your inquiry. This helps us understand the nature of your project and determine whether the requested services align with its requirements.",
+      },
+      {
+        q: 'What information should I provide when requesting a quote?',
+        a: "Start with your book's genre, approximate word count, current manuscript status, and the services you're considering. If you have a completed draft or a clear project outline, that information can also help establish the scope of work and the publishing assistance required.",
+      },
+    ],
+  },
+];
+
+const firstConversation = [
+  {
+    title: 'A Manuscript-Centred Approach',
+    text: 'Your book has its own voice, genre, and objectives. We take your project requirements into account when discussing the services it needs.',
+  },
+  {
+    title: 'Clarity Before Commitment',
+    text: 'Understand the proposed scope of work, expected deliverables, and project arrangements before proceeding.',
+  },
+  {
+    title: 'Support Beyond the First Draft',
+    text: 'From developing written content to preparing a manuscript for publication and promotion, our services address different stages of the book creation process.',
+  },
+];
+
 export default function HomePage() {
   return (
     <>
@@ -135,7 +185,7 @@ export default function HomePage() {
                       className="minibook"
                       data-open-book="The Story Book Chronicles: A Dreamy Adventure of Isla and Ava"
                     >
-                      <Image loading="eager" src="/assets/images/books/cover-03.webp" width="440" height="660" alt="" />
+                      <Image loading="eager" src="/assets/images/books/cover-03.png" width="440" height="660" alt="" />
                       <span>
                         <b>The Story Book Chronicles: A Dreamy Adventure of Isla and Ava</b>
                         <small>Corey T. Alston Sr.</small>
@@ -283,32 +333,45 @@ export default function HomePage() {
                       </Link>
                     </li>
                   </ul>
-                  <h1 className="display stage__title" id="hero-title">
+                  <p className="label stage__kicker hero__in" style={{ '--i': '0', whiteSpace: 'normal', margin: '0 0 18px' }}>
+                    Where Stories Find Their Way to the Page
+                  </p>
+                  {/* the heading is longer than before, so it is set a little smaller */}
+                  <h1
+                    className="display stage__title"
+                    id="hero-title"
+                    style={{ fontSize: 'clamp(2.4rem, 1.2rem + 3vw, 4.2rem)' }}
+                  >
                     <span className="hero__line">
-                      <span style={{ '--i': '1' }}>Your Book,</span>
+                      <span style={{ '--i': '1' }}>Book Publishing Services:</span>
                     </span>
                     <span className="hero__line">
-                      <span style={{ '--i': '2' }}>
-                        {'Written '}
-                        <em>Your Way.</em>
+                      <span style={{ '--i': '2' }}>{'The Art of Bringing '}</span>
+                    </span>
+                    <span className="hero__line">
+                      <span style={{ '--i': '3' }}>
+                        <em>Books to Print.</em>
                       </span>
                     </span>
                   </h1>
-                  <p className="stage__lead hero__in" style={{ '--i': '3' }}>
-                    {`Have an idea you cannot leave alone? At ${site.name}, we help you write it, edit it and prepare it for readers, with publishing and promotion support when you need it.`}
+                  <p className="stage__lead hero__in" style={{ '--i': '4' }}>
+                    Your manuscript deserves more than a place in the drafts folder. Whether you&apos;re putting pen to paper or
+                    publish your book, PublishYourBooksToday’s book publishing services bring writing, editing, publishing, and
+                    promotion under one roof. We help authors turn unfinished pages into published works that are ready to find
+                    their readers.
                   </p>
-                  <div className="stage__ctas hero__in" style={{ '--i': '4' }}>
+                  <div className="stage__ctas hero__in" style={{ '--i': '5' }}>
                     <button className="btn btn--primary" type="button" data-open-lead="">
                       <svg className="btn__icon" aria-hidden="true">
                         <use href="#i-pen" />
                       </svg>
-                      {' Discuss Your Book'}
+                      {" Let's Talk About Your Book"}
                     </button>{' '}
                     <Link className="btn btn--glass" href="/publications">
                       <svg className="btn__icon" aria-hidden="true">
                         <use href="#i-book" />
                       </svg>
-                      {' Browse the Books'}
+                      {" See What's Between the Covers"}
                     </Link>{' '}
                     <Link
                       className="icon-btn stage__call"
@@ -461,7 +524,7 @@ export default function HomePage() {
             data-sub="Reflection at 80"
             data-author="Dr. Lee Roy Jefferson"
             data-genre="Faith"
-            data-cover="/assets/images/books/book-06.webp"
+            data-cover="/assets/images/books/book-06.png"
             data-id="06"
             data-desc="The Goodness of God is a deeply personal reflection on a lifetime of faith, ministry, family, service, and perseverance."
             data-featured=""
@@ -494,7 +557,7 @@ export default function HomePage() {
             data-sub="Beyond Belief, Beyond Illusion"
             data-author="Emilio Degher"
             data-genre={'Philosophy & Spirituality'}
-            data-cover="/assets/images/books/book-12.webp"
+            data-cover="/assets/images/books/book-12.png"
             data-id="12"
             data-featured=""
           />
@@ -504,7 +567,7 @@ export default function HomePage() {
             data-sub="La Penetración Rusa en Venezuela"
             data-author="Virginia Perez Perez"
             data-genre="Politics"
-            data-cover="/assets/images/books/book-25.webp"
+            data-cover="/assets/images/books/book-25.png"
             data-id="25"
             data-desc="An in-depth examination of the strategic relationship between Venezuela and Russia, revealing a complex network of agreements across energy, finance, defense, and other critical sectors."
             data-featured=""
@@ -555,7 +618,12 @@ export default function HomePage() {
             data-id="26"
           />
         </ul>
-        <BookMarquee />
+        <BookMarquee
+          eyebrow="Something for Every Kind of Reader"
+          title="From Spellbinding Fiction to Big-Idea Nonfiction,"
+          titleEm="Find Your Next Literary Obsession."
+          lead="From gripping plots to food-for-thought nonfiction, discover books that leave no page unturned. Whatever your taste in literature, there's a story waiting between these covers."
+        />
         <section className="rw-sel rw-dark" id="selected-work" aria-labelledby="sel-title">
           <style>{`
             /* each book's place in the row: --i = float timing, --d = entrance delay (centre book first) */
@@ -623,24 +691,28 @@ export default function HomePage() {
               <div>
                 <p className="rw-eyebrow rw-rv">
                   <span />
-                  Selected work
+                  Between These Covers
                 </p>
                 <h2 className="rw-h2 rw-rv" id="sel-title">
-                  {'A look at the books '}
-                  <em>on our shelves.</em>
+                  {'A Little Something for Every '}
+                  <em>Literary Appetite</em>
                 </h2>
               </div>
               <div className="rw-sel__side rw-rv">
-                <p className="rw-lead">{`Browse titles from the ${site.name} catalogue and see how different ideas take shape as finished books.`}</p>
+                <p className="rw-lead">
+                  From midnight page-turners to nonfiction that challenges the way we think, PublishYourBooksToday’s featured
+                  collection spans an eclectic mix of genres and literary voices. As a self publishing company, we help turn
+                  authors’ original drafts into finished editions through our book publishing services.
+                </p>
                 <div className="rw-sel__links">
                   <Link className="rw-link" href="/publications">
-                    {'Explore our publications '}
+                    {'Browse the Collection '}
                     <svg aria-hidden="true">
                       <use href="#i-arrow" />
                     </svg>
                   </Link>
                   <Link className="rw-link" href="/featured-authors">
-                    {'Meet our featured authors '}
+                    {'View Featured Titles '}
                     <svg aria-hidden="true">
                       <use href="#i-arrow" />
                     </svg>
@@ -895,9 +967,28 @@ export default function HomePage() {
           aria-labelledby="reviews-title"
           data-reviews=""
         >
-          <VideoTestimonials />
-          <FaqSection />
-          <ContactFormSection />
+          <VideoTestimonials
+            title="No Blurbs. No Book Jackets."
+            titleEm="Straight from the Authors."
+            lead="Forget the polished praise printed on a book jacket. These are the voices of authors who've worked with us, sharing what stood out, what went into their projects, and how their experience unfolded. No rehearsed sales pitch, just candid feedback from the people who know our publishing services firsthand."
+            labels={['Behind the Manuscript', "An Author's Perspective", 'The Story Behind the Publication', 'Your Story Could Be Next']}
+          />
+          <FaqSection
+            title="Before the First Proof,"
+            titleEm="A Few Things Worth Knowing"
+            lead="Book publishing comes with its fair share of fine print. Whether you're weighing self-publishing services, comparing publishing options, or wondering who retains the rights to your work, here are answers to questions from your best book publishing company that authors often have before getting started."
+            groups={faqs}
+            ctaText="Still have a question mark hanging over your manuscript? We're happy to discuss your project."
+            ctaButton="Ask Us About Your Book"
+          />
+          <ContactFormSection
+            eyebrow="Your Story Is Worth the Ink"
+            title="Your Book Has a Place"
+            titleEm="Beyond the Draft."
+            lead="Every book calls for a different kind of backing. From a writer's touch and an editor's eye to a well-planned route to print, let's find the right way forward for your title. Tell us where your project stands and what you have in mind. We'll help you find the right book publishing services to take it from there."
+            pointsTitle="What Makes the First Conversation Worth Having?"
+            points={firstConversation}
+          />
         </section>
       </main>
       <BookModal />
