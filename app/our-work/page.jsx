@@ -1748,7 +1748,7 @@ export default function OurWorkPage() {
                       src="/assets/images/books/book-24.png"
                       width="360"
                       height="614"
-                      alt="Whispers of Time: Poetry · French / Haitian Creole by Aggee Andrew Vetiaque, shown as a hardcover book"
+                      alt="Whispers of Time: Poetry · Humor · Mystery · Adventure by Aggee Andrew Vetiaque, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
@@ -1757,7 +1757,7 @@ export default function OurWorkPage() {
                   <figcaption>
                     <span className="ow-shelf__n">No. 24</span>
                     <span className="rw-cap__t">Whispers of Time</span>
-                    <span className="rw-cap__s">Poetry · French / Haitian Creole</span>
+                    <span className="rw-cap__s">Poetry · Humor · Mystery · Adventure</span>
                     <span className="rw-cap__a">Aggee Andrew Vetiaque</span>
                   </figcaption>
                 </figure>

@@ -1623,7 +1623,7 @@ export default function PublicationsPage() {
                   className="bcard pub-book"
                   data-book=""
                   data-title="Whispers of Time"
-                  data-sub="Poetry · French / Haitian Creole"
+                  data-sub="Poetry · Humor · Mystery · Adventure"
                   data-author="Aggee Andrew Vetiaque"
                   data-genre="Poetry"
                   data-cover="/assets/images/books/book-24.png"
@@ -3419,7 +3419,7 @@ export default function PublicationsPage() {
                     data-pc-open="24"
                     data-pc-peek="/assets/images/books/book-24.png"
                     data-pc-no="25"
-                    aria-label="View Whispers of Time: Poetry · French / Haitian Creole by Aggee Andrew Vetiaque"
+                    aria-label="View Whispers of Time: Poetry · Humor · Mystery · Adventure by Aggee Andrew Vetiaque"
                   >
                     <span className="pc-row__no">25</span>
                     <span className="pc-row__thumb" aria-hidden="true">
