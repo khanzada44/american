@@ -3433,10 +3433,10 @@ export default function PublicationsPage() {
                       />
                     </span>
                     <span className="pc-row__title">
-                      Whispers of Time
-                      <small>Poetry · French / Haitian Creole</small>
+                      Six Short Stories
+                      <small>Humor · Mystery · Adventure</small>
                     </span>
-                    <span className="pc-row__author">Aggee Andrew Vetiaque</span>
+                    <span className="pc-row__author">Patricia Stinson</span>
                     <span className="pc-row__cat">Poetry</span>
                     <span className="pc-row__go" aria-hidden="true">
                       <svg aria-hidden="true">
