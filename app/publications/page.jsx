@@ -279,7 +279,7 @@ export default function PublicationsPage() {
                     <Image loading="eager"
                       className="book3d__cover"
                       data-pf-cover=""
-                      src="/assets/images/books/book-06.png"
+                      src="/assets/images/books/book-6.png"
                       width="600"
                       height="1024"
                       alt="Cover of The Goodness of God by Dr. Lee Roy Jefferson"
@@ -519,7 +519,7 @@ export default function PublicationsPage() {
                   data-sub="Reflection at 80"
                   data-author="Dr. Lee Roy Jefferson"
                   data-genre="Faith"
-                  data-cover="/assets/images/books/book-06.png"
+                  data-cover="/assets/images/books/book-6.png"
                   data-id="06"
                   data-desc="The Goodness of God is a deeply personal reflection on a lifetime of faith, ministry, family, service, and perseverance."
                   data-featured=""
@@ -536,7 +536,7 @@ export default function PublicationsPage() {
                           <span className="book3d__back" />
                           <Image
                             className="book3d__cover"
-                            src="/assets/images/books/book-06.png"
+                            src="/assets/images/books/book-6.png"
                             width="600"
                             height="1024"
                             alt=""
@@ -2629,7 +2629,7 @@ export default function PublicationsPage() {
                 </span>{' '}
                 <Image
                   data-pc-peek-img=""
-                  src="/assets/images/books/book-06.png"
+                  src="/assets/images/books/book-6.png"
                   width="600"
                   height="1024"
                   alt=""
@@ -2652,7 +2652,7 @@ export default function PublicationsPage() {
                     type="button"
                     className="pc-row"
                     data-pc-open="06"
-                    data-pc-peek="/assets/images/books/book-06.png"
+                    data-pc-peek="/assets/images/books/book-6.png"
                     data-pc-no="01"
                     aria-label="View The Goodness of God: Reflection at 80 by Dr. Lee Roy Jefferson"
                   >

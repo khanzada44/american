@@ -732,7 +732,7 @@ export default function OurWorkPage() {
                   <span className="rw-book__obj">
                     <Image
                       className="rw-book__img"
-                      src="/assets/images/books/book-06.png"
+                      src="/assets/images/books/book-6.png"
                       width="600"
                       height="1024"
                       alt="The Goodness of God: Reflection at 80 by Dr. Lee Roy Jefferson, shown as a hardcover book"

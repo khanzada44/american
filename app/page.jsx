@@ -392,7 +392,7 @@ export default function HomePage() {
                       <Image loading="eager"
                         className="book3d__cover"
                         data-feature-cover=""
-                        src="/assets/images/books/book-06.png"
+                        src="/assets/images/books/book-6.png"
                         width="600"
                         height="1024"
                         alt="Cover of The Goodness of God by Dr. Lee Roy Jefferson"
@@ -524,7 +524,7 @@ export default function HomePage() {
             data-sub="Reflection at 80"
             data-author="Dr. Lee Roy Jefferson"
             data-genre="Faith"
-            data-cover="/assets/images/books/book-06.png"
+            data-cover="/assets/images/books/book-6.png"
             data-id="06"
             data-desc="The Goodness of God is a deeply personal reflection on a lifetime of faith, ministry, family, service, and perseverance."
             data-featured=""
@@ -826,7 +826,7 @@ export default function HomePage() {
                   <span className="rw-book__obj">
                     <Image
                       className="rw-book__img"
-                      src="/assets/images/books/book-06.png"
+                      src="/assets/images/books/book-6.png"
                       width="600"
                       height="1024"
                       alt="The Goodness of God: Reflection at 80 by Dr. Lee Roy Jefferson, shown as a hardcover book"
