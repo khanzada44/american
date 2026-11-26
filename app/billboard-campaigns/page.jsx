@@ -38,7 +38,7 @@ const railLinks = [
   {
     href: '#inc-title',
     section: 'inc-title',
-    label: 'What we handle',
+    label: 'Where we help',
     icon: '#i-pen',
     text: 'Services',
   },
@@ -83,19 +83,19 @@ export default function BillboardCampaignsPage() {
             <div className="ns-hero__copy">
               <p className="ns-eyebrow">
                 <span />
-                {'Marketing & Visibility'}
+                Marketing and visibility
               </p>
               <h1 className="ns-title" id="ns-title">
-                {'Put your book '}
-                <em>in the public view.</em>
+                {'Make your cover '}
+                <em>the talk of the town.</em>
               </h1>
               <p className="ns-lead">
-                We help plan outdoor book campaigns, with clear artwork, placement coordination and production files for
-                the chosen locations.
+                Imagine your book rising above a busy street. We plan outdoor campaigns from bold artwork to booking
+                logistics, and we deliver the production files each location requires.
               </p>
               <div className="ns-hero__btns">
                 <button className="btn btn--primary" type="button" data-open-lead="">
-                  {'Plan Your Book '}
+                  {'Plan My Billboard '}
                   <svg className="btn__icon btn__icon--arrow" aria-hidden="true">
                     <use href="#i-arrow" />
                   </svg>
@@ -112,11 +112,11 @@ export default function BillboardCampaignsPage() {
         </section>
         <section className="ns-intro" aria-label="Introduction">
           <div className="container ns-intro__grid">
-            <p className="ns-intro__state ns-rv">A billboard needs to communicate before the viewer has passed it.</p>
+            <p className="ns-intro__state ns-rv">Blink and it’s gone, so make it count.</p>
             <div className="ns-intro__side ns-rv">
               <p>
-                We focus the design on your cover and one readable message, then coordinate the practical details of the
-                proposed placement. Availability and media costs are confirmed during planning.
+                A passing driver gives you a glance, not a chapter. We simplify your cover and distill one clear message,
+                then coordinate the practical details of the proposed placement. Availability and media costs are confirmed during planning.
               </p>
               <p className="ns-intro__part">
                 {'Part of '}
@@ -182,9 +182,9 @@ export default function BillboardCampaignsPage() {
         <section className="ns-inc" aria-labelledby="inc-title">
           <div className="container ns-inc__grid">
             <div className="ns-inc__head">
-              <p className="ns-label ns-rv">What we handle</p>
+              <p className="ns-label ns-rv">Where we help</p>
               <h2 className="ns-h2 ns-rv" id="inc-title">
-                What we can help with.
+                From sketch to skyline.
               </h2>
               <figure className="ns-inc__fig ns-rv">
                 <Image data-auto-size="" width="900" height="1100"
@@ -199,34 +199,32 @@ export default function BillboardCampaignsPage() {
               <li>
                 <span className="ns-inc__n">01</span>
                 <h3 className="ns-inc__t">Campaign planning</h3>
-                <p className="ns-inc__d">Set the campaign purpose, proposed dates and suitable display formats.</p>
+                <p className="ns-inc__d">Define your goals, dates and display formats.</p>
               </li>
               <li>
                 <span className="ns-inc__n">02</span>
-                <h3 className="ns-inc__t">{'Creative & artwork'}</h3>
-                <p className="ns-inc__d">Create artwork with a clear cover image and a message that reads quickly.</p>
+                <h3 className="ns-inc__t">Artwork and messaging</h3>
+                <p className="ns-inc__d">A striking cover image paired with words that read at a glance.</p>
               </li>
               <li>
                 <span className="ns-inc__n">03</span>
-                <h3 className="ns-inc__t">{'Formats & specifications'}</h3>
-                <p className="ns-inc__d">Adapt the design to the dimensions and technical requirements supplied.</p>
+                <h3 className="ns-inc__t">Technical specs</h3>
+                <p className="ns-inc__d">Your design adapted to each location’s size and file requirements.</p>
               </li>
               <li>
                 <span className="ns-inc__n">04</span>
-                <h3 className="ns-inc__t">Placement coordination</h3>
-                <p className="ns-inc__d">
-                  Confirm proposed locations, availability and booking details with media owners.
-                </p>
+                <h3 className="ns-inc__t">Booking coordination</h3>
+                <p className="ns-inc__d">We check locations and availability with media owners.</p>
               </li>
               <li>
                 <span className="ns-inc__n">05</span>
-                <h3 className="ns-inc__t">Production files</h3>
-                <p className="ns-inc__d">Prepare the final artwork for the selected printed or digital displays.</p>
+                <h3 className="ns-inc__t">Print and digital files</h3>
+                <p className="ns-inc__d">Final artwork prepared for printed or digital screens.</p>
               </li>
               <li>
                 <span className="ns-inc__n">06</span>
-                <h3 className="ns-inc__t">Campaign photography</h3>
-                <p className="ns-inc__d">Arrange agreed documentation of the live placement for your own channels.</p>
+                <h3 className="ns-inc__t">Photo documentation</h3>
+                <p className="ns-inc__d">Pictures of your live placement to share on your own channels.</p>
               </li>
             </ol>
           </div>
@@ -234,28 +232,28 @@ export default function BillboardCampaignsPage() {
         <section className="ns-steps" aria-labelledby="steps-title">
           <div className="container">
             <p className="ns-label ns-rv" id="steps-title">
-              The steps we work through
+              How we work: four steps from idea to installation
             </p>
             <ol className="ns-steps__list ns-rv" role="list">
               <li>
                 <span>01</span>
                 <b>Brief</b>
-                <p>Share the book, audience and locations you are considering.</p>
+                <p>Tell us about your book, your readers and the places you are considering.</p>
               </li>
               <li>
                 <span>02</span>
-                <b>Creative</b>
+                <b>Design</b>
                 <p>Review the creative direction and campaign artwork.</p>
               </li>
               <li>
                 <span>03</span>
-                <b>Placement</b>
-                <p>Confirm the placement, dates, specifications and costs.</p>
+                <b>Booking</b>
+                <p>Confirm location, dates, specs and costs.</p>
               </li>
               <li>
                 <span>04</span>
-                <b>Live</b>
-                <p>Coordinate delivery and the agreed campaign documentation.</p>
+                <b>Go live</b>
+                <p>We coordinate delivery and keep records of your campaign.</p>
               </li>
             </ol>
           </div>
@@ -263,9 +261,9 @@ export default function BillboardCampaignsPage() {
         <section className="ns-rel" aria-labelledby="rel-title">
           <div className="container ns-rel__grid">
             <div>
-              <p className="ns-label">{'Also in Marketing & Visibility'}</p>
+              <p className="ns-label">Beyond the billboard</p>
               <h2 className="ns-rel__title" id="rel-title">
-                Other ways we can support your book.
+                More ways to amplify your book.
               </h2>{' '}
               <Link className="ns-link" href="/#services">
                 {'All services '}
@@ -279,7 +277,7 @@ export default function BillboardCampaignsPage() {
                 <Link href="/book-promotion">
                   <span className="ns-rel__t">{'Book Promotion & Marketing'}</span>
                   <span className="ns-rel__d">
-                    Plan launch materials and promotional activity around your likely readers.
+                    A promotion plan that gets your book noticed by the right audience.
                   </span>
                   <svg aria-hidden="true">
                     <use href="#i-arrow-ne" />
@@ -290,7 +288,7 @@ export default function BillboardCampaignsPage() {
                 <Link href="/author-website">
                   <span className="ns-rel__t">Author Website</span>
                   <span className="ns-rel__d">
-                    Give readers a clear place to explore your books, news and background.
+                    A single online destination where readers can explore your work.
                   </span>
                   <svg aria-hidden="true">
                     <use href="#i-arrow-ne" />
@@ -301,7 +299,7 @@ export default function BillboardCampaignsPage() {
                 <Link href="/web-social-media">
                   <span className="ns-rel__t">{'Web & Social Media'}</span>
                   <span className="ns-rel__d">
-                    Connect your website and social profiles with a practical author content plan.
+                    A joined-up plan for your website and social profiles.
                   </span>
                   <svg aria-hidden="true">
                     <use href="#i-arrow-ne" />
@@ -312,7 +310,7 @@ export default function BillboardCampaignsPage() {
                 <Link href="/podcasts">
                   <span className="ns-rel__t">Podcasts</span>
                   <span className="ns-rel__d">
-                    Prepare for guest interviews or develop and produce your own author episodes.
+                    Interview preparation, or a podcast built around your voice.
                   </span>
                   <svg aria-hidden="true">
                     <use href="#i-arrow-ne" />
@@ -323,7 +321,7 @@ export default function BillboardCampaignsPage() {
                 <Link href="/tv-interviews">
                   <span className="ns-rel__t">TV Interviews</span>
                   <span className="ns-rel__d">
-                    Practise the interview and prepare the story angles and materials for outreach.
+                    Media prep and outreach materials that help you face the camera with confidence.
                   </span>
                   <svg aria-hidden="true">
                     <use href="#i-arrow-ne" />
@@ -334,7 +332,7 @@ export default function BillboardCampaignsPage() {
                 <Link href="/book-fairs">
                   <span className="ns-rel__t">Book Fairs</span>
                   <span className="ns-rel__d">
-                    Prepare the displays and information needed to present your book at suitable events.
+                    Event-ready materials and presentation support for the fairs you choose.
                   </span>
                   <svg aria-hidden="true">
                     <use href="#i-arrow-ne" />
@@ -360,11 +358,11 @@ export default function BillboardCampaignsPage() {
                 Billboard Campaigns
               </p>
               <h2 className="display cta__title" id="cta-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'Where would you like '}
-                <em>your book to appear?</em>
+                {'Where should your book '}
+                <em>make its debut?</em>
               </h2>
               <p className="lead" data-reveal="" style={{ '--d': '.16s' }}>
-                Share the book you have in mind and the support you need. We will review your enquiry and contact you.
+                Share your book and the audience you hope to reach. We will review your message and be in touch.
               </p>
               <div className="ns-cta__btns" data-reveal="" style={{ '--d': '.2s' }}>
                 <button className="btn btn--light" type="button" data-open-lead="">

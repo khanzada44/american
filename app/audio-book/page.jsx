@@ -104,11 +104,11 @@ export default function AudioBookPage() {
                 Audio book production
               </p>
               <h1 className="au-hero__title" id="au-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'Let readers '}
-                <em>listen to your book.</em>
+                {'Your story, '}
+                <em>ready to be heard.</em>
               </h1>
               <p className="au-hero__lead" data-reveal="" style={{ '--d': '.16s' }}>
-                We help turn a finished manuscript into an audiobook, with narration, editing and audio preparation
+                We help turn a finished manuscript into an audiobook, with narration, editing, and audio preparation
                 planned around the way your story should sound.
               </p>
               <div className="au-hero__ctas" data-reveal="" style={{ '--d': '.22s' }}>
@@ -160,16 +160,15 @@ export default function AudioBookPage() {
                 Bring your story to life
               </p>
               <h2 className="au-h2" id="intro-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'The writing, '}
-                <em>heard in a new way.</em>
+                {'Your words, '}
+                <em>now in a different voice.</em>
               </h2>
               <p className="au-intro__lede" data-reveal="" style={{ '--d': '.14s' }}>
-                Listening brings another pace to a book. Voice, pauses and emphasis affect how a scene or explanation
-                lands.
+                Listening changes the pace of a book. A pause can give a sentence room; emphasis can clarify a point; a
+                narrator’s delivery can shape how a character or explanation lands.
               </p>
               <p data-reveal="" style={{ '--d': '.18s' }}>
-                We work through narrator choice, recording and audio review to create a listening edition that respects
-                the words on the page.
+                The audio edition needs its own thoughtful production.
               </p>
               <ul className="au-intro__facets" role="list" data-reveal="" style={{ '--d': '.24s' }}>
                 <li>
@@ -371,15 +370,15 @@ export default function AudioBookPage() {
                 Narration
               </p>
               <h2 className="au-h2" id="voice-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'Choose a voice '}
-                <em>that suits the writing.</em>
+                {'Choose how your words '}
+                <em>should sound.</em>
               </h2>
               <p className="au-voice__lede" data-reveal="" style={{ '--d': '.14s' }}>
-                A reflective memoir asks for a different reading from an energetic adventure. We discuss the delivery
-                and listen for a voice that feels at home in your book.
+                A reflective memoir asks for a different reading approach from an energetic adventure or a practical
+                guide.
               </p>
               <p data-reveal="" style={{ '--d': '.18s' }}>
-                Narrator options and sample material help you make that choice before the full recording begins.
+                We discuss tone, pacing, and delivery with the project in mind before narration is finalised.
               </p>
               <div className="au-score" data-reveal="" style={{ '--d': '.22s' }} aria-hidden="true">
                 <div className="au-score__wave" />
@@ -423,8 +422,8 @@ export default function AudioBookPage() {
                   Audio production process
                 </p>
                 <h2 className="au-h2" id="proc-title" data-reveal="" style={{ '--d': '.08s' }}>
-                  {'A plan for '}
-                  <em>each stage of production.</em>
+                  {'Let the story come alive '}
+                  <em>through narration.</em>
                 </h2>
               </div>
               <p data-reveal="" style={{ '--d': '.14s' }}>
@@ -440,8 +439,8 @@ export default function AudioBookPage() {
                     <i />
                   </span>
                   <span className="au-clip__n">01</span>
-                  <h3>Manuscript review</h3>
-                  <p>We review the text and note its tone, structure and pronunciation needs.</p>
+                  <h3>Manuscript</h3>
+                  <p>Confirm the final text, pronunciation notes, and chapter structure.</p>
                 </li>
                 <li className="au-clip" style={{ '--g': '1' }}>
                   <span className="au-clip__bar" aria-hidden="true">
@@ -449,7 +448,7 @@ export default function AudioBookPage() {
                   </span>
                   <span className="au-clip__n">02</span>
                   <h3>{'Voice & direction'}</h3>
-                  <p>We discuss voice options and agree on the style of delivery.</p>
+                  <p>Select a narrator and agree on the reading approach.</p>
                 </li>
                 <li className="au-clip" style={{ '--g': '1.6' }}>
                   <span className="au-clip__bar" aria-hidden="true">
@@ -457,7 +456,7 @@ export default function AudioBookPage() {
                   </span>
                   <span className="au-clip__n">03</span>
                   <h3>Recording</h3>
-                  <p>The manuscript is recorded with attention to clarity and pacing.</p>
+                  <p>Record the approved narration in a suitable audio environment.</p>
                 </li>
                 <li className="au-clip" style={{ '--g': '1.2' }}>
                   <span className="au-clip__bar" aria-hidden="true">
@@ -465,7 +464,7 @@ export default function AudioBookPage() {
                   </span>
                   <span className="au-clip__n">04</span>
                   <h3>Editing</h3>
-                  <p>Recording mistakes and distracting sounds are addressed during the edit.</p>
+                  <p>Review the recording and address errors, retakes, and unwanted noise.</p>
                 </li>
                 <li className="au-clip" style={{ '--g': '0.9' }}>
                   <span className="au-clip__bar" aria-hidden="true">
@@ -473,15 +472,15 @@ export default function AudioBookPage() {
                   </span>
                   <span className="au-clip__n">05</span>
                   <h3>Mastering</h3>
-                  <p>Audio levels and consistency are checked across the chapter files.</p>
+                  <p>Prepare consistent levels and audio quality for the agreed destination.</p>
                 </li>
                 <li className="au-clip" style={{ '--g': '0.7' }}>
                   <span className="au-clip__bar" aria-hidden="true">
                     <i />
                   </span>
                   <span className="au-clip__n">06</span>
-                  <h3>Final delivery</h3>
-                  <p>The agreed audio files are organised and prepared for handover.</p>
+                  <h3>Final audiobook</h3>
+                  <p>Organise and deliver the completed audio files and chapter assets.</p>
                 </li>
               </ol>{' '}
               <span className="au-playhead" aria-hidden="true" />
@@ -498,11 +497,13 @@ export default function AudioBookPage() {
                 What you receive
               </p>
               <h2 className="au-h2" id="files-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'Your completed '}
-                <em>audio edition.</em>
+                {'From manuscript to '}
+                <em>a complete audio edition.</em>
               </h2>
               <p data-reveal="" style={{ '--d': '.14s' }}>
-                The final delivery brings the edited chapters together in the formats agreed for your project.
+                The final package can include chapter-organised audio files, the agreed mastered audio, and supporting
+                assets required by the selected delivery specification. Platform-specific requirements should be
+                confirmed for the intended distributor.
               </p>
             </div>
             <div className="au-files__panel on-dark" data-reveal="scale" style={{ '--d': '.1s' }}>
@@ -565,7 +566,7 @@ export default function AudioBookPage() {
           </div>
           <div className="container au-still__inner">
             <p className="au-still__line" data-reveal="">
-              Another way for readers to spend time with your words.
+              Give readers another way to enjoy your book.
             </p>{' '}
             <span
               className="au-still__credit label"
@@ -584,8 +585,8 @@ export default function AudioBookPage() {
                 FAQ
               </p>
               <h2 className="h2" id="faq-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'Questions about '}
-                <em>making an audiobook.</em>
+                {'Questions '}
+                <em>authors ask.</em>
               </h2>
             </div>
             <div className="faq__list" data-faq="">
@@ -595,10 +596,7 @@ export default function AudioBookPage() {
                   <i aria-hidden="true" />
                 </summary>
                 <div className="qa__a">
-                  <p>
-                    We can help with narrator selection, recording, editing, mastering and preparation of the final
-                    chapter files. Distribution support can be discussed as part of the scope.
-                  </p>
+                  <p>Audiobook production may include narrator selection, voice direction, recording, editing, cleanup, mastering, and final file preparation.</p>
                 </div>
               </details>
               <details className="qa" data-reveal="" style={{ '--d': '.04s' }}>
@@ -607,7 +605,7 @@ export default function AudioBookPage() {
                   <i aria-hidden="true" />
                 </summary>
                 <div className="qa__a">
-                  <p>Yes. We discuss narrator options and the delivery you prefer before recording the full book.</p>
+                  <p>Narrator preferences can be discussed during casting. The voice should suit the book’s subject, audience, and intended tone.</p>
                 </div>
               </details>
               <details className="qa" data-reveal="" style={{ '--d': '.08s' }}>
@@ -616,10 +614,7 @@ export default function AudioBookPage() {
                   <i aria-hidden="true" />
                 </summary>
                 <div className="qa__a">
-                  <p>
-                    Book length, narrator availability, pronunciation needs and review rounds affect the schedule. We
-                    discuss timing after reviewing the manuscript.
-                  </p>
+                  <p>Timing depends on finished word count, narration pace, recording availability, and the amount of editing or retakes required.</p>
                 </div>
               </details>
               <details className="qa" data-reveal="" style={{ '--d': '.12s' }}>
@@ -628,10 +623,7 @@ export default function AudioBookPage() {
                   <i aria-hidden="true" />
                 </summary>
                 <div className="qa__a">
-                  <p>
-                    We can discuss those elements when planning the production. Many books work best with clear
-                    narration alone, so the choice should suit the text.
-                  </p>
+                  <p>Music and effects are considered only when they suit the project and are included in the brief. A straightforward narrated edition may not need them.</p>
                 </div>
               </details>
               <details className="qa" data-reveal="" style={{ '--d': '.16s' }}>
@@ -640,10 +632,7 @@ export default function AudioBookPage() {
                   <i aria-hidden="true" />
                 </summary>
                 <div className="qa__a">
-                  <p>
-                    We prepare files for the channels agreed in your project. Each platform has its own submission and
-                    acceptance requirements.
-                  </p>
+                  <p>Availability depends on the distribution route and the technical requirements of the selected platform. The intended outlets should be confirmed before final mastering.</p>
                 </div>
               </details>
               <details className="qa" data-reveal="" style={{ '--d': '.20s' }}>
@@ -652,22 +641,7 @@ export default function AudioBookPage() {
                   <i aria-hidden="true" />
                 </summary>
                 <div className="qa__a">
-                  <p>
-                    You can flag recording issues during the agreed review stage. Substantial changes to the manuscript
-                    may need additional recording time.
-                  </p>
-                </div>
-              </details>
-              <details className="qa" data-reveal="" style={{ '--d': '.24s' }}>
-                <summary>
-                  <span>How do I get started with your audiobook services?</span>
-                  <i aria-hidden="true" />
-                </summary>
-                <div className="qa__a">
-                  <p>
-                    Share the manuscript, approximate word count and the kind of voice you imagine. We will discuss the
-                    production options with you.
-                  </p>
+                  <p>Corrections and retakes can be discussed during the review stage. The agreement should specify how many review rounds or pickups are included.</p>
                 </div>
               </details>
             </div>

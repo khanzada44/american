@@ -8,9 +8,9 @@ import LeadForm from '@/components/forms/LeadForm';
 import { site } from '@/lib/site';
 
 export const metadata = pageMetadata({
-  title: 'Manuscript Editing & Proofreading',
+  title: 'Book Editing and Formatting',
   description:
-    'Get a thoughtful review of your manuscript with developmental editing, copy editing, sentence revisions and proofreading suited to your draft.',
+    'A careful edit looks beyond typos. It checks whether the argument holds, the chapters connect, the language stays consistent, and the finished pages are comfortable to read.',
   path: '/book-editing',
   ogType: 'article',
 });
@@ -90,40 +90,41 @@ export default function BookEditingPage() {
                 <li>
                   <Link href="/#services">Services</Link>
                 </li>
-                <li aria-current="page">Book Editing</li>
+                <li aria-current="page">Book Editing and Formatting</li>
               </ol>
             </nav>
             <div className="sv-hero__shell">
               <div className="sv-hero__copy">
                 <p className="eyebrow" data-reveal="">
-                  Book Editing
+                  Book Editing and formatting
                 </p>
                 <h1 className="sv-hero__title" id="sv-title" data-reveal="" style={{ '--d': '.08s' }}>
-                  {'Keep your voice. '}
-                  <em>Strengthen your draft.</em>
+                  {'Keep the Meaning. '}
+                  <em>Strengthen the Message.</em>
                 </h1>
                 <p className="lead" data-reveal="" style={{ '--d': '.16s' }}>
-                  A fresh editorial eye can help you see what is working, what needs attention and how to make your
-                  manuscript easier to read.
+                  A careful edit looks beyond typos. It checks whether the argument holds, the chapters connect, the
+                  language stays consistent, and the finished pages are comfortable to read.
                 </p>
                 <div className="sv-hero__ctas" data-reveal="" style={{ '--d': '.22s' }}>
                   <button className="btn btn--primary" type="button" data-open-lead="">
-                    {'Plan Your Book '}
+                    {'Plan your book edit '}
                     <svg className="btn__icon btn__icon--arrow" aria-hidden="true">
                       <use href="#i-arrow" />
                     </svg>
                   </button>
                 </div>
                 <ul className="sv-hero__kinds" role="list" data-reveal="" style={{ '--d': '.28s' }}>
-                  <li>Developmental</li>
+                  <li>Developmental editing</li>
                   <li>Copy editing</li>
                   <li>Proofreading</li>
-                  <li>Revision</li>
+                  <li>Comprehensive revision</li>
                 </ul>
               </div>
               <div className="sv-hero__stage on-dark" data-reveal="scale" style={{ '--d': '.12s' }}>
                 <div className="sv-hero__stage-bg" aria-hidden="true">
-                  <Image loading="eager"
+                  <Image
+                    loading="eager"
                     src="/assets/images/photos/1601675336070-7393219f765e-1200.webp"
                     width="1200"
                     height="800"
@@ -134,7 +135,8 @@ export default function BookEditingPage() {
                 <div className="book3d sv-hero__book" aria-hidden="true">
                   <div className="book3d__body">
                     <div className="book3d__back" />
-                    <Image loading="eager"
+                    <Image
+                      loading="eager"
                       className="book3d__cover"
                       src="/assets/images/books/cover-05.webp"
                       width="440"
@@ -147,7 +149,7 @@ export default function BookEditingPage() {
                 <p className="sv-hero__caption">
                   <span className="label">Published with Publish Your Books Today</span>
                   <span>The Naked Truth of AI 2.0 by Douglas Hawes</span>
-                </p>{' '}
+                </p>
                 <span className="sv-hero__num" aria-hidden="true">
                   02
                 </span>
@@ -155,6 +157,7 @@ export default function BookEditingPage() {
             </div>
           </div>
         </section>
+
         <section className="section section--ivory sv-intro" id="overview" aria-labelledby="intro-title">
           <div className="container sv-intro__grid">
             <div className="sv-intro__statement">
@@ -162,7 +165,7 @@ export default function BookEditingPage() {
                 01
               </span>
               <p className="eyebrow" data-reveal="">
-                Your story, refined
+                Editorial assessment
               </p>
               <h2 className="h2" id="intro-title" data-reveal="" style={{ '--d': '.08s' }}>
                 {'Give your draft '}
@@ -171,30 +174,27 @@ export default function BookEditingPage() {
             </div>
             <div className="sv-intro__body" data-reveal="" style={{ '--d': '.14s' }}>
               <p className="sv-intro__lede">
-                A draft can hold a good story and still need work. We look at how its chapters fit together, where the
-                pace slows and which passages could say more with fewer words.
-              </p>
-              <p>
-                Whether you plan to publish independently or approach a publisher, we help you decide what level of
-                editing your manuscript needs.
+                A manuscript may need structural guidance, sentence-level attention, or a final proofread—not necessarily
+                all three. We review the draft and identify the level of editing that fits its current condition.
               </p>
               <dl className="sv-intro__facts">
                 <div>
-                  <dt className="label">For authors who are</dt>
+                  <dt className="label">Publishing paths</dt>
                   <dd>
-                    {'Self publishing '}
+                    {'Independent publishing '}
                     <span>·</span>
-                    {' Submitting to traditional publishers'}
+                    {' Traditional publisher submissions'}
                   </dd>
                 </div>
                 <div>
-                  <dt className="label">Genres we work in</dt>
-                  <dd>Fiction, nonfiction, biographies, self help, romance, fantasy, business books and more</dd>
+                  <dt className="label">Genres we assess</dt>
+                  <dd>Fiction, memoir, business, self-help, educational, and other nonfiction projects</dd>
                 </div>
               </dl>
             </div>
           </div>
         </section>
+
         <section className="section section--ivory sv-kinds" id="editing-services" aria-labelledby="kinds-title">
           <div className="ed-bg ed-bg--svc" aria-hidden="true">
             <div className="ed-bg__img" data-parallax="0.05" />
@@ -206,11 +206,11 @@ export default function BookEditingPage() {
                   02
                 </span>
                 <p className="eyebrow" data-reveal="">
-                  What book editing includes
+                  Levels of editing
                 </p>
                 <h2 className="h2" id="kinds-title" data-reveal="" style={{ '--d': '.08s' }}>
-                  {'Choose the editing '}
-                  <em>your manuscript needs.</em>
+                  {'The Right Kind of Editing '}
+                  <em>for Your Book.</em>
                 </h2>
               </div>
             </div>
@@ -218,55 +218,49 @@ export default function BookEditingPage() {
               <article className="sv-feature" data-reveal="">
                 <div className="sv-feature__top">
                   <span className="cat__n">01</span>
-                  <span className="label">{'Structure & story'}</span>
+                  <span className="label">{'Structure & direction'}</span>
                 </div>
-                <h3 className="sv-feature__title">Developmental Editing</h3>
+                <h3 className="sv-feature__title">Developmental editing</h3>
                 <p className="sv-feature__lede">
-                  We look at the book as a whole, including its structure, argument or story, and how each chapter
-                  supports it.
-                </p>
-                <p>
-                  For fiction, we review plot, characters, dialogue and pacing. For nonfiction, we consider
-                  organisation, explanations and the reader’s questions. You receive practical notes to guide the next
-                  draft.
+                  For drafts that need work on structure, chapter order, pacing, argument, or narrative direction. The
+                  focus is the book as a whole.
                 </p>
                 <ul className="sv-feature__tags" role="list">
-                  <li>Plot</li>
-                  <li>Character arcs</li>
+                  <li>Structure</li>
+                  <li>Chapter order</li>
                   <li>Pacing</li>
-                  <li>Transitions</li>
-                  <li>Dialogue</li>
-                  <li>Themes</li>
+                  <li>Argument</li>
+                  <li>Narrative direction</li>
                 </ul>
               </article>
               <ol className="sv-rows" role="list" start="2">
                 <li className="sv-row" data-reveal="" style={{ '--d': '.06s' }}>
-                  <span className="cat__n">02</span>{' '}
+                  <span className="cat__n">02</span>
                   <div>
-                    <h3 className="sv-row__title">Copy Editing</h3>
+                    <h3 className="sv-row__title">Copy editing</h3>
                     <p>
-                      We check grammar, spelling, punctuation and usage, while keeping names, dates, terminology and
-                      style consistent throughout the book.
+                      For sentences that need greater accuracy and consistency. We check grammar, usage, punctuation,
+                      terminology, and the small decisions that help a manuscript read smoothly.
                     </p>
                   </div>
                 </li>
                 <li className="sv-row" data-reveal="" style={{ '--d': '.12s' }}>
-                  <span className="cat__n">03</span>{' '}
+                  <span className="cat__n">03</span>
                   <div>
                     <h3 className="sv-row__title">Proofreading</h3>
                     <p>
-                      Once the text and layout are settled, we check for remaining typos, punctuation problems and small
-                      inconsistencies before publication.
+                      A final check after editing and layout, focused on remaining typographical, punctuation, and
+                      consistency errors.
                     </p>
                   </div>
                 </li>
                 <li className="sv-row" data-reveal="" style={{ '--d': '.18s' }}>
-                  <span className="cat__n">04</span>{' '}
+                  <span className="cat__n">04</span>
                   <div>
-                    <h3 className="sv-row__title">Comprehensive Revision</h3>
+                    <h3 className="sv-row__title">Comprehensive revision</h3>
                     <p>
-                      We work at sentence level to improve rhythm, word choice and clarity. Repeated ideas, awkward
-                      transitions and passages that lose their focus get particular attention.
+                      When several levels of attention are needed, we can define a sequence that addresses larger issues
+                      first and surface-level corrections later.
                     </p>
                   </div>
                 </li>
@@ -274,6 +268,7 @@ export default function BookEditingPage() {
             </div>
           </div>
         </section>
+
         <section className="section section--dark sv-desk" id="on-the-page" aria-labelledby="desk-title">
           <div className="sv-desk__bg" aria-hidden="true">
             <div className="sv-desk__img" data-parallax="0.04" />
@@ -287,33 +282,34 @@ export default function BookEditingPage() {
                 On the page
               </p>
               <h2 className="h2" id="desk-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'Changes that '}
-                <em>serve the writing.</em>
+                {'Better Writing, '}
+                <em>Without Losing Your Voice.</em>
               </h2>
               <p className="lead" data-reveal="" style={{ '--d': '.14s' }}>
-                Some edits fix a small mistake. Others help a paragraph land or give a chapter a clearer direction. Each
-                change should make the reader’s job easier.
+                The aim is not to make every author sound alike. We preserve deliberate choices while correcting
+                distractions, clarifying unclear passages, and flagging places where the reader may lose the thread.
               </p>
               <ul className="sv-legend" role="list" data-reveal="" style={{ '--d': '.2s' }}>
                 <li>
                   <span className="sv-legend__mark sv-legend__mark--note">¶</span>
                   <span>
                     <b>Margin notes</b>
-                    Structure, pacing and clarity: the developmental conversation.
+                    Margin notes that explain significant editorial decisions.
                   </span>
                 </li>
                 <li>
-                  <span className="sv-legend__mark sv-legend__mark--del">word</span>
+                  <span className="sv-legend__mark sv-legend__mark--del">±</span>
                   <span>
-                    <b>Deletions</b>
-                    Repeated ideas reviewed so each paragraph has a clear purpose.
+                    <b>Tracked changes</b>
+                    Tracked changes or an agreed review format.
                   </span>
                 </li>
                 <li>
-                  <span className="sv-legend__mark sv-legend__mark--ins">^</span>
+                  <span className="sv-legend__mark sv-legend__mark--ins">✓</span>
                   <span>
-                    <b>Insertions</b>
-                    Word choice, punctuation and consistency, refined.
+                    <b>Consistency &amp; queries</b>
+                    Consistency checks for names, terms, dates, and references, plus queries where meaning or factual
+                    detail needs author confirmation.
                   </span>
                 </li>
               </ul>
@@ -345,20 +341,21 @@ export default function BookEditingPage() {
                 <p className="sheet__p">
                   {'We eliminate redundancies, '}
                   <mark>clarify complex ideas</mark>, and create a smooth reading experience
-                  <del>{"\u00a0for the reader"}</del>.
+                  <del>{'\u00a0for the reader'}</del>.
                   <span className="sheet__note sheet__note--b" aria-hidden="true">
                     keep: strong
                   </span>
                 </p>
                 <p className="sheet__p sheet__p--muted">
                   A careful line edit helps the prose read smoothly while keeping the author’s voice.
-                </p>{' '}
+                </p>
                 <span className="sheet__pen" aria-hidden="true" />
               </div>
               <figcaption>Illustrative editorial markup on a sample passage.</figcaption>
             </figure>
           </div>
         </section>
+
         <section className="section section--ivory sv-why" id="why-editing" aria-labelledby="why-title">
           <div className="container">
             <div className="sv-why__head">
@@ -366,41 +363,47 @@ export default function BookEditingPage() {
                 04
               </span>
               <p className="eyebrow" data-reveal="">
-                Why editing matters
+                Editorial quality
               </p>
               <h2 className="h2" id="why-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'Good editing helps '}
-                <em>the whole book work.</em>
+                {'Making Every Chapter Work '}
+                <em>as Part of the Whole.</em>
               </h2>
+              <p className="lead" data-reveal="" style={{ '--d': '.14s' }}>
+                Clarity, consistency, structure, readability, tone, and presentation all affect how a reader experiences
+                a manuscript. Editing considers these elements together rather than treating grammar as the only measure
+                of quality.
+              </p>
             </div>
             <dl className="sv-why__list">
               <div data-reveal="">
                 <dt>Clarity</dt>
-                <dd>Difficult passages explained more clearly, with smoother links between ideas.</dd>
+                <dd>Clear passages and logical links so readers never lose the thread.</dd>
               </div>
               <div data-reveal="" style={{ '--d': '.05s' }}>
                 <dt>Consistency</dt>
-                <dd>A consistent tone, style and format throughout the manuscript.</dd>
+                <dd>Aligned names, terms, dates, references, and stylistic decisions across every chapter.</dd>
               </div>
               <div data-reveal="" style={{ '--d': '.1s' }}>
                 <dt>Structure</dt>
-                <dd>A connected story with believable character development and a pace that suits the scenes.</dd>
+                <dd>Chapter order and pacing shaped so each section supports the book as a whole.</dd>
               </div>
               <div data-reveal="" style={{ '--d': '.15s' }}>
                 <dt>Readability</dt>
-                <dd>Sentences revised for clearer meaning and a more natural rhythm.</dd>
+                <dd>Smooth, accurate sentences that keep the focus on your ideas rather than distractions.</dd>
               </div>
               <div data-reveal="" style={{ '--d': '.2s' }}>
                 <dt>Tone</dt>
-                <dd>Editorial choices that respect your genre and the way you write.</dd>
+                <dd>Deliberate authorial choices preserved so the manuscript still sounds like you.</dd>
               </div>
               <div data-reveal="" style={{ '--d': '.25s' }}>
-                <dt>Professionalism</dt>
-                <dd>An error free, publication ready book that leaves a lasting impression on readers.</dd>
+                <dt>Presentation</dt>
+                <dd>Clean layout and formatting so the finished pages are comfortable to read.</dd>
               </div>
             </dl>
           </div>
         </section>
+
         <section className="section section--paper sv-process" id="process" aria-labelledby="proc-title">
           <div className="ed-bg ed-bg--rev" aria-hidden="true">
             <div className="ed-bg__img" data-parallax="0.04" />
@@ -414,67 +417,55 @@ export default function BookEditingPage() {
                 Our editing process
               </p>
               <h2 className="h2" id="proc-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'A clear route '}
-                <em>through the edits.</em>
+                {'Making Every Stage '}
+                <em>of Editing Clear.</em>
               </h2>
-              <p className="lead" data-reveal="" style={{ '--d': '.14s' }}>
-                We agree on the scope, review the manuscript and work through the changes with you before preparing the
-                final version.
-              </p>
             </div>
             <ol className="sv-steps" role="list">
               <li className="sv-step" data-reveal="">
                 <span className="sv-step__n">01</span>
                 <div>
-                  <p className="label">Strengthening the foundation</p>
+                  <p className="label">Stage one</p>
                   <h3>Review</h3>
-                  <p>
-                    We read the manuscript and identify its strengths, recurring issues and the changes that would make
-                    the greatest difference.
-                  </p>
+                  <p>Assess the manuscript and confirm the editorial level and scope.</p>
                 </div>
               </li>
               <li className="sv-step" data-reveal="">
                 <span className="sv-step__n">02</span>
                 <div>
-                  <p className="label">{'Refining style & readability'}</p>
+                  <p className="label">Stage two</p>
                   <h3>Edit</h3>
-                  <p>
-                    We work through the prose, improving unclear passages and transitions without making every sentence
-                    sound the same.
-                  </p>
+                  <p>Work through the text using the agreed editorial approach.</p>
                 </div>
               </li>
               <li className="sv-step" data-reveal="">
                 <span className="sv-step__n">03</span>
                 <div>
-                  <p className="label">{'Perfecting grammar & consistency'}</p>
+                  <p className="label">Stage three</p>
                   <h3>Refine</h3>
-                  <p>
-                    We check language and style across the manuscript so details stay consistent from the opening
-                    chapter to the last.
-                  </p>
+                  <p>Resolve queries and review author feedback or requested adjustments.</p>
                 </div>
               </li>
               <li className="sv-step" data-reveal="">
                 <span className="sv-step__n">04</span>
                 <div>
-                  <p className="label">The final touch</p>
+                  <p className="label">Stage four</p>
                   <h3>Proofread</h3>
-                  <p>A final review catches remaining text and layout issues before the files move on.</p>
+                  <p>Check the final text for remaining surface errors.</p>
                 </div>
               </li>
               <li className="sv-step sv-step--end" data-reveal="">
                 <span className="sv-step__n">05</span>
                 <div>
-                  <p className="label">The result</p>
-                  <h3>Final Manuscript</h3>
-                  <p>A revised manuscript with the agreed editorial work completed.</p>
+                  <p className="label">Stage five</p>
+                  <h3>Deliver</h3>
+                  <p>Return the agreed manuscript files and an outline of completed work.</p>
                 </div>
               </li>
             </ol>
           </div>
         </section>
+
         <section className="section section--ivory sv-receive" id="receive" aria-labelledby="receive-title">
           <div className="container">
             <div className="sv-receive__panel" data-reveal="scale">
@@ -482,14 +473,18 @@ export default function BookEditingPage() {
                 <span className="ghost-num" aria-hidden="true">
                   06
                 </span>
-                <p className="eyebrow">What you receive</p>
+                <p className="eyebrow">Scope &amp; deliverables</p>
                 <h2 className="h3" id="receive-title">
-                  {'Know what '}
-                  <em>your edit includes.</em>
+                  {'What Goes into Every '}
+                  <em>Editing Package.</em>
                 </h2>
+                <p>
+                  Before work begins, the project scope should identify the manuscript version, editorial level, file
+                  format, review method, included revision rounds, and final deliverables.
+                </p>
                 <div className="sv-receive__books" aria-hidden="true">
-                  <Image src="/assets/images/books/cover-25.webp" width="440" height="660" alt="" loading="lazy" />{' '}
-                  <Image src="/assets/images/books/cover-27.webp" width="440" height="660" alt="" loading="lazy" />{' '}
+                  <Image src="/assets/images/books/cover-25.webp" width="440" height="660" alt="" loading="lazy" />
+                  <Image src="/assets/images/books/cover-27.webp" width="440" height="660" alt="" loading="lazy" />
                   <Image src="/assets/images/books/cover-12.webp" width="440" height="660" alt="" loading="lazy" />
                 </div>
                 <p className="sv-receive__books-cap label">{`Published with ${site.name}`}</p>
@@ -497,28 +492,29 @@ export default function BookEditingPage() {
               <ul className="sv-receive__list" role="list">
                 <li>
                   <span className="cat__n">i.</span>
-                  <h3>Personalized feedback</h3>
-                  <p>Notes that explain the main editorial decisions and give you useful direction for revisions.</p>
+                  <h3>Manuscript version &amp; editorial level</h3>
+                  <p>Clear confirmation of the working draft and whether it receives developmental, copy, or proof review.</p>
                 </li>
                 <li>
                   <span className="cat__n">ii.</span>
-                  <h3>Consistency checks</h3>
-                  <p>A review of recurring details, language choices and formatting conventions.</p>
+                  <h3>File format &amp; review method</h3>
+                  <p>Agreed working file formats alongside tracked changes, margin notes, and author queries.</p>
                 </li>
                 <li>
                   <span className="cat__n">iii.</span>
-                  <h3>Clarity enhancement</h3>
-                  <p>Clearer sentences and smoother transitions between ideas and scenes.</p>
+                  <h3>Included revision rounds</h3>
+                  <p>Defined follow-up rounds to resolve queries and incorporate your feedback cleanly.</p>
                 </li>
                 <li>
                   <span className="cat__n">iv.</span>
-                  <h3>Final polishing</h3>
-                  <p>A final pass for the small mistakes that can distract a reader.</p>
+                  <h3>Final deliverables</h3>
+                  <p>The completed manuscript files accompanied by an outline of the editorial work performed.</p>
                 </li>
               </ul>
             </div>
           </div>
         </section>
+
         <section className="section section--ivory faq" id="faq" aria-labelledby="faq-title">
           <div className="ed-bg ed-bg--faq" aria-hidden="true">
             <div className="ed-bg__img" data-parallax="0.04" />
@@ -532,8 +528,8 @@ export default function BookEditingPage() {
                 FAQ
               </p>
               <h2 className="h2" id="faq-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'Questions about '}
-                <em>editing your book.</em>
+                {'Questions '}
+                <em>authors ask.</em>
               </h2>
             </div>
             <div className="faq__list" data-faq="">
@@ -544,8 +540,8 @@ export default function BookEditingPage() {
                 </summary>
                 <div className="qa__a">
                   <p>
-                    We help with ghostwriting, editing, cover design, illustration, publishing and promotion. You can
-                    choose one service or discuss a plan that connects several stages.
+                    Depending on the manuscript, support may include developmental editing, copy editing, proofreading,
+                    and formatting. The recommended scope is based on the draft rather than a fixed assumption.
                   </p>
                 </div>
               </details>
@@ -556,8 +552,8 @@ export default function BookEditingPage() {
                 </summary>
                 <div className="qa__a">
                   <p>
-                    We review the manuscript length, the work involved and the services you need before preparing a
-                    quote. The agreed scope explains what is included.
+                    Pricing depends on word count, condition of the manuscript, editorial depth, turnaround, and any
+                    additional formatting or review requirements. A quote follows a scope review.
                   </p>
                 </div>
               </details>
@@ -568,8 +564,8 @@ export default function BookEditingPage() {
                 </summary>
                 <div className="qa__a">
                   <p>
-                    Yes. Send us some context about the draft and where you feel stuck. We can discuss writing support,
-                    an editorial review or preparation for publication.
+                    Yes. A partial or complete draft can be reviewed to determine whether it needs structural
+                    development, line-level editing, or proofreading.
                   </p>
                 </div>
               </details>
@@ -580,8 +576,8 @@ export default function BookEditingPage() {
                 </summary>
                 <div className="qa__a">
                   <p>
-                    We work across fiction and nonfiction, including memoir, children’s stories, business and personal
-                    development. Tell us the genre so we can discuss the right approach.
+                    We can assess fiction, memoir, business, self-help, educational, and other nonfiction projects. The
+                    editorial approach is selected to suit the material.
                   </p>
                 </div>
               </details>
@@ -592,72 +588,63 @@ export default function BookEditingPage() {
                 </summary>
                 <div className="qa__a">
                   <p>
-                    Yes. Once the text is settled, we can discuss formatting, cover preparation and the files needed for
-                    your chosen editions.
+                    Yes. Editing can be scoped as a standalone service or discussed alongside design, formatting, and
+                    publishing preparation.
                   </p>
                 </div>
               </details>
-              <details className="qa" data-reveal="" style={{ '--d': '.2s' }}>
+              <details className="qa" data-reveal="" style={{ '--d': '.20s' }}>
                 <summary>
                   <span>Can you help readers find my book?</span>
                   <i aria-hidden="true" />
                 </summary>
                 <div className="qa__a">
                   <p>
-                    We can discuss book descriptions, author content, websites and promotion plans. The approach should
-                    fit your readers and budget, with no promise of a particular ranking or sales result.
-                  </p>
-                </div>
-              </details>
-              <details className="qa" data-reveal="" style={{ '--d': '.24s' }}>
-                <summary>
-                  <span>Can we work together on more than one book?</span>
-                  <i aria-hidden="true" />
-                </summary>
-                <div className="qa__a">
-                  <p>
-                    Yes. Tell us about the series or longer project. We can discuss a scope, schedule and review process
-                    that keeps the work organised.
+                    Reader discovery is a separate promotional activity. We can discuss book promotion once the
+                    manuscript and publishing details are clear.
                   </p>
                 </div>
               </details>
             </div>
           </div>
         </section>
+
         <section className="cta on-dark" id="contact" aria-labelledby="cta-title">
           <div className="cta__media" aria-hidden="true">
-            <Image data-auto-size="" width="1600" height="1054"
-              src="/assets/images/photos/1580127645995-d43fe9598711-1600.webp"
+            <Image
+              width="1800"
+              height="2559"
+              src="/assets/images/photos/1705602791162-e808808176ec-1800.webp"
               alt=""
               loading="lazy"
               decoding="async"
-              data-parallax="0.12"
+              data-parallax="0.06"
             />
           </div>
           <div className="container cta__grid">
             <div className="cta__copy">
-              <p className="eyebrow" data-reveal="">
-                Have a draft ready?
-              </p>
-              <h2 className="display cta__title" id="cta-title" data-reveal="" style={{ '--d': '.08s' }}>
+              <p className="eyebrow">Book Editing and Formatting</p>
+              <h2 className="display cta__title" id="cta-title">
                 {'Let’s see what '}
                 <em>your manuscript needs.</em>
               </h2>
-              <p className="lead" data-reveal="" style={{ '--d': '.16s' }}>
-                Tell us the genre, approximate word count and where you feel stuck. We will help you choose an
-                appropriate editorial starting point.
+              <p className="lead">
+                Send the genre, approximate word count, current draft stage, and the kind of feedback you are looking
+                for. We can use those details to suggest an appropriate editorial starting point.
               </p>
-              <div className="sv-cta__btns" data-reveal="" style={{ '--d': '.2s' }}>
+              <div className="cta__btns">
                 <button className="btn btn--light" type="button" data-open-lead="">
-                  {'Start Your Editing Project '}
+                  {'Start your editing project '}
                   <svg className="btn__icon btn__icon--arrow" aria-hidden="true">
                     <use href="#i-arrow" />
                   </svg>
-                </button>{' '}
-                <Link className="btn btn--glass" href="#editing-form">{`Contact ${site.name}`}</Link>
+                </button>
               </div>
             </div>
-            <LeadForm id="editing-form" title="Start your editing project" />
+            <LeadForm
+              title="Start your editing project"
+              messageLabel="Share your genre, approximate word count, draft stage, and the feedback you need"
+            />
           </div>
         </section>
       </main>

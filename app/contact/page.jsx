@@ -8,9 +8,9 @@ import { site } from '@/lib/site';
 import ContactEnquiryForm from '../../components/forms/ContactEnquiryForm';
 
 export const metadata = pageMetadata({
-  title: 'Talk to Us About Your Book',
+  title: `Need Book Publishing Services? Let's Discuss Your Project`,
   description:
-    'Tell us about your idea, manuscript or published book. Ask about writing, editing, design, publishing and promotion support for your next step.',
+    'Have a manuscript, book idea, or publishing question? Contact Publish Your Books Today to discuss your project and find the right services for your goals.',
   path: '/contact',
 });
 
@@ -64,24 +64,22 @@ export default function ContactPage() {
               </div>
               <div className="ct-open__grid">
                 <div>
-                  <p className="ct-eyebrow ct-rv">Tell us what you are working on</p>
+                  <p className="ct-eyebrow ct-rv">Tell us what’s taking shape</p>
                   <h1 className="ct-title ct-rv" id="ct-title">
-                    {'Let’s talk '}
-                    <em>about your book.</em>
+                    {'What’s on '}
+                    <em>your pages?</em>
                   </h1>
                 </div>
                 <div className="ct-open__side ct-rv">
                   <p className="ct-lead">
-                    An idea, a rough draft or a published title is enough to start. Share your progress and what kind of
-                    help would make a difference.
+                    A passing idea, chapters in progress, or a book already finding its readers. Whatever stage you’re
+                    at, there’s a place to begin the conversation. Tell us what you’re putting together and where an
+                    extra pair of hands could help.
                   </p>
-                  <ol className="ct-path" role="list" aria-label="From idea to publication, then the next step">
-                    <li>Idea</li>
-                    <li>Manuscript</li>
-                    <li>Editing</li>
-                    <li>Production</li>
-                    <li>Publication</li>
-                    <li className="is-now">Conversation</li>
+                  <ol className="ct-path" role="list" aria-label="Where your book might be right now">
+                    <li>An idea taking shape</li>
+                    <li>A manuscript in progress</li>
+                    <li>A book ready for refinement</li>
                   </ol>{' '}
                   <Link className="ct-link" href="#ct-form">
                     {'Share your book plans '}
@@ -184,12 +182,15 @@ export default function ContactPage() {
           <div className="rw-print ct-proof">
             <div className="container rw-print__grid">
               <div className="rw-print__copy">
-                <p className="rw-eyebrow rw-rv">The book you have in mind</p>
+                <p className="rw-eyebrow rw-rv">Before the first page of your next chapter</p>
                 <h3 className="rw-h2 rw-rv">
-                  {'From your first enquiry '}
-                  <em>to a plan for the book.</em>
+                  {'A little inspiration, '}
+                  <em>a clearer direction.</em>
                 </h3>
-                <p className="rw-lead rw-rv">{`Explore titles from ${site.name} while you think about the next step for your own manuscript.`}</p>
+                <p className="rw-lead rw-rv">
+                  Take a look at the titles we’ve helped bring to readers. You might find an idea, an approach, or simply
+                  the encouragement to move your own manuscript forward.
+                </p>
                 <p className="rw-now" data-rw-now="" aria-live="polite">
                   <span className="rw-now__n">In print</span>
                   <span className="rw-now__main">

@@ -7,10 +7,10 @@ import SectionRail from '@/components/navigation/SectionRail';
 import LeadForm from '@/components/forms/LeadForm';
 
 export const metadata = pageMetadata({
-  title: 'Podcast Support and Production for Authors',
+  title: 'Book Fair Support for Authors',
   description:
-    'Prepare for podcast guest interviews or develop your own author show with topic planning, recording, editing, episode notes and promotional clips.',
-  path: '/podcasts',
+    'Choose the right book fairs and prepare your catalog details, display, fair materials and industry meetings, with follow-up after the event.',
+  path: '/book-fairs',
 });
 
 const styles = [
@@ -29,16 +29,9 @@ const railLinks = [
     text: 'Top',
   },
   {
-    href: '#sig-title',
-    section: 'sig-title',
-    label: 'Overview',
-    icon: '#i-book',
-    text: 'Overview',
-  },
-  {
     href: '#inc-title',
     section: 'inc-title',
-    label: 'What we handle',
+    label: 'Game plan',
     icon: '#i-pen',
     text: 'Services',
   },
@@ -53,7 +46,7 @@ const railLinks = [
 
 const scripts = ['/assets/js/service-page2f72.js?v=20261003', '/assets/js/main2f72.js?v=20261105-production'];
 
-export default function PodcastsPage() {
+export default function BookFairsPage() {
   return (
     <>
       <PageStyles styles={styles} />
@@ -77,35 +70,35 @@ export default function PodcastsPage() {
                 <li>
                   <Link href="/#services">Services</Link>
                 </li>
-                <li aria-current="page">Podcasts</li>
+                <li aria-current="page">Book Fairs</li>
               </ol>
             </nav>
             <div className="ns-hero__copy">
               <p className="ns-eyebrow">
                 <span />
-                {'Marketing & Visibility'}
+                Marketing and visibility
               </p>
               <h1 className="ns-title" id="ns-title">
-                {'Talk about your book '}
-                <em>where people listen.</em>
+                {'Stand out where readers '}
+                <em>and booksellers gather.</em>
               </h1>
               <p className="ns-lead">
-                Get ready for podcast interviews or plan an author show of your own, with support for topics, recording,
-                editing and episode materials.
+                Book fairs are where stories meet the people who can champion them. We help you choose the right events
+                and prepare the catalog details, display and presentation that set your title apart.
               </p>
               <div className="ns-hero__btns">
                 <button className="btn btn--primary" type="button" data-open-lead="">
-                  {'Plan Your Book '}
+                  {'Plan My Book Fair '}
                   <svg className="btn__icon btn__icon--arrow" aria-hidden="true">
                     <use href="#i-arrow" />
                   </svg>
                 </button>
               </div>
               <ul className="ns-chips" role="list">
-                <li>Guest appearances</li>
-                <li>Interview preparation</li>
-                <li>Your own show</li>
-                <li>{'Recording & editing'}</li>
+                <li>Event selection</li>
+                <li>Book display</li>
+                <li>Fair materials</li>
+                <li>Industry meetings</li>
               </ul>
             </div>
           </div>
@@ -113,12 +106,13 @@ export default function PodcastsPage() {
         <section className="ns-intro" aria-label="Introduction">
           <div className="container ns-intro__grid">
             <p className="ns-intro__state ns-rv">
-              A thoughtful conversation can make someone curious about the book behind it.
+              One table, hundreds of possible readers.
             </p>
             <div className="ns-intro__side ns-rv">
               <p>
-                We help you find a useful angle, prepare for guest interviews or develop your own episodes. Guest
-                bookings depend on the host, so outreach begins with a relevant pitch.
+                A fair puts your book in front of people who live and breathe books. We help you decide which events
+                suit your title, then prepare the information and materials that make a strong first impression.
+                Participation arrangements depend on each event.
               </p>
               <p className="ns-intro__part">
                 {'Part of '}
@@ -127,136 +121,12 @@ export default function PodcastsPage() {
             </div>
           </div>
         </section>
-        <section className="ns-sig ns-pod" aria-labelledby="sig-title">
-          <div className="container">
-            <div className="ns-pod__head">
-              <p className="ns-label ns-rv">On the record</p>
-              <h2 className="ns-h2 ns-rv" id="sig-title">
-                {'Give the conversation '}
-                <em>a clear direction.</em>
-              </h2>
-            </div>
-            <div className="ns-pod__wave ns-rv" aria-hidden="true">
-              <i style={{ '--h': '18%' }} />
-              <i style={{ '--h': '43%' }} />
-              <i style={{ '--h': '64%' }} />
-              <i style={{ '--h': '77%' }} />
-              <i style={{ '--h': '81%' }} />
-              <i style={{ '--h': '75%' }} />
-              <i style={{ '--h': '62%' }} />
-              <i style={{ '--h': '44%' }} />
-              <i style={{ '--h': '26%' }} />
-              <i style={{ '--h': '25%' }} />
-              <i style={{ '--h': '34%' }} />
-              <i style={{ '--h': '37%' }} />
-              <i style={{ '--h': '34%' }} />
-              <i style={{ '--h': '27%' }} />
-              <i style={{ '--h': '19%' }} />
-              <i style={{ '--h': '21%' }} />
-              <i style={{ '--h': '22%' }} />
-              <i style={{ '--h': '18%' }} />
-              <i style={{ '--h': '28%' }} />
-              <i style={{ '--h': '41%' }} />
-              <i style={{ '--h': '55%' }} />
-              <i style={{ '--h': '64%' }} />
-              <i style={{ '--h': '68%' }} />
-              <i style={{ '--h': '63%' }} />
-              <i style={{ '--h': '49%' }} />
-              <i style={{ '--h': '29%' }} />
-              <i style={{ '--h': '31%' }} />
-              <i style={{ '--h': '54%' }} />
-              <i style={{ '--h': '74%' }} />
-              <i style={{ '--h': '85%' }} />
-              <i style={{ '--h': '86%' }} />
-              <i style={{ '--h': '78%' }} />
-              <i style={{ '--h': '61%' }} />
-              <i style={{ '--h': '39%' }} />
-              <i style={{ '--h': '18%' }} />
-              <i style={{ '--h': '37%' }} />
-              <i style={{ '--h': '50%' }} />
-              <i style={{ '--h': '55%' }} />
-              <i style={{ '--h': '53%' }} />
-              <i style={{ '--h': '45%' }} />
-              <i style={{ '--h': '34%' }} />
-              <i style={{ '--h': '25%' }} />
-              <i style={{ '--h': '19%' }} />
-              <i style={{ '--h': '18%' }} />
-              <i style={{ '--h': '22%' }} />
-              <i style={{ '--h': '31%' }} />
-              <i style={{ '--h': '41%' }} />
-              <i style={{ '--h': '48%' }} />
-              <i style={{ '--h': '51%' }} />
-              <i style={{ '--h': '46%' }} />
-              <i style={{ '--h': '34%' }} />
-              <i style={{ '--h': '19%' }} />
-              <i style={{ '--h': '40%' }} />
-              <i style={{ '--h': '61%' }} />
-              <i style={{ '--h': '77%' }} />
-              <i style={{ '--h': '85%' }} />
-              <i style={{ '--h': '84%' }} />
-              <i style={{ '--h': '72%' }} />
-              <i style={{ '--h': '53%' }} />
-              <i style={{ '--h': '28%' }} />
-              <i style={{ '--h': '31%' }} />
-              <i style={{ '--h': '52%' }} />
-              <i style={{ '--h': '66%' }} />
-              <i style={{ '--h': '72%' }} />
-              <i style={{ '--h': '68%' }} />
-              <i style={{ '--h': '58%' }} />
-              <i style={{ '--h': '43%' }} />
-              <i style={{ '--h': '28%' }} />
-              <i style={{ '--h': '18%' }} />
-              <i style={{ '--h': '25%' }} />
-              <i style={{ '--h': '25%' }} />
-              <i style={{ '--h': '20%' }} />
-              <i style={{ '--h': '22%' }} />
-              <i style={{ '--h': '29%' }} />
-              <i style={{ '--h': '33%' }} />
-              <i style={{ '--h': '31%' }} />
-              <i style={{ '--h': '23%' }} />
-              <i style={{ '--h': '26%' }} />
-              <i style={{ '--h': '43%' }} />
-              <i style={{ '--h': '60%' }} />
-              <i style={{ '--h': '73%' }} />
-              <i style={{ '--h': '78%' }} />
-              <i style={{ '--h': '74%' }} />
-              <i style={{ '--h': '61%' }} />
-              <i style={{ '--h': '40%' }} />
-              <i style={{ '--h': '20%' }} />
-              <i style={{ '--h': '45%' }} />
-              <i style={{ '--h': '66%' }} />
-            </div>
-            <ol className="ns-pod__run ns-rv" role="list" aria-label="Example episode outline">
-              <li>
-                <span>00:00</span>
-                Pre interview
-              </li>
-              <li>
-                <span>05:00</span>
-                Your story
-              </li>
-              <li>
-                <span>18:00</span>
-                The book
-              </li>
-              <li>
-                <span>32:00</span>
-                Reader questions
-              </li>
-              <li>
-                <span>41:00</span>
-                Where to find it
-              </li>
-            </ol>
-            <p className="ns-pod__note ns-rv">Example episode outline</p>
-          </div>
-        </section>
         <section className="ns-inc" aria-labelledby="inc-title">
           <div className="container ns-inc__grid">
             <div className="ns-inc__head">
-              <p className="ns-label ns-rv">What we handle</p>
+              <p className="ns-label ns-rv">Game plan</p>
               <h2 className="ns-h2 ns-rv" id="inc-title">
-                What we can help with.
+                A game plan for every stage of the fair.
               </h2>
               <figure className="ns-inc__fig ns-rv">
                 <Image data-auto-size="" width="900" height="1100"
@@ -270,35 +140,24 @@ export default function PodcastsPage() {
             <ol className="ns-inc__list ns-rv" role="list">
               <li>
                 <span className="ns-inc__n">01</span>
-                <h3 className="ns-inc__t">{'Show research & pitching'}</h3>
-                <p className="ns-inc__d">Research relevant shows and prepare pitches around your subject.</p>
+                <h3 className="ns-inc__t">Before the fair</h3>
+                <p className="ns-inc__d">
+                  Pick the right event. Prepare your catalog entry and rights details. Create posters, bookmarks and
+                  one-page sell sheets.
+                </p>
               </li>
               <li>
                 <span className="ns-inc__n">02</span>
-                <h3 className="ns-inc__t">Interview preparation</h3>
+                <h3 className="ns-inc__t">At the fair</h3>
                 <p className="ns-inc__d">
-                  Organise talking points and examples that help you discuss the book naturally.
+                  Arrange your book display. Organize signings where the event permits. Set up meetings with booksellers
+                  and librarians.
                 </p>
               </li>
               <li>
                 <span className="ns-inc__n">03</span>
-                <h3 className="ns-inc__t">Your own show</h3>
-                <p className="ns-inc__d">Develop a format and episode plan for a podcast you host.</p>
-              </li>
-              <li>
-                <span className="ns-inc__n">04</span>
-                <h3 className="ns-inc__t">{'Recording & editing'}</h3>
-                <p className="ns-inc__d">Record and edit the agreed episodes with attention to pace and sound.</p>
-              </li>
-              <li>
-                <span className="ns-inc__n">05</span>
-                <h3 className="ns-inc__t">Publishing episodes</h3>
-                <p className="ns-inc__d">Prepare episode descriptions, artwork and files for the chosen channels.</p>
-              </li>
-              <li>
-                <span className="ns-inc__n">06</span>
-                <h3 className="ns-inc__t">{'Clips & promotion'}</h3>
-                <p className="ns-inc__d">Create the agreed short clips for your website and social profiles.</p>
+                <h3 className="ns-inc__t">After the fair</h3>
+                <p className="ns-inc__d">Follow up with new contacts. Share highlights online. Map out your next step.</p>
               </li>
             </ol>
           </div>
@@ -306,28 +165,28 @@ export default function PodcastsPage() {
         <section className="ns-steps" aria-labelledby="steps-title">
           <div className="container">
             <p className="ns-label ns-rv" id="steps-title">
-              The steps we work through
+              How we work: four steps to a fair worth remembering
             </p>
             <ol className="ns-steps__list ns-rv" role="list">
               <li>
                 <span>01</span>
-                <b>Plan</b>
-                <p>Discuss the book, likely listeners and topics worth exploring.</p>
+                <b>Choose</b>
+                <p>Select an event with a clear reason for attending.</p>
               </li>
               <li>
                 <span>02</span>
                 <b>Prepare</b>
-                <p>Prepare a pitch or a practical episode outline.</p>
+                <p>Ready the book details, display and supporting materials.</p>
               </li>
               <li>
                 <span>03</span>
-                <b>Record</b>
-                <p>Record the conversation or prepare for the guest appearance.</p>
+                <b>Present</b>
+                <p>Showcase your title in the format the event allows.</p>
               </li>
               <li>
                 <span>04</span>
-                <b>Share</b>
-                <p>Finish the agreed episode files, notes and promotional clips.</p>
+                <b>Follow up</b>
+                <p>Review the contacts you made and decide who to reach out to.</p>
               </li>
             </ol>
           </div>
@@ -335,9 +194,9 @@ export default function PodcastsPage() {
         <section className="ns-rel" aria-labelledby="rel-title">
           <div className="container ns-rel__grid">
             <div>
-              <p className="ns-label">{'Also in Marketing & Visibility'}</p>
+              <p className="ns-label">Beyond the fair</p>
               <h2 className="ns-rel__title" id="rel-title">
-                Other ways we can support your book.
+                More ways to spread the word.
               </h2>{' '}
               <Link className="ns-link" href="/#services">
                 {'All services '}
@@ -351,7 +210,7 @@ export default function PodcastsPage() {
                 <Link href="/book-promotion">
                   <span className="ns-rel__t">{'Book Promotion & Marketing'}</span>
                   <span className="ns-rel__d">
-                    Plan launch materials and promotional activity around your likely readers.
+                    Campaigns designed around your genre, your goals and your readers.
                   </span>
                   <svg aria-hidden="true">
                     <use href="#i-arrow-ne" />
@@ -362,7 +221,7 @@ export default function PodcastsPage() {
                 <Link href="/author-website">
                   <span className="ns-rel__t">Author Website</span>
                   <span className="ns-rel__d">
-                    Give readers a clear place to explore your books, news and background.
+                    A professional web presence that stays open around the clock.
                   </span>
                   <svg aria-hidden="true">
                     <use href="#i-arrow-ne" />
@@ -373,7 +232,7 @@ export default function PodcastsPage() {
                 <Link href="/web-social-media">
                   <span className="ns-rel__t">{'Web & Social Media'}</span>
                   <span className="ns-rel__d">
-                    Connect your website and social profiles with a practical author content plan.
+                    Profiles, posts and a publishing rhythm that keep fans engaged.
                   </span>
                   <svg aria-hidden="true">
                     <use href="#i-arrow-ne" />
@@ -384,8 +243,17 @@ export default function PodcastsPage() {
                 <Link href="/billboard-campaigns">
                   <span className="ns-rel__t">Billboard Campaigns</span>
                   <span className="ns-rel__d">
-                    Plan outdoor book artwork and coordinate the agreed advertising locations.
+                    Bold outdoor visuals planned and produced for chosen locations.
                   </span>
+                  <svg aria-hidden="true">
+                    <use href="#i-arrow-ne" />
+                  </svg>
+                </Link>
+              </li>
+              <li>
+                <Link href="/podcasts">
+                  <span className="ns-rel__t">Podcasts</span>
+                  <span className="ns-rel__d">Conversations that bring your book to a listening audience.</span>
                   <svg aria-hidden="true">
                     <use href="#i-arrow-ne" />
                   </svg>
@@ -395,18 +263,7 @@ export default function PodcastsPage() {
                 <Link href="/tv-interviews">
                   <span className="ns-rel__t">TV Interviews</span>
                   <span className="ns-rel__d">
-                    Practise the interview and prepare the story angles and materials for outreach.
-                  </span>
-                  <svg aria-hidden="true">
-                    <use href="#i-arrow-ne" />
-                  </svg>
-                </Link>
-              </li>
-              <li>
-                <Link href="/book-fairs">
-                  <span className="ns-rel__t">Book Fairs</span>
-                  <span className="ns-rel__d">
-                    Prepare the displays and information needed to present your book at suitable events.
+                    Camera-ready preparation and pitching support.
                   </span>
                   <svg aria-hidden="true">
                     <use href="#i-arrow-ne" />
@@ -429,18 +286,18 @@ export default function PodcastsPage() {
           <div className="container cta__grid">
             <div className="cta__copy">
               <p className="eyebrow" data-reveal="">
-                Podcasts
+                Book Fairs
               </p>
               <h2 className="display cta__title" id="cta-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'What conversation could '}
-                <em>your book start?</em>
+                {'Which fair has '}
+                <em>your name on it?</em>
               </h2>
               <p className="lead" data-reveal="" style={{ '--d': '.16s' }}>
-                Share the book you have in mind and the support you need. We will review your enquiry and contact you.
+                Tell us about your book and the events you have in mind. We will review your message and follow up.
               </p>
               <div className="ns-cta__btns" data-reveal="" style={{ '--d': '.2s' }}>
                 <button className="btn btn--light" type="button" data-open-lead="">
-                  {'Plan Your Book '}
+                  {'Send My Inquiry '}
                   <svg className="btn__icon btn__icon--arrow" aria-hidden="true">
                     <use href="#i-arrow" />
                   </svg>

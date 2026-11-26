@@ -77,19 +77,18 @@ export default function CopyrightsIsbnPage() {
               <div className="ns-hero__copy">
                 <p className="ns-eyebrow">
                   <span />
-                  {'Rights & Distribution'}
+                  Rights and distribution
                 </p>
                 <h1 className="ns-title" id="ns-title">
-                  {'Get the book details '}
-                  <em>in order.</em>
+                  {'Dot every i before '}
+                  <em>your book meets the world.</em>
                 </h1>
                 <p className="ns-lead">
-                  Practical help with ISBNs, copyright application paperwork and the records that identify your book
-                  across editions and listings.
+                  {`ISBNs, barcodes, copyright pages, catalogue records: these are the small details that make a book official. ${site.name} helps you organize every one of them so your title is identified consistently, edition after edition.`}
                 </p>
                 <div className="ns-hero__btns">
                   <button className="btn btn--primary" type="button" data-open-lead="">
-                    {'Plan Your Book '}
+                    {'Start My Book Records '}
                     <svg className="btn__icon btn__icon--arrow" aria-hidden="true">
                       <use href="#i-arrow" />
                     </svg>
@@ -120,12 +119,13 @@ export default function CopyrightsIsbnPage() {
         <section className="ns-intro" aria-label="Introduction">
           <div className="container ns-intro__grid">
             <p className="ns-intro__state ns-rv">
-              The details on the copyright page and in a retailer listing should tell the same story.
+              One book, one story, everywhere it appears.
             </p>
             <div className="ns-intro__side ns-rv">
               <p>
-                We help organise identifiers, notices and registration paperwork for your book. Questions about your
-                legal rights should be discussed with a qualified attorney.
+                Your copyright page, your retailer listing and your back cover should all say the same thing. We help
+                you keep every detail in step. For questions about legal rights, we suggest speaking with a qualified
+                attorney.
               </p>
               <p className="ns-intro__part">
                 {'Part of '}
@@ -139,12 +139,12 @@ export default function CopyrightsIsbnPage() {
             <div className="ns-sig__head">
               <p className="ns-label ns-rv">The record</p>
               <h2 className="ns-h2 ns-rv" id="sig-title">
-                {'The details behind '}
-                <em>the edition.</em>
+                {'Behind every edition, '}
+                <em>a tidy record.</em>
               </h2>
               <p className="ns-body ns-rv">
-                We check the copyright page, barcode and title information for consistency before the files are
-                finalised.
+                Before your files are final, we review the copyright page, barcode and catalog information side by side
+                so nothing contradicts anything else.
               </p>
             </div>
             <figure className="ns-cr__page ns-rv" aria-label="Example copyright page">
@@ -233,9 +233,9 @@ export default function CopyrightsIsbnPage() {
         <section className="ns-inc" aria-labelledby="inc-title">
           <div className="container ns-inc__grid">
             <div className="ns-inc__head">
-              <p className="ns-label ns-rv">What we handle</p>
+              <p className="ns-label ns-rv">Covered for you</p>
               <h2 className="ns-h2 ns-rv" id="inc-title">
-                Support for your book records.
+                The paperwork, handled.
               </h2>
               <figure className="ns-inc__fig ns-rv">
                 <Image data-auto-size="" width="900" height="1100"
@@ -249,41 +249,33 @@ export default function CopyrightsIsbnPage() {
             <ol className="ns-inc__list ns-rv" role="list">
               <li>
                 <span className="ns-inc__n">01</span>
-                <h3 className="ns-inc__t">ISBN for each format</h3>
-                <p className="ns-inc__d">
-                  Identify the ISBN needs for each edition and the requirements of your chosen channels.
-                </p>
+                <h3 className="ns-inc__t">ISBN for every format</h3>
+                <p className="ns-inc__d">A number for each edition you publish, whether paperback, hardcover or eBook.</p>
               </li>
               <li>
                 <span className="ns-inc__n">02</span>
-                <h3 className="ns-inc__t">Back cover barcode</h3>
-                <p className="ns-inc__d">Prepare a barcode from the assigned ISBN for the print cover.</p>
+                <h3 className="ns-inc__t">Barcode for the back cover</h3>
+                <p className="ns-inc__d">Created from your ISBN and sized for print.</p>
               </li>
               <li>
                 <span className="ns-inc__n">03</span>
-                <h3 className="ns-inc__t">Copyright registration</h3>
-                <p className="ns-inc__d">
-                  Help organise the information and paperwork needed for a copyright application.
-                </p>
+                <h3 className="ns-inc__t">Copyright registration support</h3>
+                <p className="ns-inc__d">We help you gather the information and paperwork for your application.</p>
               </li>
               <li>
                 <span className="ns-inc__n">04</span>
-                <h3 className="ns-inc__t">Library of Congress</h3>
-                <p className="ns-inc__d">Assist with a control number application where the title is eligible.</p>
+                <h3 className="ns-inc__t">Library of Congress Control Number</h3>
+                <p className="ns-inc__d">Support with the application when your book qualifies.</p>
               </li>
               <li>
                 <span className="ns-inc__n">05</span>
                 <h3 className="ns-inc__t">Copyright page</h3>
-                <p className="ns-inc__d">
-                  Prepare the notices, edition details and identifiers for your copyright page.
-                </p>
+                <p className="ns-inc__d">Notices, edition details and identifiers drafted for your review.</p>
               </li>
               <li>
                 <span className="ns-inc__n">06</span>
                 <h3 className="ns-inc__t">Book metadata</h3>
-                <p className="ns-inc__d">
-                  Record the title, contributors and description consistently across the agreed listings.
-                </p>
+                <p className="ns-inc__d">Titles, credits and descriptions kept consistent across every listing.</p>
               </li>
             </ol>
           </div>
@@ -291,28 +283,28 @@ export default function CopyrightsIsbnPage() {
         <section className="ns-steps" aria-labelledby="steps-title">
           <div className="container">
             <p className="ns-label ns-rv" id="steps-title">
-              Working through the details
+              The road to print: four steps to a book that is officially yours
             </p>
             <ol className="ns-steps__list ns-rv" role="list">
               <li>
                 <span>01</span>
-                <b>Your details</b>
-                <p>Confirm the title, author, edition and formats you plan to publish.</p>
+                <b>Gather</b>
+                <p>Confirm your title, author name, edition and the formats you plan to publish.</p>
               </li>
               <li>
                 <span>02</span>
-                <b>Preparation</b>
-                <p>Prepare the draft notices, application information and identifiers.</p>
+                <b>Draft</b>
+                <p>We prepare notices, applications and identifier details for your review.</p>
               </li>
               <li>
                 <span>03</span>
-                <b>{'Filing & assignment'}</b>
-                <p>Complete the agreed applications and edition records.</p>
+                <b>File</b>
+                <p>Agreed applications and records are completed and assigned.</p>
               </li>
               <li>
                 <span>04</span>
-                <b>Ready for print</b>
-                <p>Check that the cover, copyright page and listings match.</p>
+                <b>Print-ready</b>
+                <p>A last check that your cover, copyright page and listings all match.</p>
               </li>
             </ol>
           </div>
@@ -322,8 +314,9 @@ export default function CopyrightsIsbnPage() {
             <div>
               <p className="ns-label">{'Also in Rights & Distribution'}</p>
               <h2 className="ns-rel__title" id="rel-title">
-                More support for the next stage.
-              </h2>{' '}
+                Ready for what comes next?
+              </h2>
+              <p className="ns-body">Once your book is identified, it is ready to travel.</p>{' '}
               <Link className="ns-link" href="/#services">
                 {'All services '}
                 <svg aria-hidden="true">
@@ -336,7 +329,7 @@ export default function CopyrightsIsbnPage() {
                 <Link href="/global-distribution">
                   <span className="ns-rel__t">Global Distribution</span>
                   <span className="ns-rel__d">
-                    Prepare listings and distribution settings for the channels you want to use.
+                    Set up listings and distribution settings for the channels you want to use.
                   </span>
                   <svg aria-hidden="true">
                     <use href="#i-arrow-ne" />
@@ -359,18 +352,18 @@ export default function CopyrightsIsbnPage() {
           <div className="container cta__grid">
             <div className="cta__copy">
               <p className="eyebrow" data-reveal="">
-                {'Copyrights & ISBN'}
+                Copyrights and ISBN
               </p>
               <h2 className="display cta__title" id="cta-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'Let’s get your book '}
-                <em>properly identified.</em>
+                {'Ready to seal the deal '}
+                <em>on your book details?</em>
               </h2>
               <p className="lead" data-reveal="" style={{ '--d': '.16s' }}>
-                Share the book you have in mind and the support you need. We will review your enquiry and contact you.
+                {`Share the book you have in mind and what you need. ${site.name} will review your inquiry and get back to you.`}
               </p>
               <div className="ns-cta__btns" data-reveal="" style={{ '--d': '.2s' }}>
                 <button className="btn btn--light" type="button" data-open-lead="">
-                  {'Plan Your Book '}
+                  {'Send My Inquiry '}
                   <svg className="btn__icon btn__icon--arrow" aria-hidden="true">
                     <use href="#i-arrow" />
                   </svg>

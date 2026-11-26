@@ -8,9 +8,9 @@ import LeadForm from '@/components/forms/LeadForm';
 import { site } from '@/lib/site';
 
 export const metadata = pageMetadata({
-  title: 'Article and Magazine Writing for Authors',
+  title: 'Articles and Magazines',
   description:
-    'Describe your books beyond the book with articles, author profiles and magazine features written, edited and prepared for your intended readership.',
+    'A magazine feature, expert article, interview, or recurring column needs more than a subject. It needs an angle that gives readers a reason to stay with it.',
   path: '/articles-magazines',
 });
 
@@ -39,9 +39,9 @@ const railLinks = [
   {
     href: '#inc-title',
     section: 'inc-title',
-    label: 'What we handle',
+    label: 'Formats',
     icon: '#i-pen',
-    text: 'Services',
+    text: 'Formats',
   },
   {
     href: '#contact',
@@ -70,26 +70,26 @@ export default function ArticlesMagazinesPage() {
                 <li>
                   <Link href="/#services">Services</Link>
                 </li>
-                <li aria-current="page">{'Articles & Magazines'}</li>
+                <li aria-current="page">Articles and Magazines</li>
               </ol>
             </nav>
             <div className="ns-hero__grid">
               <div className="ns-hero__copy">
                 <p className="ns-eyebrow">
                   <span />
-                  {'Writing & Editorial'}
+                  Articles and Magazines
                 </p>
                 <h1 className="ns-title" id="ns-title">
-                  {'Give your ideas '}
-                  <em>another place to be read.</em>
+                  {'Give Your Words '}
+                  <em>a Wider Audience.</em>
                 </h1>
                 <p className="ns-lead">
-                  Articles and magazine features can introduce your knowledge and your book to a different readership.
-                  We help with the angle, writing, editing and preparation.
+                  A magazine feature, expert article, interview, or recurring column needs more than a subject. It needs
+                  an angle that gives readers a reason to stay with it.
                 </p>
                 <div className="ns-hero__btns">
                   <button className="btn btn--primary" type="button" data-open-lead="">
-                    {'Plan Your Book '}
+                    {'Plan an article or issue '}
                     <svg className="btn__icon btn__icon--arrow" aria-hidden="true">
                       <use href="#i-arrow" />
                     </svg>
@@ -99,64 +99,70 @@ export default function ArticlesMagazinesPage() {
                   <li>Feature articles</li>
                   <li>Author profiles</li>
                   <li>Opinion pieces</li>
-                  <li>Magazine layouts</li>
+                  <li>Q&amp;A interviews</li>
                 </ul>
               </div>
               <figure className="ns-hero__fig">
-                <Image data-auto-size="" width="2000" height="3000" loading="eager"
+                <Image
+                  data-auto-size=""
+                  width="2000"
+                  height="3000"
+                  loading="eager"
                   src="/assets/images/photos/1579366877909-40560cf603e2-2000.webp"
                   alt="An open magazine spread with photographs and printed articles"
                   decoding="async"
                   fetchPriority="high"
                 />
                 <figcaption>
-                  <span>{'Articles & Magazines'}</span>
+                  <span>Articles and Magazines</span>
                   {site.name}
                 </figcaption>
               </figure>
             </div>
           </div>
         </section>
+
         <section className="ns-intro" aria-label="Introduction">
           <div className="container ns-intro__grid">
-            <p className="ns-intro__state ns-rv">A useful article gives readers something they can take away.</p>
+            <p className="ns-intro__state ns-rv">Leave Readers with Something Worth Knowing</p>
             <div className="ns-intro__side ns-rv">
               <p>
-                We work from your subject and experience to develop pieces that suit a particular publication. The focus
-                stays on a clear idea and the people who will read it.
+                We help shape the subject, choose the right format, and develop the piece for its intended audience. The
+                result should offer a clear point, useful detail, and a reason to keep reading.
               </p>
               <p className="ns-intro__part">
                 {'Part of '}
-                <Link href="/#services">{'Writing & Editorial'}</Link>
+                <Link href="/#services">Writing and Editorial</Link>
               </p>
             </div>
           </div>
         </section>
+
         <section className="ns-sig ns-mag" aria-labelledby="sig-title">
           <div className="container ns-mag__grid">
             <div className="ns-sig__head">
-              <p className="ns-label ns-rv">The spread</p>
+              <p className="ns-label ns-rv">Editorial formats</p>
               <h2 className="ns-h2 ns-rv" id="sig-title">
-                {'Articles written '}
-                <em>for their readers.</em>
+                {'From Solid Research '}
+                <em>to Strong Writing.</em>
               </h2>
               <ul className="ns-mag__formats ns-rv" role="list">
-                <li>Feature article</li>
-                <li>Author profile</li>
-                <li>Opinion piece</li>
-                <li>{'Q&A interview'}</li>
-                <li>Book excerpt</li>
-                <li>{'Newsletter & long form'}</li>
+                <li>Feature articles and long-form pieces</li>
+                <li>Author profiles and professional interviews</li>
+                <li>Opinion pieces and expert commentary</li>
+                <li>Q&amp;A interviews</li>
+                <li>Book excerpts and adapted passages</li>
+                <li>Newsletters and recurring editorial content</li>
               </ul>
             </div>
             <figure className="ns-mag__spread ns-rv" aria-label="Example layout of a magazine feature spread">
               <div className="ns-mag__page">
                 <span className="ns-mag__kick">Feature</span>
                 <span className="ns-mag__hl">
-                  {'The idea behind '}
-                  <em>the book.</em>
+                  {'A clear point '}
+                  <em>and useful detail.</em>
                 </span>
-                <span className="ns-mag__by">By the author</span>{' '}
+                <span className="ns-mag__by">Editorial &amp; Feature Writing</span>
                 <span className="ns-mag__text">
                   <b>A</b>
                   <i />
@@ -169,7 +175,7 @@ export default function ArticlesMagazinesPage() {
                   <i />
                   <i />
                 </span>
-                <span className="ns-mag__pq">“The sentence readers remember.”</span>
+                <span className="ns-mag__pq">“A reason to keep reading.”</span>
                 <span className="ns-mag__text">
                   <i />
                   <i />
@@ -181,7 +187,10 @@ export default function ArticlesMagazinesPage() {
                 <span className="ns-mag__folio">24</span>
               </div>
               <div className="ns-mag__page ns-mag__page--img">
-                <Image data-auto-size="" width="1400" height="1000"
+                <Image
+                  data-auto-size=""
+                  width="1400"
+                  height="1000"
                   src="/assets/images/photos/1684323748175-5735beec2308-1400x1000.webp"
                   alt="Magazines displayed on a news stand shelf"
                   loading="lazy"
@@ -189,19 +198,23 @@ export default function ArticlesMagazinesPage() {
                 />
                 <span className="ns-mag__folio">25</span>
               </div>
-              <figcaption>Example layout: a two page feature spread</figcaption>
+              <figcaption>Example layout: a two-page feature spread</figcaption>
             </figure>
           </div>
         </section>
+
         <section className="ns-inc" aria-labelledby="inc-title">
           <div className="container ns-inc__grid">
             <div className="ns-inc__head">
-              <p className="ns-label ns-rv">What we handle</p>
+              <p className="ns-label ns-rv">Formats &amp; scope</p>
               <h2 className="ns-h2 ns-rv" id="inc-title">
-                What we can help with.
+                From Solid Research to Strong Writing.
               </h2>
               <figure className="ns-inc__fig ns-rv">
-                <Image data-auto-size="" width="900" height="1100"
+                <Image
+                  data-auto-size=""
+                  width="900"
+                  height="1100"
                   src="/assets/images/photos/1579366877909-40560cf603e2-900x1100.webp"
                   alt=""
                   loading="lazy"
@@ -212,77 +225,88 @@ export default function ArticlesMagazinesPage() {
             <ol className="ns-inc__list ns-rv" role="list">
               <li>
                 <span className="ns-inc__n">01</span>
-                <h3 className="ns-inc__t">{'Story & angle'}</h3>
+                <h3 className="ns-inc__t">Feature articles and long-form pieces</h3>
                 <p className="ns-inc__d">
-                  Find an angle that connects your book or expertise with the publication’s audience.
+                  In-depth editorial features built around a clear angle, solid research, and sustained reader interest.
                 </p>
               </li>
               <li>
                 <span className="ns-inc__n">02</span>
-                <h3 className="ns-inc__t">{'Research & interviews'}</h3>
+                <h3 className="ns-inc__t">Author profiles and professional interviews</h3>
                 <p className="ns-inc__d">
-                  Gather supporting details and interview material for a credible, useful piece.
+                  Structured profiles and interviews that highlight expertise, experience, and perspective.
                 </p>
               </li>
               <li>
                 <span className="ns-inc__n">03</span>
-                <h3 className="ns-inc__t">Writing in your voice</h3>
-                <p className="ns-inc__d">Develop copy that uses your knowledge and sounds natural in your voice.</p>
+                <h3 className="ns-inc__t">Opinion pieces and expert commentary</h3>
+                <p className="ns-inc__d">
+                  Focused commentary shaped around a clear point of view for the intended readership.
+                </p>
               </li>
               <li>
                 <span className="ns-inc__n">04</span>
-                <h3 className="ns-inc__t">{'Editing & proofreading'}</h3>
-                <p className="ns-inc__d">Check the structure, language and details before submission.</p>
+                <h3 className="ns-inc__t">Q&amp;A interviews</h3>
+                <p className="ns-inc__d">
+                  Thoughtful questions and edited conversation pieces prepared for print or digital publication.
+                </p>
               </li>
               <li>
                 <span className="ns-inc__n">05</span>
-                <h3 className="ns-inc__t">Magazine ready layout</h3>
-                <p className="ns-inc__d">Prepare a readable layout when the project calls for a designed spread.</p>
+                <h3 className="ns-inc__t">Book excerpts and adapted passages</h3>
+                <p className="ns-inc__d">
+                  Excerpts and adapted selections crafted to stand on their own for magazine or online readers.
+                </p>
               </li>
               <li>
                 <span className="ns-inc__n">06</span>
-                <h3 className="ns-inc__t">{'Print & digital formats'}</h3>
-                <p className="ns-inc__d">Adapt the agreed piece for its print or digital destination.</p>
+                <h3 className="ns-inc__t">Newsletters and recurring editorial content</h3>
+                <p className="ns-inc__d">
+                  Ongoing columns, newsletters, and issue-based content planned with a consistent editorial direction.
+                </p>
               </li>
             </ol>
           </div>
         </section>
+
         <section className="ns-steps" aria-labelledby="steps-title">
           <div className="container">
             <p className="ns-label ns-rv" id="steps-title">
-              The steps we work through
+              The Thinking Behind the Final Draft.
             </p>
             <ol className="ns-steps__list ns-rv" role="list">
               <li>
                 <span>01</span>
                 <b>Brief</b>
-                <p>Discuss the subject, publication and readers you have in mind.</p>
+                <p>Agree on the subject, audience, publication, length, and intended outcome.</p>
               </li>
               <li>
                 <span>02</span>
-                <b>{'Angle & outline'}</b>
-                <p>Agree on the angle and outline before drafting.</p>
+                <b>Angle &amp; outline</b>
+                <p>Set the central point and organise the material into a workable structure.</p>
               </li>
               <li>
                 <span>03</span>
-                <b>{'Draft & revise'}</b>
-                <p>Review the draft and work through your feedback.</p>
+                <b>Draft &amp; revise</b>
+                <p>Develop the piece, check its flow, and incorporate agreed feedback.</p>
               </li>
               <li>
                 <span>04</span>
                 <b>Ready to publish</b>
-                <p>Prepare the final copy and any agreed layout files.</p>
+                <p>Complete the final edit and prepare the approved copy for layout or submission.</p>
               </li>
             </ol>
           </div>
         </section>
+
         <section className="ns-rel" aria-labelledby="rel-title">
           <div className="container ns-rel__grid">
             <div>
-              <p className="ns-label">{'Also in Writing & Editorial'}</p>
+              <p className="ns-label">More Ways to Move Your Book Forward.</p>
               <h2 className="ns-rel__title" id="rel-title">
-                Other ways we can support your book.
-              </h2>{' '}
+                If an article grows out of a larger manuscript or author project, related writing and editing support can
+                be planned without repeating the same work.
+              </h2>
               <Link className="ns-link" href="/#services">
                 {'All services '}
                 <svg aria-hidden="true">
@@ -293,9 +317,9 @@ export default function ArticlesMagazinesPage() {
             <ul className="ns-rel__list" role="list">
               <li>
                 <Link href="/ghostwriting">
-                  <span className="ns-rel__t">Ghostwriting</span>
+                  <span className="ns-rel__t">Writing and Editorial</span>
                   <span className="ns-rel__d">
-                    Work with a writer to give your ideas structure and develop the chapter drafts.
+                    Turn ideas, notes, interviews, and experiences into a structured manuscript in your voice.
                   </span>
                   <svg aria-hidden="true">
                     <use href="#i-arrow-ne" />
@@ -304,9 +328,9 @@ export default function ArticlesMagazinesPage() {
               </li>
               <li>
                 <Link href="/book-editing">
-                  <span className="ns-rel__t">{'Book Editing & Formatting'}</span>
+                  <span className="ns-rel__t">Book Editing and Formatting</span>
                   <span className="ns-rel__d">
-                    Review the draft, work through revisions and prepare the text for your chosen edition.
+                    Developmental editing, copy editing, proofreading, and revision tailored to your draft.
                   </span>
                   <svg aria-hidden="true">
                     <use href="#i-arrow-ne" />
@@ -316,9 +340,98 @@ export default function ArticlesMagazinesPage() {
             </ul>
           </div>
         </section>
+
+        <section className="section section--ivory faq" id="faq" aria-labelledby="faq-title">
+          <div className="container faq__grid">
+            <div className="faq__head">
+              <p className="ns-label ns-rv">FAQ</p>
+              <h2 className="h2" id="faq-title">
+                Questions authors ask
+              </h2>
+            </div>
+            <div className="faq__list" data-faq="">
+              <details className="qa" open>
+                <summary>
+                  <span>Can you write an article from an interview?</span>
+                  <i aria-hidden="true" />
+                </summary>
+                <div className="qa__a">
+                  <p>
+                    Yes. We can help prepare questions, organise interview material, identify the central angle, and
+                    develop an article from the approved source material.
+                  </p>
+                </div>
+              </details>
+              <details className="qa">
+                <summary>
+                  <span>Can you work with an existing draft?</span>
+                  <i aria-hidden="true" />
+                </summary>
+                <div className="qa__a">
+                  <p>
+                    Yes. We can edit, restructure, or proofread a draft depending on its condition and the
+                    publication&apos;s requirements.
+                  </p>
+                </div>
+              </details>
+              <details className="qa">
+                <summary>
+                  <span>Do you write for a specific magazine or audience?</span>
+                  <i aria-hidden="true" />
+                </summary>
+                <div className="qa__a">
+                  <p>
+                    The brief can be shaped around a named publication, its readers, subject area, tone, and submission
+                    guidelines supplied by the client.
+                  </p>
+                </div>
+              </details>
+              <details className="qa">
+                <summary>
+                  <span>Can you prepare recurring content?</span>
+                  <i aria-hidden="true" />
+                </summary>
+                <div className="qa__a">
+                  <p>
+                    Recurring articles, columns, newsletters, and issue-based content can be discussed as a series with
+                    an agreed schedule and editorial direction.
+                  </p>
+                </div>
+              </details>
+              <details className="qa">
+                <summary>
+                  <span>Do you also design magazine pages?</span>
+                  <i aria-hidden="true" />
+                </summary>
+                <div className="qa__a">
+                  <p>
+                    Magazine-ready layout and print or digital preparation can be included when specified in the project
+                    scope.
+                  </p>
+                </div>
+              </details>
+              <details className="qa">
+                <summary>
+                  <span>What do you need to begin?</span>
+                  <i aria-hidden="true" />
+                </summary>
+                <div className="qa__a">
+                  <p>
+                    Share the topic, intended audience or publication, preferred length, deadline, and any source
+                    material or editorial guidelines.
+                  </p>
+                </div>
+              </details>
+            </div>
+          </div>
+        </section>
+
         <section className="cta on-dark ns-cta" id="contact" aria-labelledby="cta-title">
           <div className="cta__media" aria-hidden="true">
-            <Image data-auto-size="" width="1600" height="1067"
+            <Image
+              data-auto-size=""
+              width="1600"
+              height="1067"
               src="/assets/images/photos/1684323748175-5735beec2308-1600.webp"
               alt=""
               loading="lazy"
@@ -329,22 +442,23 @@ export default function ArticlesMagazinesPage() {
           <div className="container cta__grid">
             <div className="cta__copy">
               <p className="eyebrow" data-reveal="">
-                {'Articles & Magazines'}
+                Articles and Magazines
               </p>
               <h2 className="display cta__title" id="cta-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'What would you like '}
-                <em>to write about?</em>
+                {'Give the subject '}
+                <em>a sharper angle.</em>
               </h2>
               <p className="lead" data-reveal="" style={{ '--d': '.16s' }}>
-                Share the book you have in mind and the support you need. We will review your enquiry and contact you.
+                Tell us what you want readers to understand, learn, or consider. We can help define the format and the
+                work required to prepare it for publication.
               </p>
               <div className="ns-cta__btns" data-reveal="" style={{ '--d': '.2s' }}>
                 <button className="btn btn--light" type="button" data-open-lead="">
-                  {'Plan Your Book '}
+                  {'Discuss an article '}
                   <svg className="btn__icon btn__icon--arrow" aria-hidden="true">
                     <use href="#i-arrow" />
                   </svg>
-                </button>{' '}
+                </button>
                 <Link className="btn btn--glass" href="/contact">
                   <svg className="btn__icon" aria-hidden="true">
                     <use href="#i-phone" />
@@ -353,7 +467,10 @@ export default function ArticlesMagazinesPage() {
                 </Link>
               </div>
             </div>
-            <LeadForm />
+            <LeadForm
+              title="Discuss an article"
+              messageLabel="Share the topic, intended audience or publication, preferred length, deadline, and source material"
+            />
           </div>
         </section>
       </main>

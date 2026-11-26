@@ -5,6 +5,7 @@ import PageStyles from '@/components/layout/PageStyles';
 import PageScripts from '@/components/layout/PageScripts';
 import SectionRail from '@/components/navigation/SectionRail';
 import LeadForm from '@/components/forms/LeadForm';
+import { site } from '@/lib/site';
 
 export const metadata = pageMetadata({
   title: 'Author Website Design and Development',
@@ -99,15 +100,15 @@ export default function AuthorWebsitePage() {
             </nav>
             <div className="aw-hero__copy">
               <p className="eyebrow" data-reveal="">
-                Author website design
+                Author websites
               </p>
               <h1 className="aw-hero__title" id="aw-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'Give readers a place '}
-                <em>to find you.</em>
+                {'Your corner of the internet, '}
+                <em>built for books.</em>
               </h1>
               <p className="aw-hero__lead" data-reveal="" style={{ '--d': '.16s' }}>
-                An author website brings your books, background and latest news together in one place, with a design
-                that feels connected to your writing.
+                One address for everything readers are looking for: your titles, your story and your latest news, all
+                wrapped in a design that echoes your writing.
               </p>
               <div className="aw-hero__ctas" data-reveal="" style={{ '--d': '.22s' }}>
                 <button className="btn btn--light" type="button" data-open-lead="">
@@ -137,46 +138,46 @@ export default function AuthorWebsitePage() {
                 Your digital presence
               </p>
               <h2 className="aw-h2" id="presence-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'A home for your books '}
-                <em>and the person behind them.</em>
+                {'More than a website, '}
+                <em>a home for your writing life.</em>
               </h2>
               <p className="aw-presence__lede" data-reveal="" style={{ '--d': '.14s' }}>
-                Readers may discover you through a recommendation or a single title. Your website helps them learn more,
-                explore your other work and find a reliable way to get in touch.
+                Readers might hear about you from a friend or spot your title in a store. Your website is where that
+                curiosity turns into connection.
               </p>
             </div>
             <ol className="aw-roles" role="list" data-reveal="" style={{ '--d': '.1s' }}>
               <li>
                 <span>i.</span>
-                Introduce the author
+                Say hello. Introduce yourself in your own voice.
               </li>
               <li>
                 <span>ii.</span>
-                Showcase your books
+                Put your books front and center. Show every title on one inviting shelf.
               </li>
               <li>
                 <span>iii.</span>
-                Establish credibility
+                Earn trust. Keep reviews, praise and press mentions in one reliable place.
               </li>
               <li>
                 <span>iv.</span>
-                Give readers a place to connect
+                Open the door. Give readers a simple way to reach you.
               </li>
               <li>
                 <span>v.</span>
-                {'Support media & press'}
+                Welcome the press. Offer media kits and interview details.
               </li>
               <li>
                 <span>vi.</span>
-                Collect reader interest
+                Gather your fans. Invite readers to join your mailing list.
               </li>
               <li>
                 <span>vii.</span>
-                Make you easy to contact
+                Make contact easy. Provide a clear route for questions and invitations.
               </li>
               <li>
                 <span>viii.</span>
-                Create a lasting digital identity
+                Build for the long haul. Create a digital identity that grows with your career.
               </li>
             </ol>
           </div>
@@ -451,74 +452,74 @@ export default function AuthorWebsitePage() {
                 Site structure
               </p>
               <h2 className="aw-h2" id="pages-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'Useful pages, '}
-                <em>with a clear purpose.</em>
+                {'A site map where '}
+                <em>every page earns its keep.</em>
               </h2>
               <p data-reveal="" style={{ '--d': '.14s' }}>
-                We can plan a site you can update with new book details, articles and event news. Editing features are
-                agreed as part of the build.
+                Your website can grow with your career, from new titles to articles to event dates. We agree on how you
+                will edit it as part of the build.
               </p>
             </div>
             <ol className="aw-toc" role="list">
               <li data-reveal="">
                 <span className="aw-toc__n">01</span>
-                <b>Author Home</b>
+                <b>Home</b>
                 <i />
-                <span className="aw-toc__d">First impression</span>
+                <span className="aw-toc__d">The welcoming first impression</span>
               </li>
               <li data-reveal="">
                 <span className="aw-toc__n">02</span>
-                <b>About the Author</b>
+                <b>About You</b>
                 <i />
-                <span className="aw-toc__d">Your story</span>
+                <span className="aw-toc__d">Where your story lives</span>
               </li>
               <li data-reveal="">
                 <span className="aw-toc__n">03</span>
-                <b>{'Books & Publications'}</b>
+                <b>Books</b>
                 <i />
-                <span className="aw-toc__d">Your shelf</span>
+                <span className="aw-toc__d">Your full shelf at a glance</span>
               </li>
               <li data-reveal="">
                 <span className="aw-toc__n">04</span>
-                <b>Individual Book Pages</b>
+                <b>Book Pages</b>
                 <i />
-                <span className="aw-toc__d">One page per title</span>
+                <span className="aw-toc__d">A dedicated spot for each title</span>
               </li>
               <li data-reveal="">
                 <span className="aw-toc__n">05</span>
-                <b>{'Media & Press'}</b>
+                <b>Press Room</b>
                 <i />
-                <span className="aw-toc__d">For journalists</span>
+                <span className="aw-toc__d">Everything journalists need in one place</span>
               </li>
               <li data-reveal="">
                 <span className="aw-toc__n">06</span>
-                <b>{'Events & Appearances'}</b>
+                <b>Events</b>
                 <i />
-                <span className="aw-toc__d">{'Readings & signings'}</span>
+                <span className="aw-toc__d">Readings, signings and appearances</span>
               </li>
               <li data-reveal="">
                 <span className="aw-toc__n">07</span>
-                <b>Reader Connection</b>
+                <b>Reader Corner</b>
                 <i />
-                <span className="aw-toc__d">Community</span>
+                <span className="aw-toc__d">A space for fans to connect</span>
               </li>
               <li data-reveal="">
                 <span className="aw-toc__n">08</span>
                 <b>Contact</b>
                 <i />
-                <span className="aw-toc__d">Contact form</span>
+                <span className="aw-toc__d">An easy form for messages</span>
               </li>
               <li data-reveal="">
                 <span className="aw-toc__n">09</span>
-                <b>Newsletter / Mailing List</b>
+                <b>Mailing List</b>
                 <i />
-                <span className="aw-toc__d">Sign up</span>
+                <span className="aw-toc__d">A simple sign-up for updates</span>
               </li>
               <li data-reveal="">
                 <span className="aw-toc__n">10</span>
-                <b>Blog or Journal</b>
+                <b>Journal</b>
                 <i />
-                <span className="aw-toc__d">Optional</span>
+                <span className="aw-toc__d">An optional blog for news and thoughts</span>
               </li>
             </ol>
           </div>
@@ -531,12 +532,12 @@ export default function AuthorWebsitePage() {
                 Responsive design
               </p>
               <h2 className="aw-h2" id="devices-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'Easy to explore '}
-                <em>on any screen.</em>
+                {'Looks great in every pocket '}
+                <em>and on every desk.</em>
               </h2>
               <p data-reveal="" style={{ '--d': '.14s' }}>
-                We design for the ways readers visit, with readable text, straightforward navigation and book
-                information that works on phones, tablets and computers.
+                Your site will read clearly and navigate smoothly whether readers visit on a phone, tablet or computer,
+                with book details always one tap away.
               </p>
             </div>
             <div
@@ -937,12 +938,12 @@ export default function AuthorWebsitePage() {
                 Book pages
               </p>
               <h2 className="aw-h2" id="books-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'Let each book '}
-                <em>have its own space.</em>
+                {'Let every book '}
+                <em>steal the show.</em>
               </h2>
               <p data-reveal="" style={{ '--d': '.14s' }}>
-                A dedicated book page can hold the description, cover, sample and buying links. If direct sales are part
-                of your plan, we can discuss a store and payment setup.
+                Each book can have its own page, with the cover, description, sample chapter and buying links in one
+                tidy spot. If selling directly belongs in your plan, we will talk through store and payment setup too.
               </p>
             </div>
             <figure className="aw-browser aw-browser--book" data-reveal="scale" style={{ '--d': '.1s' }}>
@@ -1144,34 +1145,34 @@ export default function AuthorWebsitePage() {
                 The long view
               </p>
               <h2 className="aw-h2" id="journey-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'A website that grows '}
-                <em>with your writing.</em>
+                {'A website that writes '}
+                <em>the next chapter with you.</em>
               </h2>
             </div>
             <ol className="aw-path" role="list">
               <li data-reveal="">
-                <b>Author</b>
-                <span>{'Planning & concept: your vision, genre and branding.'}</span>
+                <b>You</b>
+                <span>We plan the concept, vision and branding around your voice.</span>
               </li>
               <li data-reveal="" style={{ '--d': '.05s' }}>
-                <b>Story</b>
-                <span>The voice and personality the site should carry.</span>
+                <b>Your Story</b>
+                <span>We define the tone and personality the site will carry.</span>
               </li>
               <li data-reveal="" style={{ '--d': '.1s' }}>
-                <b>Book</b>
-                <span>Your titles, presented with care.</span>
+                <b>Your Books</b>
+                <span>Your titles are presented with care.</span>
               </li>
               <li data-reveal="" style={{ '--d': '.15s' }}>
-                <b>Website</b>
-                <span>Designed, developed, tested and launched.</span>
+                <b>Launch</b>
+                <span>The site is designed, built, tested and published.</span>
               </li>
               <li data-reveal="" style={{ '--d': '.2s' }}>
                 <b>Readers</b>
-                <span>Found through search, kept through connection.</span>
+                <span>They find you through search and stay through connection.</span>
               </li>
               <li data-reveal="" style={{ '--d': '.25s' }}>
-                <b>Long term platform</b>
-                <span>Updated by you, supported by us.</span>
+                <b>Growth</b>
+                <span>You keep it updated, and we keep supporting you.</span>
               </li>
             </ol>
           </div>
@@ -1181,93 +1182,75 @@ export default function AuthorWebsitePage() {
             <div className="faq__head">
               <p className="aw-kicker" data-reveal="">
                 <span>08</span>
-                FAQ
+                Good to know
               </p>
               <h2 className="h2" id="faq-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'Questions about '}
-                <em>your author website.</em>
+                {'Author website questions, '}
+                <em>answered plainly.</em>
               </h2>
             </div>
             <div className="faq__list" data-faq="">
               <details className="qa" data-reveal="" open>
                 <summary>
-                  <span>Why do authors need a professional website?</span>
+                  <span>Why should an author have a website?</span>
                   <i aria-hidden="true" />
                 </summary>
                 <div className="qa__a">
-                  <p>
-                    It gives readers one dependable place to explore your books, learn about you and find your official
-                    links.
-                  </p>
+                  <p>It is the one place online that you fully control, where readers can find your books, learn about you and follow your news.</p>
                 </div>
               </details>
               <details className="qa" data-reveal="">
                 <summary>
-                  <span>What features should an author’s website include?</span>
+                  <span>What should an author website include?</span>
                   <i aria-hidden="true" />
                 </summary>
                 <div className="qa__a">
-                  <p>
-                    Most authors need book pages, a biography and contact information. A journal, newsletter or store
-                    can be added where it serves your plans.
-                  </p>
+                  <p>A strong homepage, your bio, your books, contact details and a way to join your mailing list. Press and event pages are great extras.</p>
                 </div>
               </details>
               <details className="qa" data-reveal="">
                 <summary>
-                  <span>Can I update my website content myself?</span>
+                  <span>Can I update the site myself?</span>
                   <i aria-hidden="true" />
                 </summary>
                 <div className="qa__a">
-                  <p>
-                    Yes, if content management is included in the build. We discuss what you want to update and explain
-                    how to make those changes.
-                  </p>
+                  <p>Yes. We agree on editing tools with you during the build and show you how they work.</p>
                 </div>
               </details>
               <details className="qa" data-reveal="">
                 <summary>
-                  <span>Will readers be able to use it on a phone?</span>
+                  <span>Will it work well on a phone?</span>
                   <i aria-hidden="true" />
                 </summary>
                 <div className="qa__a">
-                  <p>Yes. We plan and check layouts for mobile, tablet and desktop screens.</p>
+                  <p>Yes. Every site is designed to read well on phones, tablets and computers.</p>
                 </div>
               </details>
               <details className="qa" data-reveal="">
                 <summary>
-                  <span>How does SEO help my author website?</span>
+                  <span>How does SEO help my website?</span>
                   <i aria-hidden="true" />
                 </summary>
                 <div className="qa__a">
-                  <p>
-                    Clear page titles, descriptions and organised content help search engines understand the site.
-                    Search positions and visitor numbers still depend on several factors.
-                  </p>
+                  <p>Search-friendly pages and titles make it easier for readers looking for your name or your topic to land on your site.</p>
                 </div>
               </details>
               <details className="qa" data-reveal="">
                 <summary>
-                  <span>Can I sell books through my website?</span>
+                  <span>Can I sell books through it?</span>
                   <i aria-hidden="true" />
                 </summary>
                 <div className="qa__a">
-                  <p>
-                    We can discuss a store, payment provider and delivery process if you want direct sales. These
-                    features are scoped before the build.
-                  </p>
+                  <p>Yes. A store or buying links can be added, and we will discuss payment and fulfillment options during planning.</p>
                 </div>
               </details>
               <details className="qa" data-reveal="">
                 <summary>
-                  <span>How do I get started with my author website?</span>
+                  <span>How do I get started?</span>
                   <i aria-hidden="true" />
                 </summary>
                 <div className="qa__a">
-                  <p>
-                    Share your books, preferred style and the features you need. We will help you turn those
-                    requirements into a website brief.
-                  </p>
+                  <p>{`Share your books and goals with ${site.name} and we will suggest a plan.`}</p>
                 </div>
               </details>
             </div>

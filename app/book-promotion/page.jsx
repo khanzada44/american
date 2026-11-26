@@ -103,12 +103,12 @@ export default function BookPromotionPage() {
                 Book promotion
               </p>
               <h1 className="pm-hero__title" id="pm-title">
-                {'Help the right readers '}
-                <em>find your book.</em>
+                {'Put your book in front of '}
+                <em>the right audience.</em>
               </h1>
               <p className="pm-hero__lead">
-                We plan book promotion around your genre, your audience and what you want to achieve, with useful launch
-                materials and a consistent author presence.
+                We plan book promotion around your audience, your release, and what you want readers to notice—using
+                useful launch materials and a campaign with a clear purpose.
               </p>
               <div className="pm-hero__ctas">
                 <button className="btn btn--light" type="button" data-open-lead="">
@@ -169,13 +169,13 @@ export default function BookPromotionPage() {
                 Beyond the book
               </p>
               <h2 className="pm-h2 pm-rv" id="beyond-title">
-                {'Published is a start. '}
-                <em>Now introduce it.</em>
+                {'Make sure your book '}
+                <em>doesn’t go unnoticed.</em>
               </h2>
               <p className="pm-standfirst pm-rv">Readers need a reason to notice a book they have not heard of yet.</p>
               <p className="pm-body pm-rv">
-                We help you explain what your book offers and put that message in places its likely readers spend time.
-                The plan can begin before publication and continue as you learn what draws interest.
+                We help explain what your book offers and put that message into the materials and channels selected for
+                the campaign.
               </p>
             </div>
             <div className="pm-beyond__art">
@@ -226,11 +226,12 @@ export default function BookPromotionPage() {
                 The campaign
               </p>
               <h2 className="pm-h2 pm-arc__title pm-rv" id="arc-title">
-                {'A plan built '}
-                <em>around your book.</em>
+                {'Your book, your goals, '}
+                <em>your publishing plan.</em>
               </h2>
               <p className="pm-body pm-rv">
-                We look at the subject, reader and launch plans before choosing the message, materials and channels.
+                Every book has its own goals, audience, and publishing needs. We shape a practical plan around your work,
+                helping you move from preparation to publication with a clear sense of direction.
               </p>
             </div>
           </div>
@@ -249,7 +250,7 @@ export default function BookPromotionPage() {
                 <span className="pm-arc__n">01</span>{' '}
                 <div className="pm-arc__body">
                   <h3>Position</h3>
-                  <p>Identify who the book is for and what gives those readers a reason to pick it up.</p>
+                  <p>Clarify the book’s subject, audience, strongest message, and comparable reading interests.</p>
                 </div>
               </li>
               <li className="pm-arc__stage" data-pm-stage="" tabIndex="0">
@@ -265,7 +266,7 @@ export default function BookPromotionPage() {
                 <span className="pm-arc__n">02</span>{' '}
                 <div className="pm-arc__body">
                   <h3>Present</h3>
-                  <p>Prepare campaign copy and visuals that clearly introduce the book and its author.</p>
+                  <p>Prepare the author and book information readers need to understand the offer.</p>
                 </div>
               </li>
               <li className="pm-arc__stage" data-pm-stage="" tabIndex="0">
@@ -281,7 +282,7 @@ export default function BookPromotionPage() {
                 <span className="pm-arc__n">03</span>{' '}
                 <div className="pm-arc__body">
                   <h3>Promote</h3>
-                  <p>Share the campaign through channels chosen for your audience and budget.</p>
+                  <p>Coordinate the agreed campaign content and outreach activities around the release.</p>
                 </div>
               </li>
               <li className="pm-arc__stage" data-pm-stage="" tabIndex="0">
@@ -297,7 +298,7 @@ export default function BookPromotionPage() {
                 <span className="pm-arc__n">04</span>{' '}
                 <div className="pm-arc__body">
                   <h3>Amplify</h3>
-                  <p>Review the response and use what we learn to guide the next round of promotion.</p>
+                  <p>Review what is working and identify suitable next steps for continued visibility.</p>
                 </div>
               </li>
             </ol>
@@ -311,12 +312,13 @@ export default function BookPromotionPage() {
                 The creative
               </p>
               <h2 className="pm-h2 pm-rv" id="wall-title">
-                {'Give readers '}
-                <em>something to explore.</em>
+                {'Open the door '}
+                <em>to something new.</em>
               </h2>
               <p className="pm-body pm-rv">
-                A cover announcement, an excerpt and an author introduction each serve a different purpose. We plan them
-                together so the campaign feels connected.
+                A cover reveal, an excerpt, an author introduction, and a short explanation of the book can each give a
+                different entry point. We help connect those pieces so the campaign feels consistent rather than like a
+                stream of unrelated announcements.
               </p>
             </div>
             <div className="pm-wall__board">
@@ -545,12 +547,12 @@ export default function BookPromotionPage() {
                 The launch
               </p>
               <h2 className="pm-launch__title pm-rv" id="launch-title">
-                {'Make release day '}
-                <em>feel connected.</em>
+                {'Make your book launch '}
+                <em>a shared moment.</em>
               </h2>
               <p className="pm-body pm-body--light pm-rv">
-                We bring the announcement, book links, artwork and author content together so readers can understand the
-                book and know where to find it.
+                The release date is one moment in a longer campaign. We can organise the agreed content and
+                communications so readers encounter a recognisable message before, during, and after publication.
               </p>
             </div>
             <figure
@@ -633,12 +635,13 @@ export default function BookPromotionPage() {
                 The audience
               </p>
               <h2 className="pm-h2 pm-rv" id="readers-title">
-                {'Start with '}
-                <em>the likely reader.</em>
+                {'Put your readers '}
+                <em>at the centre of the plan.</em>
               </h2>
               <p className="pm-body pm-rv">
-                A useful campaign begins with a specific audience. We consider the books they read, the topics they
-                follow and the channels where they welcome recommendations.
+                A campaign for a specialist business book should not use the same audience assumptions as a romance
+                novel or a children’s title. We consider the category, reader interests, and channels that make sense
+                for the project.
               </p>
               <ol className="pm-ch" role="list">
                 <li className="pm-rv">
@@ -682,11 +685,12 @@ export default function BookPromotionPage() {
               Across platforms
             </p>
             <h2 className="pm-h2 pm-rv" id="screens-title">
-              {'A familiar voice '}
-              <em>across your channels.</em>
+              {'One consistent voice, '}
+              <em>wherever readers find you.</em>
             </h2>
             <p className="pm-body pm-rv">
-              We adapt the copy and artwork for each format while keeping the book’s look and message consistent.
+              We adapt the approved book description, author information, and campaign message for the formats included
+              in the plan, keeping the presentation consistent while respecting how each channel is used.
             </p>
           </div>
           <div className="pm-screens__scroll">
@@ -832,13 +836,14 @@ export default function BookPromotionPage() {
                   Real author spotlights
                 </p>
                 <h2 className="rw-h2 rw-rv" id="spot-title">
-                  {'Meet some of '}
-                  <em>our featured authors.</em>
+                  {'The authors and books '}
+                  <em>at the heart of it all.</em>
                 </h2>
               </div>
               <div className="rw-rv">
                 <p className="rw-lead">
-                  These spotlights introduce the author, explain the book and point interested readers towards it.
+                  Author features and book spotlights can introduce the person behind the work, explain the subject, and
+                  give prospective readers a clearer sense of what the book contains.
                 </p>
                 <p style={{ marginTop: '22px' }}>
                   <Link className="rw-link" href="/our-work#authors">
@@ -910,8 +915,8 @@ export default function BookPromotionPage() {
                 Momentum
               </p>
               <h2 className="pm-h2 pm-rv" id="mo-title">
-                {'Give the campaign '}
-                <em>room to develop.</em>
+                {'A campaign that grows '}
+                <em>with every step.</em>
               </h2>
               <p className="pm-body pm-rv">
                 Readers rarely discover a book through a single post. We plan a sequence of useful introductions,
@@ -927,31 +932,31 @@ export default function BookPromotionPage() {
                   <span className="pm-mo__dot" aria-hidden="true" />
                   <span className="pm-mo__n">01</span>
                   <h3>Announce</h3>
-                  <p>Share the cover and introduce the book’s subject.</p>
+                  <p>Introduce the book and establish the release information.</p>
                 </li>
                 <li>
                   <span className="pm-mo__dot" aria-hidden="true" />
                   <span className="pm-mo__n">02</span>
                   <h3>Introduce</h3>
-                  <p>Tell readers who you are and why you wrote it.</p>
+                  <p>Share the author, subject, and useful context around the title.</p>
                 </li>
                 <li>
                   <span className="pm-mo__dot" aria-hidden="true" />
                   <span className="pm-mo__n">03</span>
                   <h3>Engage</h3>
-                  <p>Offer excerpts and questions that invite a response.</p>
+                  <p>Invite readers to respond to excerpts, themes, and campaign content.</p>
                 </li>
                 <li>
                   <span className="pm-mo__dot" aria-hidden="true" />
                   <span className="pm-mo__n">04</span>
                   <h3>Launch</h3>
-                  <p>Share the release details and clear links to the book.</p>
+                  <p>Coordinate the planned release communications.</p>
                 </li>
                 <li>
                   <span className="pm-mo__dot" aria-hidden="true" />
                   <span className="pm-mo__n">05</span>
                   <h3>Sustain</h3>
-                  <p>Continue sharing relevant material after the launch.</p>
+                  <p>Continue relevant activity after launch based on the agreed plan.</p>
                 </li>
               </ol>
             </div>
@@ -965,8 +970,8 @@ export default function BookPromotionPage() {
                 Questions
               </p>
               <h2 className="h2" id="faq-title">
-                {'Questions about '}
-                <em>promoting your book.</em>
+                {'Questions '}
+                <em>authors ask.</em>
               </h2>
             </div>
             <div className="faq__list" data-faq="">
@@ -976,10 +981,7 @@ export default function BookPromotionPage() {
                   <i aria-hidden="true" />
                 </summary>
                 <div className="qa__a">
-                  <p>
-                    Promotion helps readers learn that your book exists and decide whether it interests them. It
-                    supports discovery, but sales depend on several factors beyond the campaign.
-                  </p>
+                  <p>Promotion helps readers discover a title, understand its subject, and decide whether it fits their interests. It also gives an author a planned way to communicate around publication.</p>
                 </div>
               </details>
               <details className="qa">
@@ -988,22 +990,16 @@ export default function BookPromotionPage() {
                   <i aria-hidden="true" />
                 </summary>
                 <div className="qa__a">
-                  <p>
-                    The right mix depends on the book. We may recommend stronger listing copy, author content, email
-                    updates, outreach or paid advertising after reviewing your goals and budget.
-                  </p>
+                  <p>The right approach depends on genre, audience, budget, release timing, and the author’s existing channels. A focused plan is usually more useful than trying to appear everywhere.</p>
                 </div>
               </details>
               <details className="qa">
                 <summary>
-                  <span>{`How can professional book promotion from ${site.name} help?`}</span>
+                  <span>{`How can ${site.name} help promote my book?`}</span>
                   <i aria-hidden="true" />
                 </summary>
                 <div className="qa__a">
-                  <p>
-                    We help organise the work, prepare the materials and keep the message consistent. You have a plan to
-                    review rather than a collection of unrelated promotional tasks.
-                  </p>
+                  <p>Our promotion service can include campaign planning, social content, author features, excerpts, promotional materials, and launch communications as agreed in the project scope.</p>
                 </div>
               </details>
               <details className="qa">
@@ -1012,10 +1008,7 @@ export default function BookPromotionPage() {
                   <i aria-hidden="true" />
                 </summary>
                 <div className="qa__a">
-                  <p>
-                    Some activity brings a quick response, while author awareness develops over time. We agree on a
-                    campaign period and review the available results before recommending what comes next.
-                  </p>
+                  <p>Results vary by audience, campaign activity, budget, distribution, and timing. Promotion should be assessed against clear goals rather than a guaranteed sales outcome.</p>
                 </div>
               </details>
               <details className="qa">
@@ -1024,22 +1017,16 @@ export default function BookPromotionPage() {
                   <i aria-hidden="true" />
                 </summary>
                 <div className="qa__a">
-                  <p>
-                    We can help with listing copy, relevant search terms and advertising plans. Rankings, reader reviews
-                    and sales cannot be promised.
-                  </p>
+                  <p>If Amazon-focused activities are part of the available service scope, the exact work—such as listing content or advertising support—should be confirmed during the campaign discussion.</p>
                 </div>
               </details>
               <details className="qa">
                 <summary>
-                  <span>How can I get started with your book promotion services?</span>
+                  <span>How can I get started with book promotion?</span>
                   <i aria-hidden="true" />
                 </summary>
                 <div className="qa__a">
-                  <p>
-                    Send us the title, genre, publication status and your main goal. We will discuss a practical scope
-                    and the materials needed to begin.
-                  </p>
+                  <p>Share your book details, publication date or current status, intended readers, existing author channels, and the kind of support you are considering.</p>
                 </div>
               </details>
             </div>
@@ -1059,11 +1046,12 @@ export default function BookPromotionPage() {
             <div className="pm-close__copy">
               <p className="eyebrow">Ready to be discovered?</p>
               <h2 className="pm-close__title" id="cta-title">
-                {'Let’s plan '}
-                <em>your book’s introduction.</em>
+                {'Give your book '}
+                <em>a considered introduction.</em>
               </h2>
               <p className="pm-close__lead">
-                Tell us who you wrote the book for. We will help you work out how to reach them.
+                Tell us what the book is about, who you hope will read it, and whether you are preparing for launch or
+                promoting an existing title. We can discuss a campaign suited to that stage.
               </p>
               <div className="pm-cta__btns">
                 <button className="btn btn--light" type="button" data-open-lead="">
@@ -1103,13 +1091,31 @@ export default function BookPromotionPage() {
               </figcaption>
             </figure>
           </div>
-          <div className="container cta__grid pm-close__form">
-            <div className="cta__copy">
-              <p className="pm-close__h3">Share your promotion plans.</p>
-              <p className="lead">Let us know the title, release date and kind of support you need.</p>
-            </div>
-            <LeadForm title="Promote your book" messageLabel="What are you writing, and where do you need help?" />
-          </div>
+           <div className="container cta__grid">
+             <div className="cta__copy">
+               <p className="eyebrow">Book Publishing</p>
+               <h2 className="display cta__title" id="cta-title">
+                 {'What Stage Have '}
+                 <em>You Reached?</em>
+               </h2>
+               <p className="lead">
+                 Whether you're still developing an idea, working through a manuscript, or preparing for publication, tell us about your progress and what you'd like help with. We'll help you work out the next step.
+
+               </p>
+               <div className="cta__btns">
+                 <button className="btn btn--light" type="button" data-open-lead="">
+                   {'Start your publishing journey '}
+                   <svg className="btn__icon btn__icon--arrow" aria-hidden="true">
+                     <use href="#i-arrow" />
+                   </svg>
+                 </button>
+               </div>
+             </div>
+             <LeadForm
+               title="Start your publishing journey"
+               messageLabel="Share your current stage, desired formats, and whether you need editing, design, or publishing setup"
+             />
+           </div>
         </section>
       </main>
       <PageScripts scripts={scripts} styles={styles} />

@@ -7,7 +7,7 @@ import SectionRail from '@/components/navigation/SectionRail';
 import LeadForm from '@/components/forms/LeadForm';
 
 export const metadata = pageMetadata({
-  title: 'Book Ghostwriting in Your Voice',
+  title: 'Writing and Editorial | Book Ghostwriting in Your Voice',
   description:
     'Turn your ideas, experiences or expertise into a manuscript with a ghostwriter. Work with us on the outline, chapter drafts and revisions.',
   path: '/ghostwriting',
@@ -89,21 +89,20 @@ export default function GhostwritingPage() {
                 <li>
                   <Link href="/#services">Services</Link>
                 </li>
-                <li aria-current="page">Ghostwriting</li>
+                <li aria-current="page">Writing and Editorial</li>
               </ol>
             </nav>
-            <p className="gw-eyebrow">Ghostwriting</p>
+            <p className="gw-eyebrow">SERVICES · Writing and Editorial</p>
             <h1 className="gw-hero__title" id="gw-title">
-              <span>Your ideas.</span> <span>Your name.</span> <em>A book we write with you.</em>
+              <span>Your Vision.</span> <span>Your Voice.</span> <em>Your Book.</em>
             </h1>
             <div className="gw-hero__foot">
               <p className="gw-hero__lead">
-                You bring the experiences, knowledge or story. We help organise the material and write a manuscript that
-                keeps your voice at its heart.
+                You bring the experience, memories, or point of view. We help turn that material into a manuscript with a clear direction, a considered structure, and language that sounds like you.
               </p>
               <div className="gw-hero__ctas">
                 <button className="btn btn--light" type="button" data-open-lead="">
-                  {'Discuss Your Book '}
+                  {'Discuss your book '}
                   <svg className="btn__icon btn__icon--arrow" aria-hidden="true">
                     <use href="#i-arrow" />
                   </svg>
@@ -112,14 +111,18 @@ export default function GhostwritingPage() {
             </div>
           </div>
         </section>
+
         <section className="gw-idea" id="approach" aria-labelledby="idea-title">
           <figure className="gw-idea__photo">
-            <Image data-auto-size="" width="1400" height="1700"
+            <Image
+              data-auto-size=""
+              width="1400"
+              height="1700"
               src="/assets/images/photos/1501618669935-18b6ecb13d6d-1400x1700.webp"
               alt="An open notebook with blank pages and a pen, ready for the first line"
               loading="lazy"
               decoding="async"
-            />{' '}
+            />
             <figcaption>Page one, before the first line.</figcaption>
           </figure>
           <div className="gw-idea__copy">
@@ -128,25 +131,24 @@ export default function GhostwritingPage() {
               Every book starts somewhere
             </p>
             <h2 className="gw-h2" id="idea-title">
-              {'A book can begin '}
-              <em>with a conversation.</em>
+              {'Before the First Page, '}
+              <em>There&apos;s a Conversation.</em>
             </h2>
             <p className="gw-body gw-body--drop">
-              You may have a folder of notes, a few chapters or a memory you keep returning to. We start with that
-              material and help you work out what the book could become.
+              A folder of notes, a set of interviews, a business insight, or a story you have carried for years can all be useful starting points. We begin by understanding what you want the book to say, who it is for, and what material already exists.
             </p>
             <p className="gw-idea__label">It might begin with</p>
             <ul className="gw-idea__list" role="list">
-              <li>a life story</li>
-              <li>an experience</li>
-              <li>an idea</li>
-              <li>professional expertise</li>
-              <li>personal memories</li>
-              <li>a fictional concept</li>
-              <li>a message you want to share</li>
+              <li>a folder of notes</li>
+              <li>a set of interviews</li>
+              <li>a business insight</li>
+              <li>a story carried for years</li>
+              <li>recorded conversations</li>
+              <li>an early draft</li>
             </ul>
           </div>
         </section>
+
         <section className="gw-sec gw-voice" id="voice" aria-labelledby="voice-title">
           <div className="container">
             <div className="gw-voice__head">
@@ -155,12 +157,11 @@ export default function GhostwritingPage() {
                 Your voice matters
               </p>
               <h2 className="gw-h2 gw-h2--c" id="voice-title">
-                {'Writing that feels '}
-                <em>like it came from you.</em>
+                {'Your Words, '}
+                <em>Just the Way You Imagined Them</em>
               </h2>
               <p className="gw-body gw-body--c">
-                We listen to how you explain things, read any samples you share and discuss the tone you want. Early
-                pages give you a chance to tell us what feels right before the draft grows.
+                Your phrasing, perspective, and natural way of explaining things are part of the book—not details to be edited away. We share samples and working pages early, so you can respond to the voice before the manuscript grows.
               </p>
             </div>
             <div className="gw-voice__grid">
@@ -185,16 +186,16 @@ export default function GhostwritingPage() {
                   <p className="gw-page__text">
                     {'It took me thirty years and a workshop of my own to hear it properly. '}
                     <span className="gw-mark gw-mark--d">Some lessons are only loud in hindsight.</span>
-                  </p>{' '}
+                  </p>
                   <span className="gw-note gw-note--a" aria-hidden="true">
                     his rhythm: short, then long
-                  </span>{' '}
+                  </span>
                   <span className="gw-note gw-note--b" aria-hidden="true">
                     tone: warm and direct
-                  </span>{' '}
+                  </span>
                   <span className="gw-note gw-note--c" aria-hidden="true">
                     keep: his phrase ✓
-                  </span>{' '}
+                  </span>
                   <span className="gw-note gw-note--d" aria-hidden="true">
                     a memory, not a lecture
                   </span>
@@ -207,38 +208,31 @@ export default function GhostwritingPage() {
                 <p className="gw-voice__label">What we listen for</p>
                 <ol role="list">
                   <li>
-                    <b>Personality</b>
-                    <span>The way you see things, and what you notice first.</span>
-                  </li>
-                  <li>
-                    <b>Tone</b>
-                    <span>Warm, dry, direct, reflective, whatever is true to you.</span>
+                    <b>Phrasing</b>
+                    <span>The natural expressions and turns of phrase that sound like you.</span>
                   </li>
                   <li>
                     <b>Perspective</b>
                     <span>Where you stand in the story, and why.</span>
                   </li>
                   <li>
-                    <b>Experiences</b>
-                    <span>The details only you could know.</span>
+                    <b>Vocabulary</b>
+                    <span>The words and register that match your preferred way of communicating.</span>
                   </li>
                   <li>
-                    <b>Rhythm</b>
-                    <span>How your sentences move: short, long, paused.</span>
+                    <b>Tone</b>
+                    <span>Warm, dry, direct, reflective—whatever fits your subject and voice.</span>
                   </li>
                   <li>
-                    <b>Message</b>
-                    <span>What you want a reader to carry away.</span>
-                  </li>
-                  <li>
-                    <b>Emotional character</b>
-                    <span>The feeling underneath the words.</span>
+                    <b>Samples &amp; early pages</b>
+                    <span>Working pages shared early so you can respond before the manuscript grows.</span>
                   </li>
                 </ol>
               </div>
             </div>
           </div>
         </section>
+
         <section className="gw-sec gw-journey" id="process" aria-labelledby="journey-title">
           <div
             className="gw-bg"
@@ -253,67 +247,66 @@ export default function GhostwritingPage() {
                 The writing journey
               </p>
               <h2 className="gw-h2" id="journey-title">
-                {'A working plan, '}
-                <em>from outline to draft.</em>
+                {'A Little Structure '}
+                <em>Goes a Long Way.</em>
               </h2>
             </div>
             <ol className="gw-steps" role="list">
               <li className="gw-step">
-                <span className="gw-step__n">I.</span>
+                <span className="gw-step__n">01</span>
                 <div className="gw-step__body">
                   <h3>Discover</h3>
-                  <p>We discuss the subject, intended readers and material you already have.</p>
+                  <p>Discuss the subject, intended reader, source material, and what a successful book should accomplish.</p>
                 </div>
                 <span className="gw-step__out">Conversations</span>
               </li>
               <li className="gw-step">
-                <span className="gw-step__n">II.</span>
+                <span className="gw-step__n">02</span>
                 <div className="gw-step__body">
                   <h3>Develop</h3>
-                  <p>We agree on an outline and the approach to the writing.</p>
+                  <p>Shape the central idea into a practical outline, chapter sequence, and writing brief.</p>
                 </div>
                 <span className="gw-step__out">An outline</span>
               </li>
               <li className="gw-step">
-                <span className="gw-step__n">III.</span>
+                <span className="gw-step__n">03</span>
                 <div className="gw-step__body">
                   <h3>Write</h3>
-                  <p>We draft chapters around the outline and share work for your review.</p>
+                  <p>Build the manuscript chapter by chapter, using agreed interviews, notes, research, and references.</p>
                 </div>
                 <span className="gw-step__out">Chapters</span>
               </li>
               <li className="gw-step">
-                <span className="gw-step__n">IV.</span>
+                <span className="gw-step__n">04</span>
                 <div className="gw-step__body">
                   <h3>Refine</h3>
-                  <p>We use your feedback to improve the content, voice and connections between chapters.</p>
+                  <p>Review the draft together, address gaps, and revise the language and structure before handoff.</p>
                 </div>
                 <span className="gw-step__out">Revisions</span>
-              </li>
-              <li className="gw-step">
-                <span className="gw-step__n">V.</span>
-                <div className="gw-step__body">
-                  <h3>Complete</h3>
-                  <p>We bring the chapters together into a complete manuscript for the agreed next stage.</p>
-                </div>
-                <span className="gw-step__out">A manuscript</span>
               </li>
             </ol>
           </div>
         </section>
+
         <section className="gw-sec gw-forms" id="forms" aria-labelledby="forms-title">
           <div className="container gw-forms__grid">
             <div className="gw-forms__aside">
               <p className="gw-kicker">
                 <b>IV</b>
-                Your story can take many forms
+                Projects we support
               </p>
               <h2 className="gw-h2" id="forms-title">
-                {'Different books. '}
-                <em>The same care with your voice.</em>
+                {'No Two Books Alike. '}
+                <em>No Voice Overlooked.</em>
               </h2>
+              <p className="gw-body">
+                Our writing and development work can support projects such as:
+              </p>
               <figure className="gw-forms__photo">
-                <Image data-auto-size="" width="1000" height="760"
+                <Image
+                  data-auto-size=""
+                  width="1000"
+                  height="760"
                   src="/assets/images/photos/1535546204504-586398ee6677-1000x760.webp"
                   alt="A vintage typewriter on a desk beside a single sunflower"
                   loading="lazy"
@@ -324,40 +317,44 @@ export default function GhostwritingPage() {
             <ol className="gw-forms__list" role="list">
               <li>
                 <span className="gw-forms__n">01</span>
-                <h3>Memoir</h3>
-                <p>Memories and turning points shaped around the part of your life you want to explore.</p>
+                <h3>Memoir and personal history</h3>
+                <p>Lived experiences and key chapters shaped into a cohesive narrative.</p>
               </li>
               <li>
                 <span className="gw-forms__n">02</span>
-                <h3>Autobiography</h3>
-                <p>Your life story organised into a clear and readable account.</p>
+                <h3>Autobiography and life story</h3>
+                <p>A broader life story organized with clarity, arc, and depth.</p>
               </li>
               <li>
                 <span className="gw-forms__n">03</span>
-                <h3>{'Business & Expertise'}</h3>
-                <p>Your practical knowledge and professional experience explained for your readers.</p>
+                <h3>Business and professional expertise</h3>
+                <p>Field experience, frameworks, and lessons structured for readers.</p>
               </li>
               <li>
                 <span className="gw-forms__n">04</span>
-                <h3>Self Help</h3>
-                <p>Lessons and ideas developed into guidance readers can follow.</p>
+                <h3>Self-help and practical nonfiction</h3>
+                <p>Actionable guidance built around clear ideas and real examples.</p>
               </li>
               <li>
                 <span className="gw-forms__n">05</span>
-                <h3>Fiction</h3>
-                <p>Characters, plot and setting connected across a full story.</p>
+                <h3>Fiction and narrative concepts</h3>
+                <p>Story premises, characters, and arcs developed into long-form narrative.</p>
               </li>
               <li>
                 <span className="gw-forms__n">06</span>
-                <h3>Personal Story</h3>
-                <p>An important experience recorded in the words and tone it deserves.</p>
+                <h3>Personal stories and family histories</h3>
+                <p>Family records, memories, and histories preserved with care.</p>
               </li>
             </ol>
           </div>
         </section>
+
         <section className="gw-room on-dark" id="room" aria-labelledby="room-title">
           <div className="gw-room__photo" aria-hidden="true">
-            <Image data-auto-size="" width="2200" height="1300"
+            <Image
+              data-auto-size=""
+              width="2200"
+              height="1300"
               src="/assets/images/photos/1762417691650-f2e4bcca7eaf-2200x1300.webp"
               alt=""
               loading="lazy"
@@ -368,25 +365,25 @@ export default function GhostwritingPage() {
           <div className="container gw-room__inner">
             <p className="gw-kicker gw-kicker--light">
               <b>V</b>
-              The writing room
+              Pacing and schedule
             </p>
             <h2 className="gw-h2 gw-h2--light" id="room-title">
-              {'Time and attention '}
-              <em>for the writing.</em>
+              {'Every Word Gets '}
+              <em>Its Due Attention.</em>
             </h2>
             <p className="gw-body gw-body--light">
-              A draft develops through interviews, notes, research and revision. We keep those parts organised so you
-              can focus on the material only you can provide.
+              A book needs more than a quick collection of pages. The schedule is shaped around the length of the project, the amount of source material, interview availability, research needs, and the review time you can give each draft.
             </p>
             <ul className="gw-room__words" role="list">
-              <li>Conversations</li>
+              <li>Project Length</li>
+              <li>Source Material</li>
+              <li>Interviews</li>
               <li>Research</li>
-              <li>Writing</li>
-              <li>Revision</li>
-              <li>Voice</li>
+              <li>Draft Reviews</li>
             </ul>
           </div>
         </section>
+
         <section className="gw-sec gw-collab" id="collaboration" aria-labelledby="collab-title">
           <div className="container">
             <div className="gw-collab__head">
@@ -399,19 +396,17 @@ export default function GhostwritingPage() {
                 <em>We will help with the words.</em>
               </h2>
               <p className="gw-body gw-body--c">
-                You remain involved in the decisions and reviews. We bring structure, writing time and an outside eye to
-                help the manuscript progress.
+                You contribute the knowledge, memories, ideas, and decisions. Depending on the project, our team can support outlining, research, interviews, ghostwriting, manuscript development, and editorial direction.
               </p>
             </div>
             <div className="gw-exchange">
               <div className="gw-exchange__side gw-exchange__side--you">
                 <p className="gw-exchange__label">You bring</p>
                 <ul role="list">
-                  <li>Your experience</li>
-                  <li>Your ideas</li>
-                  <li>Your memories</li>
-                  <li>Your knowledge</li>
-                  <li>Your voice</li>
+                  <li>Knowledge</li>
+                  <li>Memories</li>
+                  <li>Ideas</li>
+                  <li>Decisions</li>
                 </ul>
               </div>
               <div className="gw-exchange__spine" aria-hidden="true">
@@ -420,37 +415,40 @@ export default function GhostwritingPage() {
               <div className="gw-exchange__side gw-exchange__side--we">
                 <p className="gw-exchange__label">We bring</p>
                 <ul role="list">
-                  <li>Structure</li>
-                  <li>Writing</li>
-                  <li>Editorial direction</li>
+                  <li>Outlining</li>
                   <li>Research</li>
-                  <li>Revision</li>
+                  <li>Interviews</li>
+                  <li>Ghostwriting</li>
                   <li>Manuscript development</li>
+                  <li>Editorial direction</li>
                 </ul>
               </div>
             </div>
           </div>
         </section>
+
         <section className="gw-sec gw-final" id="manuscript" aria-labelledby="final-title">
           <div className="container">
             <div className="gw-final__head">
               <p className="gw-kicker">
                 <b>VII</b>
-                The finished manuscript
+                Assembling the work
               </p>
               <h2 className="gw-h2" id="final-title">
-                {'Give your material '}
-                <em>a complete shape.</em>
+                {'Bringing All the Pieces '}
+                <em>into Place.</em>
               </h2>
               <p className="gw-body">
-                The goal is a connected manuscript that reflects your ideas and can move on to editing, design and
-                publication.
+                Loose notes can become a chapter plan; recorded conversations can become a narrative; an early draft can become a structured manuscript. We identify what is usable, what needs development, and what is still missing.
               </p>
             </div>
             <div className="gw-prog">
               <figure className="gw-prog__item gw-prog__item--1">
                 <div className="gw-prog__img">
-                  <Image data-auto-size="" width="900" height="1100"
+                  <Image
+                    data-auto-size=""
+                    width="900"
+                    height="1100"
                     src="/assets/images/photos/1556970181-98e37c414e87-900x1100.webp"
                     alt="A handwritten note on a desk under lamplight"
                     loading="lazy"
@@ -459,12 +457,15 @@ export default function GhostwritingPage() {
                 </div>
                 <figcaption>
                   <span>01</span>
-                  Idea
+                  Loose notes → Chapter plan
                 </figcaption>
               </figure>
               <figure className="gw-prog__item gw-prog__item--2">
                 <div className="gw-prog__img">
-                  <Image data-auto-size="" width="900" height="1100"
+                  <Image
+                    data-auto-size=""
+                    width="900"
+                    height="1100"
                     src="/assets/images/photos/1526656001029-20a71b17f7ba-900x1100.webp"
                     alt="Bundles of notes and papers tied with string"
                     loading="lazy"
@@ -473,12 +474,15 @@ export default function GhostwritingPage() {
                 </div>
                 <figcaption>
                   <span>02</span>
-                  Notes
+                  Conversations → Narrative
                 </figcaption>
               </figure>
               <figure className="gw-prog__item gw-prog__item--3">
                 <div className="gw-prog__img">
-                  <Image data-auto-size="" width="900" height="1100"
+                  <Image
+                    data-auto-size=""
+                    width="900"
+                    height="1100"
                     src="/assets/images/photos/1570626742839-59acd9822944-900x1100.webp"
                     alt="A page in a typewriter, mid chapter"
                     loading="lazy"
@@ -487,12 +491,15 @@ export default function GhostwritingPage() {
                 </div>
                 <figcaption>
                   <span>03</span>
-                  Chapters
+                  Early draft → Structured manuscript
                 </figcaption>
               </figure>
               <figure className="gw-prog__item gw-prog__item--4">
                 <div className="gw-prog__img">
-                  <Image data-auto-size="" width="900" height="1100"
+                  <Image
+                    data-auto-size=""
+                    width="900"
+                    height="1100"
                     src="/assets/images/photos/1642655358689-56b944d6f5f6-900x1100.webp"
                     alt="A tall stack of finished manuscript pages by a window"
                     loading="lazy"
@@ -501,12 +508,13 @@ export default function GhostwritingPage() {
                 </div>
                 <figcaption>
                   <span>04</span>
-                  Manuscript
+                  Audit &amp; gap review
                 </figcaption>
               </figure>
             </div>
           </div>
         </section>
+
         <section className="section section--ivory faq gw-faq" id="faq" aria-labelledby="faq-title">
           <div className="container faq__grid">
             <div className="faq__head">
@@ -515,20 +523,19 @@ export default function GhostwritingPage() {
                 FAQ
               </p>
               <h2 className="h2" id="faq-title">
-                {'Questions about '}
-                <em>working with a ghostwriter.</em>
+                {'Questions '}
+                <em>authors ask.</em>
               </h2>
             </div>
             <div className="faq__list" data-faq="">
               <details className="qa" open>
                 <summary>
-                  <span>What is ghostwriting and how does it work?</span>
+                  <span>What is ghostwriting, and how does it work?</span>
                   <i aria-hidden="true" />
                 </summary>
                 <div className="qa__a">
                   <p>
-                    A ghostwriter writes on your behalf using your ideas and source material. You discuss the direction,
-                    review the draft and publish the finished work under your name.
+                    Ghostwriting is a collaborative writing arrangement in which a writer develops the manuscript from your ideas, knowledge, interviews, and source material. You review the work and guide its direction.
                   </p>
                 </div>
               </details>
@@ -539,32 +546,29 @@ export default function GhostwritingPage() {
                 </summary>
                 <div className="qa__a">
                   <p>
-                    We begin with conversations and an outline, then share draft material for feedback. The project
-                    scope sets out how interviews, chapter reviews and revisions will work.
+                    The project begins with a discussion of your subject, goals, material, and preferred communication process. Reviews are scheduled at agreed milestones so you can comment while the manuscript is taking shape.
                   </p>
                 </div>
               </details>
               <details className="qa">
                 <summary>
-                  <span>Will I retain full rights to my book?</span>
+                  <span>Will I retain rights to my book?</span>
                   <i aria-hidden="true" />
                 </summary>
                 <div className="qa__a">
                   <p>
-                    The original terms give you ownership of the completed book and author credit, with no royalties or
-                    acknowledgement due to the ghostwriter. Your agreement records those terms for the project.
+                    Rights, credits, and permitted uses should be set out in the written project agreement before work begins. We will clarify those terms for your specific project.
                   </p>
                 </div>
               </details>
               <details className="qa">
                 <summary>
-                  <span>How long does the ghostwriting process take?</span>
+                  <span>How long does the writing process take?</span>
                   <i aria-hidden="true" />
                 </summary>
                 <div className="qa__a">
                   <p>
-                    Timing depends on the length, research and material available. We agree on milestones after
-                    understanding the book and the time you can give to reviews.
+                    Timing depends on manuscript length, research, interview requirements, and how quickly feedback is provided. A schedule can be proposed after the scope is understood.
                   </p>
                 </div>
               </details>
@@ -575,29 +579,31 @@ export default function GhostwritingPage() {
                 </summary>
                 <div className="qa__a">
                   <p>
-                    We use conversations, writing samples and your feedback on early pages to establish a voice that
-                    feels familiar to you.
+                    We use your existing writing, sample passages, interviews, and feedback to understand your vocabulary, tone, and preferred way of communicating.
                   </p>
                 </div>
               </details>
               <details className="qa">
                 <summary>
-                  <span>How do I get started with your ghostwriting services?</span>
+                  <span>How do I get started?</span>
                   <i aria-hidden="true" />
                 </summary>
                 <div className="qa__a">
                   <p>
-                    Tell us about the book, the material you have and who you want to read it. We can then discuss a
-                    scope and quote.
+                    Share what you have—an idea, outline, notes, recordings, or a partial draft—and tell us what you want the finished book to achieve.
                   </p>
                 </div>
               </details>
             </div>
           </div>
         </section>
+
         <section className="cta on-dark gw-cta" id="contact" aria-labelledby="cta-title">
           <div className="cta__media" aria-hidden="true">
-            <Image data-auto-size="" width="1800" height="2559"
+            <Image
+              data-auto-size=""
+              width="1800"
+              height="2559"
               src="/assets/images/photos/1705602791162-e808808176ec-1800.webp"
               alt=""
               loading="lazy"
@@ -607,22 +613,21 @@ export default function GhostwritingPage() {
           </div>
           <div className="container cta__grid">
             <div className="cta__copy">
-              <p className="eyebrow">Your story is ready</p>
+              <p className="eyebrow">Writing and Editorial</p>
               <h2 className="display cta__title gw-cta__title" id="cta-title">
-                {'Let’s make time '}
-                <em>for your book.</em>
+                {'Your Book Deserves a Place '}
+                <em>on the Calendar.</em>
               </h2>
               <p className="lead">
-                A few notes are enough to start a conversation. Share what you have and we will help you consider the
-                next step.
+                Tell us what you want to write, what material you already have, and where you would like help. We can discuss a suitable starting point before a full manuscript plan is prepared.
               </p>
               <div className="gw-cta__btns">
                 <button className="btn btn--light" type="button" data-open-lead="">
-                  {'Discuss Your Book '}
+                  {'Discuss your book '}
                   <svg className="btn__icon btn__icon--arrow" aria-hidden="true">
                     <use href="#i-arrow" />
                   </svg>
-                </button>{' '}
+                </button>
                 <Link className="btn btn--glass" href="/contact">
                   <svg className="btn__icon" aria-hidden="true">
                     <use href="#i-phone" />

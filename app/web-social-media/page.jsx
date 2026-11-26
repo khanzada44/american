@@ -77,19 +77,18 @@ export default function WebSocialMediaPage() {
               <div className="ns-hero__copy">
                 <p className="ns-eyebrow">
                   <span />
-                  {'Marketing & Visibility'}
+                  Marketing and visibility
                 </p>
                 <h1 className="ns-title" id="ns-title">
-                  {'Keep your author presence '}
-                  <em>connected.</em>
+                  {'Be the author readers '}
+                  <em>want to follow.</em>
                 </h1>
                 <p className="ns-lead">
-                  Bring your website, social profiles and content together with a consistent voice and a posting plan
-                  that suits your books and readers.
+                  {`Your website, social profiles and content calendar should feel like one voice. ${site.name} weaves them together with a consistent look and a posting plan that keeps you on your readers’ radar.`}
                 </p>
                 <div className="ns-hero__btns">
                   <button className="btn btn--primary" type="button" data-open-lead="">
-                    {'Plan Your Book '}
+                    {'Plan My Presence '}
                     <svg className="btn__icon btn__icon--arrow" aria-hidden="true">
                       <use href="#i-arrow" />
                     </svg>
@@ -120,12 +119,13 @@ export default function WebSocialMediaPage() {
         <section className="ns-intro" aria-label="Introduction">
           <div className="container ns-intro__grid">
             <p className="ns-intro__state ns-rv">
-              People who enjoy a book often want to know what its author is doing next.
+              Fans always ask, “What’s next?”
             </p>
             <div className="ns-intro__side ns-rv">
               <p>
-                We help you decide what to share and how to present it across your website and social channels. Account
-                support can keep that plan moving between releases.
+                A reader who loves one book is already curious about the next. We help you decide what to share and how
+                to present it across your website and social channels, so the conversation keeps going between
+                releases.
               </p>
               <p className="ns-intro__part">
                 {'Part of '}
@@ -192,9 +192,9 @@ export default function WebSocialMediaPage() {
         <section className="ns-inc" aria-labelledby="inc-title">
           <div className="container ns-inc__grid">
             <div className="ns-inc__head">
-              <p className="ns-label ns-rv">What we handle</p>
+              <p className="ns-label ns-rv">Where we help</p>
               <h2 className="ns-h2 ns-rv" id="inc-title">
-                What we can help with.
+                Your complete social toolkit.
               </h2>
               <figure className="ns-inc__fig ns-rv">
                 <Image data-auto-size="" width="900" height="1100"
@@ -209,7 +209,7 @@ export default function WebSocialMediaPage() {
               <li>
                 <span className="ns-inc__n">01</span>
                 <h3 className="ns-inc__t">Brand identity</h3>
-                <p className="ns-inc__d">Agree on the visual choices and tone that represent you and your books.</p>
+                <p className="ns-inc__d">Define the look and tone that represent you and your books.</p>
               </li>
               <li>
                 <span className="ns-inc__n">02</span>
@@ -221,29 +221,27 @@ export default function WebSocialMediaPage() {
                     </svg>
                   </Link>
                 </h3>
-                <p className="ns-inc__d">
-                  Plan a website where readers can explore your work and official information.
-                </p>
+                <p className="ns-inc__d">Plan a home base for your work and official information.</p>
               </li>
               <li>
                 <span className="ns-inc__n">03</span>
                 <h3 className="ns-inc__t">Social profiles</h3>
-                <p className="ns-inc__d">Present profile details consistently on the channels you choose.</p>
+                <p className="ns-inc__d">Polished bios and details that match across every platform.</p>
               </li>
               <li>
                 <span className="ns-inc__n">04</span>
                 <h3 className="ns-inc__t">Content creation</h3>
-                <p className="ns-inc__d">Prepare useful posts, graphics and short clips for the content plan.</p>
+                <p className="ns-inc__d">Posts, graphics and short clips for your content plan.</p>
               </li>
               <li>
                 <span className="ns-inc__n">05</span>
                 <h3 className="ns-inc__t">Account management</h3>
-                <p className="ns-inc__d">Support the posting schedule and agreed community activity.</p>
+                <p className="ns-inc__d">Help with the posting calendar and replies to your community.</p>
               </li>
               <li>
                 <span className="ns-inc__n">06</span>
-                <h3 className="ns-inc__t">Regular review</h3>
-                <p className="ns-inc__d">Review the response and discuss what to adjust in the next period.</p>
+                <h3 className="ns-inc__t">Regular check-ins</h3>
+                <p className="ns-inc__d">A look at what is working and what to tweak next.</p>
               </li>
             </ol>
           </div>
@@ -251,28 +249,28 @@ export default function WebSocialMediaPage() {
         <section className="ns-steps" aria-labelledby="steps-title">
           <div className="container">
             <p className="ns-label ns-rv" id="steps-title">
-              The steps we work through
+              How we work: four moves to a confident online presence
             </p>
             <ol className="ns-steps__list ns-rv" role="list">
               <li>
                 <span>01</span>
-                <b>Identity</b>
-                <p>Agree on how your author presence should look and sound.</p>
+                <b>Define</b>
+                <p>Decide how your author presence should look and sound.</p>
               </li>
               <li>
                 <span>02</span>
                 <b>Build</b>
-                <p>Prepare the website and selected social profiles.</p>
+                <p>Set up your website and chosen social profiles.</p>
               </li>
               <li>
                 <span>03</span>
                 <b>Create</b>
-                <p>Create the agreed content for each channel.</p>
+                <p>Craft content tailored to each channel.</p>
               </li>
               <li>
                 <span>04</span>
-                <b>Manage</b>
-                <p>Keep up the posting plan and review the response.</p>
+                <b>Maintain</b>
+                <p>Keep the posting plan running and review how readers respond.</p>
               </li>
             </ol>
           </div>
@@ -280,9 +278,9 @@ export default function WebSocialMediaPage() {
         <section className="ns-rel" aria-labelledby="rel-title">
           <div className="container ns-rel__grid">
             <div>
-              <p className="ns-label">{'Also in Marketing & Visibility'}</p>
+              <p className="ns-label">Beyond social</p>
               <h2 className="ns-rel__title" id="rel-title">
-                Other ways we can support your book.
+                Keep the momentum going.
               </h2>{' '}
               <Link className="ns-link" href="/#services">
                 {'All services '}
@@ -296,7 +294,7 @@ export default function WebSocialMediaPage() {
                 <Link href="/book-promotion">
                   <span className="ns-rel__t">{'Book Promotion & Marketing'}</span>
                   <span className="ns-rel__d">
-                    Plan launch materials and promotional activity around your likely readers.
+                    Launch materials and campaigns aimed at the readers most likely to love your book.
                   </span>
                   <svg aria-hidden="true">
                     <use href="#i-arrow-ne" />
@@ -307,7 +305,7 @@ export default function WebSocialMediaPage() {
                 <Link href="/author-website">
                   <span className="ns-rel__t">Author Website</span>
                   <span className="ns-rel__d">
-                    Give readers a clear place to explore your books, news and background.
+                    A polished home base for your books, news and story.
                   </span>
                   <svg aria-hidden="true">
                     <use href="#i-arrow-ne" />
@@ -318,7 +316,7 @@ export default function WebSocialMediaPage() {
                 <Link href="/billboard-campaigns">
                   <span className="ns-rel__t">Billboard Campaigns</span>
                   <span className="ns-rel__d">
-                    Plan outdoor book artwork and coordinate the agreed advertising locations.
+                    Eye-catching outdoor artwork and help coordinating placements.
                   </span>
                   <svg aria-hidden="true">
                     <use href="#i-arrow-ne" />
@@ -329,7 +327,7 @@ export default function WebSocialMediaPage() {
                 <Link href="/podcasts">
                   <span className="ns-rel__t">Podcasts</span>
                   <span className="ns-rel__d">
-                    Prepare for guest interviews or develop and produce your own author episodes.
+                    Guest spots or a show of your own, with prep and production support.
                   </span>
                   <svg aria-hidden="true">
                     <use href="#i-arrow-ne" />
@@ -340,7 +338,7 @@ export default function WebSocialMediaPage() {
                 <Link href="/tv-interviews">
                   <span className="ns-rel__t">TV Interviews</span>
                   <span className="ns-rel__d">
-                    Practise the interview and prepare the story angles and materials for outreach.
+                    Story angles and practice sessions to help you shine on camera.
                   </span>
                   <svg aria-hidden="true">
                     <use href="#i-arrow-ne" />
@@ -351,7 +349,7 @@ export default function WebSocialMediaPage() {
                 <Link href="/book-fairs">
                   <span className="ns-rel__t">Book Fairs</span>
                   <span className="ns-rel__d">
-                    Prepare the displays and information needed to present your book at suitable events.
+                    Displays and materials that present your book at the right events.
                   </span>
                   <svg aria-hidden="true">
                     <use href="#i-arrow-ne" />

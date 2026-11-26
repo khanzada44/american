@@ -8,9 +8,9 @@ import LeadForm from '@/components/forms/LeadForm';
 import { site } from '@/lib/site';
 
 export const metadata = pageMetadata({
-  title: 'About Our Book Services Team',
+  title: 'Who Behind Publish Your Books Today? Meet Our Publishing Team',
   description:
-    'Meet the team helping authors write, revise, design and publish their books. Learn how we work with you from the first conversation.',
+    'Learn about Publish Your Books Today, a book publishing company offering writing, editing, design, production, and marketing services for authors.',
   path: '/about',
 });
 

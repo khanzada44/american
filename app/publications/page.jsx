@@ -9,9 +9,9 @@ import BookModal from '@/components/modals/BookModal';
 import { site } from '@/lib/site';
 
 export const metadata = pageMetadata({
-  title: 'Browse Our Published Book Catalogue',
+  title: 'Which Book Will Catch Your Attention? Explore Our Published Books',
   description:
-    'Explore the books in our catalogue across fiction, poetry, faith, business and more. Select a title to learn about the book and its author.',
+    'Browse published books across genres, subjects, and perspectives. Discover new titles and the authors behind the books featured in our collection.',
   path: '/publications',
 });
 

@@ -76,19 +76,18 @@ export default function GlobalDistributionPage() {
             <div className="ns-hero__copy">
               <p className="ns-eyebrow">
                 <span />
-                {'Rights & Distribution'}
+                Rights and distribution
               </p>
               <h1 className="ns-title" id="ns-title">
-                {'Help readers '}
-                <em>get hold of your book.</em>
+                {'Put your book within '}
+                <em>every reader’s reach.</em>
               </h1>
               <p className="ns-lead">
-                Prepare print and digital editions for the distribution channels that suit your plans, with clear title
-                records and agreed market settings.
+                {`Whether a reader prefers paper, pixels or a library card, ${site.name} prepares your print and digital editions for the channels you choose, with clean title records behind each one.`}
               </p>
               <div className="ns-hero__btns">
                 <button className="btn btn--primary" type="button" data-open-lead="">
-                  {'Plan Your Book '}
+                  {'Plan My Distribution '}
                   <svg className="btn__icon btn__icon--arrow" aria-hidden="true">
                     <use href="#i-arrow" />
                   </svg>
@@ -117,11 +116,12 @@ export default function GlobalDistributionPage() {
         </section>
         <section className="ns-intro" aria-label="Introduction">
           <div className="container ns-intro__grid">
-            <p className="ns-intro__state ns-rv">Readers need a practical way to find and order the book.</p>
+            <p className="ns-intro__state ns-rv">Writing it is only half the battle.</p>
             <div className="ns-intro__side ns-rv">
               <p>
-                We help organise files, title information and platform setup for your chosen channels. Listing a book
-                makes it available to order; individual shops and libraries make their own stocking decisions.
+                Readers need an easy path from “I heard about it” to “it’s on its way.” We prepare your files, title
+                details and platform setup so people can order your book wherever they look. Being listed means your
+                book is available to order. Each bookstore and library decides for itself what to stock.
               </p>
               <p className="ns-intro__part">
                 {'Part of '}
@@ -194,9 +194,9 @@ export default function GlobalDistributionPage() {
         <section className="ns-inc" aria-labelledby="inc-title">
           <div className="container ns-inc__grid">
             <div className="ns-inc__head">
-              <p className="ns-label ns-rv">What we handle</p>
+              <p className="ns-label ns-rv">Where we help</p>
               <h2 className="ns-h2 ns-rv" id="inc-title">
-                What we can help with.
+                How we put your book on the map.
               </h2>
               <figure className="ns-inc__fig ns-rv">
                 <Image data-auto-size="" width="900" height="1100"
@@ -210,35 +210,33 @@ export default function GlobalDistributionPage() {
             <ol className="ns-inc__list ns-rv" role="list">
               <li>
                 <span className="ns-inc__n">01</span>
-                <h3 className="ns-inc__t">Distribution setup</h3>
-                <p className="ns-inc__d">Help prepare accounts and title records on the agreed publishing platforms.</p>
+                <h3 className="ns-inc__t">Account setup</h3>
+                <p className="ns-inc__d">We help you create accounts and enter title records on the publishing platforms you select.</p>
               </li>
               <li>
                 <span className="ns-inc__n">02</span>
                 <h3 className="ns-inc__t">Print on demand</h3>
-                <p className="ns-inc__d">Set up printing as orders arrive where that model suits the edition.</p>
+                <p className="ns-inc__d">Copies are printed as orders arrive, so there is no garage full of boxes.</p>
               </li>
               <li>
                 <span className="ns-inc__n">03</span>
-                <h3 className="ns-inc__t">Offset print runs</h3>
-                <p className="ns-inc__d">Discuss larger quantities for launches, events or your own stock.</p>
+                <h3 className="ns-inc__t">Offset printing</h3>
+                <p className="ns-inc__d">Larger print runs for launch events, signings or your own inventory.</p>
               </li>
               <li>
                 <span className="ns-inc__n">04</span>
                 <h3 className="ns-inc__t">eBook distribution</h3>
-                <p className="ns-inc__d">Prepare the digital edition for the stores selected in the project.</p>
+                <p className="ns-inc__d">Digital editions prepared for the stores you have chosen.</p>
               </li>
               <li>
                 <span className="ns-inc__n">05</span>
-                <h3 className="ns-inc__t">{'Pricing & territories'}</h3>
-                <p className="ns-inc__d">Review list prices and territory settings with you before submission.</p>
+                <h3 className="ns-inc__t">Pricing and regions</h3>
+                <p className="ns-inc__d">We review list prices and territory settings with you before anything is submitted.</p>
               </li>
               <li>
                 <span className="ns-inc__n">06</span>
-                <h3 className="ns-inc__t">{'Listings & metadata'}</h3>
-                <p className="ns-inc__d">
-                  Keep the book title, contributors and description consistent across listings.
-                </p>
+                <h3 className="ns-inc__t">Listings and metadata</h3>
+                <p className="ns-inc__d">Title, credits and description kept consistent wherever your book appears.</p>
               </li>
             </ol>
           </div>
@@ -246,28 +244,28 @@ export default function GlobalDistributionPage() {
         <section className="ns-steps" aria-labelledby="steps-title">
           <div className="container">
             <p className="ns-label ns-rv" id="steps-title">
-              The steps we work through
+              The path to availability: four steps to shelf-ready
             </p>
             <ol className="ns-steps__list ns-rv" role="list">
               <li>
                 <span>01</span>
                 <b>Prepare</b>
-                <p>Gather the approved cover, interior and digital files.</p>
+                <p>Collect your approved cover, interior and digital files.</p>
               </li>
               <li>
                 <span>02</span>
                 <b>Set up</b>
-                <p>Prepare the title records for the selected channels.</p>
+                <p>Enter your title records on the channels you picked.</p>
               </li>
               <li>
                 <span>03</span>
-                <b>{'Price & territories'}</b>
-                <p>Agree on prices, territories and edition details.</p>
+                <b>Price</b>
+                <p>Settle prices, regions and edition details together.</p>
               </li>
               <li>
                 <span>04</span>
-                <b>Available</b>
-                <p>Submit the setup and review the available listings.</p>
+                <b>Go live</b>
+                <p>Submit the setup and review your available listings.</p>
               </li>
             </ol>
           </div>
@@ -277,7 +275,7 @@ export default function GlobalDistributionPage() {
             <div>
               <p className="ns-label">{'Also in Rights & Distribution'}</p>
               <h2 className="ns-rel__title" id="rel-title">
-                Other ways we can support your book.
+                Keep building.
               </h2>{' '}
               <Link className="ns-link" href="/#services">
                 {'All services '}
@@ -291,7 +289,7 @@ export default function GlobalDistributionPage() {
                 <Link href="/copyrights-isbn">
                   <span className="ns-rel__t">{'Copyrights & ISBN'}</span>
                   <span className="ns-rel__d">
-                    Organise ISBNs, copyright paperwork and the title details for your editions.
+                    Organize identifiers, copyright paperwork and title details for your editions.
                   </span>
                   <svg aria-hidden="true">
                     <use href="#i-arrow-ne" />
@@ -317,15 +315,16 @@ export default function GlobalDistributionPage() {
                 Global Distribution
               </p>
               <h2 className="display cta__title" id="cta-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'Let’s discuss '}
-                <em>your distribution options.</em>
+                {'Let’s chart the course '}
+                <em>to your readers.</em>
               </h2>
               <p className="lead" data-reveal="" style={{ '--d': '.16s' }}>
-                Share the book you have in mind and the support you need. We will review your enquiry and contact you.
+                Tell us about your book and where you would like it to be found. We will read your message and reach out
+                with next steps.
               </p>
               <div className="ns-cta__btns" data-reveal="" style={{ '--d': '.2s' }}>
                 <button className="btn btn--light" type="button" data-open-lead="">
-                  {'Plan Your Book '}
+                  {'Plan My Distribution '}
                   <svg className="btn__icon btn__icon--arrow" aria-hidden="true">
                     <use href="#i-arrow" />
                   </svg>

@@ -8,9 +8,9 @@ import LeadForm from '@/components/forms/LeadForm';
 import { site } from '@/lib/site';
 
 export const metadata = pageMetadata({
-  title: 'Meet Our Featured Authors',
+  title: ' Who Are the Authors Behind These Books? Meet Our Featured Authors',
   description:
-    'Explore the writers behind books in our catalogue, read about their subjects and discover the work they have shared with readers.',
+    'Meet our featured authors and discover their published books, writing backgrounds, and creative achievements across different genres and subjects.',
   path: '/featured-authors',
 });
 

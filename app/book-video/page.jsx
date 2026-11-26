@@ -96,25 +96,24 @@ export default function BookVideoPage() {
             <div className="bv-hero__copy">
               <p className="bv-eyebrow" data-reveal="">
                 <span className="bv-rec" aria-hidden="true" />
-                Book video production
+                Stories in motion
               </p>
               <h1 className="bv-hero__title" id="bv-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'Give readers '}
-                <em>a glimpse of your story.</em>
+                {'Give your book '}
+                <em>a cinematic introduction.</em>
               </h1>
               <p className="bv-hero__lead" data-reveal="" style={{ '--d': '.16s' }}>
-                We make book trailers that introduce the mood, subject and promise of your book through a short sequence
-                of pictures, words and sound.
+                {`Before a reader ever opens page one, a great trailer can whet their appetite. ${site.name} turns your themes, characters and big ideas into a short, striking film, complete with imagery, narration and music that make people want to hear the whole story.`}
               </p>
               <div className="bv-hero__ctas" data-reveal="" style={{ '--d': '.22s' }}>
                 <button className="btn btn--light" type="button" data-open-lead="">
-                  {'Create My Book Video '}
+                  {'Start My Book Video '}
                   <svg className="btn__icon btn__icon--arrow" aria-hidden="true">
                     <use href="#i-arrow" />
                   </svg>
                 </button>{' '}
-                <Link className="btn btn--glass" href="#approach">
-                  See Our Approach
+                <Link className="btn btn--glass" href="#process">
+                  See How We Work
                 </Link>
               </div>
               <p className="bv-hero__formats" data-reveal="" style={{ '--d': '.28s' }}>
@@ -188,28 +187,28 @@ export default function BookVideoPage() {
               <p className="bv-kicker" data-reveal="">
                 <b>01</b>
                 <span />
-                The cinematic difference
+                The cinematic edge
               </p>
               <h2 className="bv-h2 bv-h2--xl" id="diff-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'A short film. '}
-                <em>A reason to read.</em>
+                {'Two minutes that '}
+                <em>leave readers curious.</em>
               </h2>
               <p className="bv-body" data-reveal="" style={{ '--d': '.16s' }}>
-                A trailer offers a first impression rather than a full explanation. We choose the moments, imagery and
-                sounds that suggest the reading experience without giving the story away.
+                A trailer is a spark, not a summary. We choose the scenes, visuals and sounds that hint at what waits
+                inside while keeping your best twists safely under wraps.
               </p>
               <dl className="bv-diff__spec" data-reveal="" style={{ '--d': '.22s' }}>
                 <div>
-                  <dt>Pacing</dt>
-                  <dd>What the viewer feels, and when</dd>
+                  <dt>Rhythm</dt>
+                  <dd>Scenes cut to match the heartbeat of your story</dd>
                 </div>
                 <div>
-                  <dt>Imagery</dt>
-                  <dd>The world of the book, made visible</dd>
+                  <dt>Visuals</dt>
+                  <dd>Imagery that lets readers step into the world you built</dd>
                 </div>
                 <div>
-                  <dt>Sound</dt>
-                  <dd>Music and voice that carry the mood</dd>
+                  <dt>Soundtrack</dt>
+                  <dd>Music and narration that set the mood from the very first second</dd>
                 </div>
               </dl>
             </div>
@@ -250,11 +249,11 @@ export default function BookVideoPage() {
               <p className="bv-kicker" data-reveal="">
                 <b>02</b>
                 <span />
-                What we produce
+                What we create
               </p>
               <h2 className="bv-h2" id="produce-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'The pieces of '}
-                <em>your book trailer.</em>
+                {'Everything '}
+                <em>behind the curtain.</em>
               </h2>
               <figure className="bv-produce__fig" data-reveal="fade" style={{ '--d': '.16s' }}>
                 <div className="bv-reveal-frame">
@@ -273,66 +272,50 @@ export default function BookVideoPage() {
                 <li className="bv-reel__item" data-reveal="" style={{ '--d': '0.00s' }}>
                   <span className="bv-reel__n">01</span>
                   <div>
-                    <h3>{'Concept & Creative Direction'}</h3>
-                    <p>We discuss the audience and choose a visual approach that suits the book.</p>
+                    <h3>Creative Direction</h3>
+                    <p>We get to know your readers, then shape a visual approach that fits your story.</p>
                   </div>
                   <span className="bv-reel__ph">Pre production</span>
                 </li>
                 <li className="bv-reel__item" data-reveal="" style={{ '--d': '0.04s' }}>
                   <span className="bv-reel__n">02</span>
                   <div>
-                    <h3>{'Storyboard & Script'}</h3>
-                    <p>We write a short script and plan the sequence before production begins.</p>
+                    <h3>Script and Storyboard</h3>
+                    <p>Your strongest lines become a tight script, sketched scene by scene before a single frame is built.</p>
                   </div>
                   <span className="bv-reel__ph">Pre production</span>
                 </li>
                 <li className="bv-reel__item" data-reveal="" style={{ '--d': '0.08s' }}>
                   <span className="bv-reel__n">03</span>
                   <div>
-                    <h3>Cinematic Visuals</h3>
-                    <p>Images and scenes chosen around your book’s setting, genre and tone.</p>
+                    <h3>Visual Storytelling</h3>
+                    <p>Scenes and imagery chosen to echo your setting, genre and tone.</p>
                   </div>
                   <span className="bv-reel__ph">Production</span>
                 </li>
                 <li className="bv-reel__item" data-reveal="" style={{ '--d': '0.12s' }}>
                   <span className="bv-reel__n">04</span>
                   <div>
-                    <h3>{'Motion & Editing'}</h3>
-                    <p>Movement and cuts arranged to give the trailer a clear pace.</p>
+                    <h3>Editing and Motion</h3>
+                    <p>Cuts and transitions timed so every second earns its place.</p>
                   </div>
                   <span className="bv-reel__ph">Post production</span>
                 </li>
                 <li className="bv-reel__item" data-reveal="" style={{ '--d': '0.16s' }}>
                   <span className="bv-reel__n">05</span>
                   <div>
-                    <h3>{'Voiceover & Narration'}</h3>
-                    <p>An optional voice performance that supports the script and atmosphere.</p>
+                    <h3>Narration</h3>
+                    <p>An optional voiceover that carries your script with warmth and clarity.</p>
                   </div>
                   <span className="bv-reel__ph">Sound</span>
                 </li>
                 <li className="bv-reel__item" data-reveal="" style={{ '--d': '0.20s' }}>
                   <span className="bv-reel__n">06</span>
                   <div>
-                    <h3>{'Music & Sound Design'}</h3>
-                    <p>Music and sound selected to work with the visuals and the intended use.</p>
+                    <h3>Music and Sound Design</h3>
+                    <p>A score that hits the right note and underlines every mood.</p>
                   </div>
                   <span className="bv-reel__ph">Sound</span>
-                </li>
-                <li className="bv-reel__item" data-reveal="" style={{ '--d': '0.24s' }}>
-                  <span className="bv-reel__n">07</span>
-                  <div>
-                    <h3>{'Titles & Book Branding'}</h3>
-                    <p>The cover, title and author details presented clearly within the film.</p>
-                  </div>
-                  <span className="bv-reel__ph">Finishing</span>
-                </li>
-                <li className="bv-reel__item" data-reveal="" style={{ '--d': '0.28s' }}>
-                  <span className="bv-reel__n">08</span>
-                  <div>
-                    <h3>Final Master</h3>
-                    <p>The completed video prepared in the formats agreed for your channels.</p>
-                  </div>
-                  <span className="bv-reel__ph">Delivery</span>
                 </li>
               </ol>
               <p className="bv-produce__also" data-reveal="">
@@ -349,15 +332,16 @@ export default function BookVideoPage() {
             <div className="bv-feature__head">
               <p className="bv-kicker" data-reveal="">
                 <b>03</b>
-                <span />A book, reimagined
+                <span />See it in action
               </p>
               <h2 className="bv-h2" id="feature-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'A first look '}
-                <em>at the world of the book.</em>
+                {'Press play '}
+                <em>on your story.</em>
               </h2>
               <p className="bv-body" data-reveal="" style={{ '--d': '.14s' }}>
-                This fictional trailer example uses five scenes to show how a book’s atmosphere can carry across a short
-                film.
+                Picture your book as a trailer: a moody coastline, a title that fades in, a score that slowly rises. This
+                sample shows how five carefully chosen scenes can carry the atmosphere of an entire novel in under two
+                minutes.
               </p>
             </div>
             <figure
@@ -622,11 +606,11 @@ export default function BookVideoPage() {
               <p className="bv-kicker" data-reveal="">
                 <b>04</b>
                 <span />
-                Our process
+                How it comes together
               </p>
               <h2 className="bv-h2" id="process-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'Plan the story. '}
-                <em>Then build the film.</em>
+                {'From page to screen, '}
+                <em>step by step.</em>
               </h2>
             </div>
             <div className="bv-tl" data-reveal="fade">
@@ -639,42 +623,42 @@ export default function BookVideoPage() {
                   <span className="bv-tl__dot" aria-hidden="true" />
                   <span className="bv-tl__n">01</span>
                   <h3>Read</h3>
-                  <p>We review your synopsis, audience and promotional goals.</p>
+                  <p>We study your synopsis, your audience and what you hope the trailer will achieve.</p>
                 </li>
                 <li className="bv-tl__step" data-reveal="" style={{ '--d': '0.1s' }}>
                   <span className="bv-tl__tc">00:18</span>
                   <span className="bv-tl__dot" aria-hidden="true" />
                   <span className="bv-tl__n">02</span>
-                  <h3>Conceive</h3>
-                  <p>We agree on the idea, tone and visual references.</p>
+                  <h3>Dream</h3>
+                  <p>Together we settle on a concept, a tone and a look.</p>
                 </li>
                 <li className="bv-tl__step" data-reveal="" style={{ '--d': '0.2s' }}>
                   <span className="bv-tl__tc">00:34</span>
                   <span className="bv-tl__dot" aria-hidden="true" />
                   <span className="bv-tl__n">03</span>
-                  <h3>Storyboard</h3>
-                  <p>We set out the scenes and words in a short storyboard.</p>
+                  <h3>Sketch</h3>
+                  <p>Scenes and words are mapped out in a simple storyboard.</p>
                 </li>
                 <li className="bv-tl__step" data-reveal="" style={{ '--d': '0.3s' }}>
                   <span className="bv-tl__tc">00:52</span>
                   <span className="bv-tl__dot" aria-hidden="true" />
                   <span className="bv-tl__n">04</span>
-                  <h3>Produce</h3>
-                  <p>We gather or create the agreed visual and audio elements.</p>
+                  <h3>Build</h3>
+                  <p>Visuals, voice and music are gathered and assembled.</p>
                 </li>
                 <li className="bv-tl__step" data-reveal="" style={{ '--d': '0.4s' }}>
                   <span className="bv-tl__tc">01:14</span>
                   <span className="bv-tl__dot" aria-hidden="true" />
                   <span className="bv-tl__n">05</span>
-                  <h3>Edit</h3>
-                  <p>We bring the sequence together and work through your feedback.</p>
+                  <h3>Polish</h3>
+                  <p>You watch a cut, share your thoughts and we refine it.</p>
                 </li>
                 <li className="bv-tl__step" data-reveal="" style={{ '--d': '0.5s' }}>
                   <span className="bv-tl__tc">01:42</span>
                   <span className="bv-tl__dot" aria-hidden="true" />
                   <span className="bv-tl__n">06</span>
                   <h3>Deliver</h3>
-                  <p>We export the versions needed for your agreed promotional uses.</p>
+                  <p>You receive final files ready for every place you plan to share them.</p>
                 </li>
               </ol>
             </div>
@@ -686,14 +670,15 @@ export default function BookVideoPage() {
               <p className="bv-kicker bv-kicker--ink" data-reveal="">
                 <b>05</b>
                 <span />
-                The production board
+                The planning board
               </p>
               <h2 className="bv-h2 bv-h2--ink" id="board-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'Start with '}
-                <em>a shared picture.</em>
+                {'Get on the same page '}
+                <em>before production starts.</em>
               </h2>
               <p className="bv-body bv-body--ink" data-reveal="" style={{ '--d': '.14s' }}>
-                A script and storyboard help everyone see the same direction before time goes into the finished video.
+                Before anything is built, you will see your script and storyboard laid out scene by scene. Everyone knows
+                where the story is headed, and your feedback shapes the film while changes are still quick and easy.
               </p>
             </div>
             <div className="bv-board__grid">
@@ -848,15 +833,15 @@ export default function BookVideoPage() {
               <p className="bv-kicker" data-reveal="">
                 <b>06</b>
                 <span />
-                {'Genre & cinematic language'}
+                Style meets story
               </p>
               <h2 className="bv-h2" id="genre-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'Let the genre '}
-                <em>guide the feeling.</em>
+                {'Every genre has '}
+                <em>its own heartbeat.</em>
               </h2>
               <p className="bv-body" data-reveal="" style={{ '--d': '.14s' }}>
-                A gentle memoir and a fast thriller need different rhythms. We use colour, pacing and sound to suit the
-                reading experience.
+                A quiet memoir breathes slowly and a thriller sprints. We match color, pacing and sound to your genre so
+                the trailer feels like your book and nobody else’s.
               </p>
             </div>
             <ul className="bv-genre__list" role="list" data-genres="">
@@ -949,19 +934,19 @@ export default function BookVideoPage() {
               <p className="bv-kicker" data-reveal="">
                 <b>07</b>
                 <span />
-                Where it plays
+                Made to travel
               </p>
               <h2 className="bv-h2" id="uses-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'Made for '}
-                <em>the places you share it.</em>
+                {'Built for every place '}
+                <em>your book appears.</em>
               </h2>
             </div>
             <ol className="bv-uses__list" role="list">
               <li data-reveal="" style={{ '--d': '0.00s' }}>
                 <span className="bv-uses__n">01</span>
                 <div>
-                  <h3>Book launches</h3>
-                  <p>Introduce the book as part of your release announcement.</p>
+                  <h3>Launch day</h3>
+                  <p>A headline clip that announces your arrival.</p>
                 </div>
                 <span className="bv-uses__r">
                   <i style={{ '--w': '16', '--h': '9' }} title="16:9" />
@@ -971,8 +956,8 @@ export default function BookVideoPage() {
               <li data-reveal="" style={{ '--d': '0.05s' }}>
                 <span className="bv-uses__n">02</span>
                 <div>
-                  <h3>Amazon author pages</h3>
-                  <p>A video asset for supported author or book features.</p>
+                  <h3>Online storefronts</h3>
+                  <p>A video that brings your retail listing to life.</p>
                 </div>
                 <span className="bv-uses__r">
                   <i style={{ '--w': '16', '--h': '9' }} title="16:9" />
@@ -982,8 +967,8 @@ export default function BookVideoPage() {
               <li data-reveal="" style={{ '--d': '0.10s' }}>
                 <span className="bv-uses__n">03</span>
                 <div>
-                  <h3>Author websites</h3>
-                  <p>Give visitors a quick introduction to your latest work.</p>
+                  <h3>Author website</h3>
+                  <p>A welcoming first impression for every visitor.</p>
                 </div>
                 <span className="bv-uses__r">
                   <i style={{ '--w': '16', '--h': '9' }} title="16:9" />
@@ -993,8 +978,8 @@ export default function BookVideoPage() {
               <li data-reveal="" style={{ '--d': '0.15s' }}>
                 <span className="bv-uses__n">04</span>
                 <div>
-                  <h3>Social media</h3>
-                  <p>Versions sized for the social formats in your brief.</p>
+                  <h3>Social feeds</h3>
+                  <p>Cuts sized for scrolling thumbs on each platform.</p>
                 </div>
                 <span className="bv-uses__r">
                   <i style={{ '--w': '9', '--h': '16' }} title="9:16" />
@@ -1005,8 +990,8 @@ export default function BookVideoPage() {
               <li data-reveal="" style={{ '--d': '0.00s' }}>
                 <span className="bv-uses__n">05</span>
                 <div>
-                  <h3>Paid advertising</h3>
-                  <p>Short edits prepared for the advertising placements you choose.</p>
+                  <h3>Paid ads</h3>
+                  <p>Short, punchy edits for the ad spaces you choose.</p>
                 </div>
                 <span className="bv-uses__r">
                   <i style={{ '--w': '1', '--h': '1' }} title="1:1" />
@@ -1017,8 +1002,8 @@ export default function BookVideoPage() {
               <li data-reveal="" style={{ '--d': '0.05s' }}>
                 <span className="bv-uses__n">06</span>
                 <div>
-                  <h3>Bookstore screens</h3>
-                  <p>Versions that communicate clearly on a display without sound.</p>
+                  <h3>In-store screens</h3>
+                  <p>Visuals that tell the story even with the sound off.</p>
                 </div>
                 <span className="bv-uses__r">
                   <i style={{ '--w': '16', '--h': '9' }} title="16:9" />
@@ -1028,8 +1013,8 @@ export default function BookVideoPage() {
               <li data-reveal="" style={{ '--d': '0.10s' }}>
                 <span className="bv-uses__n">07</span>
                 <div>
-                  <h3>{'Events & presentations'}</h3>
-                  <p>An opening film for a reading, signing or presentation.</p>
+                  <h3>Events and readings</h3>
+                  <p>An opening film that sets the scene before you speak.</p>
                 </div>
                 <span className="bv-uses__r">
                   <i style={{ '--w': '16', '--h': '9' }} title="16:9" />
@@ -1039,8 +1024,8 @@ export default function BookVideoPage() {
               <li data-reveal="" style={{ '--d': '0.15s' }}>
                 <span className="bv-uses__n">08</span>
                 <div>
-                  <h3>{'Press & media'}</h3>
-                  <p>A useful visual asset to accompany outreach and interviews.</p>
+                  <h3>Press and media</h3>
+                  <p>A ready-made visual to travel along with your interviews.</p>
                 </div>
                 <span className="bv-uses__r">
                   <i style={{ '--w': '16', '--h': '9' }} title="16:9" />
@@ -1061,10 +1046,10 @@ export default function BookVideoPage() {
           </div>
           <div className="container bv-statement__inner">
             <p className="bv-statement__line" data-reveal="">
-              Your pages hold the full story.
+              Your chapters hold the whole story.
             </p>
             <p className="bv-statement__line bv-statement__line--2" data-reveal="" style={{ '--d': '.18s' }}>
-              The trailer gives readers a first taste.
+              A trailer simply serves the first irresistible bite.
             </p>
           </div>
         </section>
@@ -1132,96 +1117,66 @@ export default function BookVideoPage() {
               <p className="bv-kicker bv-kicker--ink" data-reveal="">
                 <b>09</b>
                 <span />
-                FAQ
+                Good to know
               </p>
               <h2 className="h2" id="faq-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'Questions about '}
-                <em>book trailers.</em>
+                {'Curious about trailers? '}
+                <em>Start here.</em>
               </h2>
             </div>
             <div className="faq__list" data-faq="">
               <details className="qa" data-reveal="" open>
                 <summary>
-                  <span>Why do I need a video book trailer?</span>
+                  <span>Is a book trailer really worth it?</span>
                   <i aria-hidden="true" />
                 </summary>
                 <div className="qa__a">
-                  <p>
-                    A trailer gives you a short visual introduction to share with potential readers. It can support a
-                    launch or promotion campaign without promising a particular sales result.
-                  </p>
+                  <p>A trailer gives readers a quick, shareable way to meet your book. It can support a launch or an ongoing promotion, though no video can promise a particular sales result.</p>
                 </div>
               </details>
               <details className="qa" data-reveal="">
                 <summary>
-                  <span>What types of book videos do you offer?</span>
+                  <span>What kinds of videos can you make?</span>
                   <i aria-hidden="true" />
                 </summary>
                 <div className="qa__a">
-                  <p>
-                    We can discuss cinematic trailers, animated pieces, short explainers and author introductions,
-                    depending on the book and brief.
-                  </p>
+                  <p>Cinematic book trailers, animated videos, explainer videos and infographic-style clips, each tailored to your title.</p>
                 </div>
               </details>
               <details className="qa" data-reveal="">
                 <summary>
-                  <span>How long should a book trailer be?</span>
+                  <span>How long should my trailer run?</span>
                   <i aria-hidden="true" />
                 </summary>
                 <div className="qa__a">
-                  <p>
-                    The right length depends on where it will be shown and what it needs to communicate. We keep the
-                    concept focused and discuss shorter versions where useful.
-                  </p>
+                  <p>Most main trailers land between one and two minutes. We also prepare 15 and 30 second cuts for social media and ads.</p>
                 </div>
               </details>
               <details className="qa" data-reveal="">
                 <summary>
-                  <span>Can I choose the visuals and voiceover for my video?</span>
+                  <span>Do I get a say in the visuals and narration?</span>
                   <i aria-hidden="true" />
                 </summary>
                 <div className="qa__a">
-                  <p>
-                    Yes. We agree on the creative direction and discuss imagery, narration and sound before completing
-                    the production.
-                  </p>
+                  <p>Absolutely. You review the concept, script and storyboard, and you decide whether the video includes a voiceover.</p>
                 </div>
               </details>
               <details className="qa" data-reveal="">
                 <summary>
-                  <span>Where can I use my book trailer?</span>
+                  <span>Where can I show my trailer?</span>
                   <i aria-hidden="true" />
                 </summary>
                 <div className="qa__a">
-                  <p>
-                    Common uses include an author website, social profiles, video platforms, events and paid campaigns.
-                    We prepare versions and usage permissions around your agreed plan.
-                  </p>
+                  <p>Anywhere readers gather: your website, social channels, retail pages, ads, events and press outreach.</p>
                 </div>
               </details>
               <details className="qa" data-reveal="">
                 <summary>
-                  <span>How long does it take to create a book trailer?</span>
+                  <span>How do I get started?</span>
                   <i aria-hidden="true" />
                 </summary>
                 <div className="qa__a">
-                  <p>
-                    The concept, animation, source materials and review rounds all affect timing. We confirm a schedule
-                    after agreeing on the brief.
-                  </p>
-                </div>
-              </details>
-              <details className="qa" data-reveal="">
-                <summary>
-                  <span>How do I get started with a book trailer?</span>
-                  <i aria-hidden="true" />
-                </summary>
-                <div className="qa__a">
-                  <p>
-                    Send us the synopsis, cover and any ideas you have for the trailer. We will discuss the audience and
-                    where you want to share it.
-                  </p>
+                  <p>{`Send ${site.name} a note about your book and your goals. Our team will reply with a suggested direction and next steps.`}</p>
                 </div>
               </details>
             </div>
@@ -1243,11 +1198,11 @@ export default function BookVideoPage() {
                 Start your book video
               </p>
               <h2 className="display cta__title bv-cta__title" id="cta-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'What would you show '}
-                <em>from your book?</em>
+                {'Tell us the scene '}
+                <em>you want readers to see.</em>
               </h2>
               <p className="lead" data-reveal="" style={{ '--d': '.16s' }}>
-                Let’s choose the images, words and sounds that give readers a reason to look closer.
+                {`Share a few details about your book and the kind of video you imagine. The ${site.name} creative team will take it from there.`}
               </p>
               <div className="bv-cta__btns" data-reveal="" style={{ '--d': '.2s' }}>
                 <button className="btn btn--light" type="button" data-open-lead="">

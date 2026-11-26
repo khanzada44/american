@@ -8,9 +8,9 @@ import LeadForm from '@/components/forms/LeadForm';
 import { site } from '@/lib/site';
 
 export const metadata = pageMetadata({
-  title: 'Custom Book Cover Design Services',
+  title: 'Book Cover Design',
   description:
-    'Develop a book cover around your story and genre, with concepts, typography, artwork and final files for your chosen print and digital editions.',
+    'We develop cover concepts around the story, the reader, and the market your book will enter—then prepare the artwork for the formats you plan to publish.',
   path: '/book-cover-design',
 });
 
@@ -100,21 +100,21 @@ export default function BookCoverDesignPage() {
             </nav>
             <div className="cd-hero__copy">
               <span className="cd-crop cd-crop--tl" aria-hidden="true" />
-              <span className="cd-crop cd-crop--br" aria-hidden="true" />{' '}
+              <span className="cd-crop cd-crop--br" aria-hidden="true" />
               <p className="eyebrow" data-reveal="">
-                Book cover design
+                Book Cover Design
               </p>
               <h1 className="cd-hero__title" id="cd-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'A cover that feels '}
-                <em>right for your book.</em>
+                {'Giving Your Story '}
+                <em>a Face of Its Own.</em>
               </h1>
               <p className="cd-hero__lead" data-reveal="" style={{ '--d': '.16s' }}>
-                We design book covers around the story, the genre and the readers you hope to reach, with clear
-                typography and artwork that belongs to your work.
+                We develop cover concepts around the story, the reader, and the market your book will enter—then
+                prepare the artwork for the formats you plan to publish.
               </p>
               <div className="cd-hero__ctas" data-reveal="" style={{ '--d': '.22s' }}>
                 <button className="btn btn--light" type="button" data-open-lead="">
-                  {'Plan Your Book '}
+                  {'Plan your book cover '}
                   <svg className="btn__icon btn__icon--arrow" aria-hidden="true">
                     <use href="#i-arrow" />
                   </svg>
@@ -122,13 +122,14 @@ export default function BookCoverDesignPage() {
               </div>
             </div>
             <ul className="cd-hero__disciplines" role="list" data-reveal="" style={{ '--d': '.3s' }}>
-              <li>Art direction</li>
+              <li>Concept &amp; art direction</li>
               <li>Typography</li>
-              <li>Book design</li>
-              <li>Publishing</li>
+              <li>Full wraparound</li>
+              <li>Print &amp; digital</li>
             </ul>
           </div>
         </section>
+
         <section className="section section--ivory cd-first" id="overview" aria-labelledby="first-title">
           <div className="cd-bg cd-bg--first" data-cd-bg="" aria-hidden="true">
             <div className="cd-bg__img" />
@@ -140,20 +141,22 @@ export default function BookCoverDesignPage() {
                 {' 01'}
               </p>
               <h2 className="cd-h2" id="first-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'Your reader’s '}
-                <em>first look.</em>
+                {'The First Glimpse '}
+                <em>of What&apos;s Inside.</em>
               </h2>
             </div>
             <div className="cd-first__body" data-reveal="" style={{ '--d': '.14s' }}>
-              <p className="cd-first__drop">The cover helps a reader decide what kind of book they are holding.</p>
-              <p>
-                We study the manuscript, talk through references and explore the balance of imagery and type. You see
-                the direction develop before the final artwork is prepared.
+              <p className="cd-first__drop">
+                Before a reader opens the book, the cover has already introduced its genre, mood, and subject.
               </p>
-              <p className="cd-first__types">Cover approaches: illustrated, photographic and led by typography</p>
+              <p>
+                We study the manuscript and the intended audience to establish a visual direction that feels appropriate
+                to the work.
+              </p>
+              <p className="cd-first__types">Visual direction grounded in genre, mood, and intended readership</p>
             </div>
             <figure className="cd-first__print" data-reveal="scale" style={{ '--d': '.1s' }}>
-              <span className="cd-marks" aria-hidden="true" />{' '}
+              <span className="cd-marks" aria-hidden="true" />
               <Image
                 src="/assets/images/books/cover-24.webp"
                 width="440"
@@ -161,7 +164,7 @@ export default function BookCoverDesignPage() {
                 alt={`Cover of Whispers of Time by Aggee Andrew Vetiaque, published with ${site.name}`}
                 loading="lazy"
                 decoding="async"
-              />{' '}
+              />
               <figcaption>
                 <span className="label">Published with Publish Your Books Today</span>
                 {' Whispers of Time by Aggee Andrew Vetiaque'}
@@ -169,6 +172,7 @@ export default function BookCoverDesignPage() {
             </figure>
           </div>
         </section>
+
         <section className="section section--ivory cd-index" id="cover-services" aria-labelledby="index-title">
           <figure className="cd-index__panel" data-cd-bg="" aria-hidden="true">
             <div className="cd-index__panel-img" />
@@ -181,72 +185,73 @@ export default function BookCoverDesignPage() {
                 {' 02'}
               </p>
               <h2 className="cd-h2" id="index-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'From the brief '}
-                <em>to the cover file.</em>
+                {'From First Concept '}
+                <em>to Final Cover.</em>
               </h2>
               <p data-reveal="" style={{ '--d': '.14s' }}>
-                A complete cover project considers the front, spine, back and digital edition from the beginning.
+                A complete cover project considers the front, spine, back, and digital edition from the beginning.
               </p>
             </div>
             <ol className="cd-rows" role="list">
               <li className="cd-row" data-reveal="">
                 <span className="cd-row__n">01</span>
-                <h3>{'Concept & Art Direction'}</h3>
-                <p>Agree on the mood, visual references and direction of the design.</p>
+                <h3>Concept &amp; art direction</h3>
+                <p>Agree on the visual mood, references, and design direction.</p>
               </li>
               <li className="cd-row" data-reveal="">
                 <span className="cd-row__n">02</span>
-                <h3>{'Typography & Title Treatment'}</h3>
-                <p>Set the title, subtitle and author name so they are readable and suited to the genre.</p>
+                <h3>Typography &amp; title treatment</h3>
+                <p>Set the title, subtitle, and author name for clear reading and suitable hierarchy.</p>
               </li>
               <li className="cd-row" data-reveal="">
                 <span className="cd-row__n">03</span>
-                <h3>Front Cover Design</h3>
-                <p>Bring the imagery and type together in a clear front cover design.</p>
+                <h3>Front cover design</h3>
+                <p>Bring image, illustration, and type together into a focused front cover.</p>
               </li>
               <li className="cd-row" data-reveal="">
                 <span className="cd-row__n">04</span>
-                <h3>Full Wraparound Design</h3>
-                <p>Extend the design across the front, spine and back of your print edition.</p>
+                <h3>Full wraparound design</h3>
+                <p>Extend the approved direction across the spine and back cover for print.</p>
               </li>
               <li className="cd-strip" aria-hidden="true">
                 <span style={{ '--p': '50% 22%' }}>
                   <Image data-auto-size="" width="440" height="660" src="/assets/images/books/cover-05.webp" alt="" loading="lazy" decoding="async" />
-                </span>{' '}
+                </span>
                 <span style={{ '--p': '50% 12%' }}>
                   <Image data-auto-size="" width="440" height="660" src="/assets/images/books/cover-12.webp" alt="" loading="lazy" decoding="async" />
-                </span>{' '}
+                </span>
                 <span style={{ '--p': '50% 14%' }}>
                   <Image data-auto-size="" width="440" height="660" src="/assets/images/books/cover-25.webp" alt="" loading="lazy" decoding="async" />
-                </span>{' '}
+                </span>
                 <span style={{ '--p': '50% 16%' }}>
                   <Image data-auto-size="" width="440" height="660" src="/assets/images/books/cover-27.webp" alt="" loading="lazy" decoding="async" />
-                </span>{' '}
+                </span>
                 <em className="cd-strip__cap">Title typography, cropped. Covers published with Publish Your Books Today</em>
               </li>
               <li className="cd-row" data-reveal="">
                 <span className="cd-row__n">05</span>
-                <h3>{'Spine & Back Cover'}</h3>
-                <p>Arrange the spine, description and other back cover details with care.</p>
+                <h3>Spine &amp; back cover</h3>
+                <p>Arrange the spine, description, and other supplied details.</p>
               </li>
               <li className="cd-row" data-reveal="">
                 <span className="cd-row__n">06</span>
-                <h3>{'Print & Digital Formatting'}</h3>
-                <p>Adapt the artwork to the requirements of your chosen editions.</p>
+                <h3>Print &amp; digital formatting</h3>
+                <p>Adapt the artwork to the specifications of the chosen editions.</p>
               </li>
               <li className="cd-row" data-reveal="">
                 <span className="cd-row__n">07</span>
-                <h3>Genre Positioning</h3>
-                <p>Consider the visual cues readers expect when browsing your category.</p>
+                <h3>Genre positioning</h3>
+                <p>Consider the visual cues readers expect when browsing the category.</p>
               </li>
               <li className="cd-row" data-reveal="">
                 <span className="cd-row__n">08</span>
-                <h3>Final Production Files</h3>
-                <p>Prepare the agreed cover files for publishing and printing.</p>
+                <h3>Final production files</h3>
+                <p>Prepare the agreed cover files for publishing and print.</p>
               </li>
             </ol>
           </div>
         </section>
+
         <section className="section section--dark cd-show" id="covers" aria-labelledby="show-title">
           <div className="cd-bg cd-bg--show" data-cd-bg="" aria-hidden="true">
             <div className="cd-bg__img" />
@@ -320,6 +325,7 @@ export default function BookCoverDesignPage() {
             </div>
           </div>
         </section>
+
         <section className="section section--ivory cd-details" id="details" aria-labelledby="details-title">
           <div className="cd-bg cd-bg--details" data-cd-bg="" aria-hidden="true">
             <div className="cd-bg__img" />
@@ -341,58 +347,43 @@ export default function BookCoverDesignPage() {
                 {' 04'}
               </p>
               <h2 className="cd-h2" id="details-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'Small choices, '}
-                <em>visible differences.</em>
+                {'The Details That Change '}
+                <em>the Whole Look.</em>
               </h2>
               <p className="cd-details__lede" data-reveal="" style={{ '--d': '.14s' }}>
-                The space around a title, the weight of a font and the crop of an image can change how a cover feels. We
-                review those choices as part of the design.
+                Type size, contrast, image treatment, title placement, and thumbnail legibility all affect how a cover
+                reads. We consider these details together rather than treating the front image as the entire design.
               </p>
               <dl className="cd-terms" data-reveal="" style={{ '--d': '.2s' }}>
                 <div>
-                  <dt>Typography</dt>
-                  <dd>Typefaces chosen for the genre and set with care.</dd>
+                  <dt>Type size &amp; hierarchy</dt>
+                  <dd>Title, subtitle, and author name balanced for clear reading.</dd>
                 </div>
                 <div>
-                  <dt>Hierarchy</dt>
-                  <dd>Title, subtitle and author read in the right order.</dd>
+                  <dt>Contrast</dt>
+                  <dd>Strong tonal separation so lettering stands out cleanly.</dd>
                 </div>
                 <div>
-                  <dt>Color</dt>
-                  <dd>A palette that signals mood before a word is read.</dd>
+                  <dt>Image treatment</dt>
+                  <dd>Illustration or photography matched to the book&apos;s mood and subject.</dd>
                 </div>
                 <div>
-                  <dt>Composition</dt>
-                  <dd>Balance, focus and space that hold the eye.</dd>
+                  <dt>Title placement</dt>
+                  <dd>Positioned to anchor the composition across print and digital views.</dd>
                 </div>
                 <div>
-                  <dt>{'Paper & texture'}</dt>
-                  <dd>How the design will feel in the hand.</dd>
+                  <dt>Thumbnail legibility</dt>
+                  <dd>Tested at small scale so the cover still reads clearly when browsing online.</dd>
                 </div>
                 <div>
-                  <dt>Imagery</dt>
-                  <dd>Photography or illustration that tells the story at a glance.</dd>
-                </div>
-                <div>
-                  <dt>Genre</dt>
-                  <dd>Familiar enough to belong, distinct enough to stand out.</dd>
-                </div>
-                <div>
-                  <dt>Spine alignment</dt>
-                  <dd>Legible on the shelf and aligned to the page count.</dd>
-                </div>
-                <div>
-                  <dt>Back cover structure</dt>
-                  <dd>Room for the blurb, author and barcode.</dd>
-                </div>
-                <div>
-                  <dt>Print finishing</dt>
-                  <dd>Artwork prepared to print exactly as designed.</dd>
+                  <dt>Full-wrap cohesion</dt>
+                  <dd>Front, spine, and back cover designed as one unified layout.</dd>
                 </div>
               </dl>
             </div>
           </div>
         </section>
+
         <section className="section section--paper cd-process" id="process" aria-labelledby="proc-title">
           <div className="cd-bg cd-bg--process" data-cd-bg="" aria-hidden="true">
             <div className="cd-bg__img" />
@@ -404,43 +395,44 @@ export default function BookCoverDesignPage() {
                 {' 05'}
               </p>
               <h2 className="cd-h2" id="proc-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'A cover developed '}
-                <em>with your input.</em>
+                {'Your Ideas Help '}
+                <em>Shape the Cover.</em>
               </h2>
               <p data-reveal="" style={{ '--d': '.14s' }}>
-                We start with a brief, share concepts and work through the agreed revisions before preparing the final
-                files.
+                You review the proposed direction and provide feedback at agreed stages. This keeps the design
+                connected to the book while giving the project a clear approval path.
               </p>
             </div>
             <ol className="cd-steps" role="list">
               <li data-reveal="">
                 <span className="cd-steps__n">01</span>
-                <h3>Discover</h3>
-                <p>Discuss the book, its readers and your design preferences.</p>
+                <h3>Brief &amp; study</h3>
+                <p>Review the manuscript, intended audience, and comparable category titles.</p>
               </li>
               <li data-reveal="" style={{ '--d': '.06s' }}>
                 <span className="cd-steps__n">02</span>
-                <h3>Concept</h3>
-                <p>Explore possible directions through initial cover ideas.</p>
+                <h3>Direction</h3>
+                <p>Propose visual mood, references, and initial cover concepts for your review.</p>
               </li>
               <li data-reveal="" style={{ '--d': '.12s' }}>
                 <span className="cd-steps__n">03</span>
-                <h3>Design</h3>
-                <p>Develop the chosen idea with imagery, typography and layout.</p>
+                <h3>Feedback</h3>
+                <p>Gather your notes at agreed stages to refine typography, imagery, and layout.</p>
               </li>
               <li data-reveal="" style={{ '--d': '.18s' }}>
                 <span className="cd-steps__n">04</span>
-                <h3>Refine</h3>
-                <p>Work through feedback and check the details together.</p>
+                <h3>Wrap &amp; formats</h3>
+                <p>Extend the approved front cover to spine, back cover, and digital editions.</p>
               </li>
               <li data-reveal="" style={{ '--d': '.24s' }}>
                 <span className="cd-steps__n">05</span>
-                <h3>Deliver</h3>
-                <p>Export the agreed artwork for the selected publishing formats.</p>
+                <h3>Approval &amp; files</h3>
+                <p>Prepare production-ready files once the final design is signed off.</p>
               </li>
             </ol>
           </div>
         </section>
+
         <section className="section section--ivory cd-anywhere" id="everywhere" aria-labelledby="any-title">
           <div className="cd-bg cd-bg--anywhere" data-cd-bg="" aria-hidden="true">
             <div className="cd-bg__img" />
@@ -452,26 +444,27 @@ export default function BookCoverDesignPage() {
                 {' 06'}
               </p>
               <h2 className="cd-h2" id="any-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'From the shelf '}
-                <em>to the small screen.</em>
+                {'Ready for the Shelf '}
+                <em>and the Scroll.</em>
               </h2>
               <p data-reveal="" style={{ '--d': '.14s' }}>
-                Your cover needs to read as a small online image as well as a printed book. We check both views as the
-                design develops.
+                A cover may appear as a printed paperback, a retailer thumbnail, an ebook image, or a promotional
+                graphic. We prepare the formats included in the brief so the design remains recognisable across its
+                intended uses.
               </p>
             </div>
             <div className="cd-contexts" data-reveal="">
               <figure className="cd-ctx cd-ctx--shelf">
                 <div className="cd-ctx__frame">
-                  <span className="cd-spine" style={{ '--c': '#2b2f3a', '--h': '88%' }} />{' '}
-                  <span className="cd-spine" style={{ '--c': '#6d4a33', '--h': '94%' }} />{' '}
-                  <Image data-auto-size="" width="440" height="660" src="/assets/images/books/cover-12.webp" alt="" loading="lazy" decoding="async" />{' '}
-                  <span className="cd-spine" style={{ '--c': '#8a7a5c', '--h': '90%' }} />{' '}
+                  <span className="cd-spine" style={{ '--c': '#2b2f3a', '--h': '88%' }} />
+                  <span className="cd-spine" style={{ '--c': '#6d4a33', '--h': '94%' }} />
+                  <Image data-auto-size="" width="440" height="660" src="/assets/images/books/cover-12.webp" alt="" loading="lazy" decoding="async" />
+                  <span className="cd-spine" style={{ '--c': '#8a7a5c', '--h': '90%' }} />
                   <span className="cd-ctx__shelf" aria-hidden="true" />
                 </div>
                 <figcaption>
-                  <b>On the shelf</b>
-                  {' Bookstores & print'}
+                  <b>Printed paperback</b>
+                  {' Bookstores & print editions'}
                 </figcaption>
               </figure>
               <figure className="cd-ctx cd-ctx--thumb">
@@ -502,8 +495,8 @@ export default function BookCoverDesignPage() {
                   </div>
                 </div>
                 <figcaption>
-                  <b>As a thumbnail</b>
-                  {' Amazon & ebook stores'}
+                  <b>Retailer thumbnail</b>
+                  {' Online stores & search results'}
                 </figcaption>
               </figure>
               <figure className="cd-ctx cd-ctx--feed">
@@ -515,8 +508,8 @@ export default function BookCoverDesignPage() {
                   <span className="cd-post__line cd-post__line--s" />
                 </div>
                 <figcaption>
-                  <b>In a feed</b>
-                  {' Social media & ads'}
+                  <b>Promotional graphic</b>
+                  {' Social feeds & announcements'}
                 </figcaption>
               </figure>
               <figure className="cd-ctx cd-ctx--catalog">
@@ -533,14 +526,15 @@ export default function BookCoverDesignPage() {
                   </div>
                 </div>
                 <figcaption>
-                  <b>On the page</b>
-                  {' Catalogs & author websites'}
+                  <b>Ebook image</b>
+                  {' Digital readers & author pages'}
                 </figcaption>
               </figure>
             </div>
             <p className="cd-anywhere__note">{`Featured example: The Path of Truth by Emilio Degher, from ${site.name}.`}</p>
           </div>
         </section>
+
         <section className="section section--paper cd-spec" id="deliverables" aria-labelledby="spec-title">
           <div className="cd-bg cd-bg--spec" data-cd-bg="" aria-hidden="true">
             <div className="cd-bg__img" />
@@ -552,70 +546,57 @@ export default function BookCoverDesignPage() {
                 {' 07'}
               </p>
               <h2 className="cd-h2" id="spec-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'Your finished '}
-                <em>cover package.</em>
+                {'The Final Design, '}
+                <em>Prepared for Production.</em>
               </h2>
               <p data-reveal="" style={{ '--d': '.14s' }}>
-                We agree on the formats you need and prepare files around the requirements of your chosen publisher or
-                printer.
+                The agreed handoff may include front cover artwork, full-wrap print cover, spine and back cover, ebook
+                cover, high-resolution artwork, and production-ready files. Exact formats are confirmed in the project
+                scope.
               </p>
             </div>
             <div className="cd-sheet" data-reveal="scale" style={{ '--d': '.1s' }}>
-              <span className="cd-marks" aria-hidden="true" />{' '}
+              <span className="cd-marks" aria-hidden="true" />
               <p className="cd-sheet__title">
-                <span>Cover package</span>
-                <span>Specification</span>
+                <span>Agreed handoff</span>
+                <span>Project scope</span>
               </p>
               <ul className="cd-sheet__list" role="list">
                 <li>
-                  <b>Front cover design</b>
+                  <b>Front cover artwork</b>
                   <i />
-                  <span>Final artwork</span>
+                  <span>Approved front design</span>
                 </li>
                 <li>
-                  <b>Full wraparound cover</b>
+                  <b>Full-wrap print cover</b>
                   <i />
                   <span>Front · spine · back</span>
                 </li>
                 <li>
                   <b>Spine and back cover</b>
                   <i />
-                  <span>For print editions</span>
-                </li>
-                <li>
-                  <b>Print ready files</b>
-                  <i />
-                  <span>PDF</span>
+                  <span>Sized to trim &amp; page count</span>
                 </li>
                 <li>
                   <b>Ebook cover</b>
                   <i />
-                  <span>Digital editions</span>
+                  <span>Digital edition format</span>
                 </li>
                 <li>
-                  <b>High resolution artwork</b>
+                  <b>High-resolution artwork</b>
                   <i />
-                  <span>{'Print & digital'}</span>
+                  <span>Print &amp; digital quality</span>
                 </li>
                 <li>
-                  <b>Multiple file formats</b>
+                  <b>Production-ready files</b>
                   <i />
-                  <span>PDF · JPEG · PNG</span>
-                </li>
-                <li>
-                  <b>Production specifications</b>
-                  <i />
-                  <span>Amazon KDP · IngramSpark</span>
-                </li>
-                <li>
-                  <b>Final approved cover files</b>
-                  <i />
-                  <span>After your approval</span>
+                  <span>Confirmed in project scope</span>
                 </li>
               </ul>
             </div>
           </div>
         </section>
+
         <section className="cd-campaign on-dark" aria-labelledby="campaign-title">
           <div className="cd-campaign__media" aria-hidden="true">
             <Image
@@ -630,11 +611,12 @@ export default function BookCoverDesignPage() {
           </div>
           <div className="container cd-campaign__inner">
             <h2 className="cd-campaign__title" id="campaign-title" data-reveal="">
-              {'Make the cover '}
-              <em>an invitation to read.</em>
+              {'A Cover That Makes Readers '}
+              <em>Look Twice.</em>
             </h2>
           </div>
         </section>
+
         <section className="section section--ivory faq" id="faq" aria-labelledby="faq-title">
           <div className="container faq__grid">
             <div className="faq__head">
@@ -643,20 +625,20 @@ export default function BookCoverDesignPage() {
                 {' 08'}
               </p>
               <h2 className="h2" id="faq-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'Questions about '}
-                <em>designing your cover.</em>
+                {'Questions '}
+                <em>authors ask.</em>
               </h2>
             </div>
             <div className="faq__list" data-faq="">
               <details className="qa" data-reveal="" open>
                 <summary>
-                  <span>Why is a professional book cover important?</span>
+                  <span>Why does a professional book cover matter?</span>
                   <i aria-hidden="true" />
                 </summary>
                 <div className="qa__a">
                   <p>
-                    A considered cover helps readers recognise the genre, understand the tone and take a closer look at
-                    the book.
+                    The cover is a reader&apos;s first visual cue. It helps communicate genre, tone, and subject before
+                    the description is read.
                   </p>
                 </div>
               </details>
@@ -667,8 +649,8 @@ export default function BookCoverDesignPage() {
                 </summary>
                 <div className="qa__a">
                   <p>
-                    We can explore illustration, photography or typography as the main design approach, along with
-                    presentation mockups where included in the brief.
+                    Cover direction can be developed for fiction, nonfiction, memoir, business, self-help,
+                    children&apos;s books, and other categories, with the approach matched to the manuscript.
                   </p>
                 </div>
               </details>
@@ -679,7 +661,8 @@ export default function BookCoverDesignPage() {
                 </summary>
                 <div className="qa__a">
                   <p>
-                    Yes. You review the design and share feedback during the revision rounds agreed for your project.
+                    Feedback and revisions are handled according to the rounds and approval stages stated in the project
+                    agreement.
                   </p>
                 </div>
               </details>
@@ -689,7 +672,10 @@ export default function BookCoverDesignPage() {
                   <i aria-hidden="true" />
                 </summary>
                 <div className="qa__a">
-                  <p>Yes. Tell us which editions you need so we can plan the correct artwork and dimensions.</p>
+                  <p>
+                    Print and ebook versions can be prepared when both are included in the agreed scope. Print covers
+                    require final trim, page-count, and printer specifications.
+                  </p>
                 </div>
               </details>
               <details className="qa" data-reveal="">
@@ -699,76 +685,63 @@ export default function BookCoverDesignPage() {
                 </summary>
                 <div className="qa__a">
                   <p>
-                    It depends on the artwork, formats and review rounds. We agree on the schedule once the brief is
-                    clear.
+                    Timing depends on the brief, concept development, feedback, and final production requirements. A
+                    schedule is confirmed before work begins.
                   </p>
                 </div>
               </details>
               <details className="qa" data-reveal="">
                 <summary>
-                  <span>Can you create a book cover that fits my genre?</span>
+                  <span>Can you create a cover that fits my genre?</span>
                   <i aria-hidden="true" />
                 </summary>
                 <div className="qa__a">
                   <p>
-                    Yes. We look at your genre, comparable books and your own preferences before developing the
-                    concepts.
-                  </p>
-                </div>
-              </details>
-              <details className="qa" data-reveal="">
-                <summary>
-                  <span>How do I get started with my book cover design?</span>
-                  <i aria-hidden="true" />
-                </summary>
-                <div className="qa__a">
-                  <p>
-                    Share the title, genre, synopsis and any covers you like. We will use that conversation to build the
-                    design brief.
+                    We review comparable titles and reader expectations in the category while developing a design that
+                    is specific to your book.
                   </p>
                 </div>
               </details>
             </div>
           </div>
         </section>
-        <section className="cta on-dark cd-cta" id="contact" aria-labelledby="cta-title">
+
+        <section className="cta on-dark" id="contact" aria-labelledby="cta-title">
           <div className="cta__media" aria-hidden="true">
-            <Image data-auto-size="" width="1600" height="1064"
-              src="/assets/images/photos/1613577553731-e102e5de62f5-1600.webp"
+            <Image
+              width="1800"
+              height="2559"
+              src="/assets/images/photos/1705602791162-e808808176ec-1800.webp"
               alt=""
               loading="lazy"
               decoding="async"
-              data-parallax="0.08"
+              data-parallax="0.06"
             />
           </div>
           <div className="container cta__grid">
             <div className="cta__copy">
-              <p className="eyebrow" data-reveal="">
-                Start your cover
-              </p>
-              <h2 className="display cta__title" id="cta-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'What should your book '}
-                <em>look like?</em>
+              <p className="eyebrow">Book Cover Design</p>
+              <h2 className="display cta__title" id="cta-title">
+                {'A Cover That Makes Readers '}
+                <em>Look Twice.</em>
               </h2>
-              <p className="lead" data-reveal="" style={{ '--d': '.16s' }}>
-                Tell us about the story and the impression you want the cover to make.
+              <p className="lead">
+                Tell us about your book, its genre, and the print or digital editions you plan to publish. We can help
+                define a visual direction and cover scope tailored to your manuscript.
               </p>
-              <div className="cd-cta__btns" data-reveal="" style={{ '--d': '.2s' }}>
+              <div className="cta__btns">
                 <button className="btn btn--light" type="button" data-open-lead="">
-                  {'Start Your Cover '}
+                  {'Plan your book cover '}
                   <svg className="btn__icon btn__icon--arrow" aria-hidden="true">
                     <use href="#i-arrow" />
                   </svg>
-                </button>{' '}
-                <Link className="btn btn--glass" href="/contact">
-                  <svg className="btn__icon" aria-hidden="true">
-                    <use href="#i-phone" />
-                  </svg>
-                  Talk to Our Design Team
-                </Link>
+                </button>
               </div>
             </div>
-            <LeadForm title="Start your cover" messageLabel="Tell us about the book and your cover ideas" />
+            <LeadForm
+              title="Plan your book cover"
+              messageLabel="Share your book's genre, summary, and the print or digital formats you need"
+            />
           </div>
         </section>
       </main>

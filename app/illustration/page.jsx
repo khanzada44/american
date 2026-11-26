@@ -148,15 +148,15 @@ export default function IllustrationPage() {
             </nav>
             <div className="il-hero__copy">
               <p className="il-eyebrow" data-reveal="">
-                Illustration
+                Illustrations
               </p>
               <h1 className="il-hero__title" id="il-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'Put the world of your book '}
-                <em>on the page.</em>
+                {'Build a world '}
+                <em>readers can get lost in.</em>
               </h1>
               <p className="il-hero__lead" data-reveal="" style={{ '--d': '.16s' }}>
-                We create book illustrations around your characters, setting and readership, from small chapter details
-                to a complete sequence of scenes.
+                We create book illustrations that support your characters, settings, and narrative moments—from a single
+                image to a connected sequence of scenes.
               </p>
               <div className="il-hero__ctas" data-reveal="" style={{ '--d': '.22s' }}>
                 <button className="btn btn--primary" type="button" data-open-lead="">
@@ -228,12 +228,13 @@ export default function IllustrationPage() {
                 The art of storytelling
               </p>
               <h2 className="il-h2 il-h2--xl" id="story-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'Pictures can tell '}
-                <em>part of the story.</em>
+                {'Some stories '}
+                <em>are better seen.</em>
               </h2>
               <p className="il-body" data-reveal="" style={{ '--d': '.16s' }}>
-                A glance, a room or a landscape can say something the text leaves open. We use illustration to support
-                those moments and give readers another way into the book.
+                A glance, an object, or a landscape can carry meaning that words do not need to explain. Illustration
+                gives readers another way into the book, whether the artwork introduces a character, clarifies an idea, or
+                establishes a setting.
               </p>
               <p className="il-marg" data-reveal="" style={{ '--d': '.22s' }}>
                 <span>Expression</span>
@@ -265,12 +266,13 @@ export default function IllustrationPage() {
                 <b>II.</b>A curated collection
               </p>
               <h2 className="il-h2" id="work-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'Explore the possibilities '}
-                <em>for your pages.</em>
+                {'See what your pages '}
+                <em>can become.</em>
               </h2>
               <p className="il-body il-body--sm" data-reveal="" style={{ '--d': '.14s' }}>
-                These works from public domain museum and library collections show different approaches to book imagery.
-                They are reference examples rather than client commissions.
+                The visual approach depends on the book’s audience, subject, and intended reading experience. We discuss
+                style references and the role each image needs to play before artwork begins. The works below come from
+                public domain collections and are reference examples, not client commissions.
               </p>
             </div>
             <div className="il-works">
@@ -573,8 +575,8 @@ export default function IllustrationPage() {
                 What we create
               </p>
               <h2 className="il-h2 il-h2--light" id="svc-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'Artwork with '}
-                <em>a place in the story.</em>
+                {'Art that complements '}
+                <em>the words.</em>
               </h2>
             </div>
             <div className="il-svc__body">
@@ -582,42 +584,42 @@ export default function IllustrationPage() {
                 <li data-reveal="" style={{ '--d': '0.00s' }}>
                   <span className="il-svc__n">01</span>
                   <h3>Character Illustration</h3>
-                  <p>Characters shaped by their role, personality and expression.</p>
+                  <p>Establish appearance, expression, and personality.</p>
                 </li>
                 <li data-reveal="" style={{ '--d': '0.08s' }}>
                   <span className="il-svc__n">02</span>
                   <h3>Children’s Book Illustration</h3>
-                  <p>Illustrations planned around the story, page turns and age of your readers.</p>
+                  <p>Create age-appropriate characters, settings, and story scenes.</p>
                 </li>
                 <li data-reveal="" style={{ '--d': '0.00s' }}>
                   <span className="il-svc__n">03</span>
                   <h3>Editorial Illustration</h3>
-                  <p>Images that give a visual interpretation of an article, essay or idea.</p>
+                  <p>Interpret an idea or subject for an article, essay, or book.</p>
                 </li>
                 <li data-reveal="" style={{ '--d': '0.08s' }}>
                   <span className="il-svc__n">04</span>
                   <h3>{'Story & Scene Illustration'}</h3>
-                  <p>Scenes that show key settings and moments in the narrative.</p>
+                  <p>Show key moments, locations, and changes in the narrative.</p>
                 </li>
                 <li data-reveal="" style={{ '--d': '0.00s' }}>
                   <span className="il-svc__n">05</span>
                   <h3>Imagined Worlds</h3>
-                  <p>Places, buildings and environments that make a fictional world feel consistent.</p>
+                  <p>Develop places, objects, and environments that do not exist in the real world.</p>
                 </li>
                 <li data-reveal="" style={{ '--d': '0.08s' }}>
                   <span className="il-svc__n">06</span>
                   <h3>Custom Book Illustration</h3>
-                  <p>Artwork planned for the specific tone and requirements of your book.</p>
+                  <p>Create artwork around a specific brief and manuscript.</p>
                 </li>
                 <li data-reveal="" style={{ '--d': '0.00s' }}>
                   <span className="il-svc__n">07</span>
                   <h3>{'Spot & Interior Illustrations'}</h3>
-                  <p>Chapter ornaments, small drawings and visual details for the interior.</p>
+                  <p>Add visual details within chapters or sections.</p>
                 </li>
                 <li data-reveal="" style={{ '--d': '0.08s' }}>
                   <span className="il-svc__n">08</span>
                   <h3>Full Illustrated Books</h3>
-                  <p>A connected set of illustrations that works across the whole publication.</p>
+                  <p>Plan a connected set of images across the publication.</p>
                 </li>
               </ol>
               <aside className="il-svc__margin" aria-hidden="true">
@@ -664,8 +666,8 @@ export default function IllustrationPage() {
                 Our process
               </p>
               <h2 className="il-h2" id="process-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'A clear process '}
-                <em>from sketch to artwork.</em>
+                {'From first sketch '}
+                <em>to finished artwork.</em>
               </h2>
             </div>
             <div className="il-steps" data-draw="">
@@ -679,7 +681,7 @@ export default function IllustrationPage() {
                   </svg>
                   <span className="il-step__n">01</span>
                   <h3>Discover</h3>
-                  <p>We discuss the manuscript, readership and styles you have in mind.</p>
+                  <p>Review the manuscript, audience, image list, and visual references.</p>
                 </li>
                 <li className="il-step" data-reveal="" style={{ '--d': '0.08s' }}>
                   <svg className="il-step__mark" viewBox="0 0 48 40" aria-hidden="true">
@@ -688,7 +690,7 @@ export default function IllustrationPage() {
                   </svg>
                   <span className="il-step__n">02</span>
                   <h3>Interpret</h3>
-                  <p>Together we choose the characters, settings and moments to illustrate.</p>
+                  <p>Agree on the style, characters, setting, and visual direction.</p>
                 </li>
                 <li className="il-step" data-reveal="" style={{ '--d': '0.16s' }}>
                   <svg className="il-step__mark" viewBox="0 0 48 40" aria-hidden="true">
@@ -698,7 +700,7 @@ export default function IllustrationPage() {
                   </svg>
                   <span className="il-step__n">03</span>
                   <h3>Sketch</h3>
-                  <p>Rough sketches help us agree on composition before developing the details.</p>
+                  <p>Prepare initial compositions for review before detailed rendering.</p>
                 </li>
                 <li className="il-step" data-reveal="" style={{ '--d': '0.24s' }}>
                   <svg className="il-step__mark" viewBox="0 0 48 40" aria-hidden="true">
@@ -707,7 +709,7 @@ export default function IllustrationPage() {
                   </svg>
                   <span className="il-step__n">04</span>
                   <h3>Develop</h3>
-                  <p>We build the selected sketches with colour, texture and clearer forms.</p>
+                  <p>Build the selected artwork with the agreed level of detail.</p>
                 </li>
                 <li className="il-step" data-reveal="" style={{ '--d': '0.32s' }}>
                   <svg className="il-step__mark" viewBox="0 0 48 40" aria-hidden="true">
@@ -717,7 +719,7 @@ export default function IllustrationPage() {
                   </svg>
                   <span className="il-step__n">05</span>
                   <h3>Refine</h3>
-                  <p>We review the artwork with you and work through the agreed changes.</p>
+                  <p>Review the images and make the agreed adjustments.</p>
                 </li>
                 <li className="il-step" data-reveal="" style={{ '--d': '0.40s' }}>
                   <svg className="il-step__mark" viewBox="0 0 48 40" aria-hidden="true">
@@ -727,7 +729,7 @@ export default function IllustrationPage() {
                   </svg>
                   <span className="il-step__n">06</span>
                   <h3>Deliver</h3>
-                  <p>We prepare the illustrations for the print or digital formats in your brief.</p>
+                  <p>Prepare final files in the formats and resolutions required by the project.</p>
                 </li>
               </ol>
             </div>
@@ -950,12 +952,13 @@ export default function IllustrationPage() {
                 The details matter
               </p>
               <h2 className="il-mat__title" id="mat-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'The character of '}
-                <em>line and colour.</em>
+                {'How lines and colours '}
+                <em>shape the artwork.</em>
               </h2>
               <p className="il-body" data-reveal="" style={{ '--d': '.16s' }}>
-                Texture, line weight and the way colour sits on the page all affect the feeling of an illustration. We
-                consider them alongside the subject.
+                Line weight, texture, palette, and medium affect the atmosphere of an illustration. We consider how the
+                artwork will sit beside the text and whether it needs to reproduce in colour, grayscale, or a particular
+                print format.
               </p>
             </div>
             <ul className="il-mat__row" role="list">
@@ -1012,12 +1015,13 @@ export default function IllustrationPage() {
                 Artistic approach
               </p>
               <h2 className="il-h2" id="styles-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'Find the approach '}
-                <em>that suits your story.</em>
+                {'The right creative direction '}
+                <em>for your story.</em>
               </h2>
               <p className="il-body il-body--sm" data-reveal="" style={{ '--d': '.14s' }}>
-                Ink, watercolour, realistic drawing and graphic styles each tell a story differently. The public domain
-                examples here offer a starting point for that discussion.
+                A restrained editorial image, a hand-drawn scene, and a richly coloured children’s illustration solve
+                different visual problems. The brief should establish what the reader needs to see and how the image
+                should feel.
               </p>
             </div>
             <div className="il-styles__grid">
@@ -1130,12 +1134,13 @@ export default function IllustrationPage() {
               {'Illustration & publishing'}
             </p>
             <h2 className="il-h2" id="book-title" data-reveal="" style={{ '--d': '.08s' }}>
-              {'Plan the picture '}
-              <em>with the page in mind.</em>
+              {'Plan the visuals '}
+              <em>before they meet the page.</em>
             </h2>
             <p className="il-body" data-reveal="" style={{ '--d': '.14s' }}>
-              We consider page size, margins, nearby text and printing requirements while developing the artwork, so it
-              has a natural place in the finished book.
+              Illustrations are prepared with placement, trim size, margins, text areas, and the intended edition in
+              view. This helps avoid artwork that looks strong on its own but becomes difficult to use in the finished
+              layout.
             </p>
             <dl className="il-book__spec" data-reveal="" style={{ '--d': '.2s' }}>
               <div>
@@ -1178,7 +1183,7 @@ export default function IllustrationPage() {
                 <em>your chosen edition.</em>
               </h2>
               <div className="il-uses__shelf" data-reveal="" style={{ '--d': '.16s' }}>
-                <p>From the Publish Your Books Today catalogue</p>
+                <p>From the American Authors catalogue</p>
                 <ul role="list">
                   <li>
                     <Image
@@ -1299,9 +1304,14 @@ export default function IllustrationPage() {
                 Final artwork
               </p>
               <h2 className="il-h2" id="deliver-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'The artwork, '}
-                <em>prepared for publication.</em>
+                {'Made to match your '}
+                <em>book’s specifications.</em>
               </h2>
+              <p className="il-body" data-reveal="" style={{ '--d': '.14s' }}>
+                The final handoff can include approved illustration files, high-resolution artwork, print-ready and
+                digital files, transparent PNG assets where appropriate, and the source artwork or working files
+                specified in the project agreement.
+              </p>
             </div>
             <ol className="il-deliver__list" role="list">
               <li data-reveal="" style={{ '--d': '0.00s' }}>
@@ -1351,8 +1361,8 @@ export default function IllustrationPage() {
                 FAQ
               </p>
               <h2 className="h2" id="faq-title" data-reveal="" style={{ '--d': '.08s' }}>
-                {'Questions about '}
-                <em>book illustration.</em>
+                {'Questions '}
+                <em>authors ask.</em>
               </h2>
             </div>
             <div className="faq__list" data-faq="">
@@ -1362,10 +1372,7 @@ export default function IllustrationPage() {
                   <i aria-hidden="true" />
                 </summary>
                 <div className="qa__a">
-                  <p>
-                    Illustrations can clarify an idea, build a setting or help young readers follow the story. We can
-                    discuss where they would add something useful to your book.
-                  </p>
+                  <p>{'Illustrations can clarify information, establish atmosphere, show action, and help readers follow a visual sequence. Their role depends on the book and its audience.'}</p>
                 </div>
               </details>
               <details className="qa" data-reveal="">
@@ -1374,10 +1381,7 @@ export default function IllustrationPage() {
                   <i aria-hidden="true" />
                 </summary>
                 <div className="qa__a">
-                  <p>
-                    Projects can include children’s books, character studies, cover artwork, interior drawings and
-                    complete scenes.
-                  </p>
+                  <p>{"Projects may include character, children's, editorial, story-scene, spot, interior, and full-book illustration."}</p>
                 </div>
               </details>
               <details className="qa" data-reveal="">
@@ -1386,7 +1390,7 @@ export default function IllustrationPage() {
                   <i aria-hidden="true" />
                 </summary>
                 <div className="qa__a">
-                  <p>Yes. We discuss references and sample approaches with you before settling on a direction.</p>
+                  <p>{'Yes. You can share visual references and preferences. The team will discuss what is practical for the subject, audience, and production format.'}</p>
                 </div>
               </details>
               <details className="qa" data-reveal="">
@@ -1395,10 +1399,7 @@ export default function IllustrationPage() {
                   <i aria-hidden="true" />
                 </summary>
                 <div className="qa__a">
-                  <p>
-                    The schedule depends on the number of images, their detail and the review rounds. We agree on timing
-                    after reviewing the brief.
-                  </p>
+                  <p>{'Timing depends on the number and complexity of images, the style, and review stages. A schedule follows the approved image list and brief.'}</p>
                 </div>
               </details>
               <details className="qa" data-reveal="">
@@ -1407,31 +1408,16 @@ export default function IllustrationPage() {
                   <i aria-hidden="true" />
                 </summary>
                 <div className="qa__a">
-                  <p>
-                    Usage rights are set out in your project agreement. We discuss publishing and promotional use before
-                    starting the artwork.
-                  </p>
+                  <p>{'Usage rights, ownership, source-file delivery, and permitted adaptations should be defined in the written agreement before work begins.'}</p>
                 </div>
               </details>
               <details className="qa" data-reveal="">
                 <summary>
-                  <span>Do you provide illustrations for both print and digital books?</span>
+                  <span>Do you provide illustrations for print and digital books?</span>
                   <i aria-hidden="true" />
                 </summary>
                 <div className="qa__a">
-                  <p>Yes. We prepare the agreed image files for the dimensions and formats your book requires.</p>
-                </div>
-              </details>
-              <details className="qa" data-reveal="">
-                <summary>
-                  <span>How do I get started with my book illustrations?</span>
-                  <i aria-hidden="true" />
-                </summary>
-                <div className="qa__a">
-                  <p>
-                    Send us a synopsis, the intended age group and an idea of how many illustrations you need. Samples
-                    of styles you like are helpful too.
-                  </p>
+                  <p>{'Files can be prepared for the editions included in the project scope, with resolution and colour requirements considered during production.'}</p>
                 </div>
               </details>
             </div>
@@ -1457,7 +1443,8 @@ export default function IllustrationPage() {
                 <em>your story together.</em>
               </h2>
               <p className="lead" data-reveal="" style={{ '--d': '.16s' }}>
-                Share the characters, places and moments you want readers to see.
+                Send a short description of the book, intended audience, estimated number of illustrations, and any
+                visual references you have collected.
               </p>
               <div className="il-cta__btns" data-reveal="" style={{ '--d': '.2s' }}>
                 <button className="btn btn--light" type="button" data-open-lead="">

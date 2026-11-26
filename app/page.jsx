@@ -13,9 +13,9 @@ import FaqSection from '@/components/sections/FaqSection';
 import ContactFormSection from '@/components/sections/ContactFormSection';
 import BookSpin from '@/components/layout/BookSpin';
 export const metadata = pageMetadata({
-  title: 'Book Publishing Services | Publish Your Book With Us',
+  title: 'Have a Book in Mind? Book Publishing Services That Deliver',
   description:
-    'Looking for book publishing services? Get writing, editing, self-publishing, and publishing support to publish your book and bring your manuscript to readers.',
+    'From ghostwriting and editing to book design and publishing, find professional book publishing services for every stage of your author journey.',
   path: '/',
 });
 

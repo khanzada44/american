@@ -3,28 +3,28 @@ import Image from 'next/image';
 /* Edit the steps here. `icon` must be one of the keys in `icons` below. */
 const steps = [
   {
-    title: 'Tell Us Where You Are',
-    text: 'Share the genre, word count and the point where you are stuck. The form is short, and you do not need an account or an introductory call to complete it.',
+    title: 'Put Your Project on the Table',
+    text: "Start with the details that matter: what the book is about, how much is written, its intended audience, and what you want to accomplish. You don't need a polished proposal or a finished manuscript. An honest picture of where things stand is enough for us to assess the work.",
     icon: 'form',
   },
   {
-    title: 'Choose The Right Studio',
-    text: 'You can begin with ghostwriting, editing, design, formatting or the full publishing route. An editorial director will tell you which parts are necessary now and which can wait.',
+    title: 'Separate What You Need from What You Don’t',
+    text: 'Not every manuscript needs the same treatment. Some require a fresh editorial perspective; others need visual development, technical preparation, or help reaching readers. We look at the actual requirements before recommending a combination of services. The aim is to make informed choices, not sell you a longer list.',
     icon: 'grid',
   },
   {
-    title: 'Speak With An Editor',
-    text: 'We spend forty-five minutes on your goals, schedule and voice. Afterwards, you receive a written assessment and a fixed, itemised quote.',
+    title: 'Know the Scope Before Work Begins',
+    text: "Before committing, you'll have an opportunity to discuss the proposed work, expected costs, responsibilities, and schedule. The scope should make clear what is included, what will be delivered, and where your approval is required. Questions are welcome before any decision is made.",
     icon: 'chat',
   },
   {
-    title: 'Make The Book',
-    text: 'A matched writer, editor or designer begins the agreed work. You see drafts at set milestones, give feedback and approve the direction before the next stage.',
+    title: 'Stay Part of the Decisions',
+    text: "The creative work moves forward according to the agreed brief. You'll have defined opportunities to review relevant material, comment on drafts or designs, and approve key decisions. Your feedback helps keep the work aligned with the direction established for the book.",
     icon: 'edit',
   },
   {
-    title: 'Prepare For Publication',
-    text: 'After the final revisions, we prepare the agreed print, eBook and audio files, submit the listings and hand over every production asset.',
+    title: 'Leave with More Than a Finished Manuscript',
+    text: "The final handover depends on the services you've commissioned. It may include revised text, cover artwork, interior layouts, print-ready files, digital editions, or other agreed assets. You'll know what has been completed and what materials are being handed over, so the next stage isn't left to guesswork.",
     icon: 'book',
   },
 ];
