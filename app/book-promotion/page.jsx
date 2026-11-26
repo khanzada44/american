@@ -8,9 +8,9 @@ import LeadForm from '@/components/forms/LeadForm';
 import { site } from '@/lib/site';
 
 export const metadata = pageMetadata({
-  title: 'Book Promotion and Author Marketing',
+  title: 'How Will Readers Discover Your Book? Book Marketing Services',
   description:
-    'Introduce your book to its likely readers with a practical promotion plan, launch materials, author content and coordinated campaign support.',
+    'Build awareness and connect with potential readers through book promotion and marketing services, including targeted campaigns and author-focused publicity.',
   path: '/book-promotion',
 });
 
@@ -1078,7 +1078,7 @@ export default function BookPromotionPage() {
                     src="/assets/images/books/cover-18.webp"
                     width="440"
                     height="660"
-                    alt={`Cover of The Legal Tender Question by Joseph R. K. Eshun, published with ${site.name}`}
+                    alt={`Cover of BENCH PRESS byDAVID REISNER, published with ${site.name}`}
                     loading="lazy"
                     decoding="async"
                   />
@@ -1086,7 +1086,7 @@ export default function BookPromotionPage() {
                 <div className="book3d__shadow" />
               </div>
               <figcaption>
-                The Legal Tender Question · Joseph R. K. Eshun
+                BENCH PRESS ·DAVID REISNER
                 <span>{`Published with ${site.name}`}</span>
               </figcaption>
             </figure>

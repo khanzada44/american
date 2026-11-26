@@ -8,9 +8,9 @@ import LeadForm from '@/components/forms/LeadForm';
 import { site } from '@/lib/site';
 
 export const metadata = pageMetadata({
-  title: 'TV Interview Prep & Outreach for Authors',
+  title: 'Ready for the Spotlight? Author TV Interview Opportunities',
   description:
-    'Prepare to discuss your book on camera with story angles, a media kit, practice interviews and outreach to relevant broadcast programmes.',
+    'Raise your public profile through author TV interviews. Discuss your book, share your expertise, and introduce your work to television audiences through media appearances.',
   path: '/tv-interviews',
 });
 

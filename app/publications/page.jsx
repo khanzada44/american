@@ -9,7 +9,7 @@ import BookModal from '@/components/modals/BookModal';
 import { site } from '@/lib/site';
 
 export const metadata = pageMetadata({
-  title: 'Which Book Will Catch Your Attention? Explore Our Published Books',
+  title: ' Which Book Will Catch Your Attention? Explore Our Published Books',
   description:
     'Browse published books across genres, subjects, and perspectives. Discover new titles and the authors behind the books featured in our collection.',
   path: '/publications',
@@ -1396,9 +1396,9 @@ export default function PublicationsPage() {
                 <li
                   className="bcard pub-book"
                   data-book=""
-                  data-title="The Legal Tender Question"
+                  data-title="BENCH PRESS"
                   data-sub="Volume One"
-                  data-author="Joseph R. K. Eshun"
+                  data-author="DAVID REISNER"
                   data-genre={'Business & Law'}
                   data-cover="/assets/images/books/book-18.png"
                   data-id="18"
@@ -1407,7 +1407,7 @@ export default function PublicationsPage() {
                   <button
                     className="bcard__btn pub-book__btn"
                     type="button"
-                    aria-label="View The Legal Tender Question by Joseph R. K. Eshun"
+                    aria-label="View BENCH PRESS byDAVID REISNER"
                   >
                     <span className="pub-book__obj">
                       <span className="book3d is-mockup pub-book__3d">
@@ -1427,8 +1427,8 @@ export default function PublicationsPage() {
                       </span>
                     </span>{' '}
                     <span className="pub-book__info">
-                      <span className="pub-book__title">The Legal Tender Question</span>
-                      <span className="pub-book__author">Joseph R. K. Eshun</span>
+                      <span className="pub-book__title">BENCH PRESS</span>
+                      <span className="pub-book__author">DAVID REISNER</span>
                       <span className="pub-book__genre">{'Business & Law'}</span>
                       <span className="pub-book__go">
                         {'View book '}
@@ -1442,9 +1442,9 @@ export default function PublicationsPage() {
                 <li
                   className="bcard pub-book"
                   data-book=""
-                  data-title="The Legal Tender Question"
+                  data-title="BENCH PRESS"
                   data-sub="Volume Two"
-                  data-author="Joseph R. K. Eshun"
+                  data-author="DAVID REISNER"
                   data-genre={'Business & Law'}
                   data-cover="/assets/images/books/book-19.webp"
                   data-id="19"
@@ -1453,7 +1453,7 @@ export default function PublicationsPage() {
                   <button
                     className="bcard__btn pub-book__btn"
                     type="button"
-                    aria-label="View The Legal Tender Question by Joseph R. K. Eshun"
+                    aria-label="View BENCH PRESS byDAVID REISNER"
                   >
                     <span className="pub-book__obj">
                       <span className="book3d is-mockup pub-book__3d">
@@ -1473,8 +1473,8 @@ export default function PublicationsPage() {
                       </span>
                     </span>{' '}
                     <span className="pub-book__info">
-                      <span className="pub-book__title">The Legal Tender Question</span>
-                      <span className="pub-book__author">Joseph R. K. Eshun</span>
+                      <span className="pub-book__title">BENCH PRESS</span>
+                      <span className="pub-book__author">DAVID REISNER</span>
                       <span className="pub-book__genre">{'Business & Law'}</span>
                       <span className="pub-book__go">
                         {'View book '}
@@ -1669,7 +1669,7 @@ export default function PublicationsPage() {
                   className="bcard pub-book"
                   data-book=""
                   data-title="You vs You"
-                  data-sub="How to Overcome Doubt, Build Discipline, and Create a Life with Purpose"
+                  data-sub="  "
                   data-author="Waheed Shaffiek"
                   data-genre="Self-Help"
                   data-cover="/assets/images/books/book-26.webp"
@@ -2365,7 +2365,7 @@ export default function PublicationsPage() {
                       type="button"
                       className="pc-thumb"
                       data-pc-open="18"
-                      aria-label="View The Legal Tender Question: Volume One"
+                      aria-label="View BENCH PRESS: Volume One"
                     >
                       <Image
                         src="/assets/images/books/cover-18.webp"
@@ -2382,7 +2382,7 @@ export default function PublicationsPage() {
                       type="button"
                       className="pc-thumb"
                       data-pc-open="19"
-                      aria-label="View The Legal Tender Question: Volume Two"
+                      aria-label="View BENCH PRESS: Volume Two"
                     >
                       <Image
                         src="/assets/images/books/cover-19.webp"
@@ -2395,7 +2395,7 @@ export default function PublicationsPage() {
                     </button>
                   </li>
                 </ul>
-                <p className="pc-crow__titles">Business Administration Mastery · The Legal Tender Question</p>{' '}
+                <p className="pc-crow__titles">Business Administration Mastery · BENCH PRESS</p>{' '}
                 <button
                   type="button"
                   className="pc-link pc-crow__go"
@@ -3257,7 +3257,7 @@ export default function PublicationsPage() {
                     data-pc-open="18"
                     data-pc-peek="/assets/images/books/book-18.png"
                     data-pc-no="20"
-                    aria-label="View The Legal Tender Question: Volume One by Joseph R. K. Eshun"
+                    aria-label="View BENCH PRESS: Volume One byDAVID REISNER"
                   >
                     <span className="pc-row__no">20</span>
                     <span className="pc-row__thumb" aria-hidden="true">
@@ -3271,10 +3271,10 @@ export default function PublicationsPage() {
                       />
                     </span>
                     <span className="pc-row__title">
-                      The Legal Tender Question
+                      BENCH PRESS
                       <small>Volume One</small>
                     </span>
-                    <span className="pc-row__author">Joseph R. K. Eshun</span>
+                    <span className="pc-row__author">DAVID REISNER</span>
                     <span className="pc-row__cat">{'Business & Law'}</span>
                     <span className="pc-row__go" aria-hidden="true">
                       <svg aria-hidden="true">
@@ -3290,7 +3290,7 @@ export default function PublicationsPage() {
                     data-pc-open="19"
                     data-pc-peek="/assets/images/books/book-19.webp"
                     data-pc-no="21"
-                    aria-label="View The Legal Tender Question: Volume Two by Joseph R. K. Eshun"
+                    aria-label="View BENCH PRESS: Volume Two byDAVID REISNER"
                   >
                     <span className="pc-row__no">21</span>
                     <span className="pc-row__thumb" aria-hidden="true">
@@ -3304,10 +3304,10 @@ export default function PublicationsPage() {
                       />
                     </span>
                     <span className="pc-row__title">
-                      The Legal Tender Question
+                      BENCH PRESS
                       <small>Volume Two</small>
                     </span>
-                    <span className="pc-row__author">Joseph R. K. Eshun</span>
+                    <span className="pc-row__author">DAVID REISNER</span>
                     <span className="pc-row__cat">{'Business & Law'}</span>
                     <span className="pc-row__go" aria-hidden="true">
                       <svg aria-hidden="true">
@@ -3452,7 +3452,7 @@ export default function PublicationsPage() {
                     data-pc-open="26"
                     data-pc-peek="/assets/images/books/book-26.webp"
                     data-pc-no="26"
-                    aria-label="View You vs You: How to Overcome Doubt, Build Discipline, and Create a Life with Purpose by Waheed Shaffiek"
+                    aria-label="View You vs You:    by Waheed Shaffiek"
                   >
                     <span className="pc-row__no">26</span>
                     <span className="pc-row__thumb" aria-hidden="true">
@@ -3467,7 +3467,7 @@ export default function PublicationsPage() {
                     </span>
                     <span className="pc-row__title">
                       You vs You
-                      <small>How to Overcome Doubt, Build Discipline, and Create a Life with Purpose</small>
+                      <small>  </small>
                     </span>
                     <span className="pc-row__author">Waheed Shaffiek</span>
                     <span className="pc-row__cat">Self Help</span>

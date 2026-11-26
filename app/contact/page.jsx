@@ -8,7 +8,7 @@ import { site } from '@/lib/site';
 import ContactEnquiryForm from '../../components/forms/ContactEnquiryForm';
 
 export const metadata = pageMetadata({
-  title: `Need Book Publishing Services? Let's Discuss Your Project`,
+  title: ` Need Book Publishing Services? Let's Discuss Your Project`,
   description:
     'Have a manuscript, book idea, or publishing question? Contact Publish Your Books Today to discuss your project and find the right services for your goals.',
   path: '/contact',
@@ -217,7 +217,7 @@ export default function ContactPage() {
                           src="/assets/images/books/book-26.webp"
                           width="600"
                           height="1024"
-                          alt="You vs You: How to Overcome Doubt, Build Discipline, and Create a Life with Purpose by Waheed Shaffiek, shown as a hardcover book"
+                          alt="You vs You:    by Waheed Shaffiek, shown as a hardcover book"
                           loading="lazy"
                           decoding="async"
                         />
@@ -226,7 +226,7 @@ export default function ContactPage() {
                       <span className="rw-cap" aria-hidden="true">
                         <span className="rw-cap__t">You vs You</span>
                         <span className="rw-cap__s">
-                          How to Overcome Doubt, Build Discipline, and Create a Life with Purpose
+                            
                         </span>
                         <span className="rw-cap__a">Waheed Shaffiek</span>
                         <span className="rw-cap__go">

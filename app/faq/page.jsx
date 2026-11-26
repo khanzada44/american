@@ -10,7 +10,7 @@ import { site } from '@/lib/site';
 export const metadata = pageMetadata({
   title: 'Book Publishing FAQs: What Should Every Author Know?',
   description:
-    ': Get answers to common book publishing questions about costs, editing, ISBNs, copyright, distribution, timelines, and the steps involved in publishing a book.',
+    'Get answers to common book publishing questions about costs, editing, ISBNs, copyright, distribution, timelines, and the steps involved in publishing a book.',
   path: '/faq',
 });
 

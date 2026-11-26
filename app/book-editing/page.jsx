@@ -8,9 +8,9 @@ import LeadForm from '@/components/forms/LeadForm';
 import { site } from '@/lib/site';
 
 export const metadata = pageMetadata({
-  title: 'Book Editing and Formatting',
+  title: 'Is Your Manuscript Ready? Professional Book Editing Services',
   description:
-    'A careful edit looks beyond typos. It checks whether the argument holds, the chapters connect, the language stays consistent, and the finished pages are comfortable to read.',
+    'Refine your manuscript with professional book editing services covering developmental editing, copyediting, line editing, and proofreading for clearer, polished writing.',
   path: '/book-editing',
   ogType: 'article',
 });

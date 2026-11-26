@@ -7,9 +7,9 @@ import SectionRail from '@/components/navigation/SectionRail';
 import LeadForm from '@/components/forms/LeadForm';
 
 export const metadata = pageMetadata({
-  title: 'Custom Book Illustration & Character Art',
+  title: 'What Could Your Story Look Like? Custom Book Illustration Services',
   description:
-    'Plan illustrations for your book, from characters and individual scenes to complete illustrated editions, with artwork prepared for your chosen format.',
+    `Add visual depth to your manuscript with custom book illustration services for children's books, characters, story scenes, and other creative publications.`,
   path: '/illustration',
 });
 

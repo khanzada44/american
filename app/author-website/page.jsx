@@ -8,9 +8,9 @@ import LeadForm from '@/components/forms/LeadForm';
 import { site } from '@/lib/site';
 
 export const metadata = pageMetadata({
-  title: 'Author Website Design and Development',
+  title: ' What Does Your Author Website Say? Author Website Design',
   description:
-    'Bring your books, biography and news together on an author website. Discuss book pages, content updates and direct sales options with our team.',
+    'Establish your online presence with professional author website design. Showcase your biography, published books, upcoming releases, media features, and contact details.  ',
   path: '/author-website',
 });
 

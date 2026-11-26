@@ -7,9 +7,9 @@ import SectionRail from '@/components/navigation/SectionRail';
 import LeadForm from '@/components/forms/LeadForm';
 
 export const metadata = pageMetadata({
-  title: 'Billboard Advertising for Books and Authors',
+  title: 'Could Your Book Go Big? Book Billboard Advertising Campaigns',
   description:
-    'Plan a book billboard campaign with clear artwork, suitable locations and coordinated production. Discuss formats, timing and your campaign budget.',
+    'Put your title in the public eye with book billboard advertising. Promote your book and author name through outdoor campaigns in high-visibility locations.',
   path: '/billboard-campaigns',
 });
 

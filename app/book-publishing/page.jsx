@@ -8,9 +8,9 @@ import LeadForm from '@/components/forms/LeadForm';
 import { site } from '@/lib/site';
 
 export const metadata = pageMetadata({
-  title: 'Book Publishing',
+  title: 'What Does It Take? Professional Book Publishing Services',
   description:
-    'From page layout to final cover files, we help prepare print and digital editions with a production plan that keeps each decision connected.',
+    'Take your manuscript through the publishing process with professional book publishing services covering preparation, production, formatting, and release options.',
   path: '/book-publishing',
 });
 
@@ -564,7 +564,7 @@ export default function BookPublishingPage() {
                 <Link
                   className="rw-book rw-table__book"
                   href="/our-work#book-19"
-                  aria-label="The Legal Tender Question by Joseph R. K. Eshun, view in Our Work"
+                  aria-label="BENCH PRESS byDAVID REISNER, view in Our Work"
                   data-rw-book="19"
                   style={{ '--s': '0.52', '--z': '7' }}
                 >
@@ -574,16 +574,16 @@ export default function BookPublishingPage() {
                       src="/assets/images/books/book-19-s.webp"
                       width="360"
                       height="614"
-                      alt="The Legal Tender Question: Volume Two by Joseph R. K. Eshun, shown as a hardcover book"
+                      alt="BENCH PRESS: Volume Two byDAVID REISNER, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
                     <span className="rw-book__floor" aria-hidden="true" />
                   </span>
                   <span className="rw-cap" aria-hidden="true">
-                    <span className="rw-cap__t">The Legal Tender Question</span>
+                    <span className="rw-cap__t">BENCH PRESS</span>
                     <span className="rw-cap__s">Volume Two</span>
-                    <span className="rw-cap__a">Joseph R. K. Eshun</span>
+                    <span className="rw-cap__a">DAVID REISNER</span>
                     <span className="rw-cap__go">
                       {'View book '}
                       <svg aria-hidden="true">
@@ -688,7 +688,7 @@ export default function BookPublishingPage() {
                 <Link
                   className="rw-book rw-table__book"
                   href="/our-work#book-18"
-                  aria-label="The Legal Tender Question by Joseph R. K. Eshun, view in Our Work"
+                  aria-label="BENCH PRESS byDAVID REISNER, view in Our Work"
                   data-rw-book="18"
                   style={{ '--s': '0.74', '--z': '11' }}
                 >
@@ -698,16 +698,16 @@ export default function BookPublishingPage() {
                       src="/assets/images/books/book-18.png"
                       width="600"
                       height="1024"
-                      alt="The Legal Tender Question: Volume One by Joseph R. K. Eshun, shown as a hardcover book"
+                      alt="BENCH PRESS: Volume One byDAVID REISNER, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
                     <span className="rw-book__floor" aria-hidden="true" />
                   </span>
                   <span className="rw-cap" aria-hidden="true">
-                    <span className="rw-cap__t">The Legal Tender Question</span>
+                    <span className="rw-cap__t">BENCH PRESS</span>
                     <span className="rw-cap__s">Volume One</span>
-                    <span className="rw-cap__a">Joseph R. K. Eshun</span>
+                    <span className="rw-cap__a">DAVID REISNER</span>
                     <span className="rw-cap__go">
                       {'View book '}
                       <svg aria-hidden="true">

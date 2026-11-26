@@ -240,11 +240,11 @@ export default function HomePage() {
                     </button>
                   </li>
                   <li>
-                    <button type="button" className="minibook" data-open-book="The Legal Tender Question">
+                    <button type="button" className="minibook" data-open-book="BENCH PRESS">
                       <Image loading="eager" src="/assets/images/books/cover-18.webp" width="440" height="660" alt="" />
                       <span>
-                        <b>The Legal Tender Question</b>
-                        <small>Joseph R. K. Eshun</small>
+                        <b>BENCH PRESS</b>
+                        <small>DAVID REISNER</small>
                       </span>
                       <i aria-hidden="true">
                         <svg>
@@ -583,9 +583,9 @@ export default function HomePage() {
           />
           <li
             data-book=""
-            data-title="The Legal Tender Question"
+            data-title="BENCH PRESS"
             data-sub="Volume One"
-            data-author="Joseph R. K. Eshun"
+            data-author="DAVID REISNER"
             data-genre={'Business & Law'}
             data-cover="/assets/images/books/book-18.png"
             data-id="18"
@@ -611,7 +611,7 @@ export default function HomePage() {
           <li
             data-book=""
             data-title="You vs You"
-            data-sub="How to Overcome Doubt, Build Discipline, and Create a Life with Purpose"
+            data-sub="  "
             data-author="Waheed Shaffiek"
             data-genre="Self-Help"
             data-cover="/assets/images/books/book-26.webp"
@@ -735,7 +735,7 @@ export default function HomePage() {
                       src="/assets/images/books/book-26-s.webp"
                       width="360"
                       height="614"
-                      alt="You vs You: How to Overcome Doubt, Build Discipline, and Create a Life with Purpose by Waheed Shaffiek, shown as a hardcover book"
+                      alt="You vs You:    by Waheed Shaffiek, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
@@ -744,7 +744,7 @@ export default function HomePage() {
                   <span className="rw-cap" aria-hidden="true">
                     <span className="rw-cap__t">You vs You</span>
                     <span className="rw-cap__s">
-                      How to Overcome Doubt, Build Discipline, and Create a Life with Purpose
+                        
                     </span>
                     <span className="rw-cap__a">Waheed Shaffiek</span>
                     <span className="rw-cap__go">
@@ -912,7 +912,7 @@ export default function HomePage() {
                 <Link
                   className="rw-book rw-table__book"
                   href="/our-work#book-18"
-                  aria-label="The Legal Tender Question by Joseph R. K. Eshun, view in Our Work"
+                  aria-label="BENCH PRESS byDAVID REISNER, view in Our Work"
                   data-rw-book="18"
                   style={{ '--s': '0.52', '--z': '13' }}
                 >
@@ -922,16 +922,16 @@ export default function HomePage() {
                       src="/assets/images/books/book-18-s.webp"
                       width="360"
                       height="614"
-                      alt="The Legal Tender Question: Volume One by Joseph R. K. Eshun, shown as a hardcover book"
+                      alt="BENCH PRESS: Volume One byDAVID REISNER, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
                     <span className="rw-book__floor" aria-hidden="true" />
                   </span>
                   <span className="rw-cap" aria-hidden="true">
-                    <span className="rw-cap__t">The Legal Tender Question</span>
+                    <span className="rw-cap__t">BENCH PRESS</span>
                     <span className="rw-cap__s">Volume One</span>
-                    <span className="rw-cap__a">Joseph R. K. Eshun</span>
+                    <span className="rw-cap__a">DAVID REISNER</span>
                     <span className="rw-cap__go">
                       {'View book '}
                       <svg aria-hidden="true">
@@ -943,15 +943,7 @@ export default function HomePage() {
               </div>
               <div className="rw-table__surface" aria-hidden="true" />
             </div>
-            <p className="rw-now" data-rw-now="" aria-live="polite">
-              <span className="rw-now__n">In focus</span>
-              <span className="rw-now__main">
-                <span className="rw-cap__t">The Goodness of God</span>
-                <span className="rw-cap__s">Reflection at 80</span>
-                <span className="rw-cap__a">Dr. Lee Roy Jefferson</span>
-              </span>
-              <span className="rw-now__hint">Explore a cover for book details</span>
-            </p>
+
           </div>
           <BookSpin />
         </section>

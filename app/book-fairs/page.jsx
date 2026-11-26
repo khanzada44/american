@@ -8,9 +8,9 @@ import LeadForm from '@/components/forms/LeadForm';
 import { site } from '@/lib/site';
 
 export const metadata = pageMetadata({
-  title: 'Book Fair Preparation and Author Support',
+  title: 'Is Your Book Fair-Ready? Book Fair Promotion Services',
   description:
-    'Prepare your book for fairs and publishing events with event planning, catalogue details, display materials and support for presentation.',
+    'Present your publication to literary audiences through book fair promotion services. Gain visibility for your title and connect with readers, publishers, and industry professionals.',
   path: '/book-fairs',
 });
 

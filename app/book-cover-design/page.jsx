@@ -8,9 +8,9 @@ import LeadForm from '@/components/forms/LeadForm';
 import { site } from '@/lib/site';
 
 export const metadata = pageMetadata({
-  title: 'Book Cover Design',
+  title: 'Would Readers Pick It Up? Custom Book Cover Design Services',
   description:
-    'We develop cover concepts around the story, the reader, and the market your book will enter—then prepare the artwork for the formats you plan to publish.',
+    `Make a strong first impression with custom book cover design services. Get genre-appropriate cover artwork that reflects your book's subject, tone, and identity.`,
   path: '/book-cover-design',
 });
 

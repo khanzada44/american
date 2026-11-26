@@ -8,9 +8,9 @@ import LeadForm from '@/components/forms/LeadForm';
 import { site } from '@/lib/site';
 
 export const metadata = pageMetadata({
-  title: 'Print and Digital Book Distribution Support',
+  title: 'Where Could Readers Find Your Book? Global Book Distribution',
   description:
-    'Prepare your editions, listings and distribution settings so readers can find and order your book through the channels agreed for your project.',
+    'Make your title accessible to readers in different markets through global book distribution. Explore print and digital distribution options for wider book availability.',
   path: '/global-distribution',
 });
 

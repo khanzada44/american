@@ -8,9 +8,9 @@ import LeadForm from '@/components/forms/LeadForm';
 import { site } from '@/lib/site';
 
 export const metadata = pageMetadata({
-  title: 'Author Websites and Social Media Support',
+  title: 'Are Readers Finding You Online? Author Social Media Marketing',
   description:
-    'Build a consistent author presence with website planning, social profiles, content creation and account support suited to your books and readers.',
+    'Strengthen your digital presence with social media marketing for authors. Create platform-specific content that promotes your books and connects with readers.',
   path: '/web-social-media',
 });
 

@@ -8,9 +8,9 @@ import LeadForm from '@/components/forms/LeadForm';
 import { site } from '@/lib/site';
 
 export const metadata = pageMetadata({
-  title: 'Articles and Magazines',
+  title: 'Need Content Readers Enjoy? Article & Magazine Writing Services',
   description:
-    'A magazine feature, expert article, interview, or recurring column needs more than a subject. It needs an angle that gives readers a reason to stay with it.',
+    'Create compelling articles and magazine content with professional writing services tailored to your publication, subject matter, target audience, and editorial goals.',
   path: '/articles-magazines',
 });
 

@@ -8,9 +8,9 @@ import LeadForm from '@/components/forms/LeadForm';
 import { site } from '@/lib/site';
 
 export const metadata = pageMetadata({
-  title: 'Audiobook Narration and Production',
+  title: 'Could Your Book Reach Listeners? Audiobook Production Services',
   description:
-    'Create an audiobook with narration, recording, editing and audio mastering planned around your manuscript and the way you want it to sound.',
+    'Turn your written work into an engaging listening experience with audiobook production services, including professional narration, audio recording, and production.',
   path: '/audio-book',
 });
 

@@ -8,7 +8,7 @@ import LeadForm from '@/components/forms/LeadForm';
 import { site } from '@/lib/site';
 
 export const metadata = pageMetadata({
-  title: 'Who Behind Publish Your Books Today? Meet Our Publishing Team',
+  title: `Who's Behind Publish Your Books Today? Meet Our Publishing Team`,
   description:
     'Learn about Publish Your Books Today, a book publishing company offering writing, editing, design, production, and marketing services for authors.',
   path: '/about',
@@ -479,7 +479,7 @@ export default function AboutPage() {
                         src="/assets/images/books/book-26.webp"
                         width="600"
                         height="1024"
-                        alt="You vs You: How to Overcome Doubt, Build Discipline, and Create a Life with Purpose by Waheed Shaffiek, shown as a hardcover book"
+                        alt="You vs You:    by Waheed Shaffiek, shown as a hardcover book"
                         loading="lazy"
                         decoding="async"
                       />
@@ -488,7 +488,7 @@ export default function AboutPage() {
                     <span className="rw-cap" aria-hidden="true">
                       <span className="rw-cap__t">You vs You</span>
                       <span className="rw-cap__s">
-                        How to Overcome Doubt, Build Discipline, and Create a Life with Purpose
+                          
                       </span>
                       <span className="rw-cap__a">Waheed Shaffiek</span>
                       <span className="rw-cap__go">

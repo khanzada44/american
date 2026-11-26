@@ -8,9 +8,9 @@ import LeadForm from '@/components/forms/LeadForm';
 import { site } from '@/lib/site';
 
 export const metadata = pageMetadata({
-  title: 'Book Trailers and Promotional Videos',
+  title: 'Can a Book Trailer Make Readers Curious? Book Video Services',
   description:
-    'Introduce your book through a short video with script planning, visuals, editing and sound. Discuss the trailer style and formats you need.',
+    'Introduce your title through professional book trailer production. Create promotional book videos that highlight your story, genre, atmosphere, and key themes.',
   path: '/book-video',
 });
 

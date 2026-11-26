@@ -8,9 +8,9 @@ import LeadForm from '@/components/forms/LeadForm';
 import { site } from '@/lib/site';
 
 export const metadata = pageMetadata({
-  title: 'ISBN and Copyright Application Support',
+  title: ' ISBN & Copyright Services: What Does Your Book Need?',
   description:
-    'Organise your book identifiers, copyright page and registration paperwork with practical support for ISBNs, metadata and eligible library applications.',
+    'Understand the essentials of book identification and copyright protection. Get guidance on ISBN registration and copyright services before releasing your publication.',
   path: '/copyrights-isbn',
 });
 

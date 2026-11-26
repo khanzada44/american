@@ -7,9 +7,9 @@ import SectionRail from '@/components/navigation/SectionRail';
 import LeadForm from '@/components/forms/LeadForm';
 
 export const metadata = pageMetadata({
-  title: 'Writing and Editorial | Book Ghostwriting in Your Voice',
+  title: 'Have the Story? Professional Book Ghostwriting Services',
   description:
-    'Turn your ideas, experiences or expertise into a manuscript with a ghostwriter. Work with us on the outline, chapter drafts and revisions.',
+    'Turn your ideas, experiences, and expertise into a complete manuscript with professional book ghostwriting services tailored to your subject, style, and voice.',
   path: '/ghostwriting',
 });
 

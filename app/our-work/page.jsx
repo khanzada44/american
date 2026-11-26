@@ -8,9 +8,9 @@ import LeadForm from '@/components/forms/LeadForm';
 import { site } from '@/lib/site';
 
 export const metadata = pageMetadata({
-  title: 'Browse the Books and Author Projects',
+  title: 'What Have We Created? Explore Our Book Publishing Portfolio',
   description:
-    'Browse selected books and author profiles from our catalogue. See the subjects, stories and finished editions that make up our work.',
+    'Browse our book publishing portfolio featuring completed projects across genres and subjects. See how manuscripts become professionally produced books.',
   path: '/our-work',
 });
 
@@ -354,15 +354,6 @@ export default function OurWorkPage() {
               </div>
               <div className="rw-table__surface" aria-hidden="true" />
             </div>
-            <p className="rw-now" data-rw-now="" aria-live="polite">
-              <span className="rw-now__n">In focus</span>
-              <span className="rw-now__main">
-                <span className="rw-cap__t">The Naked Truth of AI 2.0</span>
-                <span className="rw-cap__s">Divine Intervention</span>
-                <span className="rw-cap__a">Douglas Hawes</span>
-              </span>
-              <span className="rw-now__hint">Explore a cover for book details</span>
-            </p>
           </div>
         </section>
         <section className="ow-authors" id="authors" aria-labelledby="authors-title">
@@ -1616,7 +1607,7 @@ export default function OurWorkPage() {
                       src="/assets/images/books/book-18-s.webp"
                       width="360"
                       height="614"
-                      alt="The Legal Tender Question: Volume One by Joseph R. K. Eshun, shown as a hardcover book"
+                      alt="BENCH PRESS: Volume One byDAVID REISNER, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
@@ -1624,9 +1615,9 @@ export default function OurWorkPage() {
                   </span>
                   <figcaption>
                     <span className="ow-shelf__n">No. 18</span>
-                    <span className="rw-cap__t">The Legal Tender Question</span>
+                    <span className="rw-cap__t">BENCH PRESS</span>
                     <span className="rw-cap__s">Volume One</span>
-                    <span className="rw-cap__a">Joseph R. K. Eshun</span>
+                    <span className="rw-cap__a">DAVID REISNER</span>
                   </figcaption>
                 </figure>
               </li>
@@ -1638,7 +1629,7 @@ export default function OurWorkPage() {
                       src="/assets/images/books/book-19-s.webp"
                       width="360"
                       height="614"
-                      alt="The Legal Tender Question: Volume Two by Joseph R. K. Eshun, shown as a hardcover book"
+                      alt="BENCH PRESS: Volume Two byDAVID REISNER, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
@@ -1646,9 +1637,9 @@ export default function OurWorkPage() {
                   </span>
                   <figcaption>
                     <span className="ow-shelf__n">No. 19</span>
-                    <span className="rw-cap__t">The Legal Tender Question</span>
+                    <span className="rw-cap__t">BENCH PRESS</span>
                     <span className="rw-cap__s">Volume Two</span>
-                    <span className="rw-cap__a">Joseph R. K. Eshun</span>
+                    <span className="rw-cap__a">DAVID REISNER</span>
                   </figcaption>
                 </figure>
               </li>
@@ -1794,7 +1785,7 @@ export default function OurWorkPage() {
                       src="/assets/images/books/book-26-s.webp"
                       width="360"
                       height="614"
-                      alt="You vs You: How to Overcome Doubt, Build Discipline, and Create a Life with Purpose by Waheed Shaffiek, shown as a hardcover book"
+                      alt="You vs You:    by Waheed Shaffiek, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
@@ -1804,7 +1795,7 @@ export default function OurWorkPage() {
                     <span className="ow-shelf__n">No. 26</span>
                     <span className="rw-cap__t">You vs You</span>
                     <span className="rw-cap__s">
-                      How to Overcome Doubt, Build Discipline, and Create a Life with Purpose
+                        
                     </span>
                     <span className="rw-cap__a">Waheed Shaffiek</span>
                   </figcaption>

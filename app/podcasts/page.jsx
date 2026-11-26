@@ -7,9 +7,9 @@ import SectionRail from '@/components/navigation/SectionRail';
 import LeadForm from '@/components/forms/LeadForm';
 
 export const metadata = pageMetadata({
-  title: 'Book Fair Support for Authors',
+  title: 'Have a Story to Share? Author Podcast Promotion',
   description:
-    'Choose the right book fairs and prepare your catalog details, display, fair materials and industry meetings, with follow-up after the event.',
+    'Reach podcast audiences through author podcast promotion. Share the ideas behind your book, discuss your experiences, and introduce your work to new listeners.',
   path: '/book-fairs',
 });
 
