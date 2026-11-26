@@ -282,7 +282,7 @@ export default function PublicationsPage() {
                       src="/assets/images/books/book-6.png"
                       width="600"
                       height="1024"
-                      alt="Cover of The Goodness of God by Dr. Lee Roy Jefferson"
+                      alt="Cover of HOW BUILD A FUTURE by Dr. Lee Roy Jefferson"
                       decoding="async"
                     />
                   </div>
@@ -298,7 +298,7 @@ export default function PublicationsPage() {
                   </span>
                 </div>
                 <h3 className="pub-feature__title" data-pf-title="">
-                  The Goodness of God
+                  HOW BUILD A FUTURE
                 </h3>
                 <p className="pub-feature__sub" data-pf-sub="">
                   Reflection at 80
@@ -345,7 +345,7 @@ export default function PublicationsPage() {
                         type="button"
                         className="pub-feature__thumb is-active"
                         data-pf-go="0"
-                        aria-label="Show The Goodness of God"
+                        aria-label="Show HOW BUILD A FUTURE"
                       >
                         <Image
                           src="/assets/images/books/cover-06.webp"
@@ -396,7 +396,7 @@ export default function PublicationsPage() {
                         type="button"
                         className="pub-feature__thumb"
                         data-pf-go="3"
-                        aria-label="Show The Path of Truth"
+                        aria-label="Show WHO IS GOD ?"
                       >
                         <Image
                           src="/assets/images/books/cover-12.webp"
@@ -413,7 +413,7 @@ export default function PublicationsPage() {
                         type="button"
                         className="pub-feature__thumb"
                         data-pf-go="4"
-                        aria-label="Show Bajo la Influencia del Kremlin"
+                        aria-label="Show HOW BUILD A FUTURE"
                       >
                         <Image
                           src="/assets/images/books/cover-25.webp"
@@ -515,20 +515,20 @@ export default function PublicationsPage() {
                 <li
                   className="bcard pub-book"
                   data-book=""
-                  data-title="The Goodness of God"
+                  data-title="HOW BUILD A FUTURE"
                   data-sub="Reflection at 80"
                   data-author="Dr. Lee Roy Jefferson"
                   data-genre="Faith"
                   data-cover="/assets/images/books/book-6.png"
                   data-id="06"
-                  data-desc="The Goodness of God is a deeply personal reflection on a lifetime of faith, ministry, family, service, and perseverance."
+                  data-desc="HOW BUILD A FUTURE is a deeply personal reflection on a lifetime of faith, ministry, family, service, and perseverance."
                   data-featured=""
                   style={{ '--b': '178px' }}
                 >
                   <button
                     className="bcard__btn pub-book__btn"
                     type="button"
-                    aria-label="View The Goodness of God by Dr. Lee Roy Jefferson"
+                    aria-label="View HOW BUILD A FUTURE by Dr. Lee Roy Jefferson"
                   >
                     <span className="pub-book__obj">
                       <span className="book3d is-mockup pub-book__3d">
@@ -548,7 +548,7 @@ export default function PublicationsPage() {
                       </span>
                     </span>{' '}
                     <span className="pub-book__info">
-                      <span className="pub-book__title">The Goodness of God</span>
+                      <span className="pub-book__title">HOW BUILD A FUTURE</span>
                       <span className="pub-book__author">Dr. Lee Roy Jefferson</span>
                       <span className="pub-book__genre">Faith</span>
                       <span className="pub-book__go">
@@ -659,7 +659,7 @@ export default function PublicationsPage() {
                 <li
                   className="bcard pub-book"
                   data-book=""
-                  data-title="The Path of Truth"
+                  data-title="WHO IS GOD ?"
                   data-sub="Beyond Belief, Beyond Illusion"
                   data-author="Emilio Degher"
                   data-genre={'Philosophy & Spirituality'}
@@ -671,7 +671,7 @@ export default function PublicationsPage() {
                   <button
                     className="bcard__btn pub-book__btn"
                     type="button"
-                    aria-label="View The Path of Truth by Emilio Degher"
+                    aria-label="View WHO IS GOD ? by Emilio Degher"
                   >
                     <span className="pub-book__obj">
                       <span className="book3d is-mockup pub-book__3d">
@@ -691,7 +691,7 @@ export default function PublicationsPage() {
                       </span>
                     </span>{' '}
                     <span className="pub-book__info">
-                      <span className="pub-book__title">The Path of Truth</span>
+                      <span className="pub-book__title">WHO IS GOD ?</span>
                       <span className="pub-book__author">Emilio Degher</span>
                       <span className="pub-book__genre">{'Philosophy & Spirituality'}</span>
                       <span className="pub-book__go">
@@ -706,7 +706,7 @@ export default function PublicationsPage() {
                 <li
                   className="bcard pub-book"
                   data-book=""
-                  data-title="Bajo la Influencia del Kremlin"
+                  data-title="HOW BUILD A FUTURE"
                   data-sub="La Penetración Rusa en Venezuela"
                   data-author="Virginia Perez Perez"
                   data-genre="Politics"
@@ -719,7 +719,7 @@ export default function PublicationsPage() {
                   <button
                     className="bcard__btn pub-book__btn"
                     type="button"
-                    aria-label="View Bajo la Influencia del Kremlin by Virginia Perez Perez"
+                    aria-label="View HOW BUILD A FUTURE by Virginia Perez Perez"
                   >
                     <span className="pub-book__obj">
                       <span className="book3d is-mockup pub-book__3d">
@@ -739,7 +739,7 @@ export default function PublicationsPage() {
                       </span>
                     </span>{' '}
                     <span className="pub-book__info">
-                      <span className="pub-book__title">Bajo la Influencia del Kremlin</span>
+                      <span className="pub-book__title">HOW BUILD A FUTURE</span>
                       <span className="pub-book__author">Virginia Perez Perez</span>
                       <span className="pub-book__genre">Politics</span>
                       <span className="pub-book__go">
@@ -1911,7 +1911,7 @@ export default function PublicationsPage() {
                     type="button"
                     className="pc-book is-lead"
                     data-pc-open="12"
-                    aria-label="View The Path of Truth by Emilio Degher"
+                    aria-label="View WHO IS GOD ? by Emilio Degher"
                     style={{ '--s': '1' }}
                   >
                     <span className="pc-book__obj">
@@ -1926,7 +1926,7 @@ export default function PublicationsPage() {
                       <span className="pc-book__floor" aria-hidden="true" />
                     </span>
                     <span className="pc-book__cap">
-                      <span className="pc-book__t">The Path of Truth</span>
+                      <span className="pc-book__t">WHO IS GOD ?</span>
                       <span className="pc-book__a">Emilio Degher</span>
                     </span>
                   </button>
@@ -2114,7 +2114,7 @@ export default function PublicationsPage() {
                     type="button"
                     className="pc-book is-lead"
                     data-pc-open="25"
-                    aria-label="View Bajo la Influencia del Kremlin by Virginia Perez Perez"
+                    aria-label="View HOW BUILD A FUTURE by Virginia Perez Perez"
                     style={{ '--s': '1' }}
                   >
                     <span className="pc-book__obj">
@@ -2129,7 +2129,7 @@ export default function PublicationsPage() {
                       <span className="pc-book__floor" aria-hidden="true" />
                     </span>
                     <span className="pc-book__cap">
-                      <span className="pc-book__t">Bajo la Influencia del Kremlin</span>
+                      <span className="pc-book__t">HOW BUILD A FUTURE</span>
                       <span className="pc-book__a">Virginia Perez Perez</span>
                     </span>
                   </button>
@@ -2430,7 +2430,7 @@ export default function PublicationsPage() {
                     </button>
                   </li>
                   <li>
-                    <button type="button" className="pc-thumb" data-pc-open="06" aria-label="View The Goodness of God">
+                    <button type="button" className="pc-thumb" data-pc-open="06" aria-label="View HOW BUILD A FUTURE">
                       <Image
                         src="/assets/images/books/cover-06.webp"
                         width="440"
@@ -2460,7 +2460,7 @@ export default function PublicationsPage() {
                   </li>
                 </ul>
                 <p className="pc-crow__titles">
-                  The Naked Truth of AI 2.0 · The Goodness of God · Rise Up Under the Blood
+                  The Naked Truth of AI 2.0 · HOW BUILD A FUTURE · Rise Up Under the Blood
                 </p>{' '}
                 <button
                   type="button"
@@ -2654,7 +2654,7 @@ export default function PublicationsPage() {
                     data-pc-open="06"
                     data-pc-peek="/assets/images/books/book-6.png"
                     data-pc-no="01"
-                    aria-label="View The Goodness of God: Reflection at 80 by Dr. Lee Roy Jefferson"
+                    aria-label="View HOW BUILD A FUTURE: Reflection at 80 by Dr. Lee Roy Jefferson"
                   >
                     <span className="pc-row__no">01</span>
                     <span className="pc-row__thumb" aria-hidden="true">
@@ -2668,7 +2668,7 @@ export default function PublicationsPage() {
                       />
                     </span>
                     <span className="pc-row__title">
-                      The Goodness of God
+                      HOW BUILD A FUTURE
                       <small>Reflection at 80</small>
                     </span>
                     <span className="pc-row__author">Dr. Lee Roy Jefferson</span>
@@ -2753,7 +2753,7 @@ export default function PublicationsPage() {
                     data-pc-open="12"
                     data-pc-peek="/assets/images/books/book-12.png"
                     data-pc-no="04"
-                    aria-label="View The Path of Truth: Beyond Belief, Beyond Illusion by Emilio Degher"
+                    aria-label="View WHO IS GOD ?: Beyond Belief, Beyond Illusion by Emilio Degher"
                   >
                     <span className="pc-row__no">04</span>
                     <span className="pc-row__thumb" aria-hidden="true">
@@ -2767,7 +2767,7 @@ export default function PublicationsPage() {
                       />
                     </span>
                     <span className="pc-row__title">
-                      The Path of Truth
+                      WHO IS GOD ?
                       <small>Beyond Belief, Beyond Illusion</small>
                     </span>
                     <span className="pc-row__author">Emilio Degher</span>
@@ -2786,7 +2786,7 @@ export default function PublicationsPage() {
                     data-pc-open="25"
                     data-pc-peek="/assets/images/books/book-25.png"
                     data-pc-no="05"
-                    aria-label="View Bajo la Influencia del Kremlin: La Penetración Rusa en Venezuela by Virginia Perez Perez"
+                    aria-label="View HOW BUILD A FUTURE: La Penetración Rusa en Venezuela by Virginia Perez Perez"
                   >
                     <span className="pc-row__no">05</span>
                     <span className="pc-row__thumb" aria-hidden="true">
@@ -2800,7 +2800,7 @@ export default function PublicationsPage() {
                       />
                     </span>
                     <span className="pc-row__title">
-                      Bajo la Influencia del Kremlin
+                      HOW BUILD A FUTURE
                       <small>La Penetración Rusa en Venezuela</small>
                     </span>
                     <span className="pc-row__author">Virginia Perez Perez</span>

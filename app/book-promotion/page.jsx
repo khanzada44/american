@@ -330,14 +330,14 @@ export default function BookPromotionPage() {
                       src="/assets/images/books/cover-06.webp"
                       width="440"
                       height="660"
-                      alt={`Cover of The Goodness of God by Dr. Lee Roy Jefferson, published with ${site.name}`}
+                      alt={`Cover of HOW BUILD A FUTURE by Dr. Lee Roy Jefferson, published with ${site.name}`}
                       loading="lazy"
                       decoding="async"
                     />
                   </div>
                   <div className="pm-announce__copy">
                     <span className="pm-announce__k">Announcing</span>{' '}
-                    <span className="pm-announce__t">The Goodness of God</span>{' '}
+                    <span className="pm-announce__t">HOW BUILD A FUTURE</span>{' '}
                     <span className="pm-announce__a">A book by Dr. Lee Roy Jefferson</span>{' '}
                     <span className="pm-announce__o">Available on Amazon</span>
                   </div>
@@ -557,7 +557,7 @@ export default function BookPromotionPage() {
             </div>
             <figure
               className="pm-reveal"
-              aria-label="Bajo la Influencia del Kremlin presented at launch with its campaign artwork"
+              aria-label="HOW BUILD A FUTURE presented at launch with its campaign artwork"
             >
               <span className="pm-reveal__beam" aria-hidden="true" />{' '}
               <div className="pm-reveal__art" aria-hidden="true">
@@ -572,7 +572,7 @@ export default function BookPromotionPage() {
                 />
               </div>
               <div className="pm-reveal__sheet" aria-hidden="true">
-                <span>Bajo la Influencia del Kremlin</span>
+                <span>HOW BUILD A FUTURE</span>
                 <span>Virginia Perez Perez</span>
                 <span>Out now</span>
               </div>
@@ -584,7 +584,7 @@ export default function BookPromotionPage() {
                     src="/assets/images/books/cover-25.webp"
                     width="440"
                     height="660"
-                    alt={`Cover of Bajo la Influencia del Kremlin by Virginia Perez Perez, published with ${site.name}`}
+                    alt={`Cover of HOW BUILD A FUTURE by Virginia Perez Perez, published with ${site.name}`}
                     loading="lazy"
                     decoding="async"
                   />

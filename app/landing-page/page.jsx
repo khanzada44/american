@@ -101,8 +101,8 @@ const tableBooks = [
     { id: '26', href: '/our-work#book-26', src: '/assets/images/books/book-26-s.webp', w: 360, h: 614, s: 0.52, z: 7, t: 'You vs You', sub: '  ', a: 'Waheed Shaffiek' },
     { id: '23', href: '/our-work#book-23', src: '/assets/images/books/book-23-s.webp', w: 360, h: 614, s: 0.62, z: 8, t: 'Poems of Life', sub: 'Reflections on Life, Love, and the Human Journey', a: 'O’Dell James Ford Sr.' },
     { id: '03', href: '/our-work#corey-t-alston-sr', src: '/assets/images/books/book-03.webp', w: 600, h: 1024, s: 0.74, z: 9, t: 'The Story Book Chronicles: A Dreamy Adventure of Isla and Ava', a: 'Corey T. Alston Sr.' },
-    { id: '06', href: '/our-work#lee-roy-jefferson', src: '/assets/images/books/book-6.png', w: 600, h: 1024, s: 1, z: 20, lead: true, t: 'The Goodness of God', sub: 'Reflection at 80', a: 'Dr. Lee Roy Jefferson' },
-    { id: '25', href: '/our-work#virginia-perez-perez', src: '/assets/images/books/book-25.png', w: 600, h: 1024, s: 0.74, z: 11, t: 'Bajo la Influencia del Kremlin', sub: 'La Penetración Rusa en Venezuela', a: 'Virginia Perez Perez' },
+    { id: '06', href: '/our-work#lee-roy-jefferson', src: '/assets/images/books/book-6.png', w: 600, h: 1024, s: 1, z: 20, lead: true, t: 'HOW BUILD A FUTURE', sub: 'Reflection at 80', a: 'Dr. Lee Roy Jefferson' },
+    { id: '25', href: '/our-work#virginia-perez-perez', src: '/assets/images/books/book-25.png', w: 600, h: 1024, s: 0.74, z: 11, t: 'HOW BUILD A FUTURE', sub: 'La Penetración Rusa en Venezuela', a: 'Virginia Perez Perez' },
     { id: '24', href: '/our-work#book-24', src: '/assets/images/books/book-24.png', w: 360, h: 614, s: 0.62, z: 12, t: 'Whispers of Time', sub: 'Poetry · Humor · Mystery · Adventure', a: 'Aggee Andrew Vetiaque' },
     { id: '18', href: '/our-work#book-18', src: '/assets/images/books/book-18-s.webp', w: 360, h: 614, s: 0.52, z: 13, t: 'BENCH PRESS', sub: 'Volume One', a: 'DAVID REISNER' },
 ];

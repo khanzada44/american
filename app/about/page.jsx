@@ -360,14 +360,14 @@ export default function AboutPage() {
                       src="/assets/images/books/cover-06.webp"
                       width="440"
                       height="660"
-                      alt={`Cover of The Goodness of God by Dr. Lee Roy Jefferson, published with ${site.name}`}
+                      alt={`Cover of HOW BUILD A FUTURE by Dr. Lee Roy Jefferson, published with ${site.name}`}
                       loading="lazy"
                       decoding="async"
                     />
                   </div>
                   <div className="book3d__shadow" />
                 </div>
-                <figcaption>The Goodness of God · published with Publish Your Books Today</figcaption>
+                <figcaption>HOW BUILD A FUTURE · published with Publish Your Books Today</figcaption>
               </figure>
             </div>
             <div className="ab-yours__copy">

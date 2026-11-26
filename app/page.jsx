@@ -395,7 +395,7 @@ export default function HomePage() {
                         src="/assets/images/books/book-6.png"
                         width="600"
                         height="1024"
-                        alt="Cover of The Goodness of God by Dr. Lee Roy Jefferson"
+                        alt="Cover of HOW BUILD A FUTURE by Dr. Lee Roy Jefferson"
                         decoding="async"
                       />
                     </div>
@@ -411,7 +411,7 @@ export default function HomePage() {
                   </div>
                   <div className="stage__text" data-feature-text="" aria-live="polite">
                     <h2 className="stage__book-title" data-feature-title="">
-                      The Goodness of God
+                      HOW BUILD A FUTURE
                     </h2>
                     <p className="stage__book-sub" data-feature-sub="">
                       Reflection at 80
@@ -520,13 +520,13 @@ export default function HomePage() {
         <ul className="hero-books" hidden aria-hidden="true">
           <li
             data-book=""
-            data-title="The Goodness of God"
+            data-title="HOW BUILD A FUTURE"
             data-sub="Reflection at 80"
             data-author="Dr. Lee Roy Jefferson"
             data-genre="Faith"
             data-cover="/assets/images/books/book-6.png"
             data-id="06"
-            data-desc="The Goodness of God is a deeply personal reflection on a lifetime of faith, ministry, family, service, and perseverance."
+            data-desc="HOW BUILD A FUTURE is a deeply personal reflection on a lifetime of faith, ministry, family, service, and perseverance."
             data-featured=""
           />
           <li
@@ -553,7 +553,7 @@ export default function HomePage() {
           />
           <li
             data-book=""
-            data-title="The Path of Truth"
+            data-title="WHO IS GOD ?"
             data-sub="Beyond Belief, Beyond Illusion"
             data-author="Emilio Degher"
             data-genre={'Philosophy & Spirituality'}
@@ -563,7 +563,7 @@ export default function HomePage() {
           />
           <li
             data-book=""
-            data-title="Bajo la Influencia del Kremlin"
+            data-title="HOW BUILD A FUTURE"
             data-sub="La Penetración Rusa en Venezuela"
             data-author="Virginia Perez Perez"
             data-genre="Politics"
@@ -819,7 +819,7 @@ export default function HomePage() {
                 <Link
                   className="rw-book rw-table__book is-lead"
                   href="/our-work#lee-roy-jefferson"
-                  aria-label="The Goodness of God by Dr. Lee Roy Jefferson, view in Our Work"
+                  aria-label="HOW BUILD A FUTURE by Dr. Lee Roy Jefferson, view in Our Work"
                   data-rw-book="06"
                   style={{ '--s': '1', '--z': '20' }}
                 >
@@ -829,14 +829,14 @@ export default function HomePage() {
                       src="/assets/images/books/book-6.png"
                       width="600"
                       height="1024"
-                      alt="The Goodness of God: Reflection at 80 by Dr. Lee Roy Jefferson, shown as a hardcover book"
+                      alt="HOW BUILD A FUTURE: Reflection at 80 by Dr. Lee Roy Jefferson, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
                     <span className="rw-book__floor" aria-hidden="true" />
                   </span>
                   <span className="rw-cap" aria-hidden="true">
-                    <span className="rw-cap__t">The Goodness of God</span>
+                    <span className="rw-cap__t">HOW BUILD A FUTURE</span>
                     <span className="rw-cap__s">Reflection at 80</span>
                     <span className="rw-cap__a">Dr. Lee Roy Jefferson</span>
                     <span className="rw-cap__go">
@@ -850,7 +850,7 @@ export default function HomePage() {
                 <Link
                   className="rw-book rw-table__book"
                   href="/our-work#virginia-perez-perez"
-                  aria-label="Bajo la Influencia del Kremlin by Virginia Perez Perez, view in Our Work"
+                  aria-label="HOW BUILD A FUTURE by Virginia Perez Perez, view in Our Work"
                   data-rw-book="25"
                   style={{ '--s': '0.74', '--z': '11' }}
                 >
@@ -860,14 +860,14 @@ export default function HomePage() {
                       src="/assets/images/books/book-25.webp"
                       width="600"
                       height="1024"
-                      alt="Bajo la Influencia del Kremlin: La Penetración Rusa en Venezuela by Virginia Perez Perez, shown as a hardcover book"
+                      alt="HOW BUILD A FUTURE: La Penetración Rusa en Venezuela by Virginia Perez Perez, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
                     <span className="rw-book__floor" aria-hidden="true" />
                   </span>
                   <span className="rw-cap" aria-hidden="true">
-                    <span className="rw-cap__t">Bajo la Influencia del Kremlin</span>
+                    <span className="rw-cap__t">HOW BUILD A FUTURE</span>
                     <span className="rw-cap__s">La Penetración Rusa en Venezuela</span>
                     <span className="rw-cap__a">Virginia Perez Perez</span>
                     <span className="rw-cap__go">

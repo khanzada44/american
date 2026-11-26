@@ -275,7 +275,7 @@ export default function BookCoverDesignPage() {
                   <span>Kadeisha Corbin</span>
                 </li>
                 <li>
-                  <b>Bajo la Influencia del Kremlin</b>
+                  <b>HOW BUILD A FUTURE</b>
                   <span>Virginia Perez Perez</span>
                 </li>
                 <li>
@@ -290,7 +290,7 @@ export default function BookCoverDesignPage() {
                   src="/assets/images/books/cover-25.webp"
                   width="440"
                   height="660"
-                  alt="Cover of Bajo la Influencia del Kremlin by Virginia Perez Perez"
+                  alt="Cover of HOW BUILD A FUTURE by Virginia Perez Perez"
                   loading="lazy"
                   decoding="async"
                 />
@@ -531,7 +531,7 @@ export default function BookCoverDesignPage() {
                 </figcaption>
               </figure>
             </div>
-            <p className="cd-anywhere__note">{`Featured example: The Path of Truth by Emilio Degher, from ${site.name}.`}</p>
+            <p className="cd-anywhere__note">{`Featured example: WHO IS GOD ? by Emilio Degher, from ${site.name}.`}</p>
           </div>
         </section>
 

@@ -132,7 +132,7 @@ export default function FeaturedAuthorsPage() {
                     <li>Eternal Coherence</li>
                     <li>The Awakening of Thought</li>
                     <li>A Life Led from the Heart</li>
-                    <li>The Path of Truth</li>
+                    <li>WHO IS GOD ?</li>
                     <li>The Exodus Code</li>
                     <li>The Awakening of Memory</li>
                     <li>The Sole</li>
@@ -155,7 +155,7 @@ export default function FeaturedAuthorsPage() {
                 <Link
                   className="rw-book rw-spread__lead"
                   href="/our-work#emilio-degher"
-                  aria-label="The Path of Truth by Emilio Degher, view in Our Work"
+                  aria-label="WHO IS GOD ? by Emilio Degher, view in Our Work"
                   data-rw-book="12"
                 >
                   <span className="rw-book__obj">
@@ -164,14 +164,14 @@ export default function FeaturedAuthorsPage() {
                       src="/assets/images/books/book-12.png"
                       width="600"
                       height="1024"
-                      alt="The Path of Truth: Beyond Belief, Beyond Illusion by Emilio Degher, shown as a hardcover book"
+                      alt="WHO IS GOD ?: Beyond Belief, Beyond Illusion by Emilio Degher, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
                     <span className="rw-book__floor" aria-hidden="true" />
                   </span>
                   <span className="rw-cap" aria-hidden="true">
-                    <span className="rw-cap__t">The Path of Truth</span>
+                    <span className="rw-cap__t">WHO IS GOD ?</span>
                     <span className="rw-cap__s">Beyond Belief, Beyond Illusion</span>
                     <span className="rw-cap__a">Emilio Degher</span>
                     <span className="rw-cap__go">
@@ -397,7 +397,7 @@ export default function FeaturedAuthorsPage() {
                 <div className="rw-spread__of">
                   <p className="rw-label">Author of</p>
                   <ul role="list">
-                    <li>The Goodness of God</li>
+                    <li>HOW BUILD A FUTURE</li>
                   </ul>
                 </div>
                 <p className="rw-spread__bio">
@@ -416,7 +416,7 @@ export default function FeaturedAuthorsPage() {
                 <Link
                   className="rw-book rw-spread__lead"
                   href="/our-work#lee-roy-jefferson"
-                  aria-label="The Goodness of God by Dr. Lee Roy Jefferson, view in Our Work"
+                  aria-label="HOW BUILD A FUTURE by Dr. Lee Roy Jefferson, view in Our Work"
                   data-rw-book="06"
                 >
                   <span className="rw-book__obj">
@@ -425,14 +425,14 @@ export default function FeaturedAuthorsPage() {
                       src="/assets/images/books/book-6.png"
                       width="600"
                       height="1024"
-                      alt="The Goodness of God: Reflection at 80 by Dr. Lee Roy Jefferson, shown as a hardcover book"
+                      alt="HOW BUILD A FUTURE: Reflection at 80 by Dr. Lee Roy Jefferson, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
                     <span className="rw-book__floor" aria-hidden="true" />
                   </span>
                   <span className="rw-cap" aria-hidden="true">
-                    <span className="rw-cap__t">The Goodness of God</span>
+                    <span className="rw-cap__t">HOW BUILD A FUTURE</span>
                     <span className="rw-cap__s">Reflection at 80</span>
                     <span className="rw-cap__a">Dr. Lee Roy Jefferson</span>
                     <span className="rw-cap__go">
@@ -551,7 +551,7 @@ export default function FeaturedAuthorsPage() {
                 <div className="rw-spread__of">
                   <p className="rw-label">Author of</p>
                   <ul role="list">
-                    <li>Bajo la Influencia del Kremlin</li>
+                    <li>HOW BUILD A FUTURE</li>
                   </ul>
                 </div>
                 <p className="rw-spread__bio">
@@ -570,7 +570,7 @@ export default function FeaturedAuthorsPage() {
                 <Link
                   className="rw-book rw-spread__lead"
                   href="/our-work#virginia-perez-perez"
-                  aria-label="Bajo la Influencia del Kremlin by Virginia Perez Perez, view in Our Work"
+                  aria-label="HOW BUILD A FUTURE by Virginia Perez Perez, view in Our Work"
                   data-rw-book="25"
                 >
                   <span className="rw-book__obj">
@@ -579,14 +579,14 @@ export default function FeaturedAuthorsPage() {
                       src="/assets/images/books/book-25.webp"
                       width="600"
                       height="1024"
-                      alt="Bajo la Influencia del Kremlin: La Penetración Rusa en Venezuela by Virginia Perez Perez, shown as a hardcover book"
+                      alt="HOW BUILD A FUTURE: La Penetración Rusa en Venezuela by Virginia Perez Perez, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
                     <span className="rw-book__floor" aria-hidden="true" />
                   </span>
                   <span className="rw-cap" aria-hidden="true">
-                    <span className="rw-cap__t">Bajo la Influencia del Kremlin</span>
+                    <span className="rw-cap__t">HOW BUILD A FUTURE</span>
                     <span className="rw-cap__s">La Penetración Rusa en Venezuela</span>
                     <span className="rw-cap__a">Virginia Perez Perez</span>
                     <span className="rw-cap__go">
@@ -890,7 +890,7 @@ export default function FeaturedAuthorsPage() {
                     <span className="fa-index__n">01</span>
                     <span className="fa-index__name">Emilio Degher</span>
                     <span className="fa-index__books">
-                      Eternal Coherence · The Awakening of Thought · A Life Led from the Heart · The Path of Truth · The
+                      Eternal Coherence · The Awakening of Thought · A Life Led from the Heart · WHO IS GOD ? · The
                       Exodus Code · The Awakening of Memory · The Sole · Atoms of Fate
                     </span>
                     <span className="fa-index__go" aria-hidden="true">
@@ -928,7 +928,7 @@ export default function FeaturedAuthorsPage() {
                   <Link className="fa-index__row" href="#lee-roy-jefferson">
                     <span className="fa-index__n">04</span>
                     <span className="fa-index__name">Dr. Lee Roy Jefferson</span>
-                    <span className="fa-index__books">The Goodness of God</span>
+                    <span className="fa-index__books">HOW BUILD A FUTURE</span>
                     <span className="fa-index__go" aria-hidden="true">
                       <svg aria-hidden="true">
                         <use href="#i-arrow" />
@@ -954,7 +954,7 @@ export default function FeaturedAuthorsPage() {
                   <Link className="fa-index__row" href="#virginia-perez-perez">
                     <span className="fa-index__n">06</span>
                     <span className="fa-index__name">Virginia Perez Perez</span>
-                    <span className="fa-index__books">Bajo la Influencia del Kremlin</span>
+                    <span className="fa-index__books">HOW BUILD A FUTURE</span>
                     <span className="fa-index__go" aria-hidden="true">
                       <svg aria-hidden="true">
                         <use href="#i-arrow" />

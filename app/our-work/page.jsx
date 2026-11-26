@@ -138,7 +138,7 @@ export default function OurWorkPage() {
                 <Link
                   className="rw-book rw-table__book"
                   href="#lee-roy-jefferson"
-                  aria-label="The Goodness of God by Dr. Lee Roy Jefferson, view in Our Work"
+                  aria-label="HOW BUILD A FUTURE by Dr. Lee Roy Jefferson, view in Our Work"
                   data-rw-book="06"
                   style={{ '--s': '0.52', '--z': '7' }}
                 >
@@ -148,14 +148,14 @@ export default function OurWorkPage() {
                       src="/assets/images/books/book-06-s.webp"
                       width="360"
                       height="614"
-                      alt="The Goodness of God: Reflection at 80 by Dr. Lee Roy Jefferson, shown as a hardcover book"
+                      alt="HOW BUILD A FUTURE: Reflection at 80 by Dr. Lee Roy Jefferson, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
                     <span className="rw-book__floor" aria-hidden="true" />
                   </span>
                   <span className="rw-cap" aria-hidden="true">
-                    <span className="rw-cap__t">The Goodness of God</span>
+                    <span className="rw-cap__t">HOW BUILD A FUTURE</span>
                     <span className="rw-cap__s">Reflection at 80</span>
                     <span className="rw-cap__a">Dr. Lee Roy Jefferson</span>
                     <span className="rw-cap__go">
@@ -169,7 +169,7 @@ export default function OurWorkPage() {
                 <Link
                   className="rw-book rw-table__book"
                   href="#virginia-perez-perez"
-                  aria-label="Bajo la Influencia del Kremlin by Virginia Perez Perez, view in Our Work"
+                  aria-label="HOW BUILD A FUTURE by Virginia Perez Perez, view in Our Work"
                   data-rw-book="25"
                   style={{ '--s': '0.62', '--z': '8' }}
                 >
@@ -179,14 +179,14 @@ export default function OurWorkPage() {
                       src="/assets/images/books/book-25-s.webp"
                       width="360"
                       height="614"
-                      alt="Bajo la Influencia del Kremlin: La Penetración Rusa en Venezuela by Virginia Perez Perez, shown as a hardcover book"
+                      alt="HOW BUILD A FUTURE: La Penetración Rusa en Venezuela by Virginia Perez Perez, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
                     <span className="rw-book__floor" aria-hidden="true" />
                   </span>
                   <span className="rw-cap" aria-hidden="true">
-                    <span className="rw-cap__t">Bajo la Influencia del Kremlin</span>
+                    <span className="rw-cap__t">HOW BUILD A FUTURE</span>
                     <span className="rw-cap__s">La Penetración Rusa en Venezuela</span>
                     <span className="rw-cap__a">Virginia Perez Perez</span>
                     <span className="rw-cap__go">
@@ -200,7 +200,7 @@ export default function OurWorkPage() {
                 <Link
                   className="rw-book rw-table__book"
                   href="#emilio-degher"
-                  aria-label="The Path of Truth by Emilio Degher, view in Our Work"
+                  aria-label="WHO IS GOD ? by Emilio Degher, view in Our Work"
                   data-rw-book="12"
                   style={{ '--s': '0.74', '--z': '9' }}
                 >
@@ -210,14 +210,14 @@ export default function OurWorkPage() {
                       src="/assets/images/books/book-12.png"
                       width="600"
                       height="1024"
-                      alt="The Path of Truth: Beyond Belief, Beyond Illusion by Emilio Degher, shown as a hardcover book"
+                      alt="WHO IS GOD ?: Beyond Belief, Beyond Illusion by Emilio Degher, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
                     <span className="rw-book__floor" aria-hidden="true" />
                   </span>
                   <span className="rw-cap" aria-hidden="true">
-                    <span className="rw-cap__t">The Path of Truth</span>
+                    <span className="rw-cap__t">WHO IS GOD ?</span>
                     <span className="rw-cap__s">Beyond Belief, Beyond Illusion</span>
                     <span className="rw-cap__a">Emilio Degher</span>
                     <span className="rw-cap__go">
@@ -404,7 +404,7 @@ export default function OurWorkPage() {
                     <li>Eternal Coherence</li>
                     <li>The Awakening of Thought</li>
                     <li>A Life Led from the Heart</li>
-                    <li>The Path of Truth</li>
+                    <li>WHO IS GOD ?</li>
                     <li>The Exodus Code</li>
                     <li>The Awakening of Memory</li>
                     <li>The Sole</li>
@@ -429,7 +429,7 @@ export default function OurWorkPage() {
                 <Link
                   className="rw-book rw-spread__lead"
                   href="#emilio-degher"
-                  aria-label="The Path of Truth by Emilio Degher, view in Our Work"
+                  aria-label="WHO IS GOD ? by Emilio Degher, view in Our Work"
                   data-rw-book="12"
                 >
                   <span className="rw-book__obj">
@@ -438,14 +438,14 @@ export default function OurWorkPage() {
                       src="/assets/images/books/book-12.png"
                       width="600"
                       height="1024"
-                      alt="The Path of Truth: Beyond Belief, Beyond Illusion by Emilio Degher, shown as a hardcover book"
+                      alt="WHO IS GOD ?: Beyond Belief, Beyond Illusion by Emilio Degher, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
                     <span className="rw-book__floor" aria-hidden="true" />
                   </span>
                   <span className="rw-cap" aria-hidden="true">
-                    <span className="rw-cap__t">The Path of Truth</span>
+                    <span className="rw-cap__t">WHO IS GOD ?</span>
                     <span className="rw-cap__s">Beyond Belief, Beyond Illusion</span>
                     <span className="rw-cap__a">Emilio Degher</span>
                     <span className="rw-cap__go">
@@ -696,7 +696,7 @@ export default function OurWorkPage() {
                 <div className="rw-spread__of">
                   <p className="rw-label">Author of</p>
                   <ul role="list">
-                    <li>The Goodness of God</li>
+                    <li>HOW BUILD A FUTURE</li>
                   </ul>
                 </div>
                 <p className="rw-spread__bio">
@@ -707,7 +707,7 @@ export default function OurWorkPage() {
                 <div className="rw-spread__about">
                   <p className="rw-label">Reflection at 80 by Dr. Lee Roy Jefferson</p>
                   <p>
-                    In The Goodness of God, Dr. Lee Roy Jefferson looks back on faith, family, ministry and perseverance
+                    In HOW BUILD A FUTURE, Dr. Lee Roy Jefferson looks back on faith, family, ministry and perseverance
                     across his life.
                   </p>
                 </div>
@@ -717,7 +717,7 @@ export default function OurWorkPage() {
                 <Link
                   className="rw-book rw-spread__lead"
                   href="#lee-roy-jefferson"
-                  aria-label="The Goodness of God by Dr. Lee Roy Jefferson, view in Our Work"
+                  aria-label="HOW BUILD A FUTURE by Dr. Lee Roy Jefferson, view in Our Work"
                   data-rw-book="06"
                 >
                   <span className="rw-book__obj">
@@ -726,14 +726,14 @@ export default function OurWorkPage() {
                       src="/assets/images/books/book-6.png"
                       width="600"
                       height="1024"
-                      alt="The Goodness of God: Reflection at 80 by Dr. Lee Roy Jefferson, shown as a hardcover book"
+                      alt="HOW BUILD A FUTURE: Reflection at 80 by Dr. Lee Roy Jefferson, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
                     <span className="rw-book__floor" aria-hidden="true" />
                   </span>
                   <span className="rw-cap" aria-hidden="true">
-                    <span className="rw-cap__t">The Goodness of God</span>
+                    <span className="rw-cap__t">HOW BUILD A FUTURE</span>
                     <span className="rw-cap__s">Reflection at 80</span>
                     <span className="rw-cap__a">Dr. Lee Roy Jefferson</span>
                     <span className="rw-cap__go">
@@ -850,7 +850,7 @@ export default function OurWorkPage() {
                 <div className="rw-spread__of">
                   <p className="rw-label">Author of</p>
                   <ul role="list">
-                    <li>Bajo la Influencia del Kremlin</li>
+                    <li>HOW BUILD A FUTURE</li>
                   </ul>
                 </div>
                 <p className="rw-spread__bio">
@@ -871,7 +871,7 @@ export default function OurWorkPage() {
                 <Link
                   className="rw-book rw-spread__lead"
                   href="#virginia-perez-perez"
-                  aria-label="Bajo la Influencia del Kremlin by Virginia Perez Perez, view in Our Work"
+                  aria-label="HOW BUILD A FUTURE by Virginia Perez Perez, view in Our Work"
                   data-rw-book="25"
                 >
                   <span className="rw-book__obj">
@@ -880,14 +880,14 @@ export default function OurWorkPage() {
                       src="/assets/images/books/book-25.webp"
                       width="600"
                       height="1024"
-                      alt="Bajo la Influencia del Kremlin: La Penetración Rusa en Venezuela by Virginia Perez Perez, shown as a hardcover book"
+                      alt="HOW BUILD A FUTURE: La Penetración Rusa en Venezuela by Virginia Perez Perez, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
                     <span className="rw-book__floor" aria-hidden="true" />
                   </span>
                   <span className="rw-cap" aria-hidden="true">
-                    <span className="rw-cap__t">Bajo la Influencia del Kremlin</span>
+                    <span className="rw-cap__t">HOW BUILD A FUTURE</span>
                     <span className="rw-cap__s">La Penetración Rusa en Venezuela</span>
                     <span className="rw-cap__a">Virginia Perez Perez</span>
                     <span className="rw-cap__go">
@@ -1328,7 +1328,7 @@ export default function OurWorkPage() {
                       src="/assets/images/books/book-06-s.webp"
                       width="360"
                       height="614"
-                      alt="The Goodness of God: Reflection at 80 by Dr. Lee Roy Jefferson, shown as a hardcover book"
+                      alt="HOW BUILD A FUTURE: Reflection at 80 by Dr. Lee Roy Jefferson, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
@@ -1336,7 +1336,7 @@ export default function OurWorkPage() {
                   </span>
                   <figcaption>
                     <span className="ow-shelf__n">No. 06</span>
-                    <span className="rw-cap__t">The Goodness of God</span>
+                    <span className="rw-cap__t">HOW BUILD A FUTURE</span>
                     <span className="rw-cap__s">Reflection at 80</span>
                     <span className="rw-cap__a">
                       <Link href="#lee-roy-jefferson">Dr. Lee Roy Jefferson</Link>
@@ -1468,7 +1468,7 @@ export default function OurWorkPage() {
                       src="/assets/images/books/book-12-s.webp"
                       width="360"
                       height="614"
-                      alt="The Path of Truth: Beyond Belief, Beyond Illusion by Emilio Degher, shown as a hardcover book"
+                      alt="WHO IS GOD ?: Beyond Belief, Beyond Illusion by Emilio Degher, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
@@ -1476,7 +1476,7 @@ export default function OurWorkPage() {
                   </span>
                   <figcaption>
                     <span className="ow-shelf__n">No. 12</span>
-                    <span className="rw-cap__t">The Path of Truth</span>
+                    <span className="rw-cap__t">WHO IS GOD ?</span>
                     <span className="rw-cap__s">Beyond Belief, Beyond Illusion</span>
                     <span className="rw-cap__a">
                       <Link href="#emilio-degher">Emilio Degher</Link>
@@ -1761,7 +1761,7 @@ export default function OurWorkPage() {
                       src="/assets/images/books/book-25-s.webp"
                       width="360"
                       height="614"
-                      alt="Bajo la Influencia del Kremlin: La Penetración Rusa en Venezuela by Virginia Perez Perez, shown as a hardcover book"
+                      alt="HOW BUILD A FUTURE: La Penetración Rusa en Venezuela by Virginia Perez Perez, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
@@ -1769,7 +1769,7 @@ export default function OurWorkPage() {
                   </span>
                   <figcaption>
                     <span className="ow-shelf__n">No. 25</span>
-                    <span className="rw-cap__t">Bajo la Influencia del Kremlin</span>
+                    <span className="rw-cap__t">HOW BUILD A FUTURE</span>
                     <span className="rw-cap__s">La Penetración Rusa en Venezuela</span>
                     <span className="rw-cap__a">
                       <Link href="#virginia-perez-perez">Virginia Perez Perez</Link>
