@@ -5,6 +5,7 @@ import PageScripts from '@/components/layout/PageScripts';
 import { buttonClass } from '@/components/ui/Button';
 import { site } from '@/lib/site';
 import Script from 'next/script';
+import ReloadOnArrival from '../../components/ReloadOnArrival/ReloadOnArrival';
 
 // A thank-you page should not appear in Google: noindex, but links are still followed.
 export const metadata = {
@@ -48,6 +49,8 @@ const explore = [
 export default function ThankYouPage() {
   return (
     <>
+      {/* full page reload when someone lands here from the form */}
+      <ReloadOnArrival />
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-QHXCWNKE7B"
         strategy="afterInteractive"

@@ -9,6 +9,7 @@ import Footer from '@/components/layout/Footer';
 import LeadModal from '@/components/modals/LeadModal';
 import ScrollToTop from '@/components/layout/ScrollToTop';
 import SiteChrome from '@/components/layout/SiteChrome';
+import ZendeskWidget from '../components/ZendeskWidget/ZendeskWidget'
 import Script from 'next/script';
 export const metadata = {
   metadataBase: new URL(site.url),
@@ -82,7 +83,7 @@ export default function RootLayout({ children }) {
         </SiteChrome>
 
         <LeadModal />
-        {/* <Footer/> */}
+        <ZendeskWidget/>
       </body>
     </html>
   );
