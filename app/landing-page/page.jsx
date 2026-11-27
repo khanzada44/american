@@ -81,19 +81,19 @@ const styles = ['/assets/css/site2f72.css?v=20261109-eagle-logo'];
 const scripts = ['/assets/js/main2f72.js?v=20261105-production'];
 
 const services = [
-    { title: 'Ghostwriting', text: 'Share your story in interviews and notes. A matched writer shapes it into a book in your own voice.', icon: 'M4 20h4L19 9l-4-4L4 16zM13.5 6.5l4 4' },
-    { title: 'Editing & Proofreading', text: 'Developmental, line and copy editing, then a final proofread so the book reads cleanly from page one.', icon: 'M5 4h11l3 3v13H5zM8 10h8M8 14h8M8 18h5', dark: true },
-    { title: 'Cover Design', text: 'A cover made for your genre and readers, that still works as a small thumbnail in an online store.', icon: 'M6 3h12v18H6zM9 7h6M9 11h6' },
-    { title: 'Formatting & Publishing', text: 'Print and eBook files laid out properly, ISBN and listings handled, and your book submitted for sale.', icon: 'M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3zM5 17a3 3 0 0 1 3-3h11' },
-    { title: 'Book Marketing', text: 'Launch plans, author pages, ads and outreach built around the readers most likely to buy your book.', icon: 'M3 11l15-6v14L3 13zM7 12v6h3' },
-    { title: 'Audiobook Production', text: 'Narrator casting, studio recording and mastering, ready for the major audiobook platforms.', icon: 'M12 4a3 3 0 0 1 3 3v5a3 3 0 0 1-6 0V7a3 3 0 0 1 3-3zM6 11a6 6 0 0 0 12 0M12 17v3' },
+    { title: 'Ghostwriting', text: "Got a story to tell but not sure how to put it into words? We’ll sit down with your ideas, listen to your story, and help turn it into a book that sounds like you.", icon: 'M4 20h4L19 9l-4-4L4 16zM13.5 6.5l4 4' },
+    { title: 'Editing & Proofreading', text: "Sometimes a manuscript just needs a little untangling. We’ll work through the structure, smooth out awkward passages, and catch the little errors that are easy to miss after so many rereads.", icon: 'M5 4h11l3 3v13H5zM8 10h8M8 14h8M8 18h5', dark: true },
+    { title: 'Cover Design', text: "Readers see your cover before they read a single word. We’ll create one that fits your story, speaks to your genre, and looks just as good on a bookstore shelf as it does on a screen.", icon: 'M6 3h12v18H6zM9 7h6M9 11h6' },
+    { title: 'Formatting & Publishing', text: "No more worrying about misplaced pages, odd spacing, or files that aren’t ready for print. We’ll prepare your book for print and digital reading, then help get it listed on major online bookstores.", icon: 'M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3zM5 17a3 3 0 0 1 3-3h11' },
+    { title: 'Book Marketing', text: "Getting published is a big moment. Getting your book noticed is the next challenge. We’ll help put together a launch plan, build your author presence, and get your book in front of readers who might love it.", icon: 'M3 11l15-6v14L3 13zM7 12v6h3' },
+    { title: 'Audiobook Production', text: "Some readers would rather listen than turn a page. We’ll help find the right narrator, bring your words to life through professional recording, and prepare your audiobook for listening platforms.", icon: 'M12 4a3 3 0 0 1 3 3v5a3 3 0 0 1-6 0V7a3 3 0 0 1 3-3zM6 11a6 6 0 0 0 12 0M12 17v3' },
 ];
 
 const steps = [
-    { title: 'Free consultation', text: 'Tell us where you are. We read your notes or pages and talk through your goals.' },
-    { title: 'Written quote', text: 'You get a clear, itemised scope and schedule before any work begins.' },
-    { title: 'We make the book', text: 'Writing, editing, design and formatting, with your approval at every milestone.' },
-    { title: 'Publish & promote', text: 'Your book goes live in print, eBook and audio, with a plan to reach readers.' },
+    { title: 'First, let’s talk', text: 'Tell us about your book, share your manuscript or early ideas, and discuss your goals. We’ll assess what kind of support your project needs.' },
+    { title: 'A plan you can sign off on', text: 'Receive a written breakdown of services, deliverables, costs, and timelines. Review the details, ask questions, and approve the scope before work begins.' },
+    { title: 'Into the making', text: 'Writing, editing, cover design, and formatting take place according to your agreed plan. You’ll review drafts and design proofs, request revisions, and approve each key stage.' },
+    { title: 'Ready, set, publish', text: 'You’ll check and approve the final files before release. We then prepare your agreed editions, submit them to the selected platforms, and carry out any planned promotional work.' },
 ];
 
 // Books on the table, same as the home page. s = size (1 = the lead book), z = stacking order.
@@ -109,18 +109,18 @@ const tableBooks = [
 const LEAD = tableBooks.findIndex((b) => b.lead);
 
 const reasons = [
-    { title: 'Your book stays yours', text: 'Every right, file and royalty remains in your name, start to finish.' },
-    { title: 'A real editor, from day one', text: 'An editor reads your work and answers with clear next steps.' },
-    { title: 'No surprise costs', text: 'A written, itemised quote before any work begins.' },
-    { title: 'One team for every step', text: 'Writing, design, publishing and marketing without juggling vendors.' },
+    { title: 'Your name, your rights', text: 'The book remains yours. You retain ownership of your work, its files, and the royalties it earns.' },
+    { title: 'An editor who knows your project', text: 'You have a dedicated point of contact to review your manuscript, discuss its needs, and guide you through the next steps.' },
+    { title: 'The costs are clear from the start', text: 'No vague estimates or unexpected add-ons. You receive an itemised quote outlining the agreed work before the project begins.' },
+    { title: 'Everything works together', text: 'Writing, editing, cover design, formatting, and publishing are brought under one roof, so you aren’t left coordinating separate providers.' },
 ];
 
 const faqs = [
-    { q: 'Do I keep the rights to my book?', a: 'Yes. You keep full ownership of your manuscript, cover and production files, and this is written into your agreement.' },
-    { q: 'Can I choose only the services I need?', a: 'Yes. Start with one service, such as editing or cover design, or choose the full publishing route. Your editor tells you which steps are needed now and which can wait.' },
-    { q: 'How is the price decided?', a: 'After a free consultation you receive a written, itemised quote based on your manuscript and the services you choose. There are no hidden fees.' },
-    { q: 'Where will my book be available?', a: 'We prepare print, eBook and audio files and submit listings to the major online retailers and distribution networks included in your plan.' },
-    { q: 'How long does it take to publish?', a: 'It depends on the services and the length of the book. Your quote includes a schedule with milestones, so you always know what comes next.' },
+    { q: `What book publishing services does ${site.name} offer?`, a: `${site.name} offers a range of book publishing services, including ghostwriting, editing and proofreading, book cover design, formatting, print and eBook publishing, audiobook production, and book marketing. You can choose individual services or combine them into a complete publishing package.` },
+    { q: `How much does it cost to publish a book with ${site.name}?`, a: `The cost depends on your manuscript’s length, its current condition, and the services your book needs. ${site.name} provides a written, itemised quote outlining the proposed work, costs and timeline before anything begins.` },
+    { q: `Can ${site.name} help me publish a book if I haven’t finished writing it?`, a: `Absolutely. You can approach ${site.name} with a rough draft, an outline, notes, or even an idea. Depending on your needs, we can discuss ghostwriting, manuscript development, and other services to help move your project towards publication.` },
+    { q: 'Will I retain the rights and royalties to my book after publishing?', a: `Yes. Your book remains your intellectual property, and you retain your ownership rights and royalties. ${site.name} works with you to prepare and publish your book without taking ownership of your work.` },
+    { q: `Where can I publish my book with ${site.name}?`, a: `${site.name} can prepare your book for print and digital editions and help submit it to major online book retailers and publishing platforms.` },
 ];
 
 const SERVICE_OPTIONS = services.map((s) => s.title);
@@ -430,14 +430,15 @@ export default function PublishYourBookPage() {
                             ))}
                         </ul>
                         <Reveal as="h1" className={`${serif} m-0 text-[clamp(2.7rem,1.5rem+3.6vw,4.6rem)] leading-[1.02] font-[340] tracking-[-0.035em] text-balance text-white`}>
-                            Your book, written, published and <em className={emGold}>on the shelf.</em>
+                            Good Books Don’t Happen <em className={emGold}>by Accident.</em>
                         </Reveal>
                         <Reveal as="p" delay={0.1} className="m-0 mt-6 mb-[34px] max-w-[540px] text-[18.5px] leading-[1.65] text-white/70 max-[680px]:text-[16.5px]">
-                            One team takes your idea or manuscript from the first page to a finished book on major online stores. You keep
-                            every right, and you approve every step.
+                            Maybe you’ve finished your manuscript. Maybe you’ve only got a story taking shape in your head. Wherever you are,
+                            we’ll help you work through the pages, bring the words and visuals together, and get your book ready for readers.
+                            From the first draft to the final published copy, your book stays yours. The decisions do too.
                         </Reveal>
                         <Reveal delay={0.2} className="flex flex-wrap gap-3.5">
-                            <a className={`${btnGold} max-[680px]:flex-[1_1_100%]`} href="#start">Start My Book</a>
+                            <a className={`${btnGold} max-[680px]:flex-[1_1_100%]`} href="#start">Let’s Get Your Book Started</a>
                             <a className={`${btnLine} max-[680px]:flex-[1_1_100%]`} href="#books">See Books We&apos;ve Published</a>
                         </Reveal>
                         <Reveal as="p" delay={0.3} className="m-0 mt-10 flex flex-wrap items-center gap-x-[26px] gap-y-2.5 border-t border-white/15 pt-6 text-xs tracking-[0.16em] text-white/70 uppercase">
@@ -478,11 +479,13 @@ export default function PublishYourBookPage() {
                 <div className={wrap}>
                     <div className="mb-14 grid grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)] items-end gap-x-[50px] gap-y-6 max-[1080px]:grid-cols-1">
                         <div>
-                            <p className={`${eyebrow} m-0 text-[#8c6a36]`}>What we do</p>
-                            <Reveal as="h2" className={h2}>Everything your book needs, <em className={emDeep}>under one roof.</em></Reveal>
+                            <p className={`${eyebrow} m-0 text-[#8c6a36]`}>What we bring to the table</p>
+                            <Reveal as="h2" className={h2}>One roof. <em className={emDeep}>Every chapter of your book’s journey.</em></Reveal>
                         </div>
                         <Reveal as="p" delay={0.1} className="m-0 text-[17px] leading-[1.7] text-[#21213c]/75">
-                            Choose one service or the full route. Your editor tells you which steps your manuscript needs now and which can wait.
+                            Writing a book is one thing. Getting it ready for readers is another. Whether you need someone to shape your story,
+                            polish your pages, or take care of publishing, you can bring in help wherever things get tricky. Start with one
+                            service or let us handle the whole journey.
                         </Reveal>
                     </div>
                     <div className="grid grid-cols-3 gap-[18px] max-[1080px]:grid-cols-2 max-[680px]:grid-cols-1">
@@ -529,11 +532,12 @@ export default function PublishYourBookPage() {
                     <div className="mb-14 grid grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)] items-end gap-x-[50px] gap-y-6 max-[1080px]:grid-cols-1">
                         <div>
                             <p className={`${eyebrow} m-0 text-[#8c6a36]`}>How it works</p>
-                            <Reveal as="h2" className={h2}>From manuscript to <em className={emDeep}>publication</em> in four steps.</Reveal>
+                            <Reveal as="h2" className={h2}>Your book doesn’t go from draft to done overnight. <em className={emDeep}>Here’s what happens along the way.</em></Reveal>
                         </div>
                         <Reveal as="p" delay={0.1} className="m-0 text-[17px] leading-[1.7] text-[#21213c]/75">
-                            Every stage is written into your scope before the first invoice, so you always know who has your book and what
-                            comes back to you next.
+                            Publishing involves quite a few moving parts. We break them down into clear stages, so you know what’s being worked
+                            on, what you’ll receive, and when we need your input. No work moves ahead without your approval at the agreed
+                            checkpoints.
                         </Reveal>
                     </div>
                     <ol className="m-0 p-0 list-none relative grid grid-cols-4 before:absolute before:inset-x-0 before:top-[33px] before:h-px before:bg-[linear-gradient(90deg,#a3804a,rgb(163_128_74/0.2))] before:content-[''] max-[1080px]:grid-cols-2 max-[1080px]:gap-y-10 max-[1080px]:before:hidden max-[680px]:grid-cols-1">
@@ -557,9 +561,10 @@ export default function PublishYourBookPage() {
             <section id="books" className="relative scroll-mt-24 overflow-hidden bg-[#15152a] bg-[radial-gradient(60%_70%_at_50%_100%,rgb(201_165_106/0.18),transparent_70%)] py-[clamp(84px,10vw,130px)] text-center text-white/95">
                 <div className={wrap}>
                     <p className={`${eyebrow} m-0 justify-center text-[#c9a56a]`}>From our catalogue</p>
-                    <Reveal as="h2" className={`${h2} text-white`}>Real books by <em className={emGold}>real authors.</em></Reveal>
+                    <Reveal as="h2" className={`${h2} text-white`}>Stories that made it from <em className={emGold}>page to publication.</em></Reveal>
                     <Reveal as="p" delay={0.1} className="m-0 mx-auto mt-[18px] max-w-[600px] text-[17px] leading-[1.7] text-white/70">
-                        Memoirs, poetry, children&apos;s stories, business books and more, each taken from a first draft to a finished book.
+                        A look at books we’ve helped bring into print, across genres and subjects. From personal memoirs and poetry
+                        collections to children’s books and business titles, every one has its own story to tell.
                     </Reveal>
                     <BookTable />
                     <div className="mt-10 flex justify-center"><a className={btnGold} href="#start">Start My Book</a></div>
@@ -578,7 +583,11 @@ export default function PublishYourBookPage() {
                     </Reveal>
                     <div>
                         <p className={`${eyebrow} m-0 text-[#8c6a36]`}>Why authors choose us</p>
-                        <Reveal as="h2" className={h2}>A publishing team that keeps you <em className={emDeep}>in control.</em></Reveal>
+                        <Reveal as="h2" className={h2}>Good books need <em className={emDeep}>good people behind them.</em></Reveal>
+                        <Reveal as="p" delay={0.1} className="m-0 mt-[18px] text-[17px] leading-[1.7] text-[#21213c]/75">
+                            Publishing your book shouldn’t mean handing over control or chasing five different people for answers. You get a
+                            team that keeps things clear, works to an agreed plan, and respects your say throughout.
+                        </Reveal>
                         <ul className="m-0 p-0 list-none mt-[34px] border-t border-[#21213c]/12">
                             {reasons.map((r, i) => (
                                 <Reveal as="li" key={r.title} delay={i * 0.08} className="grid grid-cols-[54px_1fr] gap-2.5 border-b border-[#21213c]/12 py-5">
@@ -602,11 +611,11 @@ export default function PublishYourBookPage() {
                         <div className="relative">
                             <p className={`${eyebrow} m-0 text-[#c9a56a]`}>Free manuscript review</p>
                             <h2 className={`${serif} m-0 text-[clamp(1.9rem,1.3rem+1.8vw,2.75rem)] leading-[1.06] font-[340] tracking-[-0.025em] text-balance text-white`}>
-                                Not sure where to start? <em className={emGold}>Send us your pages.</em>
+                                Not sure where to begin? <em className={emGold}>Send us what you’ve got.</em>
                             </h2>
                             <p className="m-0 mt-4 max-w-[520px] text-[17px] leading-[1.65] text-white/70">
-                                An editor reviews your draft or idea and tells you honestly what it needs to become a finished book, with no
-                                charge and no obligation.
+                                You don’t need a finished manuscript to get started. Share a few pages, an outline, or simply your idea. An
+                                editor will review it and suggest the next steps, free of charge and with no obligation to sign up.
                             </p>
                             <ul className="m-0 p-0 list-none mt-[22px] flex flex-wrap gap-x-[22px] gap-y-2.5 text-[14.5px]">
                                 {['Editor feedback', 'Recommended next steps', 'Itemised quote'].map((t) => (
@@ -628,7 +637,7 @@ export default function PublishYourBookPage() {
                 <div className={`${wrap} grid grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)] gap-[70px] max-[1080px]:grid-cols-1 max-[1080px]:gap-10`}>
                     <div>
                         <p className={`${eyebrow} m-0 text-[#8c6a36]`}>Questions</p>
-                        <Reveal as="h2" className={h2}>Before you <em className={emDeep}>begin.</em></Reveal>
+                        <Reveal as="h2" className={h2}>Frequently asked <em className={emDeep}>questions.</em></Reveal>
                         <p className="m-0 mt-[18px] text-base leading-[1.7] text-[#21213c]/75">Straight answers about rights, process and pricing.</p>
                     </div>
                     <Faq />
@@ -641,12 +650,13 @@ export default function PublishYourBookPage() {
                 <div aria-hidden="true" className="absolute inset-0 -z-10 bg-[linear-gradient(90deg,rgb(21_21_42/0.95),rgb(21_21_42/0.7))]" />
                 <div className={`${wrap} grid grid-cols-2 items-center gap-[60px] max-[1080px]:grid-cols-1`}>
                     <div>
-                        <p className={`${eyebrow} m-0 text-[#c9a56a]`}>Start today</p>
+                        <p className={`${eyebrow} m-0 text-[#c9a56a]`}>Have a project in mind?</p>
                         <Reveal as="h2" className={`${serif} text-[clamp(2.3rem,1.4rem+2.8vw,3.5rem)] leading-[1.06] font-[340] tracking-[-0.025em] text-balance text-white`}>
-                            Your story deserves <em className={emGold}>to be read.</em>
+                            Let’s hear what <em className={emGold}>you’re working on.</em>
                         </Reveal>
                         <Reveal as="p" delay={0.1} className="m-0 mt-[18px] text-[17px] leading-[1.7] text-white/70">
-                            Tell us about your book. We&apos;ll reply within one business day with honest advice and clear next steps.
+                            A few details are all we need to get the conversation started. Share your requirements, budget, or questions, and
+                            our team will get back to you within one business day.
                         </Reveal>
                         <Reveal as="a" delay={0.2} href={`tel:${site.phoneHref}`} className={`${serif} mt-[30px] inline-block text-[30px] text-[#c9a56a]`}>
                             <small className="mb-1.5 block font-sans text-xs tracking-[0.2em] text-white/70 uppercase">Prefer to talk?</small>
