@@ -7,6 +7,8 @@ import { useRouter } from 'next/navigation';
 import { site } from '@/lib/site';
 import PageStyles from '@/components/layout/PageStyles';
 import PageScripts from '@/components/layout/PageScripts';
+import LandingNavbar from '@/components/book-publishing-services/LandingNavbar';
+import LandingFooter from '@/components/book-publishing-services/LandingFooter';
 
 /* ---------- shared class names ---------- */
 const serif = 'font-display';
@@ -102,7 +104,7 @@ const tableBooks = [
     { id: '23', href: '/our-work#book-23', src: '/assets/images/books/book-23-s.webp', w: 360, h: 614, s: 0.62, z: 8, t: 'Poems of Life', sub: 'Reflections on Life, Love, and the Human Journey', a: 'O’Dell James Ford Sr.' },
     { id: '03', href: '/our-work#corey-t-alston-sr', src: '/assets/images/books/book-03.webp', w: 600, h: 1024, s: 0.74, z: 9, t: 'The Story Book Chronicles: A Dreamy Adventure of Isla and Ava', a: 'Corey T. Alston Sr.' },
     { id: '06', href: '/our-work#lee-roy-jefferson', src: '/assets/images/books/book-6.png', w: 600, h: 1024, s: 1, z: 20, lead: true, t: 'HOW BUILD A FUTURE', sub: 'Reflection at 80', a: 'Robert Wallace' },
-    { id: '25', href: '/our-work#virginia-perez-perez', src: '/assets/images/books/book-25.png', w: 600, h: 1024, s: 0.74, z: 11, t: 'HOW BUILD A FUTURE', sub: 'La Penetración Rusa en Venezuela', a: 'Robert Wallace' },
+    { id: '25', href: '/our-work#virginia-perez-perez', src: '/assets/images/books/book-25.webp', w: 600, h: 1024, s: 0.74, z: 11, t: 'HOW BUILD A FUTURE', sub: 'La Penetración Rusa en Venezuela', a: 'Robert Wallace' },
     { id: '24', href: '/our-work#book-24', src: '/assets/images/books/book-24.png', w: 360, h: 614, s: 0.62, z: 12, t: 'SIX SHORT STORIES', sub: 'Poetry · Humor · Mystery · Adventure', a: 'Patricia Stinson' },
     { id: '18', href: '/our-work#book-18', src: '/assets/images/books/book-18-s.webp', w: 360, h: 614, s: 0.52, z: 13, t: 'BENCH PRESS', sub: 'Volume One', a: 'DAVID REISNER' },
 ];
@@ -273,17 +275,7 @@ function Sticker() {
         ],
         { duration: 5000, easing: 'ease-in-out' },
     );
-    return (
-        <div
-            ref={ref}
-            aria-hidden="true"
-            style={{ transform: 'rotate(12deg)' }}
-            className={`${serif} absolute -top-[22px] -right-[22px] z-[3] grid size-[108px] place-content-center rounded-full bg-[#c9a56a] text-center leading-none text-[#15152a] shadow-[0_0_0_8px_rgb(201_165_106/0.18)] max-[680px]:-top-4 max-[680px]:-right-1.5 max-[680px]:size-[86px]`}
-        >
-            <b className="text-[30px] font-medium max-[680px]:text-2xl">Free</b>
-            <span className="mt-1 font-sans text-[10px] font-extrabold tracking-[0.14em] uppercase">Consultation</span>
-        </div>
-    );
+
 }
 
 /** The books table from the home page: books rise in, the hovered book lifts and the rest dim. */
@@ -356,17 +348,7 @@ function BookTable() {
 
             {/* the table top */}
             <div aria-hidden="true" className="relative -mt-3.5 h-[clamp(46px,5vw,70px)] border-t border-[#c9a56a]/40 bg-[linear-gradient(180deg,rgb(201_165_106/0.16),transparent_90%)] max-[760px]:hidden" />
-
-            {/* "in focus" line: names the book under the pointer */}
-            <div className="mt-[18px] grid min-h-16 grid-cols-[auto_minmax(0,1fr)_auto] items-baseline gap-x-7 gap-y-[18px] border-b border-white/15 py-[18px] text-left max-[900px]:grid-cols-[auto_minmax(0,1fr)] max-[760px]:hidden">
-                <span className={`${serif} text-[0.9rem] text-[#c9a56a] italic`}>{focus.id}</span>
-                <span className="flex min-w-0 flex-wrap items-baseline gap-x-4 gap-y-1" aria-live="polite">
-                    <span className={`${serif} text-[clamp(1.15rem,1rem+0.5vw,1.5rem)] leading-[1.2] tracking-[-0.02em] text-white`}>{focus.t}</span>
-                    {focus.sub && <span className={`${serif} text-[0.95rem] text-white/70 italic`}>{focus.sub}</span>}
-                    <span className="text-[0.62rem] font-bold tracking-[0.2em] text-[#c9a56a] uppercase">{focus.a}</span>
-                </span>
-                <span className="text-[0.62rem] font-bold tracking-[0.22em] whitespace-nowrap text-white/45 uppercase max-[900px]:hidden">Point at a book</span>
-            </div>
+            
         </div>
     );
 }
@@ -413,9 +395,10 @@ function Faq() {
 /* ========================================================================== */
 export default function PublishYourBookPage() {
     return (
-        <div className={`overflow-x-clip bg-[#fbfaf7] font-sans text-base leading-[1.6] text-[#21213c] antialiased`}>
+        <div id="top" className={`overflow-x-clip bg-[#fbfaf7] font-sans text-base leading-[1.6] text-[#21213c] antialiased`}>
             <PageStyles styles={styles} />
             <PageScripts styles={styles} scripts={scripts} />
+            <LandingNavbar />
 
             {/* ===== HERO ===== */}
             <section className="relative isolate overflow-hidden bg-[#15152a] pt-40 pb-[120px] text-white/95 max-[680px]:pt-[120px] max-[680px]:pb-[90px]">
@@ -643,33 +626,7 @@ export default function PublishYourBookPage() {
                     <Faq />
                 </div>
             </section>
-
-            {/* ===== FINAL CTA ===== */}
-            <section className="relative isolate overflow-hidden bg-[#15152a] py-[clamp(84px,10vw,120px)] text-white">
-                <div aria-hidden="true" className="absolute inset-0 -z-20 bg-[url(/assets/images/books/cover-20.webp)] bg-cover bg-center opacity-20" />
-                <div aria-hidden="true" className="absolute inset-0 -z-10 bg-[linear-gradient(90deg,rgb(21_21_42/0.95),rgb(21_21_42/0.7))]" />
-                <div className={`${wrap} grid grid-cols-2 items-center gap-[60px] max-[1080px]:grid-cols-1`}>
-                    <div>
-                        <p className={`${eyebrow} m-0 text-[#c9a56a]`}>Have a project in mind?</p>
-                        <Reveal as="h2" className={`${serif} text-[clamp(2.3rem,1.4rem+2.8vw,3.5rem)] leading-[1.06] font-[340] tracking-[-0.025em] text-balance text-white`}>
-                            Let’s hear what <em className={emGold}>you’re working on.</em>
-                        </Reveal>
-                        <Reveal as="p" delay={0.1} className="m-0 mt-[18px] text-[17px] leading-[1.7] text-white/70">
-                            A few details are all we need to get the conversation started. Share your requirements, budget, or questions, and
-                            our team will get back to you within one business day.
-                        </Reveal>
-                        <Reveal as="a" delay={0.2} href={`tel:${site.phoneHref}`} className={`${serif} mt-[30px] inline-block text-[30px] text-[#c9a56a]`}>
-                            <small className="mb-1.5 block font-sans text-xs tracking-[0.2em] text-white/70 uppercase">Prefer to talk?</small>
-                            {site.phone}
-                        </Reveal>
-                    </div>
-                    <div className="rounded-[26px] border border-white/15 bg-white/[0.06] p-[30px] backdrop-blur-[14px] max-[680px]:px-[18px] max-[680px]:py-6">
-                        <h2 className={`${serif} m-0 text-[27px] font-[340] text-white`}>Get your <em className={emGold}>free consultation</em></h2>
-                        <p className="m-0 mt-2 mb-5 text-[14.5px] text-white/70">It takes less than a minute.</p>
-                        <LeadForm subject="Landing page: bottom form" button="Book My Free Consultation" />
-                    </div>
-                </div>
-            </section>
+            <LandingFooter />
         </div>
     );
 }

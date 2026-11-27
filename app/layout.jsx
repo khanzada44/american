@@ -8,7 +8,7 @@ import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import LeadModal from '@/components/modals/LeadModal';
 import ScrollToTop from '@/components/layout/ScrollToTop';
-
+import SiteChrome from '@/components/layout/SiteChrome';
 export const metadata = {
   metadataBase: new URL(site.url),
   robots: site.allowIndexing
@@ -31,11 +31,6 @@ export const viewport = {
   themeColor: '#F6F2EA',
 };
 
-// Runs before first paint: "no-js" -> "js", and hides images that fail to load
-// (replaces the old inline onerror="this.style.visibility='hidden'").
-// Broken images found before React hydrates are only queued here, and hidden
-// right after hydration (see Header.jsx); changing the DOM earlier would make
-// the server HTML differ from what React expects and cause a hydration error.
 const headScript = `document.documentElement.classList.replace('no-js','js');
 window.__aaBadImgs=[];
 window.__aaHideImg=function(t){t.style.visibility='hidden';};
@@ -57,15 +52,20 @@ export default function RootLayout({ children }) {
         <script dangerouslySetInnerHTML={{ __html: headScript }} />
       </head>
       <body suppressHydrationWarning>
+        {/* <Header/> */}
+        
         <script dangerouslySetInnerHTML={{ __html: bodyClassScript }} />
-        {/* every new page starts at the top */}
+
         <ScrollToTop />
         <JsonLd data={siteJsonLd()} />
         <Icons />
-        <Header />
-        {children}
-        <Footer />
+
+        <SiteChrome>
+          {children}
+        </SiteChrome>
+
         <LeadModal />
+        {/* <Footer/> */}
       </body>
     </html>
   );

@@ -89,6 +89,10 @@ export default function Footer() {
                 <Link href={`tel:${site.phoneHref}`} className={link}>
                   {site.phone}
                 </Link>
+                <br />
+                <Link href={`tel:${site.phoneHref}`} className={link}>
+                  {site.phone_2}
+                </Link>
               </li>
               <li>{site.address}</li>
             </ul>{' '}

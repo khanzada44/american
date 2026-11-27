@@ -125,6 +125,8 @@ export default function ContactPage() {
                     <dt>Phone</dt>
                     <dd>
                       <Link href={`tel:${site.phoneHref}`}>{site.phone}</Link>
+                      <br />
+                      <Link href={`tel:${site.phoneHref}`}>{site.phone_2}</Link>
                     </dd>
                   </div>
                   <div>
