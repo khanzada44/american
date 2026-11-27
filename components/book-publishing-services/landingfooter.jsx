@@ -6,8 +6,7 @@ const LOGO = '/assets/images/logo/logo-image.webp';
 const TERMS = '/terms-and-conditions';
 const PRIVACY = '/privacy-policy';
 // Addresses come from site.addresses if you have them there; otherwise put them here.
-const ADDRESSES = site.addresses || [
-    // { label: 'USA', text: 'Street, City, State ZIP' },
+const ADDRESSES = site.address || [
 ];
 
 const label = 'font-semibold text-white';
@@ -43,18 +42,16 @@ export default function LandingFooter() {
 
                 {/* right: contact */}
                 <div className="min-w-0">
-                  
+
                     <ul className="m-0 grid list-none gap-5 p-0 text-[15px] leading-[1.6]">
-                        {ADDRESSES.map((a) => (
-                            <li key={a.label} className="grid grid-cols-[22px_minmax(0,1fr)] gap-3">
-                                <svg viewBox="0 0 24 24" aria-hidden="true" className="mt-0.5 size-[18px] fill-[#c9a56a]"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z" /></svg>
-                                <span><span className={label}>Mailing Address: {a.label}</span><br />{a.text}</span>
-                            </li>
-                        ))}
                         {site.phone && (
                             <li className="grid grid-cols-[22px_minmax(0,1fr)] gap-3">
                                 <svg viewBox="0 0 24 24" aria-hidden="true" className="mt-0.5 size-[18px] fill-[#c9a56a]"><path d="M6.6 10.8a15.2 15.2 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z" /></svg>
-                                <span><span className={label}>Phone Number</span><br /><a className={link} href={`tel:${site.phoneHref}`}>{site.phone}</a></span>
+                                <span><span className={label}>Phone Number</span><br />
+                                    <a className={link} href={`tel:${site.phoneHref}`}>{site.phone}</a>
+                                    <br />
+                                    <a className={link} href={`tel:${site.phoneHref}`}>{site.phone_2}</a>
+                                </span>
                             </li>
                         )}
                         {email && (
@@ -62,7 +59,15 @@ export default function LandingFooter() {
                                 <svg viewBox="0 0 24 24" aria-hidden="true" className="mt-0.5 size-[18px] fill-[#c9a56a]"><path d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm9 7.2L4.4 7H4v.6l8 5.4 8-5.4V7h-.4z" /></svg>
                                 <span className="min-w-0"><span className={label}>Email Address</span><br /><a className={`${link} break-all`} href={`mailto:${email}`}>{email}</a></span>
                             </li>
+
                         )}
+
+                        <li className="grid grid-cols-[22px_minmax(0,1fr)] gap-3">
+                            <svg viewBox="0 0 24 24" aria-hidden="true" className="mt-0.5 size-[18px] fill-[#c9a56a]">
+                                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 10a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                            </svg>
+                            <span className="min-w-0"><span className={label}>Address</span><br />{site.address}</span>
+                        </li>
                     </ul>
                     <a
                         href="#start"

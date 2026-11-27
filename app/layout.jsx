@@ -9,6 +9,7 @@ import Footer from '@/components/layout/Footer';
 import LeadModal from '@/components/modals/LeadModal';
 import ScrollToTop from '@/components/layout/ScrollToTop';
 import SiteChrome from '@/components/layout/SiteChrome';
+import Script from 'next/script';
 export const metadata = {
   metadataBase: new URL(site.url),
   robots: site.allowIndexing
@@ -47,6 +48,22 @@ export default function RootLayout({ children }) {
     // data-scroll-behavior="smooth": Next turns smooth scroll off while it changes page
     <html lang="en-US" className="no-js" data-scroll-behavior="smooth" suppressHydrationWarning>
       <head>
+                    <Script
+                        src="https://www.googletagmanager.com/gtag/js?id=G-QHXCWNKE7B"
+                        strategy="afterInteractive"
+                    />
+        
+                    <Script id="google-tag" strategy="afterInteractive">
+                        {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                window.gtag = gtag;
+        
+                gtag('js', new Date());
+                gtag('config', 'G-QHXCWNKE7B');
+                gtag('config', 'AW-17444542235');
+              `}
+                    </Script>
         <link rel="preload" href="/assets/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossOrigin="" />
         <link rel="preload" href="/assets/fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossOrigin="" />
         <script dangerouslySetInnerHTML={{ __html: headScript }} />

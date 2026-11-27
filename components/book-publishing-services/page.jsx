@@ -9,7 +9,7 @@ import PageStyles from '@/components/layout/PageStyles';
 import PageScripts from '@/components/layout/PageScripts';
 import LandingNavbar from '@/components/book-publishing-services/LandingNavbar';
 import LandingFooter from '@/components/book-publishing-services/LandingFooter';
-
+import Script from 'next/script';
 /* ---------- shared class names ---------- */
 const serif = 'font-display';
 const wrap = 'mx-auto w-full max-w-[1304px] px-8 max-[680px]:px-[18px]';
@@ -25,7 +25,7 @@ const btnLine = `${btn} border border-white/35 text-white hover:border-[#c9a56a]
 const field =
     'block min-h-[52px] w-full rounded-[14px] border border-white/15 bg-white/5 px-[18px] text-[15px] text-white outline-none transition-colors duration-300 placeholder:text-white/50 focus:border-[#c9a56a] focus:bg-white/10 aria-[invalid=true]:border-[#ff8f80]';
 
-/* ---------- small helpers ---------- */
+
 const reducedMotion = () =>
     typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -303,16 +303,14 @@ function BookTable() {
                             onFocus={() => setHover(i)}
                             onBlur={() => setHover(null)}
                             style={{ zIndex: b.z, '--s-d': b.s, transitionDelay: inView ? `${delay}s` : '0s' }}
-                            className={`relative inline-flex flex-none flex-col items-center text-inherit no-underline outline-none [--s:var(--s-d)] transition-[opacity,translate] duration-1000 ${ease} motion-reduce:transition-none max-[760px]:mr-[18px] max-[760px]:snap-center max-[760px]:[--s:0.8] ${
-                                b.lead
-                                    ? 'mx-[calc(var(--bw)*0.02)] max-[760px]:order-first max-[760px]:ml-0 max-[760px]:[--s:1]'
-                                    : 'mx-[calc(var(--bw)*-0.07)] max-[760px]:ml-0'
-                            } ${inView ? 'translate-y-0 opacity-100' : 'translate-y-[70px] opacity-0 motion-reduce:translate-y-0 motion-reduce:opacity-100'}`}
+                            className={`relative inline-flex flex-none flex-col items-center text-inherit no-underline outline-none [--s:var(--s-d)] transition-[opacity,translate] duration-1000 ${ease} motion-reduce:transition-none max-[760px]:mr-[18px] max-[760px]:snap-center max-[760px]:[--s:0.8] ${b.lead
+                                ? 'mx-[calc(var(--bw)*0.02)] max-[760px]:order-first max-[760px]:ml-0 max-[760px]:[--s:1]'
+                                : 'mx-[calc(var(--bw)*-0.07)] max-[760px]:ml-0'
+                                } ${inView ? 'translate-y-0 opacity-100' : 'translate-y-[70px] opacity-0 motion-reduce:translate-y-0 motion-reduce:opacity-100'}`}
                         >
                             <span
-                                className={`relative block w-[calc(var(--bw)*var(--s))] transition-transform duration-[900ms] ${ease} ${
-                                    isHover ? '-translate-y-2.5 scale-[1.035]' : dimmed ? 'translate-y-0.5' : ''
-                                }`}
+                                className={`relative block w-[calc(var(--bw)*var(--s))] transition-transform duration-[900ms] ${ease} ${isHover ? '-translate-y-2.5 scale-[1.035]' : dimmed ? 'translate-y-0.5' : ''
+                                    }`}
                             >
                                 <Image
                                     src={b.src}
@@ -320,19 +318,17 @@ function BookTable() {
                                     height={b.h}
                                     alt={`${b.t} by ${b.a}, shown as a hardcover book`}
                                     sizes="(max-width: 760px) 50vw, 280px"
-                                    className={`relative z-[1] block h-auto w-full transition-[filter] duration-[900ms] ${ease} ${
-                                        isHover
-                                            ? 'brightness-[1.04] drop-shadow-[16px_30px_28px_rgb(0_0_0/0.6)]'
-                                            : dimmed
-                                              ? 'brightness-[0.94] saturate-[0.82] drop-shadow-[8px_14px_14px_rgb(0_0_0/0.45)]'
-                                              : 'drop-shadow-[12px_20px_20px_rgb(0_0_0/0.5)]'
-                                    }`}
+                                    className={`relative z-[1] block h-auto w-full transition-[filter] duration-[900ms] ${ease} ${isHover
+                                        ? 'brightness-[1.04] drop-shadow-[16px_30px_28px_rgb(0_0_0/0.6)]'
+                                        : dimmed
+                                            ? 'brightness-[0.94] saturate-[0.82] drop-shadow-[8px_14px_14px_rgb(0_0_0/0.45)]'
+                                            : 'drop-shadow-[12px_20px_20px_rgb(0_0_0/0.5)]'
+                                        }`}
                                 />
                                 <span
                                     aria-hidden="true"
-                                    className={`absolute -right-[10%] -bottom-[3%] left-[4%] z-0 h-[9%] rounded-[50%] bg-[radial-gradient(closest-side,rgb(0_0_0/0.7),transparent)] blur-[6px] transition-[opacity,scale,translate] duration-[900ms] ${ease} ${
-                                        isHover ? 'translate-y-2 scale-[0.94] opacity-60' : ''
-                                    }`}
+                                    className={`absolute -right-[10%] -bottom-[3%] left-[4%] z-0 h-[9%] rounded-[50%] bg-[radial-gradient(closest-side,rgb(0_0_0/0.7),transparent)] blur-[6px] transition-[opacity,scale,translate] duration-[900ms] ${ease} ${isHover ? 'translate-y-2 scale-[0.94] opacity-60' : ''
+                                        }`}
                                 />
                             </span>
                             {/* caption under each book on phones only */}
@@ -348,7 +344,7 @@ function BookTable() {
 
             {/* the table top */}
             <div aria-hidden="true" className="relative -mt-3.5 h-[clamp(46px,5vw,70px)] border-t border-[#c9a56a]/40 bg-[linear-gradient(180deg,rgb(201_165_106/0.16),transparent_90%)] max-[760px]:hidden" />
-            
+
         </div>
     );
 }
@@ -394,8 +390,30 @@ function Faq() {
 
 /* ========================================================================== */
 export default function PublishYourBookPage() {
+
     return (
-        <div id="top" className={`overflow-x-clip bg-[#fbfaf7] font-sans text-base leading-[1.6] text-[#21213c] antialiased`}>
+        <div
+            id="top"
+            className="overflow-x-clip bg-[#fbfaf7] font-sans text-base leading-[1.6] text-[#21213c] antialiased"
+        >
+            {/* Google Tag */}
+            <Script
+                src="https://www.googletagmanager.com/gtag/js?id=G-QHXCWNKE7B"
+                strategy="afterInteractive"
+            />
+
+            <Script id="google-tag" strategy="afterInteractive">
+                {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        window.gtag = gtag;
+
+        gtag('js', new Date());
+        gtag('config', 'G-QHXCWNKE7B');
+        gtag('config', 'AW-17444542235');
+      `}
+            </Script>
+
             <PageStyles styles={styles} />
             <PageScripts styles={styles} scripts={scripts} />
             <LandingNavbar />
@@ -629,4 +647,5 @@ export default function PublishYourBookPage() {
             <LandingFooter />
         </div>
     );
+
 }
