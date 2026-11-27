@@ -4,6 +4,7 @@ import PageStyles from '@/components/layout/PageStyles';
 import PageScripts from '@/components/layout/PageScripts';
 import { buttonClass } from '@/components/ui/Button';
 import { site } from '@/lib/site';
+import Script from 'next/script';
 
 // A thank-you page should not appear in Google: noindex, but links are still followed.
 export const metadata = {
@@ -47,6 +48,22 @@ const explore = [
 export default function ThankYouPage() {
   return (
     <>
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-QHXCWNKE7B"
+        strategy="afterInteractive"
+      />
+
+      <Script id="google-tag" strategy="afterInteractive">
+        {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        window.gtag = gtag;
+
+        gtag('js', new Date());
+        gtag('config', 'G-QHXCWNKE7B');
+        gtag('config', 'AW-17444542235');
+      `}
+      </Script>
       <PageStyles styles={styles} />
       <main id="main" className="relative isolate overflow-hidden bg-ivory text-ink">
         {/* soft gold light behind the message */}
