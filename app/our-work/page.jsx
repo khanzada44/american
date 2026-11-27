@@ -138,7 +138,7 @@ export default function OurWorkPage() {
                 <Link
                   className="rw-book rw-table__book"
                   href="#lee-roy-jefferson"
-                  aria-label="HOW BUILD A FUTURE by Dr. Lee Roy Jefferson, view in Our Work"
+                  aria-label="HOW BUILD A FUTURE by Robert Wallace, view in Our Work"
                   data-rw-book="06"
                   style={{ '--s': '0.52', '--z': '7' }}
                 >
@@ -148,7 +148,7 @@ export default function OurWorkPage() {
                       src="/assets/images/books/book-06-s.webp"
                       width="360"
                       height="614"
-                      alt="HOW BUILD A FUTURE: Reflection at 80 by Dr. Lee Roy Jefferson, shown as a hardcover book"
+                      alt="HOW BUILD A FUTURE: Reflection at 80 by Robert Wallace, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
@@ -157,7 +157,7 @@ export default function OurWorkPage() {
                   <span className="rw-cap" aria-hidden="true">
                     <span className="rw-cap__t">HOW BUILD A FUTURE</span>
                     <span className="rw-cap__s">Reflection at 80</span>
-                    <span className="rw-cap__a">Dr. Lee Roy Jefferson</span>
+                    <span className="rw-cap__a">Robert Wallace</span>
                     <span className="rw-cap__go">
                       {'View book '}
                       <svg aria-hidden="true">
@@ -169,7 +169,7 @@ export default function OurWorkPage() {
                 <Link
                   className="rw-book rw-table__book"
                   href="#virginia-perez-perez"
-                  aria-label="HOW BUILD A FUTURE by Virginia Perez Perez, view in Our Work"
+                  aria-label="HOW BUILD A FUTURE by Robert Wallace, view in Our Work"
                   data-rw-book="25"
                   style={{ '--s': '0.62', '--z': '8' }}
                 >
@@ -179,7 +179,7 @@ export default function OurWorkPage() {
                       src="/assets/images/books/book-25-s.webp"
                       width="360"
                       height="614"
-                      alt="HOW BUILD A FUTURE: La Penetración Rusa en Venezuela by Virginia Perez Perez, shown as a hardcover book"
+                      alt="HOW BUILD A FUTURE: La Penetración Rusa en Venezuela by Robert Wallace, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
@@ -188,7 +188,7 @@ export default function OurWorkPage() {
                   <span className="rw-cap" aria-hidden="true">
                     <span className="rw-cap__t">HOW BUILD A FUTURE</span>
                     <span className="rw-cap__s">La Penetración Rusa en Venezuela</span>
-                    <span className="rw-cap__a">Virginia Perez Perez</span>
+                    <span className="rw-cap__a">Robert Wallace</span>
                     <span className="rw-cap__go">
                       {'View book '}
                       <svg aria-hidden="true">
@@ -200,7 +200,7 @@ export default function OurWorkPage() {
                 <Link
                   className="rw-book rw-table__book"
                   href="#emilio-degher"
-                  aria-label="WHO IS GOD ? by Emilio Degher, view in Our Work"
+                  aria-label="WHO IS GOD ? by David B. Virts, view in Our Work"
                   data-rw-book="12"
                   style={{ '--s': '0.74', '--z': '9' }}
                 >
@@ -210,7 +210,7 @@ export default function OurWorkPage() {
                       src="/assets/images/books/book-12.png"
                       width="600"
                       height="1024"
-                      alt="WHO IS GOD ?: Beyond Belief, Beyond Illusion by Emilio Degher, shown as a hardcover book"
+                      alt="WHO IS GOD ?: Beyond Belief, Beyond Illusion by David B. Virts, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
@@ -219,7 +219,7 @@ export default function OurWorkPage() {
                   <span className="rw-cap" aria-hidden="true">
                     <span className="rw-cap__t">WHO IS GOD ?</span>
                     <span className="rw-cap__s">Beyond Belief, Beyond Illusion</span>
-                    <span className="rw-cap__a">Emilio Degher</span>
+                    <span className="rw-cap__a">David B. Virts</span>
                     <span className="rw-cap__go">
                       {'View book '}
                       <svg aria-hidden="true">
@@ -231,7 +231,7 @@ export default function OurWorkPage() {
                 <Link
                   className="rw-book rw-table__book is-lead"
                   href="#douglas-hawes"
-                  aria-label="The Naked Truth of AI 2.0 by Douglas Hawes, view in Our Work"
+                  aria-label="The Loan Signing  by Michelle James, view in Our Work"
                   data-rw-book="05"
                   style={{ '--s': '1', '--z': '20' }}
                 >
@@ -241,16 +241,16 @@ export default function OurWorkPage() {
                       src="/assets/images/books/book-05.png"
                       width="600"
                       height="1024"
-                      alt="The Naked Truth of AI 2.0: Divine Intervention by Douglas Hawes, shown as a hardcover book"
+                      alt="The Loan Signing : Divine Intervention by Michelle James, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
                     <span className="rw-book__floor" aria-hidden="true" />
                   </span>
                   <span className="rw-cap" aria-hidden="true">
-                    <span className="rw-cap__t">The Naked Truth of AI 2.0</span>
+                    <span className="rw-cap__t">The Loan Signing </span>
                     <span className="rw-cap__s">Divine Intervention</span>
-                    <span className="rw-cap__a">Douglas Hawes</span>
+                    <span className="rw-cap__a">Michelle James</span>
                     <span className="rw-cap__go">
                       {'View book '}
                       <svg aria-hidden="true">
@@ -262,7 +262,7 @@ export default function OurWorkPage() {
                 <Link
                   className="rw-book rw-table__book"
                   href="#kadeisha-corbin"
-                  aria-label="Bloom Through the Pain by Kadeisha Corbin, view in Our Work"
+                  aria-label="Bloom Through the Pain by Richard Thomas, view in Our Work"
                   data-rw-book="20"
                   style={{ '--s': '0.74', '--z': '11' }}
                 >
@@ -272,7 +272,7 @@ export default function OurWorkPage() {
                       src="/assets/images/books/book-20.png"
                       width="600"
                       height="1024"
-                      alt="Bloom Through the Pain: A 90 Day Affirmation and Reflection Journal by Kadeisha Corbin, shown as a hardcover book"
+                      alt="Bloom Through the Pain: A 90 Day Affirmation and Reflection Journal by Richard Thomas, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
@@ -281,7 +281,7 @@ export default function OurWorkPage() {
                   <span className="rw-cap" aria-hidden="true">
                     <span className="rw-cap__t">Bloom Through the Pain</span>
                     <span className="rw-cap__s">A 90 Day Affirmation and Reflection Journal</span>
-                    <span className="rw-cap__a">Kadeisha Corbin</span>
+                    <span className="rw-cap__a">Richard Thomas</span>
                     <span className="rw-cap__go">
                       {'View book '}
                       <svg aria-hidden="true">
@@ -385,7 +385,7 @@ export default function OurWorkPage() {
                   src="/assets/images/authors/author-emilio-degher.webp"
                   width="480"
                   height="600"
-                  alt="Portrait of Emilio Degher"
+                  alt="Portrait of David B. Virts"
                   loading="lazy"
                   decoding="async"
                 />
@@ -393,7 +393,7 @@ export default function OurWorkPage() {
               <div className="rw-spread__head">
                 <p className="rw-label">Author spotlight</p>
                 <h3 className="rw-spread__name" id="au-emilio-degher">
-                  Emilio Degher
+                  David B. Virts
                 </h3>
                 <p className="rw-spread__genre">Philosophy · Spirituality · Personal Growth</p>
               </div>
@@ -412,14 +412,14 @@ export default function OurWorkPage() {
                   </ul>
                 </div>
                 <p className="rw-spread__bio">
-                  Emilio Degher writes about philosophy, psychology and spiritual awareness. His books ask readers to
+                  David B. Virts writes about philosophy, psychology and spiritual awareness. His books ask readers to
                   examine familiar beliefs and consider how purpose, understanding and personal strength shape their
                   lives.
                 </p>
                 <div className="rw-spread__about">
-                  <p className="rw-label">Thought provoking works by Emilio Degher</p>
+                  <p className="rw-label">Thought provoking works by David B. Virts</p>
                   <p>
-                    Emilio Degher explores faith, awareness and the search for meaning, inviting readers to consider the
+                    David B. Virts explores faith, awareness and the search for meaning, inviting readers to consider the
                     beliefs that shape everyday life.
                   </p>
                 </div>
@@ -429,7 +429,7 @@ export default function OurWorkPage() {
                 <Link
                   className="rw-book rw-spread__lead"
                   href="#emilio-degher"
-                  aria-label="WHO IS GOD ? by Emilio Degher, view in Our Work"
+                  aria-label="WHO IS GOD ? by David B. Virts, view in Our Work"
                   data-rw-book="12"
                 >
                   <span className="rw-book__obj">
@@ -438,7 +438,7 @@ export default function OurWorkPage() {
                       src="/assets/images/books/book-12.png"
                       width="600"
                       height="1024"
-                      alt="WHO IS GOD ?: Beyond Belief, Beyond Illusion by Emilio Degher, shown as a hardcover book"
+                      alt="WHO IS GOD ?: Beyond Belief, Beyond Illusion by David B. Virts, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
@@ -447,7 +447,7 @@ export default function OurWorkPage() {
                   <span className="rw-cap" aria-hidden="true">
                     <span className="rw-cap__t">WHO IS GOD ?</span>
                     <span className="rw-cap__s">Beyond Belief, Beyond Illusion</span>
-                    <span className="rw-cap__a">Emilio Degher</span>
+                    <span className="rw-cap__a">David B. Virts</span>
                     <span className="rw-cap__go">
                       {'View book '}
                       <svg aria-hidden="true">
@@ -459,7 +459,7 @@ export default function OurWorkPage() {
                 <Link
                   className="rw-book rw-spread__minor"
                   href="#emilio-degher"
-                  aria-label="Eternal Coherence by Emilio Degher, view in Our Work"
+                  aria-label="Eternal Coherence by David B. Virts, view in Our Work"
                   data-rw-book="09"
                 >
                   <span className="rw-book__obj">
@@ -468,7 +468,7 @@ export default function OurWorkPage() {
                       src="/assets/images/books/book-09-s.webp"
                       width="360"
                       height="614"
-                      alt="Eternal Coherence: Jesus Christ and the Architecture of Reality by Emilio Degher, shown as a hardcover book"
+                      alt="Eternal Coherence: Jesus Christ and the Architecture of Reality by David B. Virts, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
@@ -477,7 +477,7 @@ export default function OurWorkPage() {
                   <span className="rw-cap" aria-hidden="true">
                     <span className="rw-cap__t">Eternal Coherence</span>
                     <span className="rw-cap__s">Jesus Christ and the Architecture of Reality</span>
-                    <span className="rw-cap__a">Emilio Degher</span>
+                    <span className="rw-cap__a">David B. Virts</span>
                     <span className="rw-cap__go">
                       {'View book '}
                       <svg aria-hidden="true">
@@ -489,7 +489,7 @@ export default function OurWorkPage() {
                 <Link
                   className="rw-book rw-spread__minor"
                   href="#emilio-degher"
-                  aria-label="The Awakening of Memory by Emilio Degher, view in Our Work"
+                  aria-label="The Awakening of Memory by David B. Virts, view in Our Work"
                   data-rw-book="14"
                 >
                   <span className="rw-book__obj">
@@ -498,7 +498,7 @@ export default function OurWorkPage() {
                       src="/assets/images/books/book-14-s.webp"
                       width="360"
                       height="614"
-                      alt="The Awakening of Memory by Emilio Degher, shown as a hardcover book"
+                      alt="The Awakening of Memory by David B. Virts, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
@@ -506,7 +506,7 @@ export default function OurWorkPage() {
                   </span>
                   <span className="rw-cap" aria-hidden="true">
                     <span className="rw-cap__t">The Awakening of Memory</span>
-                    <span className="rw-cap__a">Emilio Degher</span>
+                    <span className="rw-cap__a">David B. Virts</span>
                     <span className="rw-cap__go">
                       {'View book '}
                       <svg aria-hidden="true">
@@ -527,7 +527,7 @@ export default function OurWorkPage() {
                   src="/assets/images/authors/author-kadeisha-corbin.webp"
                   width="480"
                   height="600"
-                  alt="Portrait of Kadeisha Corbin"
+                  alt="Portrait of Richard Thomas"
                   loading="lazy"
                   decoding="async"
                 />
@@ -535,7 +535,7 @@ export default function OurWorkPage() {
               <div className="rw-spread__head">
                 <p className="rw-label">Author spotlight</p>
                 <h3 className="rw-spread__name" id="au-kadeisha-corbin">
-                  Kadeisha Corbin
+                  Richard Thomas
                 </h3>
                 <p className="rw-spread__genre">Self Help · Inspirational · Guided Journal</p>
               </div>
@@ -547,11 +547,11 @@ export default function OurWorkPage() {
                   </ul>
                 </div>
                 <p className="rw-spread__bio">
-                  Kadeisha Corbin brings faith and reflection into her writing through Scripture, affirmations and
+                  Richard Thomas brings faith and reflection into her writing through Scripture, affirmations and
                   journal prompts. Her work offers readers space to pause and consider their own healing and growth.
                 </p>
                 <div className="rw-spread__about">
-                  <p className="rw-label">A healing journal by Kadeisha Corbin</p>
+                  <p className="rw-label">A healing journal by Richard Thomas</p>
                   <p>
                     Bloom Through the Pain offers ninety days of affirmations, Scripture and space for reflection, with
                     an emphasis on healing and personal growth.
@@ -563,7 +563,7 @@ export default function OurWorkPage() {
                 <Link
                   className="rw-book rw-spread__lead"
                   href="#kadeisha-corbin"
-                  aria-label="Bloom Through the Pain by Kadeisha Corbin, view in Our Work"
+                  aria-label="Bloom Through the Pain by Richard Thomas, view in Our Work"
                   data-rw-book="20"
                 >
                   <span className="rw-book__obj">
@@ -572,7 +572,7 @@ export default function OurWorkPage() {
                       src="/assets/images/books/book-20.png"
                       width="600"
                       height="1024"
-                      alt="Bloom Through the Pain: A 90 Day Affirmation and Reflection Journal by Kadeisha Corbin, shown as a hardcover book"
+                      alt="Bloom Through the Pain: A 90 Day Affirmation and Reflection Journal by Richard Thomas, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
@@ -581,7 +581,7 @@ export default function OurWorkPage() {
                   <span className="rw-cap" aria-hidden="true">
                     <span className="rw-cap__t">Bloom Through the Pain</span>
                     <span className="rw-cap__s">A 90 Day Affirmation and Reflection Journal</span>
-                    <span className="rw-cap__a">Kadeisha Corbin</span>
+                    <span className="rw-cap__a">Richard Thomas</span>
                     <span className="rw-cap__go">
                       {'View book '}
                       <svg aria-hidden="true">
@@ -602,7 +602,7 @@ export default function OurWorkPage() {
                   src="/assets/images/authors/author-douglas-hawes.webp"
                   width="480"
                   height="600"
-                  alt="Portrait of Douglas Hawes"
+                  alt="Portrait of Michelle James"
                   loading="lazy"
                   decoding="async"
                 />
@@ -610,7 +610,7 @@ export default function OurWorkPage() {
               <div className="rw-spread__head">
                 <p className="rw-label">Author spotlight</p>
                 <h3 className="rw-spread__name" id="au-douglas-hawes">
-                  Douglas Hawes
+                  Michelle James
                 </h3>
                 <p className="rw-spread__genre">
                   {'Faith & Technology · Christian Apologetics · Science & Spirituality'}
@@ -620,18 +620,18 @@ export default function OurWorkPage() {
                 <div className="rw-spread__of">
                   <p className="rw-label">Author of</p>
                   <ul role="list">
-                    <li>The Naked Truth of AI 2.0: Divine Intervention</li>
+                    <li>The Loan Signing : Divine Intervention</li>
                   </ul>
                 </div>
                 <p className="rw-spread__bio">
-                  Douglas Hawes writes about artificial intelligence, science and Christian faith. He considers how
+                  Michelle James writes about artificial intelligence, science and Christian faith. He considers how
                   technology affects human thought and choice while exploring creation, free will and humanity’s
                   relationship with God.
                 </p>
                 <div className="rw-spread__about">
-                  <p className="rw-label">Divine intervention by Douglas Hawes</p>
+                  <p className="rw-label">Divine intervention by Michelle James</p>
                   <p>
-                    The Naked Truth of AI 2.0: Divine Intervention considers artificial intelligence alongside questions
+                    The Loan Signing : Divine Intervention considers artificial intelligence alongside questions
                     of creation, faith and human purpose.
                   </p>
                 </div>
@@ -641,7 +641,7 @@ export default function OurWorkPage() {
                 <Link
                   className="rw-book rw-spread__lead"
                   href="#douglas-hawes"
-                  aria-label="The Naked Truth of AI 2.0 by Douglas Hawes, view in Our Work"
+                  aria-label="The Loan Signing  by Michelle James, view in Our Work"
                   data-rw-book="05"
                 >
                   <span className="rw-book__obj">
@@ -650,16 +650,16 @@ export default function OurWorkPage() {
                       src="/assets/images/books/book-05.png"
                       width="600"
                       height="1024"
-                      alt="The Naked Truth of AI 2.0: Divine Intervention by Douglas Hawes, shown as a hardcover book"
+                      alt="The Loan Signing : Divine Intervention by Michelle James, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
                     <span className="rw-book__floor" aria-hidden="true" />
                   </span>
                   <span className="rw-cap" aria-hidden="true">
-                    <span className="rw-cap__t">The Naked Truth of AI 2.0</span>
+                    <span className="rw-cap__t">The Loan Signing </span>
                     <span className="rw-cap__s">Divine Intervention</span>
-                    <span className="rw-cap__a">Douglas Hawes</span>
+                    <span className="rw-cap__a">Michelle James</span>
                     <span className="rw-cap__go">
                       {'View book '}
                       <svg aria-hidden="true">
@@ -680,7 +680,7 @@ export default function OurWorkPage() {
                   src="/assets/images/authors/author-lee-roy-jefferson.webp"
                   width="480"
                   height="600"
-                  alt="Portrait of Dr. Lee Roy Jefferson"
+                  alt="Portrait of Robert Wallace"
                   loading="lazy"
                   decoding="async"
                 />
@@ -688,7 +688,7 @@ export default function OurWorkPage() {
               <div className="rw-spread__head">
                 <p className="rw-label">Author spotlight</p>
                 <h3 className="rw-spread__name" id="au-lee-roy-jefferson">
-                  Dr. Lee Roy Jefferson
+                  Robert Wallace
                 </h3>
                 <p className="rw-spread__genre">{'Christian Memoir · Faith & Inspiration · Ministry'}</p>
               </div>
@@ -700,14 +700,14 @@ export default function OurWorkPage() {
                   </ul>
                 </div>
                 <p className="rw-spread__bio">
-                  Dr. Lee Roy Jefferson is a pastor, educator and community advocate with more than sixty years in
+                  Robert Wallace is a pastor, educator and community advocate with more than sixty years in
                   ministry. His work has included church service, mentoring and leadership in religious education and
                   community organisations.
                 </p>
                 <div className="rw-spread__about">
-                  <p className="rw-label">Reflection at 80 by Dr. Lee Roy Jefferson</p>
+                  <p className="rw-label">Reflection at 80 by Robert Wallace</p>
                   <p>
-                    In HOW BUILD A FUTURE, Dr. Lee Roy Jefferson looks back on faith, family, ministry and perseverance
+                    In HOW BUILD A FUTURE, Robert Wallace looks back on faith, family, ministry and perseverance
                     across his life.
                   </p>
                 </div>
@@ -717,7 +717,7 @@ export default function OurWorkPage() {
                 <Link
                   className="rw-book rw-spread__lead"
                   href="#lee-roy-jefferson"
-                  aria-label="HOW BUILD A FUTURE by Dr. Lee Roy Jefferson, view in Our Work"
+                  aria-label="HOW BUILD A FUTURE by Robert Wallace, view in Our Work"
                   data-rw-book="06"
                 >
                   <span className="rw-book__obj">
@@ -726,7 +726,7 @@ export default function OurWorkPage() {
                       src="/assets/images/books/book-6.png"
                       width="600"
                       height="1024"
-                      alt="HOW BUILD A FUTURE: Reflection at 80 by Dr. Lee Roy Jefferson, shown as a hardcover book"
+                      alt="HOW BUILD A FUTURE: Reflection at 80 by Robert Wallace, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
@@ -735,7 +735,7 @@ export default function OurWorkPage() {
                   <span className="rw-cap" aria-hidden="true">
                     <span className="rw-cap__t">HOW BUILD A FUTURE</span>
                     <span className="rw-cap__s">Reflection at 80</span>
-                    <span className="rw-cap__a">Dr. Lee Roy Jefferson</span>
+                    <span className="rw-cap__a">Robert Wallace</span>
                     <span className="rw-cap__go">
                       {'View book '}
                       <svg aria-hidden="true">
@@ -834,7 +834,7 @@ export default function OurWorkPage() {
                   src="/assets/images/authors/author-virginia-perez-perez.webp"
                   width="480"
                   height="600"
-                  alt="Portrait of Virginia Perez Perez"
+                  alt="Portrait of Robert Wallace"
                   loading="lazy"
                   decoding="async"
                 />
@@ -842,7 +842,7 @@ export default function OurWorkPage() {
               <div className="rw-spread__head">
                 <p className="rw-label">Author spotlight</p>
                 <h3 className="rw-spread__name" id="au-virginia-perez-perez">
-                  Virginia Perez Perez
+                  Robert Wallace
                 </h3>
                 <p className="rw-spread__genre">Geopolitics · International Relations · Political Analysis</p>
               </div>
@@ -854,14 +854,14 @@ export default function OurWorkPage() {
                   </ul>
                 </div>
                 <p className="rw-spread__bio">
-                  Virginia Perez Perez draws on experience in Venezuelan public administration and the Ministry of
+                  Robert Wallace draws on experience in Venezuelan public administration and the Ministry of
                   Foreign Affairs. Her writing considers bilateral agreements and international relations in their
                   strategic and historical context.
                 </p>
                 <div className="rw-spread__about">
-                  <p className="rw-label">A geopolitical analysis by Virginia Perez Perez</p>
+                  <p className="rw-label">A geopolitical analysis by Robert Wallace</p>
                   <p>
-                    Virginia Perez Perez examines agreements between Venezuela and Russia across energy, finance and
+                    Robert Wallace examines agreements between Venezuela and Russia across energy, finance and
                     defence, considering their implications for sovereignty and international relations.
                   </p>
                 </div>
@@ -871,7 +871,7 @@ export default function OurWorkPage() {
                 <Link
                   className="rw-book rw-spread__lead"
                   href="#virginia-perez-perez"
-                  aria-label="HOW BUILD A FUTURE by Virginia Perez Perez, view in Our Work"
+                  aria-label="HOW BUILD A FUTURE by Robert Wallace, view in Our Work"
                   data-rw-book="25"
                 >
                   <span className="rw-book__obj">
@@ -880,7 +880,7 @@ export default function OurWorkPage() {
                       src="/assets/images/books/book-25.webp"
                       width="600"
                       height="1024"
-                      alt="HOW BUILD A FUTURE: La Penetración Rusa en Venezuela by Virginia Perez Perez, shown as a hardcover book"
+                      alt="HOW BUILD A FUTURE: La Penetración Rusa en Venezuela by Robert Wallace, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
@@ -889,7 +889,7 @@ export default function OurWorkPage() {
                   <span className="rw-cap" aria-hidden="true">
                     <span className="rw-cap__t">HOW BUILD A FUTURE</span>
                     <span className="rw-cap__s">La Penetración Rusa en Venezuela</span>
-                    <span className="rw-cap__a">Virginia Perez Perez</span>
+                    <span className="rw-cap__a">Robert Wallace</span>
                     <span className="rw-cap__go">
                       {'View book '}
                       <svg aria-hidden="true">
@@ -1304,7 +1304,7 @@ export default function OurWorkPage() {
                       src="/assets/images/books/book-05-s.webp"
                       width="360"
                       height="614"
-                      alt="The Naked Truth of AI 2.0: Divine Intervention by Douglas Hawes, shown as a hardcover book"
+                      alt="The Loan Signing : Divine Intervention by Michelle James, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
@@ -1312,10 +1312,10 @@ export default function OurWorkPage() {
                   </span>
                   <figcaption>
                     <span className="ow-shelf__n">No. 05</span>
-                    <span className="rw-cap__t">The Naked Truth of AI 2.0</span>
+                    <span className="rw-cap__t">The Loan Signing </span>
                     <span className="rw-cap__s">Divine Intervention</span>
                     <span className="rw-cap__a">
-                      <Link href="#douglas-hawes">Douglas Hawes</Link>
+                      <Link href="#douglas-hawes">Michelle James</Link>
                     </span>
                   </figcaption>
                 </figure>
@@ -1328,7 +1328,7 @@ export default function OurWorkPage() {
                       src="/assets/images/books/book-06-s.webp"
                       width="360"
                       height="614"
-                      alt="HOW BUILD A FUTURE: Reflection at 80 by Dr. Lee Roy Jefferson, shown as a hardcover book"
+                      alt="HOW BUILD A FUTURE: Reflection at 80 by Robert Wallace, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
@@ -1339,7 +1339,7 @@ export default function OurWorkPage() {
                     <span className="rw-cap__t">HOW BUILD A FUTURE</span>
                     <span className="rw-cap__s">Reflection at 80</span>
                     <span className="rw-cap__a">
-                      <Link href="#lee-roy-jefferson">Dr. Lee Roy Jefferson</Link>
+                      <Link href="#lee-roy-jefferson">Robert Wallace</Link>
                     </span>
                   </figcaption>
                 </figure>
@@ -1398,7 +1398,7 @@ export default function OurWorkPage() {
                       src="/assets/images/books/book-09-s.webp"
                       width="360"
                       height="614"
-                      alt="Eternal Coherence: Jesus Christ and the Architecture of Reality by Emilio Degher, shown as a hardcover book"
+                      alt="Eternal Coherence: Jesus Christ and the Architecture of Reality by David B. Virts, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
@@ -1409,7 +1409,7 @@ export default function OurWorkPage() {
                     <span className="rw-cap__t">Eternal Coherence</span>
                     <span className="rw-cap__s">Jesus Christ and the Architecture of Reality</span>
                     <span className="rw-cap__a">
-                      <Link href="#emilio-degher">Emilio Degher</Link>
+                      <Link href="#emilio-degher">David B. Virts</Link>
                     </span>
                   </figcaption>
                 </figure>
@@ -1422,7 +1422,7 @@ export default function OurWorkPage() {
                       src="/assets/images/books/book-10-s.webp"
                       width="360"
                       height="614"
-                      alt="The Awakening of Thought by Emilio Degher, shown as a hardcover book"
+                      alt="The Awakening of Thought by David B. Virts, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
@@ -1432,7 +1432,7 @@ export default function OurWorkPage() {
                     <span className="ow-shelf__n">No. 10</span>
                     <span className="rw-cap__t">The Awakening of Thought</span>
                     <span className="rw-cap__a">
-                      <Link href="#emilio-degher">Emilio Degher</Link>
+                      <Link href="#emilio-degher">David B. Virts</Link>
                     </span>
                   </figcaption>
                 </figure>
@@ -1445,7 +1445,7 @@ export default function OurWorkPage() {
                       src="/assets/images/books/book-11-s.webp"
                       width="360"
                       height="614"
-                      alt="A Life Led from the Heart by Emilio Degher, shown as a hardcover book"
+                      alt="A Life Led from the Heart by David B. Virts, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
@@ -1455,7 +1455,7 @@ export default function OurWorkPage() {
                     <span className="ow-shelf__n">No. 11</span>
                     <span className="rw-cap__t">A Life Led from the Heart</span>
                     <span className="rw-cap__a">
-                      <Link href="#emilio-degher">Emilio Degher</Link>
+                      <Link href="#emilio-degher">David B. Virts</Link>
                     </span>
                   </figcaption>
                 </figure>
@@ -1468,7 +1468,7 @@ export default function OurWorkPage() {
                       src="/assets/images/books/book-12-s.webp"
                       width="360"
                       height="614"
-                      alt="WHO IS GOD ?: Beyond Belief, Beyond Illusion by Emilio Degher, shown as a hardcover book"
+                      alt="WHO IS GOD ?: Beyond Belief, Beyond Illusion by David B. Virts, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
@@ -1479,7 +1479,7 @@ export default function OurWorkPage() {
                     <span className="rw-cap__t">WHO IS GOD ?</span>
                     <span className="rw-cap__s">Beyond Belief, Beyond Illusion</span>
                     <span className="rw-cap__a">
-                      <Link href="#emilio-degher">Emilio Degher</Link>
+                      <Link href="#emilio-degher">David B. Virts</Link>
                     </span>
                   </figcaption>
                 </figure>
@@ -1492,7 +1492,7 @@ export default function OurWorkPage() {
                       src="/assets/images/books/book-13-s.webp"
                       width="360"
                       height="614"
-                      alt="The Exodus Code: Truth Beyond Time by Emilio Degher, shown as a hardcover book"
+                      alt="The Exodus Code: Truth Beyond Time by David B. Virts, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
@@ -1503,7 +1503,7 @@ export default function OurWorkPage() {
                     <span className="rw-cap__t">The Exodus Code</span>
                     <span className="rw-cap__s">Truth Beyond Time</span>
                     <span className="rw-cap__a">
-                      <Link href="#emilio-degher">Emilio Degher</Link>
+                      <Link href="#emilio-degher">David B. Virts</Link>
                     </span>
                   </figcaption>
                 </figure>
@@ -1516,7 +1516,7 @@ export default function OurWorkPage() {
                       src="/assets/images/books/book-14-s.webp"
                       width="360"
                       height="614"
-                      alt="The Awakening of Memory by Emilio Degher, shown as a hardcover book"
+                      alt="The Awakening of Memory by David B. Virts, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
@@ -1526,7 +1526,7 @@ export default function OurWorkPage() {
                     <span className="ow-shelf__n">No. 14</span>
                     <span className="rw-cap__t">The Awakening of Memory</span>
                     <span className="rw-cap__a">
-                      <Link href="#emilio-degher">Emilio Degher</Link>
+                      <Link href="#emilio-degher">David B. Virts</Link>
                     </span>
                   </figcaption>
                 </figure>
@@ -1539,7 +1539,7 @@ export default function OurWorkPage() {
                       src="/assets/images/books/book-15-s.webp"
                       width="360"
                       height="614"
-                      alt="The Sole: On the Soul, the Heavens, and the Silence Between the Creator and the Listener by Emilio Degher, shown as a hardcover book"
+                      alt="The Sole: On the Soul, the Heavens, and the Silence Between the Creator and the Listener by David B. Virts, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
@@ -1552,7 +1552,7 @@ export default function OurWorkPage() {
                       On the Soul, the Heavens, and the Silence Between the Creator and the Listener
                     </span>
                     <span className="rw-cap__a">
-                      <Link href="#emilio-degher">Emilio Degher</Link>
+                      <Link href="#emilio-degher">David B. Virts</Link>
                     </span>
                   </figcaption>
                 </figure>
@@ -1651,7 +1651,7 @@ export default function OurWorkPage() {
                       src="/assets/images/books/book-20-s.webp"
                       width="360"
                       height="614"
-                      alt="Bloom Through the Pain: A 90 Day Affirmation and Reflection Journal by Kadeisha Corbin, shown as a hardcover book"
+                      alt="Bloom Through the Pain: A 90 Day Affirmation and Reflection Journal by Richard Thomas, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
@@ -1662,7 +1662,7 @@ export default function OurWorkPage() {
                     <span className="rw-cap__t">Bloom Through the Pain</span>
                     <span className="rw-cap__s">A 90 Day Affirmation and Reflection Journal</span>
                     <span className="rw-cap__a">
-                      <Link href="#kadeisha-corbin">Kadeisha Corbin</Link>
+                      <Link href="#kadeisha-corbin">Richard Thomas</Link>
                     </span>
                   </figcaption>
                 </figure>
@@ -1739,7 +1739,7 @@ export default function OurWorkPage() {
                       src="/assets/images/books/book-24.png"
                       width="360"
                       height="614"
-                      alt="Whispers of Time: Poetry · Humor · Mystery · Adventure by Aggee Andrew Vetiaque, shown as a hardcover book"
+                      alt="SIX SHORT STORIES: Poetry · Humor · Mystery · Adventure by Patricia Stinson, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
@@ -1747,9 +1747,9 @@ export default function OurWorkPage() {
                   </span>
                   <figcaption>
                     <span className="ow-shelf__n">No. 24</span>
-                    <span className="rw-cap__t">Whispers of Time</span>
+                    <span className="rw-cap__t">SIX SHORT STORIES</span>
                     <span className="rw-cap__s">Poetry · Humor · Mystery · Adventure</span>
-                    <span className="rw-cap__a">Aggee Andrew Vetiaque</span>
+                    <span className="rw-cap__a">Patricia Stinson</span>
                   </figcaption>
                 </figure>
               </li>
@@ -1761,7 +1761,7 @@ export default function OurWorkPage() {
                       src="/assets/images/books/book-25-s.webp"
                       width="360"
                       height="614"
-                      alt="HOW BUILD A FUTURE: La Penetración Rusa en Venezuela by Virginia Perez Perez, shown as a hardcover book"
+                      alt="HOW BUILD A FUTURE: La Penetración Rusa en Venezuela by Robert Wallace, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
@@ -1772,7 +1772,7 @@ export default function OurWorkPage() {
                     <span className="rw-cap__t">HOW BUILD A FUTURE</span>
                     <span className="rw-cap__s">La Penetración Rusa en Venezuela</span>
                     <span className="rw-cap__a">
-                      <Link href="#virginia-perez-perez">Virginia Perez Perez</Link>
+                      <Link href="#virginia-perez-perez">Robert Wallace</Link>
                     </span>
                   </figcaption>
                 </figure>

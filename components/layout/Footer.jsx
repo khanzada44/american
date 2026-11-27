@@ -59,7 +59,7 @@ export default function Footer() {
         <div className="grid grid-cols-[1.5fr_1fr_1fr_1.2fr] gap-10 border-b border-line-dark pb-[52px] max-[960px]:grid-cols-2 max-[520px]:grid-cols-1">
           <div className="max-[960px]:col-span-full">
             <Image
-              src="/assets/images/logo/logo-image.webp"
+              src="/assets/images/logo/PublishYourBooksToday-08.png"
               width={800}
               height={320}
               alt={site.name}

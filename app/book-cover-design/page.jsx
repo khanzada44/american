@@ -161,13 +161,13 @@ export default function BookCoverDesignPage() {
                 src="/assets/images/books/cover-24.webp"
                 width="440"
                 height="660"
-                alt={`Cover of Whispers of Time by Aggee Andrew Vetiaque, published with ${site.name}`}
+                alt={`Cover of SIX SHORT STORIES by Patricia Stinson, published with ${site.name}`}
                 loading="lazy"
                 decoding="async"
               />
               <figcaption>
                 <span className="label">Published with Publish Your Books Today</span>
-                {' Whispers of Time by Aggee Andrew Vetiaque'}
+                {' SIX SHORT STORIES by Patricia Stinson'}
               </figcaption>
             </figure>
           </div>
@@ -272,11 +272,11 @@ export default function BookCoverDesignPage() {
               <ol className="cd-show__list" role="list" data-reveal="" style={{ '--d': '.2s' }}>
                 <li>
                   <b>Bloom Through the Pain</b>
-                  <span>Kadeisha Corbin</span>
+                  <span>Richard Thomas</span>
                 </li>
                 <li>
                   <b>HOW BUILD A FUTURE</b>
-                  <span>Virginia Perez Perez</span>
+                  <span>Robert Wallace</span>
                 </li>
                 <li>
                   <b>You vs You</b>
@@ -290,7 +290,7 @@ export default function BookCoverDesignPage() {
                   src="/assets/images/books/cover-25.webp"
                   width="440"
                   height="660"
-                  alt="Cover of HOW BUILD A FUTURE by Virginia Perez Perez"
+                  alt="Cover of HOW BUILD A FUTURE by Robert Wallace"
                   loading="lazy"
                   decoding="async"
                 />
@@ -531,7 +531,7 @@ export default function BookCoverDesignPage() {
                 </figcaption>
               </figure>
             </div>
-            <p className="cd-anywhere__note">{`Featured example: WHO IS GOD ? by Emilio Degher, from ${site.name}.`}</p>
+            <p className="cd-anywhere__note">{`Featured example: WHO IS GOD ? by David B. Virts, from ${site.name}.`}</p>
           </div>
         </section>
 

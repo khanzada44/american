@@ -50,7 +50,7 @@ button{cursor: pointer; background: none; border: 0; padding: 0;}
 .icon-btn--light:hover{background: var(--ink); color: var(--ivory); border-color: var(--ink);}
 .text-link{display: inline-flex; align-items: center; gap: 8px; font-weight: 600; font-size: 0.88rem; background: linear-gradient(currentColor, currentColor) 0 100% / 100% 1px no-repeat; padding-bottom: 3px; transition: gap var(--t-fast) var(--ease-out), background-size var(--t-fast);}
 .text-link:hover{gap: 12px;}
-.glass{background: var(--glass-d-bg); -webkit-backdrop-filter: var(--blur); backdrop-filter: var(--blur); border: 1px solid var(--glass-d-border); box-shadow: var(--glass-d-shadow);}
+.glass{background: var(--glass-d-bg); -webkit-backdrop-filter: var(--blur); backdrop-filter: var(--blur); border: 2px solid var(--glass-d-border); box-shadow: var(--glass-d-shadow);}
 .chip{display: inline-flex; align-items: center; gap: 6px; height: 28px; padding: 0 12px; border-radius: var(--r-pill); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.02em; white-space: nowrap; background: rgba(255, 255, 255, 0.1); border: 1px solid rgba(255, 255, 255, 0.16); color: var(--on-dark-1); -webkit-backdrop-filter: var(--blur-s); backdrop-filter: var(--blur-s);}
 .chip--gold{color: var(--bronze-2); border-color: rgba(201, 165, 106, 0.34); background: rgba(163, 128, 74, 0.12);}
 .book3d{--w: 220px; --t: 26px; --ry: -26deg; --rx: 2deg; --light: 0.16; width: var(--w); aspect-ratio: 699 / 1024; perspective: 1600px; position: relative;}

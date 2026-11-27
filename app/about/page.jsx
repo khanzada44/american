@@ -360,7 +360,7 @@ export default function AboutPage() {
                       src="/assets/images/books/cover-06.webp"
                       width="440"
                       height="660"
-                      alt={`Cover of HOW BUILD A FUTURE by Dr. Lee Roy Jefferson, published with ${site.name}`}
+                      alt={`Cover of HOW BUILD A FUTURE by Robert Wallace, published with ${site.name}`}
                       loading="lazy"
                       decoding="async"
                     />
@@ -452,7 +452,7 @@ export default function AboutPage() {
                 <span className="rw-now__n">In print</span>
                 <span className="rw-now__main">
                   <span className="rw-cap__t">A Life Led from the Heart</span>
-                  <span className="rw-cap__a">Emilio Degher</span>
+                  <span className="rw-cap__a">David B. Virts</span>
                 </span>
                 <span className="rw-now__hint">Explore a cover for book details</span>
               </p>{' '}
@@ -502,7 +502,7 @@ export default function AboutPage() {
                   <Link
                     className="rw-book rw-table__book is-lead"
                     href="/our-work#emilio-degher"
-                    aria-label="A Life Led from the Heart by Emilio Degher, view in Our Work"
+                    aria-label="A Life Led from the Heart by David B. Virts, view in Our Work"
                     data-rw-book="11"
                     style={{ '--s': '1', '--z': '20' }}
                   >
@@ -512,7 +512,7 @@ export default function AboutPage() {
                         src="/assets/images/books/book-11.webp"
                         width="600"
                         height="1024"
-                        alt="A Life Led from the Heart by Emilio Degher, shown as a hardcover book"
+                        alt="A Life Led from the Heart by David B. Virts, shown as a hardcover book"
                         loading="lazy"
                         decoding="async"
                       />
@@ -520,7 +520,7 @@ export default function AboutPage() {
                     </span>
                     <span className="rw-cap" aria-hidden="true">
                       <span className="rw-cap__t">A Life Led from the Heart</span>
-                      <span className="rw-cap__a">Emilio Degher</span>
+                      <span className="rw-cap__a">David B. Virts</span>
                       <span className="rw-cap__go">
                         {'View book '}
                         <svg aria-hidden="true">
@@ -532,7 +532,7 @@ export default function AboutPage() {
                   <Link
                     className="rw-book rw-table__book"
                     href="/our-work#book-24"
-                    aria-label="Whispers of Time by Aggee Andrew Vetiaque, view in Our Work"
+                    aria-label="SIX SHORT STORIES by Patricia Stinson, view in Our Work"
                     data-rw-book="24"
                     style={{ '--s': '0.74', '--z': '11' }}
                   >
@@ -542,16 +542,16 @@ export default function AboutPage() {
                         src="/assets/images/books/book-24.png"
                         width="600"
                         height="1024"
-                        alt="Whispers of Time: Poetry · Humor · Mystery · Adventure by Aggee Andrew Vetiaque, shown as a hardcover book"
+                        alt="SIX SHORT STORIES: Poetry · Humor · Mystery · Adventure by Patricia Stinson, shown as a hardcover book"
                         loading="lazy"
                         decoding="async"
                       />
                       <span className="rw-book__floor" aria-hidden="true" />
                     </span>
                     <span className="rw-cap" aria-hidden="true">
-                      <span className="rw-cap__t">Whispers of Time</span>
+                      <span className="rw-cap__t">SIX SHORT STORIES</span>
                       <span className="rw-cap__s">Poetry · Humor · Mystery · Adventure</span>
-                      <span className="rw-cap__a">Aggee Andrew Vetiaque</span>
+                      <span className="rw-cap__a">Patricia Stinson</span>
                       <span className="rw-cap__go">
                         {'View book '}
                         <svg aria-hidden="true">

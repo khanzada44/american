@@ -148,7 +148,7 @@ export default function BookEditingPage() {
                 </div>
                 <p className="sv-hero__caption">
                   <span className="label">Published with Publish Your Books Today</span>
-                  <span>The Naked Truth of AI 2.0 by Douglas Hawes</span>
+                  <span>The Loan Signing  by Michelle James</span>
                 </p>
                 <span className="sv-hero__num" aria-hidden="true">
                   02

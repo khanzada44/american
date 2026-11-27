@@ -212,11 +212,11 @@ export default function HomePage() {
                     </button>
                   </li>
                   <li>
-                    <button type="button" className="minibook" data-open-book="Whispers of Time">
+                    <button type="button" className="minibook" data-open-book="SIX SHORT STORIES">
                       <Image loading="eager" src="/assets/images/books/cover-24.webp" width="440" height="660" alt="" />
                       <span>
-                        <b>Whispers of Time</b>
-                        <small>Aggee Andrew Vetiaque</small>
+                        <b>SIX SHORT STORIES</b>
+                        <small>Patricia Stinson</small>
                       </span>
                       <i aria-hidden="true">
                         <svg>
@@ -395,7 +395,7 @@ export default function HomePage() {
                         src="/assets/images/books/book-6.png"
                         width="600"
                         height="1024"
-                        alt="Cover of HOW BUILD A FUTURE by Dr. Lee Roy Jefferson"
+                        alt="Cover of HOW BUILD A FUTURE by Robert Wallace"
                         decoding="async"
                       />
                     </div>
@@ -418,7 +418,7 @@ export default function HomePage() {
                     </p>
                     <p className="stage__book-author">
                       {'by '}
-                      <span data-feature-author="">Dr. Lee Roy Jefferson</span>
+                      <span data-feature-author="">Robert Wallace</span>
                     </p>
                   </div>{' '}
                   <button className="stage__view" type="button" data-feature-view="" aria-label="View featured book">
@@ -522,7 +522,7 @@ export default function HomePage() {
             data-book=""
             data-title="HOW BUILD A FUTURE"
             data-sub="Reflection at 80"
-            data-author="Dr. Lee Roy Jefferson"
+            data-author="Robert Wallace"
             data-genre="Faith"
             data-cover="/assets/images/books/book-6.png"
             data-id="06"
@@ -533,7 +533,7 @@ export default function HomePage() {
             data-book=""
             data-title="Bloom Through the Pain"
             data-sub="A 90-Day Affirmation and Reflection Journal"
-            data-author="Kadeisha Corbin"
+            data-author="Richard Thomas"
             data-genre="Self-Help"
             data-cover="/assets/images/books/book-20.png"
             data-id="20"
@@ -542,20 +542,20 @@ export default function HomePage() {
           />
           <li
             data-book=""
-            data-title="The Naked Truth of AI 2.0"
+            data-title="The Loan Signing "
             data-sub="Divine Intervention"
-            data-author="Douglas Hawes"
+            data-author="Michelle James"
             data-genre="Faith"
             data-cover="/assets/images/books/book-05.png"
             data-id="05"
-            data-desc="As artificial intelligence advances at extraordinary speed, The Naked Truth of AI 2.0: Divine Intervention asks a deeper question: Can technology provide knowledge without understanding the truth behind our existence?"
+            data-desc="As artificial intelligence advances at extraordinary speed, The Loan Signing : Divine Intervention asks a deeper question: Can technology provide knowledge without understanding the truth behind our existence?"
             data-featured=""
           />
           <li
             data-book=""
             data-title="WHO IS GOD ?"
             data-sub="Beyond Belief, Beyond Illusion"
-            data-author="Emilio Degher"
+            data-author="David B. Virts"
             data-genre={'Philosophy & Spirituality'}
             data-cover="/assets/images/books/book-12.png"
             data-id="12"
@@ -565,7 +565,7 @@ export default function HomePage() {
             data-book=""
             data-title="HOW BUILD A FUTURE"
             data-sub="La Penetración Rusa en Venezuela"
-            data-author="Virginia Perez Perez"
+            data-author="Robert Wallace"
             data-genre="Politics"
             data-cover="/assets/images/books/book-25.png"
             data-id="25"
@@ -601,9 +601,9 @@ export default function HomePage() {
           />
           <li
             data-book=""
-            data-title="Whispers of Time"
+            data-title="SIX SHORT STORIES"
             data-sub="Poetry · Humor · Mystery · Adventure"
-            data-author="Aggee Andrew Vetiaque"
+            data-author="Patricia Stinson"
             data-genre="Poetry"
             data-cover="/assets/images/books/book-24.png"
             data-id="24"
@@ -819,7 +819,7 @@ export default function HomePage() {
                 <Link
                   className="rw-book rw-table__book is-lead"
                   href="/our-work#lee-roy-jefferson"
-                  aria-label="HOW BUILD A FUTURE by Dr. Lee Roy Jefferson, view in Our Work"
+                  aria-label="HOW BUILD A FUTURE by Robert Wallace, view in Our Work"
                   data-rw-book="06"
                   style={{ '--s': '1', '--z': '20' }}
                 >
@@ -829,7 +829,7 @@ export default function HomePage() {
                       src="/assets/images/books/book-6.png"
                       width="600"
                       height="1024"
-                      alt="HOW BUILD A FUTURE: Reflection at 80 by Dr. Lee Roy Jefferson, shown as a hardcover book"
+                      alt="HOW BUILD A FUTURE: Reflection at 80 by Robert Wallace, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
@@ -838,7 +838,7 @@ export default function HomePage() {
                   <span className="rw-cap" aria-hidden="true">
                     <span className="rw-cap__t">HOW BUILD A FUTURE</span>
                     <span className="rw-cap__s">Reflection at 80</span>
-                    <span className="rw-cap__a">Dr. Lee Roy Jefferson</span>
+                    <span className="rw-cap__a">Robert Wallace</span>
                     <span className="rw-cap__go">
                       {'View book '}
                       <svg aria-hidden="true">
@@ -850,7 +850,7 @@ export default function HomePage() {
                 <Link
                   className="rw-book rw-table__book"
                   href="/our-work#virginia-perez-perez"
-                  aria-label="HOW BUILD A FUTURE by Virginia Perez Perez, view in Our Work"
+                  aria-label="HOW BUILD A FUTURE by Robert Wallace, view in Our Work"
                   data-rw-book="25"
                   style={{ '--s': '0.74', '--z': '11' }}
                 >
@@ -860,7 +860,7 @@ export default function HomePage() {
                       src="/assets/images/books/book-25.webp"
                       width="600"
                       height="1024"
-                      alt="HOW BUILD A FUTURE: La Penetración Rusa en Venezuela by Virginia Perez Perez, shown as a hardcover book"
+                      alt="HOW BUILD A FUTURE: La Penetración Rusa en Venezuela by Robert Wallace, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
@@ -869,7 +869,7 @@ export default function HomePage() {
                   <span className="rw-cap" aria-hidden="true">
                     <span className="rw-cap__t">HOW BUILD A FUTURE</span>
                     <span className="rw-cap__s">La Penetración Rusa en Venezuela</span>
-                    <span className="rw-cap__a">Virginia Perez Perez</span>
+                    <span className="rw-cap__a">Robert Wallace</span>
                     <span className="rw-cap__go">
                       {'View book '}
                       <svg aria-hidden="true">
@@ -881,7 +881,7 @@ export default function HomePage() {
                 <Link
                   className="rw-book rw-table__book"
                   href="/our-work#book-24"
-                  aria-label="Whispers of Time by Aggee Andrew Vetiaque, view in Our Work"
+                  aria-label="SIX SHORT STORIES by Patricia Stinson, view in Our Work"
                   data-rw-book="24"
                   style={{ '--s': '0.62', '--z': '12' }}
                 >
@@ -891,16 +891,16 @@ export default function HomePage() {
                       src="/assets/images/books/book-24.png"
                       width="360"
                       height="614"
-                      alt="Whispers of Time: Poetry · Humor · Mystery · Adventure by Aggee Andrew Vetiaque, shown as a hardcover book"
+                      alt="SIX SHORT STORIES: Poetry · Humor · Mystery · Adventure by Patricia Stinson, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
                     <span className="rw-book__floor" aria-hidden="true" />
                   </span>
                   <span className="rw-cap" aria-hidden="true">
-                    <span className="rw-cap__t">Whispers of Time</span>
+                    <span className="rw-cap__t">SIX SHORT STORIES</span>
                     <span className="rw-cap__s">Poetry · Humor · Mystery · Adventure</span>
-                    <span className="rw-cap__a">Aggee Andrew Vetiaque</span>
+                    <span className="rw-cap__a">Patricia Stinson</span>
                     <span className="rw-cap__go">
                       {'View book '}
                       <svg aria-hidden="true">

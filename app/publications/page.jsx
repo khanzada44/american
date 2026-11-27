@@ -118,7 +118,7 @@ export default function PublicationsPage() {
                   type="button"
                   className="pc-book pc-hero__book pc-hero__book--3"
                   data-pc-open="24"
-                  aria-label="View Whispers of Time by Aggee Andrew Vetiaque"
+                  aria-label="View SIX SHORT STORIES by Patricia Stinson"
                   style={{ '--s': '0.6' }}
                 >
                   <span className="pc-book__obj">
@@ -142,7 +142,7 @@ export default function PublicationsPage() {
                   type="button"
                   className="pc-book pc-hero__book pc-hero__book--1"
                   data-pc-open="13"
-                  aria-label="View The Exodus Code by Emilio Degher"
+                  aria-label="View The Exodus Code by David B. Virts"
                   style={{ '--s': '0.86' }}
                 >
                   <span className="pc-book__obj">
@@ -178,7 +178,7 @@ export default function PublicationsPage() {
                   type="button"
                   className="pc-book pc-hero__book pc-hero__book--2"
                   data-pc-open="20"
-                  aria-label="View Bloom Through the Pain by Kadeisha Corbin"
+                  aria-label="View Bloom Through the Pain by Richard Thomas"
                   style={{ '--s': '0.7' }}
                 >
                   <span className="pc-book__obj">
@@ -282,7 +282,7 @@ export default function PublicationsPage() {
                       src="/assets/images/books/book-6.png"
                       width="600"
                       height="1024"
-                      alt="Cover of HOW BUILD A FUTURE by Dr. Lee Roy Jefferson"
+                      alt="Cover of HOW BUILD A FUTURE by Robert Wallace"
                       decoding="async"
                     />
                   </div>
@@ -308,7 +308,7 @@ export default function PublicationsPage() {
                 </p>
                 <p className="pub-feature__author">
                   {'by '}
-                  <span data-pf-author="">Dr. Lee Roy Jefferson</span>
+                  <span data-pf-author="">Robert Wallace</span>
                 </p>{' '}
                 <button className="pub-link" type="button" data-pf-view="">
                   {'View publication '}
@@ -379,7 +379,7 @@ export default function PublicationsPage() {
                         type="button"
                         className="pub-feature__thumb"
                         data-pf-go="2"
-                        aria-label="Show The Naked Truth of AI 2.0"
+                        aria-label="Show The Loan Signing "
                       >
                         <Image
                           src="/assets/images/books/cover-05.webp"
@@ -517,7 +517,7 @@ export default function PublicationsPage() {
                   data-book=""
                   data-title="HOW BUILD A FUTURE"
                   data-sub="Reflection at 80"
-                  data-author="Dr. Lee Roy Jefferson"
+                  data-author="Robert Wallace"
                   data-genre="Faith"
                   data-cover="/assets/images/books/book-6.png"
                   data-id="06"
@@ -528,7 +528,7 @@ export default function PublicationsPage() {
                   <button
                     className="bcard__btn pub-book__btn"
                     type="button"
-                    aria-label="View HOW BUILD A FUTURE by Dr. Lee Roy Jefferson"
+                    aria-label="View HOW BUILD A FUTURE by Robert Wallace"
                   >
                     <span className="pub-book__obj">
                       <span className="book3d is-mockup pub-book__3d">
@@ -549,7 +549,7 @@ export default function PublicationsPage() {
                     </span>{' '}
                     <span className="pub-book__info">
                       <span className="pub-book__title">HOW BUILD A FUTURE</span>
-                      <span className="pub-book__author">Dr. Lee Roy Jefferson</span>
+                      <span className="pub-book__author">Robert Wallace</span>
                       <span className="pub-book__genre">Faith</span>
                       <span className="pub-book__go">
                         {'View book '}
@@ -565,7 +565,7 @@ export default function PublicationsPage() {
                   data-book=""
                   data-title="Bloom Through the Pain"
                   data-sub="A 90-Day Affirmation and Reflection Journal"
-                  data-author="Kadeisha Corbin"
+                  data-author="Richard Thomas"
                   data-genre="Self-Help"
                   data-cover="/assets/images/books/book-20.png"
                   data-id="20"
@@ -576,7 +576,7 @@ export default function PublicationsPage() {
                   <button
                     className="bcard__btn pub-book__btn"
                     type="button"
-                    aria-label="View Bloom Through the Pain by Kadeisha Corbin"
+                    aria-label="View Bloom Through the Pain by Richard Thomas"
                   >
                     <span className="pub-book__obj">
                       <span className="book3d is-mockup pub-book__3d">
@@ -597,7 +597,7 @@ export default function PublicationsPage() {
                     </span>{' '}
                     <span className="pub-book__info">
                       <span className="pub-book__title">Bloom Through the Pain</span>
-                      <span className="pub-book__author">Kadeisha Corbin</span>
+                      <span className="pub-book__author">Richard Thomas</span>
                       <span className="pub-book__genre">Self Help</span>
                       <span className="pub-book__go">
                         {'View book '}
@@ -611,20 +611,20 @@ export default function PublicationsPage() {
                 <li
                   className="bcard pub-book"
                   data-book=""
-                  data-title="The Naked Truth of AI 2.0"
+                  data-title="The Loan Signing "
                   data-sub="Divine Intervention"
-                  data-author="Douglas Hawes"
+                  data-author="Michelle James"
                   data-genre="Faith"
                   data-cover="/assets/images/books/book-05.png"
                   data-id="05"
-                  data-desc="As artificial intelligence advances at extraordinary speed, The Naked Truth of AI 2.0: Divine Intervention asks a deeper question: Can technology provide knowledge without understanding the truth behind our existence?"
+                  data-desc="As artificial intelligence advances at extraordinary speed, The Loan Signing : Divine Intervention asks a deeper question: Can technology provide knowledge without understanding the truth behind our existence?"
                   data-featured=""
                   style={{ '--b': '198px' }}
                 >
                   <button
                     className="bcard__btn pub-book__btn"
                     type="button"
-                    aria-label="View The Naked Truth of AI 2.0 by Douglas Hawes"
+                    aria-label="View The Loan Signing  by Michelle James"
                   >
                     <span className="pub-book__obj">
                       <span className="book3d is-mockup pub-book__3d">
@@ -644,8 +644,8 @@ export default function PublicationsPage() {
                       </span>
                     </span>{' '}
                     <span className="pub-book__info">
-                      <span className="pub-book__title">The Naked Truth of AI 2.0</span>
-                      <span className="pub-book__author">Douglas Hawes</span>
+                      <span className="pub-book__title">The Loan Signing </span>
+                      <span className="pub-book__author">Michelle James</span>
                       <span className="pub-book__genre">Faith</span>
                       <span className="pub-book__go">
                         {'View book '}
@@ -661,7 +661,7 @@ export default function PublicationsPage() {
                   data-book=""
                   data-title="WHO IS GOD ?"
                   data-sub="Beyond Belief, Beyond Illusion"
-                  data-author="Emilio Degher"
+                  data-author="David B. Virts"
                   data-genre={'Philosophy & Spirituality'}
                   data-cover="/assets/images/books/book-12.png"
                   data-id="12"
@@ -671,7 +671,7 @@ export default function PublicationsPage() {
                   <button
                     className="bcard__btn pub-book__btn"
                     type="button"
-                    aria-label="View WHO IS GOD ? by Emilio Degher"
+                    aria-label="View WHO IS GOD ? by David B. Virts"
                   >
                     <span className="pub-book__obj">
                       <span className="book3d is-mockup pub-book__3d">
@@ -692,7 +692,7 @@ export default function PublicationsPage() {
                     </span>{' '}
                     <span className="pub-book__info">
                       <span className="pub-book__title">WHO IS GOD ?</span>
-                      <span className="pub-book__author">Emilio Degher</span>
+                      <span className="pub-book__author">David B. Virts</span>
                       <span className="pub-book__genre">{'Philosophy & Spirituality'}</span>
                       <span className="pub-book__go">
                         {'View book '}
@@ -708,7 +708,7 @@ export default function PublicationsPage() {
                   data-book=""
                   data-title="HOW BUILD A FUTURE"
                   data-sub="La Penetración Rusa en Venezuela"
-                  data-author="Virginia Perez Perez"
+                  data-author="Robert Wallace"
                   data-genre="Politics"
                   data-cover="/assets/images/books/book-25.png"
                   data-id="25"
@@ -719,7 +719,7 @@ export default function PublicationsPage() {
                   <button
                     className="bcard__btn pub-book__btn"
                     type="button"
-                    aria-label="View HOW BUILD A FUTURE by Virginia Perez Perez"
+                    aria-label="View HOW BUILD A FUTURE by Robert Wallace"
                   >
                     <span className="pub-book__obj">
                       <span className="book3d is-mockup pub-book__3d">
@@ -740,7 +740,7 @@ export default function PublicationsPage() {
                     </span>{' '}
                     <span className="pub-book__info">
                       <span className="pub-book__title">HOW BUILD A FUTURE</span>
-                      <span className="pub-book__author">Virginia Perez Perez</span>
+                      <span className="pub-book__author">Robert Wallace</span>
                       <span className="pub-book__genre">Politics</span>
                       <span className="pub-book__go">
                         {'View book '}
@@ -1030,7 +1030,7 @@ export default function PublicationsPage() {
                   data-book=""
                   data-title="Eternal Coherence"
                   data-sub="Jesus Christ and the Architecture of Reality"
-                  data-author="Emilio Degher"
+                  data-author="David B. Virts"
                   data-genre={'Philosophy & Spirituality'}
                   data-cover="/assets/images/books/book-09.webp"
                   data-id="09"
@@ -1039,7 +1039,7 @@ export default function PublicationsPage() {
                   <button
                     className="bcard__btn pub-book__btn"
                     type="button"
-                    aria-label="View Eternal Coherence by Emilio Degher"
+                    aria-label="View Eternal Coherence by David B. Virts"
                   >
                     <span className="pub-book__obj">
                       <span className="book3d is-mockup pub-book__3d">
@@ -1060,7 +1060,7 @@ export default function PublicationsPage() {
                     </span>{' '}
                     <span className="pub-book__info">
                       <span className="pub-book__title">Eternal Coherence</span>
-                      <span className="pub-book__author">Emilio Degher</span>
+                      <span className="pub-book__author">David B. Virts</span>
                       <span className="pub-book__genre">{'Philosophy & Spirituality'}</span>
                       <span className="pub-book__go">
                         {'View book '}
@@ -1076,7 +1076,7 @@ export default function PublicationsPage() {
                   data-book=""
                   data-title="The Awakening of Thought"
                   data-sub=""
-                  data-author="Emilio Degher"
+                  data-author="David B. Virts"
                   data-genre={'Philosophy & Spirituality'}
                   data-cover="/assets/images/books/book-10.webp"
                   data-id="10"
@@ -1085,7 +1085,7 @@ export default function PublicationsPage() {
                   <button
                     className="bcard__btn pub-book__btn"
                     type="button"
-                    aria-label="View The Awakening of Thought by Emilio Degher"
+                    aria-label="View The Awakening of Thought by David B. Virts"
                   >
                     <span className="pub-book__obj">
                       <span className="book3d is-mockup pub-book__3d">
@@ -1106,7 +1106,7 @@ export default function PublicationsPage() {
                     </span>{' '}
                     <span className="pub-book__info">
                       <span className="pub-book__title">The Awakening of Thought</span>
-                      <span className="pub-book__author">Emilio Degher</span>
+                      <span className="pub-book__author">David B. Virts</span>
                       <span className="pub-book__genre">{'Philosophy & Spirituality'}</span>
                       <span className="pub-book__go">
                         {'View book '}
@@ -1122,7 +1122,7 @@ export default function PublicationsPage() {
                   data-book=""
                   data-title="A Life Led from the Heart"
                   data-sub=""
-                  data-author="Emilio Degher"
+                  data-author="David B. Virts"
                   data-genre={'Philosophy & Spirituality'}
                   data-cover="/assets/images/books/book-11.webp"
                   data-id="11"
@@ -1131,7 +1131,7 @@ export default function PublicationsPage() {
                   <button
                     className="bcard__btn pub-book__btn"
                     type="button"
-                    aria-label="View A Life Led from the Heart by Emilio Degher"
+                    aria-label="View A Life Led from the Heart by David B. Virts"
                   >
                     <span className="pub-book__obj">
                       <span className="book3d is-mockup pub-book__3d">
@@ -1152,7 +1152,7 @@ export default function PublicationsPage() {
                     </span>{' '}
                     <span className="pub-book__info">
                       <span className="pub-book__title">A Life Led from the Heart</span>
-                      <span className="pub-book__author">Emilio Degher</span>
+                      <span className="pub-book__author">David B. Virts</span>
                       <span className="pub-book__genre">{'Philosophy & Spirituality'}</span>
                       <span className="pub-book__go">
                         {'View book '}
@@ -1168,7 +1168,7 @@ export default function PublicationsPage() {
                   data-book=""
                   data-title="The Exodus Code"
                   data-sub="Truth Beyond Time"
-                  data-author="Emilio Degher"
+                  data-author="David B. Virts"
                   data-genre={'Philosophy & Spirituality'}
                   data-cover="/assets/images/books/book-13.webp"
                   data-id="13"
@@ -1177,7 +1177,7 @@ export default function PublicationsPage() {
                   <button
                     className="bcard__btn pub-book__btn"
                     type="button"
-                    aria-label="View The Exodus Code by Emilio Degher"
+                    aria-label="View The Exodus Code by David B. Virts"
                   >
                     <span className="pub-book__obj">
                       <span className="book3d is-mockup pub-book__3d">
@@ -1198,7 +1198,7 @@ export default function PublicationsPage() {
                     </span>{' '}
                     <span className="pub-book__info">
                       <span className="pub-book__title">The Exodus Code</span>
-                      <span className="pub-book__author">Emilio Degher</span>
+                      <span className="pub-book__author">David B. Virts</span>
                       <span className="pub-book__genre">{'Philosophy & Spirituality'}</span>
                       <span className="pub-book__go">
                         {'View book '}
@@ -1214,7 +1214,7 @@ export default function PublicationsPage() {
                   data-book=""
                   data-title="The Awakening of Memory"
                   data-sub=""
-                  data-author="Emilio Degher"
+                  data-author="David B. Virts"
                   data-genre={'Philosophy & Spirituality'}
                   data-cover="/assets/images/books/book-14.webp"
                   data-id="14"
@@ -1223,7 +1223,7 @@ export default function PublicationsPage() {
                   <button
                     className="bcard__btn pub-book__btn"
                     type="button"
-                    aria-label="View The Awakening of Memory by Emilio Degher"
+                    aria-label="View The Awakening of Memory by David B. Virts"
                   >
                     <span className="pub-book__obj">
                       <span className="book3d is-mockup pub-book__3d">
@@ -1244,7 +1244,7 @@ export default function PublicationsPage() {
                     </span>{' '}
                     <span className="pub-book__info">
                       <span className="pub-book__title">The Awakening of Memory</span>
-                      <span className="pub-book__author">Emilio Degher</span>
+                      <span className="pub-book__author">David B. Virts</span>
                       <span className="pub-book__genre">{'Philosophy & Spirituality'}</span>
                       <span className="pub-book__go">
                         {'View book '}
@@ -1260,7 +1260,7 @@ export default function PublicationsPage() {
                   data-book=""
                   data-title="The Sole"
                   data-sub="On the Soul, the Heavens, and the Silence Between the Creator and the Listener"
-                  data-author="Emilio Degher"
+                  data-author="David B. Virts"
                   data-genre={'Philosophy & Spirituality'}
                   data-cover="/assets/images/books/book-15.webp"
                   data-id="15"
@@ -1269,7 +1269,7 @@ export default function PublicationsPage() {
                   <button
                     className="bcard__btn pub-book__btn"
                     type="button"
-                    aria-label="View The Sole by Emilio Degher"
+                    aria-label="View The Sole by David B. Virts"
                   >
                     <span className="pub-book__obj">
                       <span className="book3d is-mockup pub-book__3d">
@@ -1290,7 +1290,7 @@ export default function PublicationsPage() {
                     </span>{' '}
                     <span className="pub-book__info">
                       <span className="pub-book__title">The Sole</span>
-                      <span className="pub-book__author">Emilio Degher</span>
+                      <span className="pub-book__author">David B. Virts</span>
                       <span className="pub-book__genre">{'Philosophy & Spirituality'}</span>
                       <span className="pub-book__go">
                         {'View book '}
@@ -1622,9 +1622,9 @@ export default function PublicationsPage() {
                 <li
                   className="bcard pub-book"
                   data-book=""
-                  data-title="Whispers of Time"
+                  data-title="SIX SHORT STORIES"
                   data-sub="Poetry · Humor · Mystery · Adventure"
-                  data-author="Aggee Andrew Vetiaque"
+                  data-author="Patricia Stinson"
                   data-genre="Poetry"
                   data-cover="/assets/images/books/book-24.png"
                   data-id="24"
@@ -1633,7 +1633,7 @@ export default function PublicationsPage() {
                   <button
                     className="bcard__btn pub-book__btn"
                     type="button"
-                    aria-label="View Whispers of Time by Aggee Andrew Vetiaque"
+                    aria-label="View SIX SHORT STORIES by Patricia Stinson"
                   >
                     <span className="pub-book__obj">
                       <span className="book3d is-mockup pub-book__3d">
@@ -1653,8 +1653,8 @@ export default function PublicationsPage() {
                       </span>
                     </span>{' '}
                     <span className="pub-book__info">
-                      <span className="pub-book__title">Whispers of Time</span>
-                      <span className="pub-book__author">Aggee Andrew Vetiaque</span>
+                      <span className="pub-book__title">SIX SHORT STORIES</span>
+                      <span className="pub-book__author">Patricia Stinson</span>
                       <span className="pub-book__genre">Poetry</span>
                       <span className="pub-book__go">
                         {'View book '}
@@ -1911,7 +1911,7 @@ export default function PublicationsPage() {
                     type="button"
                     className="pc-book is-lead"
                     data-pc-open="12"
-                    aria-label="View WHO IS GOD ? by Emilio Degher"
+                    aria-label="View WHO IS GOD ? by David B. Virts"
                     style={{ '--s': '1' }}
                   >
                     <span className="pc-book__obj">
@@ -1927,7 +1927,7 @@ export default function PublicationsPage() {
                     </span>
                     <span className="pc-book__cap">
                       <span className="pc-book__t">WHO IS GOD ?</span>
-                      <span className="pc-book__a">Emilio Degher</span>
+                      <span className="pc-book__a">David B. Virts</span>
                     </span>
                   </button>
                   <button
@@ -1957,7 +1957,7 @@ export default function PublicationsPage() {
                     type="button"
                     className="pc-book "
                     data-pc-open="09"
-                    aria-label="View Eternal Coherence by Emilio Degher"
+                    aria-label="View Eternal Coherence by David B. Virts"
                     style={{ '--s': '0.6' }}
                   >
                     <span className="pc-book__obj">
@@ -1973,14 +1973,14 @@ export default function PublicationsPage() {
                     </span>
                     <span className="pc-book__cap">
                       <span className="pc-book__t">Eternal Coherence</span>
-                      <span className="pc-book__a">Emilio Degher</span>
+                      <span className="pc-book__a">David B. Virts</span>
                     </span>
                   </button>
                   <button
                     type="button"
                     className="pc-book "
                     data-pc-open="10"
-                    aria-label="View The Awakening of Thought by Emilio Degher"
+                    aria-label="View The Awakening of Thought by David B. Virts"
                     style={{ '--s': '0.66' }}
                   >
                     <span className="pc-book__obj">
@@ -1996,14 +1996,14 @@ export default function PublicationsPage() {
                     </span>
                     <span className="pc-book__cap">
                       <span className="pc-book__t">The Awakening of Thought</span>
-                      <span className="pc-book__a">Emilio Degher</span>
+                      <span className="pc-book__a">David B. Virts</span>
                     </span>
                   </button>
                   <button
                     type="button"
                     className="pc-book "
                     data-pc-open="11"
-                    aria-label="View A Life Led from the Heart by Emilio Degher"
+                    aria-label="View A Life Led from the Heart by David B. Virts"
                     style={{ '--s': '0.56' }}
                   >
                     <span className="pc-book__obj">
@@ -2019,14 +2019,14 @@ export default function PublicationsPage() {
                     </span>
                     <span className="pc-book__cap">
                       <span className="pc-book__t">A Life Led from the Heart</span>
-                      <span className="pc-book__a">Emilio Degher</span>
+                      <span className="pc-book__a">David B. Virts</span>
                     </span>
                   </button>
                   <button
                     type="button"
                     className="pc-book "
                     data-pc-open="13"
-                    aria-label="View The Exodus Code by Emilio Degher"
+                    aria-label="View The Exodus Code by David B. Virts"
                     style={{ '--s': '0.62' }}
                   >
                     <span className="pc-book__obj">
@@ -2042,14 +2042,14 @@ export default function PublicationsPage() {
                     </span>
                     <span className="pc-book__cap">
                       <span className="pc-book__t">The Exodus Code</span>
-                      <span className="pc-book__a">Emilio Degher</span>
+                      <span className="pc-book__a">David B. Virts</span>
                     </span>
                   </button>
                   <button
                     type="button"
                     className="pc-book "
                     data-pc-open="14"
-                    aria-label="View The Awakening of Memory by Emilio Degher"
+                    aria-label="View The Awakening of Memory by David B. Virts"
                     style={{ '--s': '0.58' }}
                   >
                     <span className="pc-book__obj">
@@ -2065,14 +2065,14 @@ export default function PublicationsPage() {
                     </span>
                     <span className="pc-book__cap">
                       <span className="pc-book__t">The Awakening of Memory</span>
-                      <span className="pc-book__a">Emilio Degher</span>
+                      <span className="pc-book__a">David B. Virts</span>
                     </span>
                   </button>
                   <button
                     type="button"
                     className="pc-book "
                     data-pc-open="15"
-                    aria-label="View The Sole by Emilio Degher"
+                    aria-label="View The Sole by David B. Virts"
                     style={{ '--s': '0.64' }}
                   >
                     <span className="pc-book__obj">
@@ -2088,7 +2088,7 @@ export default function PublicationsPage() {
                     </span>
                     <span className="pc-book__cap">
                       <span className="pc-book__t">The Sole</span>
-                      <span className="pc-book__a">Emilio Degher</span>
+                      <span className="pc-book__a">David B. Virts</span>
                     </span>
                   </button>
                 </div>
@@ -2114,7 +2114,7 @@ export default function PublicationsPage() {
                     type="button"
                     className="pc-book is-lead"
                     data-pc-open="25"
-                    aria-label="View HOW BUILD A FUTURE by Virginia Perez Perez"
+                    aria-label="View HOW BUILD A FUTURE by Robert Wallace"
                     style={{ '--s': '1' }}
                   >
                     <span className="pc-book__obj">
@@ -2130,7 +2130,7 @@ export default function PublicationsPage() {
                     </span>
                     <span className="pc-book__cap">
                       <span className="pc-book__t">HOW BUILD A FUTURE</span>
-                      <span className="pc-book__a">Virginia Perez Perez</span>
+                      <span className="pc-book__a">Robert Wallace</span>
                     </span>
                   </button>
                   <button
@@ -2417,7 +2417,7 @@ export default function PublicationsPage() {
                       type="button"
                       className="pc-thumb"
                       data-pc-open="05"
-                      aria-label="View The Naked Truth of AI 2.0"
+                      aria-label="View The Loan Signing "
                     >
                       <Image
                         src="/assets/images/books/cover-05.webp"
@@ -2460,7 +2460,7 @@ export default function PublicationsPage() {
                   </li>
                 </ul>
                 <p className="pc-crow__titles">
-                  The Naked Truth of AI 2.0 · HOW BUILD A FUTURE · Rise Up Under the Blood
+                  The Loan Signing  · HOW BUILD A FUTURE · Rise Up Under the Blood
                 </p>{' '}
                 <button
                   type="button"
@@ -2550,7 +2550,7 @@ export default function PublicationsPage() {
                     </button>
                   </li>
                   <li>
-                    <button type="button" className="pc-thumb" data-pc-open="24" aria-label="View Whispers of Time">
+                    <button type="button" className="pc-thumb" data-pc-open="24" aria-label="View SIX SHORT STORIES">
                       <Image
                         src="/assets/images/books/cover-24.webp"
                         width="440"
@@ -2562,7 +2562,7 @@ export default function PublicationsPage() {
                     </button>
                   </li>
                 </ul>
-                <p className="pc-crow__titles">Poems of Life · Whispers of Time</p>{' '}
+                <p className="pc-crow__titles">Poems of Life · SIX SHORT STORIES</p>{' '}
                 <button
                   type="button"
                   className="pc-link pc-crow__go"
@@ -2654,7 +2654,7 @@ export default function PublicationsPage() {
                     data-pc-open="06"
                     data-pc-peek="/assets/images/books/book-6.png"
                     data-pc-no="01"
-                    aria-label="View HOW BUILD A FUTURE: Reflection at 80 by Dr. Lee Roy Jefferson"
+                    aria-label="View HOW BUILD A FUTURE: Reflection at 80 by Robert Wallace"
                   >
                     <span className="pc-row__no">01</span>
                     <span className="pc-row__thumb" aria-hidden="true">
@@ -2671,7 +2671,7 @@ export default function PublicationsPage() {
                       HOW BUILD A FUTURE
                       <small>Reflection at 80</small>
                     </span>
-                    <span className="pc-row__author">Dr. Lee Roy Jefferson</span>
+                    <span className="pc-row__author">Robert Wallace</span>
                     <span className="pc-row__cat">Faith</span>
                     <span className="pc-row__go" aria-hidden="true">
                       <svg aria-hidden="true">
@@ -2687,7 +2687,7 @@ export default function PublicationsPage() {
                     data-pc-open="20"
                     data-pc-peek="/assets/images/books/book-20.png"
                     data-pc-no="02"
-                    aria-label="View Bloom Through the Pain: A 90 Day Affirmation and Reflection Journal by Kadeisha Corbin"
+                    aria-label="View Bloom Through the Pain: A 90 Day Affirmation and Reflection Journal by Richard Thomas"
                   >
                     <span className="pc-row__no">02</span>
                     <span className="pc-row__thumb" aria-hidden="true">
@@ -2704,7 +2704,7 @@ export default function PublicationsPage() {
                       Bloom Through the Pain
                       <small>A 90 Day Affirmation and Reflection Journal</small>
                     </span>
-                    <span className="pc-row__author">Kadeisha Corbin</span>
+                    <span className="pc-row__author">Richard Thomas</span>
                     <span className="pc-row__cat">Self Help</span>
                     <span className="pc-row__go" aria-hidden="true">
                       <svg aria-hidden="true">
@@ -2720,7 +2720,7 @@ export default function PublicationsPage() {
                     data-pc-open="05"
                     data-pc-peek="/assets/images/books/book-05.png"
                     data-pc-no="03"
-                    aria-label="View The Naked Truth of AI 2.0: Divine Intervention by Douglas Hawes"
+                    aria-label="View The Loan Signing : Divine Intervention by Michelle James"
                   >
                     <span className="pc-row__no">03</span>
                     <span className="pc-row__thumb" aria-hidden="true">
@@ -2734,10 +2734,10 @@ export default function PublicationsPage() {
                       />
                     </span>
                     <span className="pc-row__title">
-                      The Naked Truth of AI 2.0
+                      The Loan Signing 
                       <small>Divine Intervention</small>
                     </span>
-                    <span className="pc-row__author">Douglas Hawes</span>
+                    <span className="pc-row__author">Michelle James</span>
                     <span className="pc-row__cat">Faith</span>
                     <span className="pc-row__go" aria-hidden="true">
                       <svg aria-hidden="true">
@@ -2753,7 +2753,7 @@ export default function PublicationsPage() {
                     data-pc-open="12"
                     data-pc-peek="/assets/images/books/book-12.png"
                     data-pc-no="04"
-                    aria-label="View WHO IS GOD ?: Beyond Belief, Beyond Illusion by Emilio Degher"
+                    aria-label="View WHO IS GOD ?: Beyond Belief, Beyond Illusion by David B. Virts"
                   >
                     <span className="pc-row__no">04</span>
                     <span className="pc-row__thumb" aria-hidden="true">
@@ -2770,7 +2770,7 @@ export default function PublicationsPage() {
                       WHO IS GOD ?
                       <small>Beyond Belief, Beyond Illusion</small>
                     </span>
-                    <span className="pc-row__author">Emilio Degher</span>
+                    <span className="pc-row__author">David B. Virts</span>
                     <span className="pc-row__cat">{'Philosophy & Spirituality'}</span>
                     <span className="pc-row__go" aria-hidden="true">
                       <svg aria-hidden="true">
@@ -2786,7 +2786,7 @@ export default function PublicationsPage() {
                     data-pc-open="25"
                     data-pc-peek="/assets/images/books/book-25.png"
                     data-pc-no="05"
-                    aria-label="View HOW BUILD A FUTURE: La Penetración Rusa en Venezuela by Virginia Perez Perez"
+                    aria-label="View HOW BUILD A FUTURE: La Penetración Rusa en Venezuela by Robert Wallace"
                   >
                     <span className="pc-row__no">05</span>
                     <span className="pc-row__thumb" aria-hidden="true">
@@ -2803,7 +2803,7 @@ export default function PublicationsPage() {
                       HOW BUILD A FUTURE
                       <small>La Penetración Rusa en Venezuela</small>
                     </span>
-                    <span className="pc-row__author">Virginia Perez Perez</span>
+                    <span className="pc-row__author">Robert Wallace</span>
                     <span className="pc-row__cat">Politics</span>
                     <span className="pc-row__go" aria-hidden="true">
                       <svg aria-hidden="true">
@@ -3005,7 +3005,7 @@ export default function PublicationsPage() {
                     data-pc-open="09"
                     data-pc-peek="/assets/images/books/book-09.webp"
                     data-pc-no="12"
-                    aria-label="View Eternal Coherence: Jesus Christ and the Architecture of Reality by Emilio Degher"
+                    aria-label="View Eternal Coherence: Jesus Christ and the Architecture of Reality by David B. Virts"
                   >
                     <span className="pc-row__no">12</span>
                     <span className="pc-row__thumb" aria-hidden="true">
@@ -3022,7 +3022,7 @@ export default function PublicationsPage() {
                       Eternal Coherence
                       <small>Jesus Christ and the Architecture of Reality</small>
                     </span>
-                    <span className="pc-row__author">Emilio Degher</span>
+                    <span className="pc-row__author">David B. Virts</span>
                     <span className="pc-row__cat">{'Philosophy & Spirituality'}</span>
                     <span className="pc-row__go" aria-hidden="true">
                       <svg aria-hidden="true">
@@ -3038,7 +3038,7 @@ export default function PublicationsPage() {
                     data-pc-open="10"
                     data-pc-peek="/assets/images/books/book-10.webp"
                     data-pc-no="13"
-                    aria-label="View The Awakening of Thought by Emilio Degher"
+                    aria-label="View The Awakening of Thought by David B. Virts"
                   >
                     <span className="pc-row__no">13</span>
                     <span className="pc-row__thumb" aria-hidden="true">
@@ -3052,7 +3052,7 @@ export default function PublicationsPage() {
                       />
                     </span>
                     <span className="pc-row__title">The Awakening of Thought</span>
-                    <span className="pc-row__author">Emilio Degher</span>
+                    <span className="pc-row__author">David B. Virts</span>
                     <span className="pc-row__cat">{'Philosophy & Spirituality'}</span>
                     <span className="pc-row__go" aria-hidden="true">
                       <svg aria-hidden="true">
@@ -3068,7 +3068,7 @@ export default function PublicationsPage() {
                     data-pc-open="11"
                     data-pc-peek="/assets/images/books/book-11.webp"
                     data-pc-no="14"
-                    aria-label="View A Life Led from the Heart by Emilio Degher"
+                    aria-label="View A Life Led from the Heart by David B. Virts"
                   >
                     <span className="pc-row__no">14</span>
                     <span className="pc-row__thumb" aria-hidden="true">
@@ -3082,7 +3082,7 @@ export default function PublicationsPage() {
                       />
                     </span>
                     <span className="pc-row__title">A Life Led from the Heart</span>
-                    <span className="pc-row__author">Emilio Degher</span>
+                    <span className="pc-row__author">David B. Virts</span>
                     <span className="pc-row__cat">{'Philosophy & Spirituality'}</span>
                     <span className="pc-row__go" aria-hidden="true">
                       <svg aria-hidden="true">
@@ -3098,7 +3098,7 @@ export default function PublicationsPage() {
                     data-pc-open="13"
                     data-pc-peek="/assets/images/books/book-13.webp"
                     data-pc-no="15"
-                    aria-label="View The Exodus Code: Truth Beyond Time by Emilio Degher"
+                    aria-label="View The Exodus Code: Truth Beyond Time by David B. Virts"
                   >
                     <span className="pc-row__no">15</span>
                     <span className="pc-row__thumb" aria-hidden="true">
@@ -3115,7 +3115,7 @@ export default function PublicationsPage() {
                       The Exodus Code
                       <small>Truth Beyond Time</small>
                     </span>
-                    <span className="pc-row__author">Emilio Degher</span>
+                    <span className="pc-row__author">David B. Virts</span>
                     <span className="pc-row__cat">{'Philosophy & Spirituality'}</span>
                     <span className="pc-row__go" aria-hidden="true">
                       <svg aria-hidden="true">
@@ -3131,7 +3131,7 @@ export default function PublicationsPage() {
                     data-pc-open="14"
                     data-pc-peek="/assets/images/books/book-14.webp"
                     data-pc-no="16"
-                    aria-label="View The Awakening of Memory by Emilio Degher"
+                    aria-label="View The Awakening of Memory by David B. Virts"
                   >
                     <span className="pc-row__no">16</span>
                     <span className="pc-row__thumb" aria-hidden="true">
@@ -3145,7 +3145,7 @@ export default function PublicationsPage() {
                       />
                     </span>
                     <span className="pc-row__title">The Awakening of Memory</span>
-                    <span className="pc-row__author">Emilio Degher</span>
+                    <span className="pc-row__author">David B. Virts</span>
                     <span className="pc-row__cat">{'Philosophy & Spirituality'}</span>
                     <span className="pc-row__go" aria-hidden="true">
                       <svg aria-hidden="true">
@@ -3161,7 +3161,7 @@ export default function PublicationsPage() {
                     data-pc-open="15"
                     data-pc-peek="/assets/images/books/book-15.webp"
                     data-pc-no="17"
-                    aria-label="View The Sole: On the Soul, the Heavens, and the Silence Between the Creator and the Listener by Emilio Degher"
+                    aria-label="View The Sole: On the Soul, the Heavens, and the Silence Between the Creator and the Listener by David B. Virts"
                   >
                     <span className="pc-row__no">17</span>
                     <span className="pc-row__thumb" aria-hidden="true">
@@ -3178,7 +3178,7 @@ export default function PublicationsPage() {
                       The Sole
                       <small>On the Soul, the Heavens, and the Silence Between the Creator and the Listener</small>
                     </span>
-                    <span className="pc-row__author">Emilio Degher</span>
+                    <span className="pc-row__author">David B. Virts</span>
                     <span className="pc-row__cat">{'Philosophy & Spirituality'}</span>
                     <span className="pc-row__go" aria-hidden="true">
                       <svg aria-hidden="true">
@@ -3419,7 +3419,7 @@ export default function PublicationsPage() {
                     data-pc-open="24"
                     data-pc-peek="/assets/images/books/book-24.png"
                     data-pc-no="25"
-                    aria-label="View Whispers of Time: Poetry · Humor · Mystery · Adventure by Aggee Andrew Vetiaque"
+                    aria-label="View SIX SHORT STORIES: Poetry · Humor · Mystery · Adventure by Patricia Stinson"
                   >
                     <span className="pc-row__no">25</span>
                     <span className="pc-row__thumb" aria-hidden="true">

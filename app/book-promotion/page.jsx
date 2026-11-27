@@ -330,7 +330,7 @@ export default function BookPromotionPage() {
                       src="/assets/images/books/cover-06.webp"
                       width="440"
                       height="660"
-                      alt={`Cover of HOW BUILD A FUTURE by Dr. Lee Roy Jefferson, published with ${site.name}`}
+                      alt={`Cover of HOW BUILD A FUTURE by Robert Wallace, published with ${site.name}`}
                       loading="lazy"
                       decoding="async"
                     />
@@ -338,7 +338,7 @@ export default function BookPromotionPage() {
                   <div className="pm-announce__copy">
                     <span className="pm-announce__k">Announcing</span>{' '}
                     <span className="pm-announce__t">HOW BUILD A FUTURE</span>{' '}
-                    <span className="pm-announce__a">A book by Dr. Lee Roy Jefferson</span>{' '}
+                    <span className="pm-announce__a">A book by Robert Wallace</span>{' '}
                     <span className="pm-announce__o">Available on Amazon</span>
                   </div>
                 </div>
@@ -395,7 +395,7 @@ export default function BookPromotionPage() {
                       </svg>
                     </div>
                     <p className="pm-post__cap">
-                      Bloom Through the Pain by Kadeisha Corbin. Explore the book and its daily reflections on Amazon.
+                      Bloom Through the Pain by Richard Thomas. Explore the book and its daily reflections on Amazon.
                     </p>
                     <div className="pm-post__next">
                       <div className="pm-post__top">
@@ -439,7 +439,7 @@ export default function BookPromotionPage() {
                   </header>
                   <h3 className="pm-mag__h">
                     {'The story behind '}
-                    <em>The Naked Truth of AI 2.0</em>
+                    <em>The Loan Signing </em>
                   </h3>
                   <p className="pm-mag__dek">
                     An author feature gives readers some background on the book and the person who wrote it.
@@ -451,7 +451,7 @@ export default function BookPromotionPage() {
                     </p>
                     <p>The result is a piece you can share across your website, campaign and social profiles.</p>
                   </div>
-                  <footer className="pm-mag__by">Featuring Douglas Hawes</footer>
+                  <footer className="pm-mag__by">Featuring Michelle James</footer>
                 </article>
                 <figcaption>
                   <b>D</b>
@@ -573,7 +573,7 @@ export default function BookPromotionPage() {
               </div>
               <div className="pm-reveal__sheet" aria-hidden="true">
                 <span>HOW BUILD A FUTURE</span>
-                <span>Virginia Perez Perez</span>
+                <span>Robert Wallace</span>
                 <span>Out now</span>
               </div>
               <div className="book3d pm-reveal__book">
@@ -584,7 +584,7 @@ export default function BookPromotionPage() {
                     src="/assets/images/books/cover-25.webp"
                     width="440"
                     height="660"
-                    alt={`Cover of HOW BUILD A FUTURE by Virginia Perez Perez, published with ${site.name}`}
+                    alt={`Cover of HOW BUILD A FUTURE by Robert Wallace, published with ${site.name}`}
                     loading="lazy"
                     decoding="async"
                   />
@@ -763,7 +763,7 @@ export default function BookPromotionPage() {
                       <span className="pm-post__av">P</span>
                       <span className="pm-post__who">
                         Publishyourbookstoday
-                        <small>Campaign · Whispers of Time</small>
+                        <small>Campaign · SIX SHORT STORIES</small>
                       </span>
                       <span className="pm-post__more">···</span>
                     </div>
@@ -778,7 +778,7 @@ export default function BookPromotionPage() {
                         loading="lazy"
                         decoding="async"
                       />{' '}
-                      <span className="pm-post__t">Whispers of Time</span>
+                      <span className="pm-post__t">SIX SHORT STORIES</span>
                     </div>
                     <div className="pm-post__acts">
                       <svg viewBox="0 0 24 24">
@@ -794,13 +794,13 @@ export default function BookPromotionPage() {
                         <path d="M6 4h12v16l-6-4-6 4z" />
                       </svg>
                     </div>
-                    <p className="pm-post__cap">{`Explore Whispers of Time by Aggee Andrew Vetiaque, from the ${site.name} catalogue.`}</p>
+                    <p className="pm-post__cap">{`Explore SIX SHORT STORIES by Patricia Stinson, from the ${site.name} catalogue.`}</p>
                     <div className="pm-post__next">
                       <div className="pm-post__top">
                         <span className="pm-post__av">P</span>
                         <span className="pm-post__who">
                           Publishyourbookstoday
-                          <small>Campaign · Whispers of Time</small>
+                          <small>Campaign · SIX SHORT STORIES</small>
                         </span>
                         <span className="pm-post__more">···</span>
                       </div>
@@ -862,13 +862,13 @@ export default function BookPromotionPage() {
                     src="/assets/images/books/featured-author-emilio-degher-pybt.png"
                     width="540"
                     height="675"
-                    alt={`Featured Author graphic for Emilio Degher by ${site.name}, listing his books, genres and a short biography`}
+                    alt={`Featured Author graphic for David B. Virts by ${site.name}, listing his books, genres and a short biography`}
                     loading="lazy"
                     decoding="async"
                   />
                   <figcaption>
                     <b>Featured Author</b>
-                    <span>Emilio Degher</span>
+                    <span>David B. Virts</span>
                   </figcaption>
                 </figure>
               </li>
@@ -878,13 +878,13 @@ export default function BookPromotionPage() {
                     src="/assets/images/books/book-spotlight-bloom-through-the-pain-pybt.png"
                     width="540"
                     height="675"
-                    alt="Book Spotlight graphic for Bloom Through the Pain by Kadeisha Corbin, with the book shown on a pedestal and an Available on Amazon badge"
+                    alt="Book Spotlight graphic for Bloom Through the Pain by Richard Thomas, with the book shown on a pedestal and an Available on Amazon badge"
                     loading="lazy"
                     decoding="async"
                   />
                   <figcaption>
                     <b>Book Spotlight</b>
-                    <span>Bloom Through the Pain by Kadeisha Corbin</span>
+                    <span>Bloom Through the Pain by Richard Thomas</span>
                   </figcaption>
                 </figure>
               </li>
@@ -894,13 +894,13 @@ export default function BookPromotionPage() {
                     src="/assets/images/books/book-spotlight-naked-truth-of-ai-pybt.png"
                     width="540"
                     height="675"
-                    alt="Book Spotlight graphic for The Naked Truth of AI 2.0 by Douglas Hawes, with the book shown on a pedestal and an Available on Amazon badge"
+                    alt="Book Spotlight graphic for The Loan Signing  by Michelle James, with the book shown on a pedestal and an Available on Amazon badge"
                     loading="lazy"
                     decoding="async"
                   />
                   <figcaption>
                     <b>Book Spotlight</b>
-                    <span>The Naked Truth of AI 2.0 by Douglas Hawes</span>
+                    <span>The Loan Signing  by Michelle James</span>
                   </figcaption>
                 </figure>
               </li>

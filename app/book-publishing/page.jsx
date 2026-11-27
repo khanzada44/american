@@ -595,7 +595,7 @@ export default function BookPublishingPage() {
                 <Link
                   className="rw-book rw-table__book"
                   href="/our-work#emilio-degher"
-                  aria-label="Eternal Coherence by Emilio Degher, view in Our Work"
+                  aria-label="Eternal Coherence by David B. Virts, view in Our Work"
                   data-rw-book="09"
                   style={{ '--s': '0.62', '--z': '8' }}
                 >
@@ -605,7 +605,7 @@ export default function BookPublishingPage() {
                       src="/assets/images/books/book-09-s.webp"
                       width="360"
                       height="614"
-                      alt="Eternal Coherence: Jesus Christ and the Architecture of Reality by Emilio Degher, shown as a hardcover book"
+                      alt="Eternal Coherence: Jesus Christ and the Architecture of Reality by David B. Virts, shown as a hardcover book"
                       loading="lazy"
                       decoding="async"
                     />
@@ -614,7 +614,7 @@ export default function BookPublishingPage() {
                   <span className="rw-cap" aria-hidden="true">
                     <span className="rw-cap__t">Eternal Coherence</span>
                     <span className="rw-cap__s">Jesus Christ and the Architecture of Reality</span>
-                    <span className="rw-cap__a">Emilio Degher</span>
+                    <span className="rw-cap__a">David B. Virts</span>
                     <span className="rw-cap__go">
                       {'View book '}
                       <svg aria-hidden="true">
